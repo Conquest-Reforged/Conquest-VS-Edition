@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/all/base",
+    "value": "block/wood/bark/vertical/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/up/base",
+    "value": "block/wood/treetrunk/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/down/base",
+    "value": "block/wood/treetrunk/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/all/base",
+    "value": "block/wood/bark/{wood}-h*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/up/base",
+    "value": "block/wood/bark/vertical/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/down/base",
+    "value": "block/wood/bark/vertical/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-we/all/base",
+    "value": "block/wood/bark/{wood}-h*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-we/up/base",
+    "value": "block/wood/bark/{wood}-h*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-we/west/base",
+    "value": "block/wood/treetrunk/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType/*-we/east/base",
+    "value": "block/wood/treetrunk/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  }
+]
