@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/textures/material",
+    "value": "block/stone/ore/saltpeter*",
+    "file": "shapes/block/coating/nesw.json"
+  }
+]

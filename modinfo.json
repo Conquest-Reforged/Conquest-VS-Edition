@@ -5,7 +5,7 @@
   "authors": [ "CreativeRealms" ],
   "description": "Adds Conquest textures to Vintage Story.",
   "side": "client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "textureSize" : 32,
   "dependency": {
     "game": "1.16.0"

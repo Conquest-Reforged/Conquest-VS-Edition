@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/textures/all/base",
+    "value": "block/soil/forest/side*",
+    "file": "blocktypes/soil/forestfloor.json"
+  }
+]
