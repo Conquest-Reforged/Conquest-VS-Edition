@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-north/up/base",
+    "value": "block/wood/workbench/top*",
+    "file": "blocktypes/wood/workbench.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-east/up/base",
+    "value": "block/wood/workbench/top*",
+    "file": "blocktypes/wood/workbench.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-west/up/base",
+    "value": "block/wood/workbench/top*",
+    "file": "blocktypes/wood/workbench.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-south/up/base",
+    "value": "block/wood/workbench/top*",
+    "file": "blocktypes/wood/workbench.json"
+  }
+]
