@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-up/horizontals/base",
+    "value": "block/stone/polishedrockslab/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-up/verticals/base",
+    "value": "block/stone/polishedrock/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-down/horizontals/base",
+    "value": "block/stone/polishedrockslab/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-down/verticals/base",
+    "value": "block/stone/polishedrock/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*/horizontals/base",
+    "value": "block/stone/polishedrockslab/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*/verticals/base",
+    "value": "block/stone/polishedrock/{rock}*",
+    "file": "blocktypes/stone/polished/polishedrockslab.json"
+  }
+]

@@ -8,7 +8,7 @@
     file: "blocktypes/plant/leaves/normal.json",
     op: "replace",
     path: "/shapeInventory",
-    value: { base: "block/plant/leaves/normal" },
+    value: { base: "block/plant/leaves/branchy" },
 },
 
 
@@ -22,7 +22,9 @@
 			"*-birch": "block/plant/leaves/branchy-birch",
 			"*-acacia": "block/plant/leaves/branchy",
 			"*-kapok": "block/plant/leaves/branchy-kapok",
-			"*": "block/plant/leaves/normal"
+			"*-larch": "block/plant/leaves/branchy-larch",
+			"*-walnut": "block/plant/leaves/branchy-walnut",
+			"*": "block/plant/leaves/branchy"
 		},
 		alternates: [
 			{ rotateY: 10 },
@@ -32,7 +34,7 @@
 			{ rotateY: 250 },
 			{ rotateY: 310 }
 		]
-	},
+	},		
 },
 {
     file: "blocktypes/plant/leaves/normal.json",
@@ -74,9 +76,14 @@
 			"*-oak": { base: "block/plant/leaves/large/oak/oakleaves*" },
 			"*-pine": { base: "block/plant/leaves/large/pine/pineleaves*" },
 			"*-maple": { base: "block/plant/leaves/large/maple/mapleleaves*" },
-			"*-birch": { base: "block/plant/leaves/large/birch/birchleaves*" },
+			"*-birch": { base: "block/plant/leaves/large/birch/normal/birchleaves*" },
 			"*-acacia": { base: "block/plant/leaves/large/acacia/acacialeaves*" },
 			"*-kapok": { base: "block/plant/leaves/large/kapok/kapokleaves*" },
+			"*-baldcypress": { base: "block/plant/leaves/large/baldcypress/cypressleaves*" },
+			"*-walnut": { base: "block/plant/leaves/large/walnut/walnutleaves*" },
+			"*-larch": { base: "block/plant/leaves/large/larch/larchleaves*" },
+			"*-ebony": { base: "block/plant/leaves/large/ebony/ebonyleaves*" },
+			"*-purpleheart": { base: "block/plant/leaves/large/purpleheart/purpleheartleaves*" },
 			"*": { base: "block/plant/leaves/large/{wood}*" },
 
 		},
@@ -87,9 +94,14 @@
 			"*-oak": { base: "block/plant/leaves/small/oak/oakleaves*" },
 			"*-pine": { base: "block/plant/leaves/small/pine/pineleaves*" },
 			"*-maple": { base: "block/plant/leaves/small/maple/mapleleaves*" },
-			"*-birch": { base: "block/plant/leaves/small/birch/birchleaves*" },
+			"*-birch": { base: "block/plant/leaves/small/birch/normal/birchleaves*" },
 			"*-acacia": { base: "block/plant/leaves/small/acacia/acacialeaves*" },
 			"*-kapok": { base: "block/plant/leaves/small/kapok/kapokleaves*" },
+			"*-baldcypress": { base: "block/plant/leaves/small/baldcypress/cypressleaves*" },
+			"*-walnut": { base: "block/plant/leaves/small/walnut/walnutleaves*" },
+			"*-larch": { base: "block/plant/leaves/small/larch/larchleaves*" },
+			"*-ebony": { base: "block/plant/leaves/small/ebony/ebonyleaves*" },
+			"*-purpleheart": { base: "block/plant/leaves/small/purpleheart/purpleheartleaves*" },
 			"*": { base: "block/plant/leaves/small/{wood}*" },
 		},
 		branch: { base: "block/plant/leaves/large/birch/birchbranch*"},
