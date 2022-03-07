@@ -7,6 +7,30 @@
   },
   {
     "op": "replace",
+    "path": "/texturesByType/*-ud/inside-north/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/inside-east/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/inside-south/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ud/inside-west/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
     "path": "/texturesByType/*-ud/up/base",
     "value": "block/wood/treetrunk/{wood}*",
     "file": "blocktypes/wood/woodtyped/log.json"
@@ -37,6 +61,30 @@
   },
   {
     "op": "replace",
+    "path": "/texturesByType/*-ns/inside-up/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/inside-down/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/inside-west/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-ns/inside-east/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
     "path": "/texturesByType/*-we/all/base",
     "value": "block/wood/bark/{wood}-h*",
     "file": "blocktypes/wood/woodtyped/log.json"
@@ -45,6 +93,30 @@
     "op": "replace",
     "path": "/texturesByType/*-we/up/base",
     "value": "block/wood/bark/{wood}-h*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-we/inside-up/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-we/inside-down/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-we/inside-north/base",
+    "value": "block/wood/debarked/{wood}*",
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-we/inside-south/base",
+    "value": "block/wood/debarked/{wood}*",
     "file": "blocktypes/wood/woodtyped/log.json"
   },
   {
