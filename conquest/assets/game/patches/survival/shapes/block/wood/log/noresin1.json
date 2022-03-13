@@ -1,8 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/textures/pinebark",
-    "value": "block/wood/bark/vertical/pine*",
-    "file": "shapes/block/wood/log/noresin1.json"
-  }
-]
