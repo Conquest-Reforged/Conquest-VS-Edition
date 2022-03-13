@@ -66,9 +66,9 @@
 		"*-orangemallow-*":  { base: "block/basic/flower-fuller" },
 		"*-cornflower-*":  { base: "block/basic/flower-fuller" },
 		"*-heather-*": { base: "block/plant/flowers/heather/heather_*" },
-		"*-westerngorse-*":  { base: "block/basic/plant_dense_*" },
+		"*-westerngorse-*":  { base: "block/basic/flower-tall-fuller" },
 		"*-cornflower-*":  { base: "block/basic/cross-dense" },
-		"*": { "base": "block/basic/plant_dense_*" }
+		"*": { "base": "block/basic/flower-tall" }
 	},
 	lod2shapeByType: {
 		"*-orangemallow-*":  { base: "block/basic/flower" },
@@ -85,12 +85,6 @@
 		"*": "MergeSnowLayer"
 	},
 	texturesByType: {
-		"*-californiapoppy-*": {
-			"texture": { "base": "block/plant/flower/petal/poppy*" }
-		},
-		"*-westerngorse-*": {
-			"texture": { "base": "block/plant/flower/petal/westerngorse*" }
-		},
 		"*-heather-*": {
 			"texture": { "base": "block/plant/flower/petal/heather*" },
 			0: { "base": "block/plant/flower/petal/heather1" },
