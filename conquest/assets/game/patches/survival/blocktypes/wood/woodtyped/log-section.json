@@ -56,25 +56,25 @@
   {
     "op": "replace",
     "path": "/textures/inside-north/base",
-    "value": "block/wood/debarked/{wood}*",
+    "value": "block/wood/debarked/{wood}",
     "file": "blocktypes/wood/woodtyped/log-section.json"
   },
   {
     "op": "replace",
     "path": "/textures/inside-east/base",
-    "value": "block/wood/debarked/{wood}*",
+    "value": "block/wood/debarked/{wood}",
     "file": "blocktypes/wood/woodtyped/log-section.json"
   },
   {
     "op": "replace",
     "path": "/textures/inside-south/base",
-    "value": "block/wood/debarked/{wood}*",
+    "value": "block/wood/debarked/{wood}",
     "file": "blocktypes/wood/woodtyped/log-section.json"
   },
   {
     "op": "replace",
     "path": "/textures/inside-west/base",
-    "value": "block/wood/debarked/{wood}*",
+    "value": "block/wood/debarked/{wood}",
     "file": "blocktypes/wood/woodtyped/log-section.json"
   }
 ]
