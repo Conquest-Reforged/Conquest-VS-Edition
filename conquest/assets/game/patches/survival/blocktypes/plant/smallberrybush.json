@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/shape",
+    "value": { base: "game:block/plant/berrybush/{type}_{state}*" },
+    "file": "blocktypes/plant/smallberrybush.json"
+  },
+    {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+		"*-empty": {
+			leaves: { base: "game:block/plant/berrybush/leaves/{type}*" },
+		},
+		"*-flowering": {
+			leaves: { base: "block/plant/berrybush/leaves/{type}*" },
+			branches: { base: "block/plant/berrybush/branches/default" },
+			berries: { base: "block/plant/berrybush/flowering/{type}*" },
+			berriesup: { base: "block/plant/berrybush/flowering/{type}*" },
+		},
+		"*-blueberry-ripe": {
+			leaves: { base: "block/plant/berrybush/leaves/{type}_ripe*" },
+			branches: { base: "block/plant/berrybush/branches/default" },
+			berries: { base: "block/plant/berrybush/ripe/{type}*" },
+			berriesup: { base: "block/plant/berrybush/ripe/{type}*" },
+		},
+		"*-ripe": {
+			leaves: { base: "block/plant/berrybush/leaves/{type}*" },
+			branches: { base: "block/plant/berrybush/branches/default" },
+			berries: { base: "block/plant/berrybush/ripe/{type}*" },
+			berriesup: { base: "block/plant/berrybush/ripe/{type}*" },
+		},
+		
+	},
+    "file": "blocktypes/plant/smallberrybush.json"
+  }
+]
