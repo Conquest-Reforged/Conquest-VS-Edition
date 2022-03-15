@@ -1,26 +1,13 @@
 [
   {
     "op": "replace",
-    "path": "/textures/bark/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-withresin.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/trunk/base",
-    "value": "block/wood/treetrunk/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-withresin.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/resinbark1/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-withresin.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/resinbark2/base",
-    "value": "block/wood/bark/vertical/{wood}*",
+    "path": "/textures",
+    "value": {
+		"bark": { base: "block/wood/bark/vertical/{wood}*" },
+		"trunk": { base: "block/wood/treetrunk/{wood}*" },
+		"resinbark1": { base: "block/wood/bark/vertical/{wood}*", overlays: ["block/wood/bark/resin1"] },
+		"resinbark2": { base: "block/wood/bark/vertical/{wood}*", overlays: ["block/wood/bark/resin2"] }
+	},
     "file": "blocktypes/wood/woodtyped/log-withresin.json"
   }
 ]

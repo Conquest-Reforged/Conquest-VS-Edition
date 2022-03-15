@@ -5,10 +5,7 @@
     "authors": [ "Creative Realms, Dechoppy, Kurgahn, Arkaik" ],
     "description": "Adds Conquest textures to Vintage Story.",
     "side": "client",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "textureSize" : 32,
-    "dependencies": {
-        "game": "1.16.0"
-    },
-   "website": ""
+    "website": "https://discord.gg/u52x8pGkXq"
 }

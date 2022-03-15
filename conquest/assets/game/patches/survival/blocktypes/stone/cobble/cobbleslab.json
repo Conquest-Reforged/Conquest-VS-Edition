@@ -1,14 +1,11 @@
 [
   {
     "op": "replace",
-    "path": "/textures/horizontals/base",
-    "value": "block/stone/cobblestonestairs/{rock}*",
-    "file": "blocktypes/stone/cobble/cobbleslab.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/verticals/base",
-    "value": "block/stone/cobblestone/{rock}*",
+    "path": "/textures",
+    "value": {
+		horizontals: { base: "block/stone/cobblestonestairs/{rock}*" },
+		verticals: { base: "block/stone/cobblestone/{rock}*" },
+	},
     "file": "blocktypes/stone/cobble/cobbleslab.json"
   }
 ]

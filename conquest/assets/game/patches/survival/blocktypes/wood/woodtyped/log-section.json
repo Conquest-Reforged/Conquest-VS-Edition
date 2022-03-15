@@ -1,80 +1,26 @@
 [
   {
     "op": "replace",
-    "path": "/textures/bark/base",
-    "value": "block/wood/bark/vertical/2x2/{wood}-2x2",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/wood/base",
-    "value": "block/wood/treetrunk/2x2/{wood}-2x2",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/inside/base",
-    "value": "block/wood/debarked/2x2/redwood-2x2",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/north/base",
-    "value": "block/wood/treetrunk/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/up/base",
-    "value": "block/wood/treetrunk/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/down/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/east/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/south/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/west/base",
-    "value": "block/wood/bark/vertical/{wood}*",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/inside-north/base",
-    "value": "block/wood/debarked/{wood}",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/inside-east/base",
-    "value": "block/wood/debarked/{wood}",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/inside-south/base",
-    "value": "block/wood/debarked/{wood}",
-    "file": "blocktypes/wood/woodtyped/log-section.json"
-  },
-  {
-    "op": "replace",
-    "path": "/textures/inside-west/base",
-    "value": "block/wood/debarked/{wood}",
+    "path": "/textures",
+    "value": {
+		"bark": { base: "block/wood/bark/vertical/2x2/{wood}-2x2*" },
+		"wood": { base: "block/wood/treetrunk/{wood}*" },
+		"inside": { base: "block/wood/debarked/2x2/redwood-2x2*" },
+
+		"north": { base: "block/wood/treetrunk/{wood}*" },
+		"up": { base: "block/wood/treetrunk/{wood}*" },
+		"down": { base: "block/wood/bark/vertical/{wood}*" },
+		"east": { base: "block/wood/bark/vertical/{wood}*" },
+		"south": { base: "block/wood/bark/vertical/{wood}*" },
+		"west": { base: "block/wood/bark/vertical/{wood}*" },
+
+		
+		"inside-north": { base: "block/wood/debarked/{wood}*" },
+		"inside-east": { base: "block/wood/debarked/{wood}*" },
+		"inside-south": { base: "block/wood/debarked/{wood}*" },
+		"inside-west": { base: "block/wood/debarked/{wood}*" },
+
+	},
     "file": "blocktypes/wood/woodtyped/log-section.json"
   }
 ]
