@@ -1,5 +1,6 @@
 [
   {
+	"file": "blocktypes/wood/woodtyped/log-section.json",
     "op": "replace",
     "path": "/textures",
     "value": {
@@ -20,7 +21,6 @@
 		"inside-south": { base: "block/wood/debarked/{wood}*" },
 		"inside-west": { base: "block/wood/debarked/{wood}*" },
 
-	},
-    "file": "blocktypes/wood/woodtyped/log-section.json"
+	}
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
+	"file": "blocktypes/soil/clay.json",
     "op": "replace",
     "path": "/textures/all/base",
-    "value": "block/soil/{type}clay*",
-    "file": "blocktypes/soil/clay.json"
+    "value": "block/soil/{type}clay*"
   }
 ]

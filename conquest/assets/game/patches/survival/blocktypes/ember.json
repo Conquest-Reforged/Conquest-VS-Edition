@@ -1,8 +1,8 @@
 [
   {
+	"file": "blocktypes/ember.json",
     "op": "replace",
     "path": "/textures/all/base",
-    "value": "block/coal/ember*",
-    "file": "blocktypes/ember.json"
+    "value": "block/coal/ember*"
   }
 ]

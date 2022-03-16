@@ -1,8 +1,8 @@
 [
   {
+	"file": "shapes/block/termite/mound2.json",
     "op": "replace",
     "path": "/textures/termitemound",
-    "value": "block/termitemound*",
-    "file": "shapes/block/termite/mound2.json"
+    "value": "block/termitemound*"
   }
 ]

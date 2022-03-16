@@ -1,11 +1,11 @@
 [
   {
+	"file": "blocktypes/plant/hay.json",
     "op": "replace",
     "path": "/textures",
     "value": {
 		horizontals: { base: "block/hay/bale/{type}-side*" },
 		verticals: { base: "block/hay/bale/{type}-top*" },
-	},
-    "file": "blocktypes/plant/hay.json"
+	}
   }
 ]

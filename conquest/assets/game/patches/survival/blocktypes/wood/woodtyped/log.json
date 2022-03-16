@@ -1,5 +1,6 @@
 [
   {
+	"file": "blocktypes/wood/woodtyped/log.json",
     "op": "replace",
     "path": "/texturesByType",
     "value": {
@@ -41,7 +42,6 @@
 			"west": { base: "block/wood/treetrunk/{wood}*" },
 			"east": { base: "block/wood/treetrunk/{wood}*" }
 		},
-	},
-    "file": "blocktypes/wood/woodtyped/log.json"
+	}
   }
 ]

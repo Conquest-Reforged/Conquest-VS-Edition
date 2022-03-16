@@ -1,5 +1,6 @@
 [
   {
+	"file": "blocktypes/stone/polished/polishedrockslab.json",
     "op": "replace",
     "path": "/texturesByType",
     "value": {
@@ -15,7 +16,6 @@
 			verticals: { base: "block/stone/polishedrockslab/{rock}*", rotation: 90 },
 			horizontals: { base: "block/stone/polishedrock/{rock}*", rotation: 90 }
 		}
-	},
-    "file": "blocktypes/stone/polished/polishedrockslab.json"
+	}
   }
 ]

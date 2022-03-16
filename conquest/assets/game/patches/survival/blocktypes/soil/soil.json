@@ -1,8 +1,8 @@
 [
   {
+	"file": "blocktypes/soil/soil.json",
     "op": "replace",
     "path": "/textures/all/base",
-    "value": "block/soil/fert{fertility}*",
-    "file": "blocktypes/soil/soil.json"
+    "value": "block/soil/fert{fertility}*"
   }
 ]

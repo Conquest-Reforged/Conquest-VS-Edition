@@ -1,8 +1,8 @@
 [
   {
+	"file": "blocktypes/stone/cobble/cobblestonestairs.json",
     "op": "replace",
     "path": "/textures/sides/base",
-    "value": "block/stone/cobblestonestairs/{rock}*",
-    "file": "blocktypes/stone/cobble/cobblestonestairs.json"
+    "value": "block/stone/cobblestonestairs/{rock}*"
   }
 ]

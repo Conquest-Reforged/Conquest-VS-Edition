@@ -1,8 +1,8 @@
 [
   {
+	"file": "shapes/block/coating/neud.json",
     "op": "replace",
     "path": "/textures/material",
-    "value": "block/stone/ore/saltpeter*",
-    "file": "shapes/block/coating/neud.json"
+    "value": "block/stone/ore/saltpeter*"
   }
 ]

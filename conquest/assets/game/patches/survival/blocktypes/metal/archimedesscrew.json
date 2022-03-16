@@ -1,8 +1,8 @@
 [
   {
+	"file": "blocktypes/metal/archimedesscrew.json",
     "op": "replace",
     "path": "/textures/all/base",
-    "value": "block/metal/sheet/copper5",
-    "file": "blocktypes/metal/archimedesscrew.json"
+    "value": "block/metal/sheet/copper5"
   }
 ]

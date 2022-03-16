@@ -1,5 +1,6 @@
 [
   {
+	"file": "blocktypes/wood/workbench.json",
     "op": "replace",
     "path": "/texturesByType",
     "value": {
@@ -35,7 +36,6 @@
 			north: { base: "block/wood/workbench/left" },
 			east: { base: "block/wood/workbench/right" },
 		},
-	},
-    "file": "blocktypes/wood/workbench.json"
+	}
   }
 ]
