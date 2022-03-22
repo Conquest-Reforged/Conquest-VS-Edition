@@ -1,0 +1,10 @@
+[
+	{
+		"file": "blocktypes/wood/chest-trunk.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"normal-generic-chest": { "base": "block/wood/trunk/chest" }
+		},
+	},
+]
