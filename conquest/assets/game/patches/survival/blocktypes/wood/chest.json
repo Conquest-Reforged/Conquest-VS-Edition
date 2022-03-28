@@ -1,5 +1,6 @@
 [
   {
+	"file": "blocktypes/wood/chest.json",
     "op": "replace",
     "path": "/textures",
     "value": {
@@ -176,7 +177,6 @@
 		"owl-sides2": { "base": "block/wood/treasurechest/owl/sides2" },
 		"owl-sides1": { "base": "block/wood/treasurechest/owl/sides1" },
 		"owl-inside": { "base": "block/wood/treasurechest/owl/inside" }
-	},
-    "file": "blocktypes/wood/chest.json"
+	}
   }
 ]
