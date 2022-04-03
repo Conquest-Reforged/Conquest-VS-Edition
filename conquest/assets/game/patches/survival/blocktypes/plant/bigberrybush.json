@@ -1,0 +1,762 @@
+[
+	{
+		"file": "blocktypes/plant/bigberrybush.json",
+		"op": "replace",
+		"path": "/shape",
+		"value": {
+			"baseByType": {
+				"*-empty": "block/plant/berrybush/large_{state}*",
+				"*-ripe": "block/plant/berrybush/large_{state}*",
+				"*-flowering": "block/plant/berrybush/large_{state}*"
+			},
+			"alternates": [
+				{ "rotateY": 10 },
+				{ "rotateY": 70 },
+				{ "rotateY": 130 },
+				{ "rotateY": 190 },
+				{ "rotateY": 250 },
+				{ "rotateY": 310 }
+			]
+		}
+	},
+	{
+		"file": "blocktypes/plant/bigberrybush.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"value": {
+			"*-whitecurrant-empty": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			},
+			"*-whitecurrant-flowering": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"10": {
+					"base": "block/plant/berrybush/flowering/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" }
+					]
+				},
+				"20": {
+					"base": "block/plant/berrybush/flowering/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" }
+					]
+				},
+				"30": {
+					"base": "block/plant/berrybush/flowering/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" }
+					]
+				},
+				"40": {
+					"base": "block/plant/berrybush/flowering/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" }
+					]
+				},
+				"50": {
+					"base": "block/plant/berrybush/flowering/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			},
+			"*-whitecurrant-ripe": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"10": {
+					"base": "block/plant/berrybush/ripe/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" }
+					]
+				},
+				"20": {
+					"base": "block/plant/berrybush/ripe/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" }
+					]
+				},
+				"30": {
+					"base": "block/plant/berrybush/ripe/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" }
+					]
+				},
+				"40": {
+					"base": "block/plant/berrybush/ripe/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" }
+					]
+				},
+				"50": {
+					"base": "block/plant/berrybush/ripe/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			},
+			"*-empty": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			},
+			"*-flowering": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"10": {
+					"base": "block/plant/berrybush/flowering/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" }
+					]
+				},
+				"20": {
+					"base": "block/plant/berrybush/flowering/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" }
+					]
+				},
+				"30": {
+					"base": "block/plant/berrybush/flowering/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}4" },
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" }
+					]
+				},
+				"40": {
+					"base": "block/plant/berrybush/flowering/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}5" },
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" }
+					]
+				},
+				"50": {
+					"base": "block/plant/berrybush/flowering/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/flowering/{type}1" },
+						{ "base": "block/plant/berrybush/flowering/{type}2" },
+						{ "base": "block/plant/berrybush/flowering/{type}3" },
+						{ "base": "block/plant/berrybush/flowering/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			},
+			"*-ripe": {
+				"1": {
+					"base": "block/plant/berrybush/leaves/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" }
+					]
+				},
+				"2": {
+					"base": "block/plant/berrybush/leaves/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" }
+					]
+				},
+				"3": {
+					"base": "block/plant/berrybush/leaves/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}4" },
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" }
+					]
+				},
+				"4": {
+					"base": "block/plant/berrybush/leaves/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}5" },
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" }
+					]
+				},
+				"5": {
+					"base": "block/plant/berrybush/leaves/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/leaves/{type}1" },
+						{ "base": "block/plant/berrybush/leaves/{type}2" },
+						{ "base": "block/plant/berrybush/leaves/{type}3" },
+						{ "base": "block/plant/berrybush/leaves/{type}4" }
+					]
+				},
+				"10": {
+					"base": "block/plant/berrybush/ripe/{type}1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" }
+					]
+				},
+				"20": {
+					"base": "block/plant/berrybush/ripe/{type}2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" }
+					]
+				},
+				"30": {
+					"base": "block/plant/berrybush/ripe/{type}3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}4" },
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" }
+					]
+				},
+				"40": {
+					"base": "block/plant/berrybush/ripe/{type}4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}5" },
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" }
+					]
+				},
+				"50": {
+					"base": "block/plant/berrybush/ripe/{type}5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/ripe/{type}1" },
+						{ "base": "block/plant/berrybush/ripe/{type}2" },
+						{ "base": "block/plant/berrybush/ripe/{type}3" },
+						{ "base": "block/plant/berrybush/ripe/{type}4" }
+					]
+				},
+				"100": {
+					"base": "block/plant/berrybush/branches/currant1",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" }
+					]
+				},
+				"200": {
+					"base": "block/plant/berrybush/branches/currant2",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" }
+					]
+				},
+				"300": {
+					"base": "block/plant/berrybush/branches/currant3",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant4" },
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" }
+					]
+				},
+				"400": {
+					"base": "block/plant/berrybush/branches/currant4",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant5" },
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" }
+					]
+				},
+				"500": {
+					"base": "block/plant/berrybush/branches/currant5",
+					"alternates": [
+						{ "base": "block/plant/berrybush/branches/currant1" },
+						{ "base": "block/plant/berrybush/branches/currant2" },
+						{ "base": "block/plant/berrybush/branches/currant3" },
+						{ "base": "block/plant/berrybush/branches/currant4" }
+					]
+				}
+			}
+		}
+	}
+]
+	
