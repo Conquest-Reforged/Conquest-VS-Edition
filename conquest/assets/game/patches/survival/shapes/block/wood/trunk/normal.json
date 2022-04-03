@@ -390,6 +390,7 @@
 						"from": [ 0.0, 0.0, 0.0 ],
 						"to": [ 0.0, 0.0, 0.0 ],
 						"rotationOrigin": [ 0.5, -0.5, 8.0 ],
+						"renderPass": 2,
 						"faces": {
 							"north": {
 								"texture": "#chest",
@@ -422,6 +423,7 @@
 								"from": [ -6.5, 0.0, 2.5 ],
 								"to": [ 22.5, 1.0, 14.5 ],
 								"rotationOrigin": [ 0.5, -0.5, 8.0 ],
+								"renderPass": 2,
 								"faces": {
 									"north": {
 										"texture": "#chest",
@@ -684,7 +686,8 @@
 								"name": "LatchT",
 								"from": [ 0.0, 0.0, 0.0 ],
 								"to": [ 1.0, 1.0, 1.0 ],
-								"faces": {
+								"renderPass": 3,
+								"faces": { 
 									"north": {
 										"texture": "#chest",
 										"uv": [ 0.0, 0.0, 1.0, 1.0 ],
@@ -724,6 +727,7 @@
 										"rotationOrigin": [ 8.0, 7.25, 15.6 ],
 										"rotationX": 180.0,
 										"rotationZ": 180.0,
+										"renderPass": 3,
 										"faces": {
 											"north": {
 												"texture": "#chest",
@@ -771,6 +775,7 @@
 						"from": [ 0.0, 0.0, 0.0 ],
 						"to": [ 0.0, 0.0, 0.0 ],
 						"rotationOrigin": [ 7.7556, 6.0833, 15.55 ],
+						"renderPass": 3,
 						"faces": {
 							"north": {
 								"texture": "#chest",
@@ -803,6 +808,7 @@
 								"from": [ 0.0, 0.0, 0.0 ],
 								"to": [ 0.0, 0.0, 0.0 ],
 								"rotationOrigin": [ 6.6207, 4.891, 15.575 ],
+								"renderPass": 3,
 								"faces": {
 									"north": {
 										"texture": "#chest",
@@ -836,6 +842,7 @@
 										"to": [ 8.9617, 6.9076, 15.56 ],
 										"rotationOrigin": [ 7.75, 5.5, 15.55 ],
 										"rotationZ": 22.5,
+										"renderPass": 3,
 										"faces": {
 											"north": {
 												"texture": "#chest",
@@ -876,6 +883,7 @@
 								"from": [ 0.0, 0.0, 0.0 ],
 								"to": [ 0.0, 0.0, 0.0 ],
 								"rotationOrigin": [ 6.5167, 5.4167, 15.55 ],
+								"renderPass": 3,
 								"faces": {
 									"north": {
 										"texture": "#chest",
@@ -909,6 +917,7 @@
 										"to": [ 8.9617, 5.4076, 15.56 ],
 										"rotationOrigin": [ 7.75, 5.5, 15.55 ],
 										"rotationZ": 22.5,
+										"renderPass": 3,
 										"faces": {
 											"north": {
 												"texture": "#chest",
@@ -1250,6 +1259,7 @@
 								"from": [ 7.0087, 9.0, 14.9752 ],
 								"to": [ 9.0087, 11.0, 15.4752 ],
 								"rotationOrigin": [ -7.9913, 9.0, 28.9002 ],
+								"renderPass": 2,
 								"faces": {
 									"north": {
 										"texture": "#chest",
@@ -1694,6 +1704,9 @@
 						"elements": {
 							"bone": {},
 							"metal_lock": {
+								"offsetX": 0.0,
+								"offsetY": 0.0,
+								"offsetZ": 0.0,
 								"rotationX": 0.0,
 								"rotationY": 0.0,
 								"rotationZ": 0.0
@@ -1709,6 +1722,11 @@
 								"rotationZ": 0.0
 							},
 							"Lid_handles": {
+								"rotationX": 0.0,
+								"rotationY": 0.0,
+								"rotationZ": 0.0
+							},
+							"latch": {
 								"rotationX": 0.0,
 								"rotationY": 0.0,
 								"rotationZ": 0.0
@@ -1814,9 +1832,6 @@
 						"elements": {
 							"bone": {},
 							"metal_lock": {
-								"offsetX": 0.0,
-								"offsetY": -1.0,
-								"offsetZ": 0.0,
 								"rotationX": 0.0,
 								"rotationY": 0.0,
 								"rotationZ": 15.0
@@ -1838,11 +1853,7 @@
 						"frame": 12,
 						"elements": {
 							"bone": {},
-							"metal_lock": {
-								"offsetX": 0.2,
-								"offsetY": -1.2,
-								"offsetZ": 0.0
-							},
+							"metal_lock": {},
 							"lock_upper": {
 								"rotationX": 0.0,
 								"rotationY": 0.0,
@@ -1960,6 +1971,19 @@
 								"rotationX": 0.0,
 								"rotationY": 0.0,
 								"rotationZ": -3.0
+							},
+							"metal_lock": {
+								"offsetX": 0.6,
+								"offsetY": -0.5,
+								"offsetZ": 0.0,
+								"rotationX": 0.0,
+								"rotationY": 0.0,
+								"rotationZ": 6.0
+							},
+							"lock_upper": {
+								"rotationX": 0.0,
+								"rotationY": 0.0,
+								"rotationZ": 19.69
 							}
 						}
 					},
@@ -2082,16 +2106,16 @@
 							},
 							"metal_lock": {
 								"offsetX": 0.6,
-								"offsetY": -0.84,
+								"offsetY": -0.5,
 								"offsetZ": 0.0,
 								"rotationX": 0.0,
 								"rotationY": 0.0,
-								"rotationZ": 6.176
+								"rotationZ": 6.18
 							},
 							"lock_upper": {
 								"rotationX": 0.0,
 								"rotationY": 0.0,
-								"rotationZ": 19.688
+								"rotationZ": 19.69
 							},
 							"lock_upper12": {
 								"rotationX": 0.0,
