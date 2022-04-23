@@ -5,11 +5,11 @@
     "path": "/textures",
     "value": {
 		"bark": { base: "block/wood/bark/vertical/2x2/{wood}-2x2*" },
-		"wood": { base: "block/wood/treetrunk/{wood}*" },
+		"wood": { base: "block/wood/treetrunk/2x2/{wood}*" },
 		"inside": { base: "block/wood/debarked/2x2/redwood-2x2*" },
 
-		"north": { base: "block/wood/treetrunk/{wood}*" },
-		"up": { base: "block/wood/treetrunk/{wood}*" },
+		"north": { base: "block/wood/treetrunk/2x2/{wood}*" },
+		"up": { base: "block/wood/treetrunk/2x2/{wood}*" },
 		"down": { base: "block/wood/bark/vertical/{wood}*" },
 		"east": { base: "block/wood/bark/vertical/{wood}*" },
 		"south": { base: "block/wood/bark/vertical/{wood}*" },
