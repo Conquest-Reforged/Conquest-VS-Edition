@@ -17,6 +17,7 @@
 			"*": { "base": "block/basic/flower-tall" }
 		},
 		"lod2shapeByType": {
+			"*-heather-*": { "base": "block/plant/flowers/heather/heather_*" },
 			"*-orangemallow-*": { "base": "block/basic/flower" },
 			"*-cornflower-*": { "base": "block/basic/flower" },
 			"*-westerngorse-*": { "base": "block/basic/flower-tall" }
