@@ -28,6 +28,7 @@
                 "rotationOrigin": [ -5.0, -3.75, 8.0 ],
                 "climateColorMap": "climatePlantTint",
                 "seasonColorMap": "seasonalBlueberry",
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#2",
@@ -68,6 +69,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#2",
@@ -108,6 +110,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#1",
@@ -149,6 +152,7 @@
                         "rotationX": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#4",
@@ -190,6 +194,7 @@
                         "rotationX": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#5",
@@ -231,6 +236,7 @@
                         "rotationZ": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#4",
@@ -272,6 +278,7 @@
                         "rotationZ": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -313,6 +320,7 @@
                         "rotationY": -45.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#2",
@@ -354,6 +362,7 @@
                         "rotationY": 44.98,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -397,6 +406,7 @@
                 "rotationY": -112.5,
                 "climateColorMap": "climatePlantTint",
                 "seasonColorMap": "seasonalBlueberry",
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#1",
@@ -437,6 +447,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#1",
@@ -477,6 +488,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -518,6 +530,7 @@
                         "rotationX": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#2",
@@ -559,6 +572,7 @@
                         "rotationX": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -600,6 +614,7 @@
                         "rotationZ": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#1",
@@ -641,6 +656,7 @@
                         "rotationZ": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#5",
@@ -682,6 +698,7 @@
                         "rotationY": 45.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#4",
@@ -723,6 +740,7 @@
                         "rotationY": -45.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#2",
@@ -766,6 +784,7 @@
                 "rotationY": -112.5,
                 "climateColorMap": "climatePlantTint",
                 "seasonColorMap": "seasonalBlueberry",
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#3",
@@ -806,6 +825,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -846,6 +866,7 @@
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#4",
@@ -887,6 +908,7 @@
                         "rotationX": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#5",
@@ -928,6 +950,7 @@
                         "rotationX": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#4",
@@ -969,6 +992,7 @@
                         "rotationZ": -35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#2",
@@ -1010,6 +1034,7 @@
                         "rotationZ": 35.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#1",
@@ -1051,6 +1076,7 @@
                         "rotationY": 45.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#5",
@@ -1092,6 +1118,7 @@
                         "rotationY": -45.0,
                         "climateColorMap": "climatePlantTint",
                         "seasonColorMap": "seasonalBlueberry",
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#3",
@@ -1132,6 +1159,7 @@
                 "from": [ -5.0, -3.75, 8.0 ],
                 "to": [ -4.0, -2.75, 9.0 ],
                 "rotationOrigin": [ -5.0, -3.75, 8.0 ],
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#200",
@@ -1144,9 +1172,9 @@
                         "enabled": false
                     },
                     "south": {
-                        "enabled": false,
                         "texture": "#200",
-                        "uv": [ 0.0, 0.0, 1.0, 1.0 ]
+                        "uv": [ 0.0, 0.0, 1.0, 1.0 ],
+                        "enabled": false
                     },
                     "west": {
                         "texture": "#200",
@@ -1170,6 +1198,7 @@
                         "from": [ 0.0, 0.0, 0.0 ],
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#200",
@@ -1208,6 +1237,7 @@
                         "from": [ 8.0, 0.0, -7.5 ],
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#100",
@@ -1247,6 +1277,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#400",
@@ -1286,6 +1317,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#500",
@@ -1325,6 +1357,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#400",
@@ -1364,6 +1397,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",
@@ -1403,6 +1437,7 @@
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationY": -45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#200",
@@ -1441,7 +1476,8 @@
                         "from": [ 0.0, 0.0, 0.0028 ],
                         "to": [ 16.0, 16.0, 0.0028 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
-                        "rotationY": 44.98,
+                        "rotationY": 45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",
@@ -1483,6 +1519,7 @@
                 "to": [ 13.0, -4.75, 6.0 ],
                 "rotationOrigin": [ 12.0, -5.75, 5.0 ],
                 "rotationY": -112.5,
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#100",
@@ -1521,6 +1558,7 @@
                         "from": [ 0.0, 0.0, 0.0 ],
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#100",
@@ -1559,6 +1597,7 @@
                         "from": [ 8.0, 0.0, -7.5 ],
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",
@@ -1598,6 +1637,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#200",
@@ -1637,6 +1677,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",
@@ -1676,6 +1717,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#100",
@@ -1715,6 +1757,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#500",
@@ -1754,6 +1797,7 @@
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationY": 45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#400",
@@ -1793,6 +1837,7 @@
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationY": -45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#200",
@@ -1834,6 +1879,7 @@
                 "to": [ 16.0, -7.75, -1.0 ],
                 "rotationOrigin": [ 15.0, -8.75, -2.0 ],
                 "rotationY": -112.5,
+                "shade": false,
                 "faces": {
                     "north": {
                         "texture": "#300",
@@ -1872,6 +1918,7 @@
                         "from": [ 0.0, 0.0, 0.0 ],
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 0.0, 3.75, -6.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",
@@ -1910,6 +1957,7 @@
                         "from": [ 8.0, 0.0, -7.5 ],
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 0.0, 3.75, -8.0 ],
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#400",
@@ -1949,6 +1997,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#500",
@@ -1988,6 +2037,7 @@
                         "to": [ 16.0, 14.75, 0.0 ],
                         "rotationOrigin": [ 8.0, 5.75, 0.0 ],
                         "rotationX": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#400",
@@ -2027,6 +2077,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": -35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#200",
@@ -2066,6 +2117,7 @@
                         "to": [ 8.0, 16.0, 8.5 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationZ": 35.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#100",
@@ -2105,6 +2157,7 @@
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationY": 45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#500",
@@ -2144,6 +2197,7 @@
                         "to": [ 16.0, 16.0, 0.0 ],
                         "rotationOrigin": [ 8.0, 7.75, 0.0 ],
                         "rotationY": -45.0,
+                        "shade": false,
                         "faces": {
                             "north": {
                                 "texture": "#300",

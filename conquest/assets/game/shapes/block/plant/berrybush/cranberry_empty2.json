@@ -14,6 +14,7 @@
 			"name": "Leaves",
 			"from": [ 2.0, 0.0, 7.0 ],
 			"to": [ 3.0, 1.0, 8.0 ],
+			"shade": false,
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalCranberry",
 			"rotationOrigin": [ 2.0, 0.0, 7.0 ],
@@ -57,6 +58,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
 					"faces": {
@@ -98,6 +100,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
 					"faces": {
@@ -143,6 +146,7 @@
 					"to": [ 14.05, 24.35, 13.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
@@ -191,6 +195,7 @@
 					"to": [ 18.05, 22.0, -1.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
@@ -239,6 +244,7 @@
 					"to": [ 17.05, 15.4, 6.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0012, 0.0, 7.9988 ],
 					"rotationX": 15.0,
 					"rotationY": 43.08,
@@ -287,6 +293,7 @@
 					"to": [ 14.0, 15.45, 9.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0012, 0.0, 7.9988 ],
 					"rotationX": -15.0,
 					"rotationY": 43.08,
@@ -335,6 +342,7 @@
 					"to": [ 18.05, 15.8, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 0.0, 7.0 ],
 					"rotationX": -15.0,
 					"rotationY": -45.0,
@@ -383,6 +391,7 @@
 					"to": [ 15.05, 15.6, 5.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 7.0 ],
 					"rotationX": 15.0,
 					"rotationY": -43.08,
@@ -431,6 +440,7 @@
 					"to": [ 16.05, 16.0, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"faces": {
 						"north": {
@@ -476,6 +486,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
 					"faces": {
@@ -522,6 +533,8 @@
 					"to": [ 15.25, 7.7, 7.7 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 5.2, 0.7, 7.2 ],
 					"rotationX": -100.0,
 					"faces": {
@@ -567,6 +580,8 @@
 					"to": [ 16.35, 7.8, 7.9 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 8.3, 1.6, 7.2 ],
 					"rotationX": 99.0,
 					"faces": {
@@ -617,6 +632,7 @@
 			"to": [ 3.0, 1.0, 8.0 ],
 			"rotationOrigin": [ 2.0, 0.0, 7.0 ],
 			"rotationY": 22.5,
+			"shade": false,
 			"faces": {
 				"north": {
 					"texture": "#null",
@@ -656,6 +672,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -700,6 +717,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -745,6 +763,7 @@
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -791,6 +810,7 @@
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -838,6 +858,7 @@
 					"rotationX": 15.0,
 					"rotationY": 43.08,
 					"rotationZ": -10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -884,6 +905,7 @@
 					"rotationX": -15.0,
 					"rotationY": 43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -930,6 +952,7 @@
 					"rotationX": -15.0,
 					"rotationY": -45.0,
 					"rotationZ": -11.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -976,6 +999,7 @@
 					"rotationX": 15.0,
 					"rotationY": -43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -1019,6 +1043,7 @@
 					"from": [ 0.05, 0.0, 8.0 ],
 					"to": [ 16.05, 16.0, 8.0 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -1063,6 +1088,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -1107,6 +1133,7 @@
 					"to": [ 15.25, 7.7, 7.7 ],
 					"rotationOrigin": [ 5.2, 0.7, 7.2 ],
 					"rotationX": -100.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#600",
@@ -1152,6 +1179,7 @@
 					"to": [ 16.35, 7.8, 7.9 ],
 					"rotationOrigin": [ 8.3, 1.6, 7.2 ],
 					"rotationX": 99.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#700",
@@ -1198,6 +1226,7 @@
 			"to": [ 1.0, 1.0, 10.0 ],
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalCranberry",
+			"shade": false,
 			"rotationOrigin": [ 0.0, 0.0, 9.0 ],
 			"rotationY": 67.5,
 			"faces": {
@@ -1239,6 +1268,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
 					"faces": {
@@ -1280,6 +1310,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
 					"faces": {
@@ -1325,6 +1356,7 @@
 					"to": [ 14.05, 24.35, 13.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
@@ -1373,6 +1405,7 @@
 					"to": [ 18.05, 22.0, -1.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
@@ -1421,6 +1454,7 @@
 					"to": [ 17.05, 15.4, 6.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0012, 0.0, 7.9988 ],
 					"rotationX": 15.0,
 					"rotationY": 43.08,
@@ -1469,6 +1503,7 @@
 					"to": [ 14.0, 15.45, 9.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0012, 0.0, 7.9988 ],
 					"rotationX": -15.0,
 					"rotationY": 43.08,
@@ -1517,6 +1552,7 @@
 					"to": [ 18.05, 15.8, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 0.0, 7.0 ],
 					"rotationX": -15.0,
 					"rotationY": -45.0,
@@ -1565,6 +1601,7 @@
 					"to": [ 15.05, 15.6, 5.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 7.0 ],
 					"rotationX": 15.0,
 					"rotationY": -43.08,
@@ -1613,6 +1650,7 @@
 					"to": [ 16.05, 16.0, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"faces": {
 						"north": {
@@ -1658,6 +1696,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
 					"faces": {
@@ -1704,6 +1743,8 @@
 					"to": [ 16.05, 7.7, 9.8 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 8.0, 0.7, 9.3 ],
 					"rotationX": -100.0,
 					"faces": {
@@ -1749,6 +1790,8 @@
 					"to": [ 16.05, 7.8, 8.8 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 8.0, 1.6, 8.1 ],
 					"rotationX": 99.0,
 					"faces": {
@@ -1799,6 +1842,7 @@
 			"to": [ 1.0, 1.0, 10.0 ],
 			"rotationOrigin": [ 0.0, 0.0, 9.0 ],
 			"rotationY": 67.5,
+			"shade": false,
 			"faces": {
 				"north": {
 					"texture": "#null",
@@ -1838,6 +1882,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -1882,6 +1927,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -1927,6 +1973,7 @@
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -1973,6 +2020,7 @@
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -2020,6 +2068,7 @@
 					"rotationX": 15.0,
 					"rotationY": 43.08,
 					"rotationZ": -10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -2066,6 +2115,7 @@
 					"rotationX": -15.0,
 					"rotationY": 43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -2112,6 +2162,7 @@
 					"rotationX": -15.0,
 					"rotationY": -45.0,
 					"rotationZ": -11.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -2158,6 +2209,7 @@
 					"rotationX": 15.0,
 					"rotationY": -43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -2201,6 +2253,7 @@
 					"from": [ 0.05, 0.0, 8.0 ],
 					"to": [ 16.05, 16.0, 8.0 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -2245,6 +2298,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -2289,6 +2343,7 @@
 					"to": [ 16.05, 7.7, 9.8 ],
 					"rotationOrigin": [ 6.0, 0.7, 9.3 ],
 					"rotationX": -100.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#600",
@@ -2334,6 +2389,7 @@
 					"to": [ 16.05, 7.8, 8.8 ],
 					"rotationOrigin": [ 8.0, 1.6, 8.1 ],
 					"rotationX": 99.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#700",
@@ -2380,6 +2436,7 @@
 			"to": [ -4.0, 1.0, 9.0 ],
 			"rotationOrigin": [ -5.0, 0.0, 8.0 ],
 			"rotationY": 22.5,
+			"shade": false,
 			"faces": {
 				"north": {
 					"texture": "#null",
@@ -2419,6 +2476,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -2463,6 +2521,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -2508,6 +2567,7 @@
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -2554,6 +2614,7 @@
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -2601,6 +2662,7 @@
 					"rotationX": 15.0,
 					"rotationY": 43.08,
 					"rotationZ": -10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#400",
@@ -2647,6 +2709,7 @@
 					"rotationX": -15.0,
 					"rotationY": 43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -2693,6 +2756,7 @@
 					"rotationX": -15.0,
 					"rotationY": -45.0,
 					"rotationZ": -11.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#500",
@@ -2739,6 +2803,7 @@
 					"rotationX": 15.0,
 					"rotationY": -43.08,
 					"rotationZ": 10.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#300",
@@ -2782,6 +2847,7 @@
 					"from": [ 0.05, 0.0, 8.0 ],
 					"to": [ 16.05, 16.0, 8.0 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#100",
@@ -2826,6 +2892,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#200",
@@ -2870,6 +2937,7 @@
 					"to": [ 16.05, 7.7, 9.8 ],
 					"rotationOrigin": [ 6.0, 0.7, 9.3 ],
 					"rotationX": -100.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#600",
@@ -2915,6 +2983,7 @@
 					"to": [ 16.05, 7.8, 8.8 ],
 					"rotationOrigin": [ 8.0, 1.6, 8.1 ],
 					"rotationX": 99.0,
+					"shade": false,
 					"faces": {
 						"north": {
 							"texture": "#700",
@@ -2961,6 +3030,7 @@
 			"to": [ -4.0, 1.0, 9.0 ],
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalCranberry",
+			"shade": false,
 			"rotationOrigin": [ -5.0, 0.0, 8.0 ],
 			"rotationY": 22.5,
 			"faces": {
@@ -3002,6 +3072,7 @@
 					"to": [ 17.05, 15.45, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0, 0.0, 6.0 ],
 					"rotationX": -15.0,
 					"faces": {
@@ -3043,6 +3114,7 @@
 					"to": [ 15.05, 16.0, 7.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
 					"rotationX": 15.0,
 					"faces": {
@@ -3088,6 +3160,7 @@
 					"to": [ 14.05, 24.35, 13.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0, 8.0, 15.0 ],
 					"rotationX": -90.0,
 					"rotationY": 75.0,
@@ -3136,6 +3209,7 @@
 					"to": [ 18.05, 22.0, -1.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 7.0, 2.0 ],
 					"rotationX": 90.0,
 					"rotationY": 75.0,
@@ -3184,6 +3258,7 @@
 					"to": [ 17.05, 15.4, 6.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 9.0012, 0.0, 7.9988 ],
 					"rotationX": 15.0,
 					"rotationY": 43.08,
@@ -3232,6 +3307,7 @@
 					"to": [ 14.0, 15.45, 9.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 6.0012, 0.0, 7.9988 ],
 					"rotationX": -15.0,
 					"rotationY": 43.08,
@@ -3280,6 +3356,7 @@
 					"to": [ 18.05, 15.8, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 10.0, 0.0, 7.0 ],
 					"rotationX": -15.0,
 					"rotationY": -45.0,
@@ -3328,6 +3405,7 @@
 					"to": [ 15.05, 15.6, 5.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 7.0, 0.0, 7.0 ],
 					"rotationX": 15.0,
 					"rotationY": -43.08,
@@ -3376,6 +3454,7 @@
 					"to": [ 16.05, 16.0, 8.0 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"faces": {
 						"north": {
@@ -3421,6 +3500,7 @@
 					"to": [ 16.0535, 16.0, 9.0027 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"rotationY": 89.98,
 					"faces": {
@@ -3467,6 +3547,8 @@
 					"to": [ 16.05, 7.7, 9.8 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 8.0, 0.7, 9.3 ],
 					"rotationX": -100.0,
 					"faces": {
@@ -3512,6 +3594,8 @@
 					"to": [ 16.05, 7.8, 8.8 ],
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalCranberry",
+					"shade": false,
+					"renderPass": 1,
 					"rotationOrigin": [ 8.0, 1.6, 8.1 ],
 					"rotationX": 99.0,
 					"faces": {
