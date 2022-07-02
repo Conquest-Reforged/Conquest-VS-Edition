@@ -1,0 +1,131 @@
+[
+	{
+		"file": "shapes/block/plant/bamboo/green/segment1-2.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"stem-green": "block/plant/bamboo/stem-green"
+		},
+	},
+	{
+		"file": "shapes/block/plant/bamboo/green/segment1-2.json",
+		"op": "replace",
+		"path": "/elements",
+		"value": [
+			{
+				"name": "StalkMidNW",
+				"from": [ 6.5, 0.0, 1.5 ],
+				"to": [ 9.5, 16.0, 4.5 ],
+				"windMode": 4,
+				"faces": {
+					"north": {
+						"texture": "#stem-green",
+						"uv": [ 4.0, 0.0, 7.0, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"east": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"south": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"west": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"up": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"down": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					}
+				}
+			},
+			{
+				"name": "StalkMidNE",
+				"from": [ 11.5, 0.0, 5.5 ],
+				"to": [ 14.5, 16.0, 8.5 ],
+				"windMode": 4,
+				"faces": {
+					"north": {
+						"texture": "#stem-green",
+						"uv": [ 0.5, 0.0, 3.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"east": {
+						"texture": "#stem-green",
+						"uv": [ 0.5, 0.0, 3.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"south": {
+						"texture": "#stem-green",
+						"uv": [ 0.5, 0.0, 3.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"west": {
+						"texture": "#stem-green",
+						"uv": [ 0.5, 0.0, 3.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"up": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"down": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					}
+				}
+			},
+			{
+				"name": "StalkMidSE",
+				"from": [ 2.5, 0.0, 11.5 ],
+				"to": [ 5.5, 16.0, 14.5 ],
+				"windMode": 4,
+				"faces": {
+					"north": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"east": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"south": {
+						"texture": "#stem-green",
+						"uv": [ 5.0, 0.0, 8.0, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"west": {
+						"texture": "#stem-green",
+						"uv": [ 4.5, 0.0, 7.5, 16.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"up": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					},
+					"down": {
+						"texture": "#stem-green",
+						"uv": [ 8.0, 11.0, 11.0, 14.0 ],
+						"windMode": [ 5, 5, 5, 5 ]
+					}
+				}
+			}
+		]
+	}
+]

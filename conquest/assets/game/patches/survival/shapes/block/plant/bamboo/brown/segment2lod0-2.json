@@ -1,0 +1,16 @@
+[
+	{
+		"file": "shapes/block/plant/bamboo/brown/segment2lod0-2.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+		}
+	},
+	{
+		"file": "shapes/block/plant/bamboo/brown/segment2lod0-2.json",
+		"op": "replace",
+		"path": "/elements",
+		"value": [
+		]
+	}
+]

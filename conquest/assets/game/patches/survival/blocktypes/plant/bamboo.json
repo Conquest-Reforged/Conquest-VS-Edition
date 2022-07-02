@@ -1,0 +1,11 @@
+[
+	{
+		"file": "blocktypes/plant/bamboo.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"value": {
+			"base": "block/plant/bamboo/{color}/{part}-2"
+		}
+	}
+]
+			
