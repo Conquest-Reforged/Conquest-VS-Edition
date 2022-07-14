@@ -1,0 +1,7 @@
+[
+  {
+	"file": "blocktypes/plant/waterlily.json",
+    "op": "remove",
+    "path": "/climateColorMap"
+  }
+]

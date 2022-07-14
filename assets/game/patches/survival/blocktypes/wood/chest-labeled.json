@@ -1,0 +1,11 @@
+[
+	{
+		"file": "blocktypes/wood/chest-labeled.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"normal-labeled-chest": { "base": "block/wood/trunk/chest" }
+
+		}
+	},
+]
