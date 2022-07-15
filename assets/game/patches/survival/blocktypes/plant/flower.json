@@ -48,7 +48,7 @@
 		"value": {
 			"*-orangemallow-*": { "base": "block/basic/flower" },
 			"*-cornflower-*": { "base": "block/basic/flower" },
-			"*-heather-*": { "base": "block/basic/heather_*" },
+			"*-heather-*": { "base": "block/none" },
 			"*-smallheather-*": { "base": "block/basic/flower-tall" },
 			"*-westerngorse-*": { "base": "block/basic/flower-tall" }
 		},
