@@ -1,0 +1,44 @@
+[
+  {
+    "op": "remove",
+    "path": "/shape",
+    "file": "blocktypes/plant/herb.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType",
+    "value": {
+      "*-basil": {
+        "base": "block/basic/cross"
+      },
+      "*-chamomile": {
+        "base": "block/basic/cross"
+      },
+      "*-cilantro": {
+        "base": "block/basic/cross"
+      },
+      "*-lavender": {
+        "base": "block/plant/herb/lavender"
+      },
+      "*-marjoram": {
+        "base": "block/basic/cross"
+      },
+      "*-mint": {
+        "base": "block/basic/cross"
+      },
+      "*-saffron": {
+        "base": "block/basic/cross"
+      },
+      "*-sage": {
+        "base": "block/basic/cross"
+      },
+      "*-thyme": {
+        "base": "block/basic/cross"
+      },
+      "*": {
+        "base": "block/basic/cross"
+      }
+    },
+    "file": "blocktypes/plant/herb.json"
+  }
+]
