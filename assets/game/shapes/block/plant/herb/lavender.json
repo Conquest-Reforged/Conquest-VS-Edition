@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"lavender": "block/plant/herb/lavender*",
 	},
 	"elements": [
 		{

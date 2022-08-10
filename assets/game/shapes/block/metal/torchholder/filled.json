@@ -9,7 +9,7 @@
 		"0": [64,64]
 	},
 	"textures": {
-		"0": "/Users/phil/Downloads/torch_holder/torchholder"
+		"0": "block/metal/torchholder/torchholder"
 	},
 	"elements": [
 		{
