@@ -2,7 +2,7 @@
     "type": "content", 
     "modid": "conquest",  
     "name": "Conquest VS Edition",
-    "authors": [ "CreativeRealms, Dechoppy, Kurgahn, Arkaik" ],
+    "authors": [ "CreativeRealms, Dechoppy, Hippokleides, Arkaik" ],
     "description": "Adds Conquest textures to Vintage Story.",
     "side": "universal",
     "Dependencies": {},
