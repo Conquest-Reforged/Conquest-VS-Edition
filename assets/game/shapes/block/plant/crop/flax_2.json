@@ -1,0 +1,133 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Plant1",
+			"from": [ 1.2, 0.0, -2.1 ], 
+			"to": [ 1.2, 0.0, -2.1 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 8.2, 0.0, 8.9 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"east": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"south": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"west": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"up": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"down": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "cube1",
+					"from": [ -5.0, 0.0, 11.0 ], 
+					"to": [ 17.0, 24.0, 11.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 6.0, 0.0, 11.0 ],
+					"faces": {
+						"north": { "texture": "#1", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#1", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube2",
+					"from": [ -5.0, 0.0, 11.0 ], 
+					"to": [ 17.0, 24.0, 11.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 6.0, 0.0, 11.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#2", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#2", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#2", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube3",
+					"from": [ -4.0, 0.0, 12.75 ], 
+					"to": [ 18.0, 24.0, 12.75 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 8.0, 0.0, 11.0 ],
+					"rotationY": 47.5,
+					"faces": {
+						"north": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#3", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#3", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube4",
+					"from": [ -6.0, 0.0, 13.25 ], 
+					"to": [ 16.0, 24.0, 13.25 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 6.0, 0.0, 11.0 ],
+					"rotationY": 137.5,
+					"faces": {
+						"north": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#2", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#2", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#normal1_2", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube5",
+					"from": [ -7.0, 0.0, 9.0 ], 
+					"to": [ 15.0, 24.0, 9.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 5.0, 0.0, 11.0 ],
+					"rotationY": 137.5,
+					"faces": {
+						"north": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#1", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube6",
+					"from": [ -6.0, 0.0, 7.0 ], 
+					"to": [ 16.0, 24.0, 7.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 6.0, 0.0, 9.0 ],
+					"rotationY": 47.5,
+					"faces": {
+						"north": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"east": { "texture": "#3", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"south": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] },
+						"west": { "texture": "#3", "uv": [ 0.0, 0.0, 0.0, 16.0 ], "enabled": false, "autoUv": false },
+						"up": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 0.0 ], "enabled": false, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}
