@@ -1,0 +1,45 @@
+[
+	{
+		"file": "dsdebarkedlogs:blocktypes/debarkedlog.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"value": {
+			"*-ud": {
+				"all": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-north": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-east": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-south": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-west": { "base": "game:debarkmod/debarked/{wood}-v*" },
+
+				"up": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"down": { "base": "game:debarkmod/debarked/{wood}-v*" }
+			},
+			"*-ns": {
+				"all": { "base": "game:block/wood/debarked/{wood}*" },
+				"up": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"down": { "base": "game:debarkmod/debarked/{wood}-v*" },
+
+				"inside-up": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-down": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"inside-west": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-east": { "base": "game:block/wood/debarked/{wood}*" },
+
+				"north": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"south": { "base": "game:debarkmod/debarked/{wood}-v*" }
+			},
+			"*-we": {
+				"all": { "base": "game:block/wood/debarked/{wood}*" },
+				"up": { "base": "game:block/wood/debarked/{wood}*" },
+
+				"inside-up": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-down": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-north": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-south": { "base": "game:block/wood/debarked/{wood}*" },
+
+				"west": { "base": "game:debarkmod/debarked/{wood}-v*" },
+				"east": { "base": "game:debarkmod/debarked/{wood}-v*" }
+			}
+		},
+	}
+]
+			

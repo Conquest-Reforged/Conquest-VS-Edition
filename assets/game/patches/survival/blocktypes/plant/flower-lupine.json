@@ -20,9 +20,9 @@
 			"20": { "base": "block/plant/flower/petal/lupine/stem_2" },
 			"30": { "base": "block/plant/flower/petal/lupine/stem_3" },
 			"40": { "base": "block/plant/flower/petal/lupine/stem_4" },
-			"100": { "base": "block/plant/flower/petal/lupine/lupineleaves" },
-			"200": { "base": "block/plant/flower/petal/lupine/lupineleaves2" },
-			"lupineleaves3": { "base": "block/plant/flower/petal/lupine/lupineleaves3" }
+			"lupineleaves3": { "base": "block/plant/flower/petal/lupine/lupineleaves3" },
+			"lupineleaves2": { "base": "block/plant/flower/petal/lupine/lupineleaves2" },
+			"lupineleaves4": { "base": "block/plant/flower/petal/lupine/lupineleaves4" }
 		},
 	}
 ]
