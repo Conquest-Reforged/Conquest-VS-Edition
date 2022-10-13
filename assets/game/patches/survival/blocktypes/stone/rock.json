@@ -2,10 +2,11 @@
   {
 	"file": "blocktypes/stone/rock.json",
     "op": "replace",
-    "path": "/textures",
+    "path": "/texturesByType",
     "value": {
-		horizontals: { base: "block/stone/rock/{rock}*" },
-		verticals: { base: "block/stone/rock/top/{rock}*" }
-	}
+      "rock-*": {
+        all: { base: "block/stone/rock/{rock}*" }
+      }
+    }
   }
 ]
