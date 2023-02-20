@@ -1,0 +1,96 @@
+[
+	{
+		"file": "blocktypes/wood/woodtyped/planks.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"all": {
+				"base": "block/wood/planks/{wood}1",
+				"rotationByType": {
+					"*-hor": 0,
+					"*-ver": 90
+				},
+				"alternates": [
+					{
+						"base": "block/wood/planks/{wood}2",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}*",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}*",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}8",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}3",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}4",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}5",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}6",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}7",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}*",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					},
+					{
+						"base": "block/wood/planks/{wood}8",
+						"rotationByType": {
+							"*-hor": 0,
+							"*-ver": 90
+						}
+					}
+				]
+			}
+		},
+	}
+]
+		

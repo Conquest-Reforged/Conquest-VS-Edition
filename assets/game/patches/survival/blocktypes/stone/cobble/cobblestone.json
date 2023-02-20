@@ -1,0 +1,13 @@
+[
+	{
+		"file": "blocktypes/stone/cobble/cobblestone.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"all": { "base": "block/stone/cobblestone/{rock}/*" }
+		}
+
+	}
+]
+
+

@@ -1,0 +1,11 @@
+[
+	{
+		"file": "blocktypes/stone/drystone.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"all": { "base": "block/stone/drystone/{rock}/*" }
+		},
+
+	}
+]

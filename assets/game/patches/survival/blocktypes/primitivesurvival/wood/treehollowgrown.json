@@ -1,0 +1,21 @@
+[
+    {
+        "file": "primitivesurvival:blocktypes/wood/treehollowgrown.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "inside": {
+                "base": "block/wood/inside"
+            },
+            "topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            },
+            "baitmaterial": {
+                "base": "primitivesurvival:item/seeds"
+            }
+        },
+    }
+]

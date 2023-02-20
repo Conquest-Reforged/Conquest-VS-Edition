@@ -1,0 +1,19 @@
+[
+    {
+        "file": "primitivesurvival:blocktypes/clay/irrigationvessel.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "ceramic": { "base": "game:block/clay/ceramic" },
+                "top": { "base": "primitivesurvival:block/clay/topburned" },
+                "sides": { "base": "game:block/clay/vessel/sides/burned" },
+                "inside": { "base": "game:block/clay/vessel/inside/burned" },
+                "up": { "base": "game:primitivesurvival/clay/fertcompost-moist" },
+                "side": { "base": "game:block/soil/farmland/fertcompost-side*" },
+                "updry": { "base": "game:primitivesurvival/clay/fertcompost-dry" },
+                "sidedry": { "base": "game:block/soil/farmland/fertcompost-side*" }
+            }
+        },
+    }
+]

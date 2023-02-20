@@ -1,0 +1,55 @@
+[
+    {
+        "file": "primitivesurvival:blocktypes/wood/treehollowplaced.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "inside": {
+                "base": "block/wood/inside"
+            },
+            "topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            },
+            "base-sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "base-inside": {
+                "base": "block/wood/inside"
+            },
+            "base-topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            },
+            "base2-sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "base2-inside": {
+                "base": "block/wood/inside"
+            },
+            "base2-topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            },
+            "up-sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "up-inside": {
+                "base": "block/wood/inside"
+            },
+            "up-topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            },
+            "up2-sides": {
+                "base": "game:block/wood/bark/vertical/{wood}*"
+            },
+            "up2-inside": {
+                "base": "block/wood/inside"
+            },
+            "up2-topbottom": {
+                "base": "game:block/wood/treetrunk/{wood}*"
+            }
+        },
+    }
+]
+                
