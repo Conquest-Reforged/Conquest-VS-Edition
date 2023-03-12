@@ -1,0 +1,25 @@
+[
+	
+	{
+		ingredientPattern: "L,C",
+		ingredients: {
+			"C": {
+				type: "item",
+				code: "clay-*"
+			},
+			"L": {
+				type: "block",
+				code: "drystone",
+				name: "rock",
+				allowedVariants: [ "limestone" ]
+			}
+		},
+		width: 1,
+		height: 2,
+		output: {
+			type: "block",
+			code: "conquest:cobblestonelimestone light",
+			quantity: 1
+		}
+	}
+]
