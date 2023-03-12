@@ -1,0 +1,23 @@
+	{
+		ingredientPattern: "D,L",
+		ingredients: {
+			"L": {
+				type: "item",
+				code: "game:lime"
+			},
+			"D": {
+				type: "block",
+				code: "game:drystone-*",
+				"name": "rock",
+				"allowedVariants": ["limestone","mixed"]
+			}
+		},
+		width: 1,
+		height: 2,
+		output: {
+			type: "block",
+			code: "conquest:plastercobblestone-{rock}",
+			quantity: 1
+		}
+	}
+

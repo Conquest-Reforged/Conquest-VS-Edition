@@ -1,13 +1,13 @@
 {
-	code: "cobblestone",
+	code: "plastercobblestone",
 	variantgroups: [
 		{
 			"code": "rock",
-			"states": [ "limestoneplastered", "mixed" ],
+			"states": [ "mixed" ],
 			"loadFromProperties": "block/rockwithdeposit"
 		}
 	],
-	skipVariants: [ "*-obsidian", "*-halite", "*-scoria", "*-tuff", "*-limestone", "*-andesite", "*-basalt", "*-bauxite", "*-chalk", "*-chert", "*-claystone", "*-conglomerate", "*-granite", "*-greenmarble", "*-kimberlite", "*-peridotite", "*-phyllite", "*-redmarble", "*-sandstone", "*-shale", "*-slate", "*-suevite", "*-whitemarble" ],
+	skipVariants: [ "*-obsidian", "*-halite", "*-scoria", "*-tuff", "*-andesite", "*-basalt", "*-bauxite", "*-chalk", "*-chert", "*-claystone", "*-conglomerate", "*-granite", "*-greenmarble", "*-kimberlite", "*-peridotite", "*-phyllite", "*-redmarble", "*-sandstone", "*-shale", "*-slate", "*-suevite", "*-whitemarble" ],
 	attributes: {
 		handbook: {
 			groupBy: ["cobblestone-*"]	
@@ -18,7 +18,7 @@
 	drawtype: "cube",
 	blockmaterial: "Stone",
 	"textures": {
-		"all": {  base: "conquest:block/stone/cobblestone/{rock}/*" }
+		"all": {  base: "conquest:block/stone/plastercobblestone/{rock}/*" }
 	},
 	"replaceable": 140,
 	"fertility": 0,
