@@ -1,144 +1,151 @@
 [
-	{
-		"file": "blocktypes/plant/reedpapyrus.json",
-		"op": "replace",
-		"path": "/shapeByType",
-		"value": {
-			"tallplant-papyrus-*-harvested-*": { "base": "block/plant/reedpapyrus/papyrus-harvested" },
-			"tallplant-papyrus-*": {
-				"base": "block/plant/reedpapyrus/papyrus-medium",
-				"alternates": [ { "base": "block/plant/reedpapyrus/papyrus-tall" } ]
-			},
+    {
+        "file": "blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "value": {
+            "tallplant-papyrus-*-harvested-*": { "base": "block/plant/reedpapyrus/papyrus-harvested" },
+            "tallplant-papyrus-*": {
+                "base": "block/plant/reedpapyrus/papyrus-medium",
+                "alternates": [ { "base": "block/plant/reedpapyrus/papyrus-tall" } ]
+            },
 
-			"tallplant-coopersreed-*": { "base": "block/plant/reedpapyrus/reed_*" }
-		},
-	},
-	{
-		"file": "blocktypes/plant/reedpapyrus.json",
-		"op": "replace",
-		"path": "/textures",
-		"value": {
-			"1": {
-				"base": "block/plant/flower/petal/{type}-{state}_1",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_2" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_3" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_4" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_5" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_6" }
-				]
-			},
-			"2": {
-				"base": "block/plant/flower/petal/{type}-{state}_2",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_3" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_4" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_5" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_6" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_1" }
-				]
-			},
-			"3": {
-				"base": "block/plant/flower/petal/{type}-{state}_3",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_4" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_5" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_6" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_1" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_2" }
-				]
-			},
-			"4": {
-				"base": "block/plant/flower/petal/{type}-{state}_4",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_5" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_6" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_1" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_2" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_3" }
-				]
-			},
-			"5": {
-				"base": "block/plant/flower/petal/{type}-{state}_5",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_6" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_1" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_2" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_3" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_4" }
-				]
-			},
-			"6": {
-				"base": "block/plant/flower/petal/{type}-{state}_6",
-				"alternates": [
-					{ "base": "block/plant/flower/petal/{type}-{state}_1" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_2" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_3" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_4" },
-					{ "base": "block/plant/flower/petal/{type}-{state}_5" }
-				]
-			},
-			"10": {
-				"base": "block/plant/flower/stem/{type}-{state}_1",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_2" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_3" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_4" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_5" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_6" }
-				]
-			},
-			"20": {
-				"base": "block/plant/flower/stem/{type}-{state}_2",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_3" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_4" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_5" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_6" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_1" }
-				]
-			},
-			"30": {
-				"base": "block/plant/flower/stem/{type}-{state}_3",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_4" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_5" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_6" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_1" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_2" }
-				]
-			},
-			"40": {
-				"base": "block/plant/flower/stem/{type}-{state}_4",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_5" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_6" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_1" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_2" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_3" }
-				]
-			},
-			"50": {
-				"base": "block/plant/flower/stem/{type}-{state}_5",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_6" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_1" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_2" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_3" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_4" }
-				]
-			},
-			"60": {
-				"base": "block/plant/flower/stem/{type}-{state}_6",
-				"alternates": [
-					{ "base": "block/plant/flower/stem/{type}-{state}_1" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_2" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_3" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_4" },
-					{ "base": "block/plant/flower/stem/{type}-{state}_5" }
-				]
-			}
-		},
-	}
+            "tallplant-coopersreed-*": { "base": "block/plant/reedpapyrus/reed_*" }
+        },
+    },
+    {
+        "file": "blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+            "tallplant-papyrus-*": {
+                "northCross": { "base": "block/plant/flower/petal/{type}-{state}*" },
+                "southCross": { "base": "block/plant/flower/petal/{type}-{state}*" },
+                "northTintedCross": { "base": "block/plant/flower/stem/{type}-{state}*" },
+                "southTintedCross": { "base": "block/plant/flower/stem/{type}-{state}*" }
+            },
+            "tallplant-coopersreed-*": {
+                "1": {
+                    "base": "block/plant/flower/petal/{type}-{state}_1",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_2" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_3" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_4" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_5" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_6" }
+                    ]
+                },
+                "2": {
+                    "base": "block/plant/flower/petal/{type}-{state}_2",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_3" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_4" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_5" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_6" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_1" }
+                    ]
+                },
+                "3": {
+                    "base": "block/plant/flower/petal/{type}-{state}_3",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_4" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_5" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_6" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_1" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_2" }
+                    ]
+                },
+                "4": {
+                    "base": "block/plant/flower/petal/{type}-{state}_4",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_5" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_6" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_1" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_2" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_3" }
+                    ]
+                },
+                "5": {
+                    "base": "block/plant/flower/petal/{type}-{state}_5",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_6" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_1" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_2" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_3" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_4" }
+                    ]
+                },
+                "6": {
+                    "base": "block/plant/flower/petal/{type}-{state}_6",
+                    "alternates": [
+                        { "base": "block/plant/flower/petal/{type}-{state}_1" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_2" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_3" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_4" },
+                        { "base": "block/plant/flower/petal/{type}-{state}_5" }
+                    ]
+                },
+                "10": {
+                    "base": "block/plant/flower/stem/{type}-{state}_1",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_2" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_3" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_4" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_5" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_6" }
+                    ]
+                },
+                "20": {
+                    "base": "block/plant/flower/stem/{type}-{state}_2",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_3" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_4" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_5" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_6" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_1" }
+                    ]
+                },
+                "30": {
+                    "base": "block/plant/flower/stem/{type}-{state}_3",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_4" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_5" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_6" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_1" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_2" }
+                    ]
+                },
+                "40": {
+                    "base": "block/plant/flower/stem/{type}-{state}_4",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_5" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_6" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_1" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_2" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_3" }
+                    ]
+                },
+                "50": {
+                    "base": "block/plant/flower/stem/{type}-{state}_5",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_6" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_1" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_2" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_3" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_4" }
+                    ]
+                },
+                "60": {
+                    "base": "block/plant/flower/stem/{type}-{state}_6",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{type}-{state}_1" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_2" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_3" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_4" },
+                        { "base": "block/plant/flower/stem/{type}-{state}_5" }
+                    ]
+                }
+            }
+        }
+    }
 ]
-				

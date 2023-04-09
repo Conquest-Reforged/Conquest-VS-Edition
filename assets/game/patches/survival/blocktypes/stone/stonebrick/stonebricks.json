@@ -1,0 +1,11 @@
+[
+	{
+		"file": "blocktypes/stone/stonebrick/stonebricks.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"all": { "base": "block/stone/brick/{rock}/*" }
+		}
+	}
+]
+			

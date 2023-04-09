@@ -1,0 +1,33 @@
+[
+    {
+        "file": "blocktypes/wood/woodtyped/crate.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+            "*-ud": {
+                "all": {
+                    "base": "block/wood/debarked/{wood}*",
+                    "rotation": 90
+                },
+                "up": { "base": "block/wood/debarked/{wood}*" },
+                "down": { "base": "block/wood/debarked/{wood}*" }
+            },
+            "*-ns": {
+                "all": {
+                    "base": "block/wood/debarked/{wood}*",
+                    "rotation": 90
+                },
+                "east": { "base": "block/wood/debarked/{wood}*" },
+                "west": { "base": "block/wood/debarked/{wood}*" },
+                "north": { "base": "block/wood/debarked/{wood}*" },
+                "south": { "base": "block/wood/debarked/{wood}*" }
+            },
+            "*-we": {
+                "all": { "base": "block/wood/debarked/{wood}*" },
+                "west": { "base": "block/wood/debarked/{wood}*" },
+                "east": { "base": "block/wood/debarked/{wood}*" }
+            }
+        }
+    }
+]
+         

@@ -1,10 +1,25 @@
 [
-	{
-		"file": "blocktypes/wood/chest-trunk.json",
-		"op": "replace",
-		"path": "/textures",
-		"value": {
-			"normal-generic-chest": { "base": "block/wood/trunk/chest" }
-		},
-	},
+    {
+        "file": "blocktypes/wood/chest-trunk.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "normal-generic-chest": { "base": "block/wood/trunk/chest" },
+
+            "collapsed1-corners": { "base": "block/wood/chest/aged/corners" },
+            "collapsed1-sides": { "base": "block/wood/chest/aged/sides" },
+            "collapsed1-lid": { "base": "block/wood/chest/aged/lid" },
+            "collapsed1-floor": { "base": "block/wood/chest/aged/floor" },
+
+            "collapsed2-corners": { "base": "block/wood/chest/aged/corners" },
+            "collapsed2-sides": { "base": "block/wood/chest/aged/sides" },
+            "collapsed2-lid": { "base": "block/wood/chest/aged/lid" },
+            "collapsed2-floor": { "base": "block/wood/chest/aged/floor" },
+
+            "collapsed3-corners": { "base": "block/wood/chest/aged/corners" },
+            "collapsed3-sides": { "base": "block/wood/chest/aged/sides" },
+            "collapsed3-lid": { "base": "block/wood/chest/aged/lid" },
+            "collapsed3-floor": { "base": "block/wood/chest/aged/floor" }
+        }
+    }
 ]

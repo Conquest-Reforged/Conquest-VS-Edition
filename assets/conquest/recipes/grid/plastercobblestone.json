@@ -9,7 +9,7 @@
 				type: "block",
 				code: "game:drystone-*",
 				"name": "rock",
-				"allowedVariants": ["limestone","mixed"]
+				"allowedVariants": ["limestone","mixed","slate"]
 			}
 		},
 		width: 1,

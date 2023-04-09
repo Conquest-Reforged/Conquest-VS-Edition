@@ -1,5 +1,16 @@
 {
+    "game:tabname-conquest": "Conquest",
+
     "conquest:block-plastercobblestone-limestone": "Plastered Limestone Cobblestone",
-    "conquest:block-plastercobblestone-mixed": "Plastered Mixed Cobblestone"
+    "conquest:block-plastercobblestone-mixed": "Plastered Mixed Cobblestone",
+    "conquest:block-plastercobblestone-slate": "Plastered Slate Cobblestone",
+
+    "conquest:block-largestonebrick-limestone": "Large Limestone Brick",
+    "conquest:block-largestonebrick-sandstone": "Large Sandstone Brick",
+    "conquest:block-largestonebrick-andesite": "Large Andesite Brick",
+
+    "conquest:block-romanclaybricks-biege": "Biege Roman Clay Brick",
+    "conquest:block-romanclaybricks-brown": "Brown Roman Clay Brick",
+    "conquest:block-romanclaybricks-orange": "Orange Roman Clay Brick"
 
 }
