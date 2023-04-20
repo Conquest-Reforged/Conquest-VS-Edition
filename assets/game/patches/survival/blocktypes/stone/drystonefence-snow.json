@@ -1,0 +1,12 @@
+[
+	{
+		"file": "blocktypes/stone/drystonefence-snow.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"wall": { "base": "block/stone/drystone/{rock}/*" },
+			"edge": { "base": "block/stone/drystone/{rock}/*" },
+			"fence": { "base": "block/stone/drystone/{rock}/*" }
+		}
+	}
+]

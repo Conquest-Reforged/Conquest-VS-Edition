@@ -1,0 +1,13 @@
+[
+	{
+		"file": "blocktypes/stone/drystonefence-free.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"wall": { "base": "block/stone/drystone/{rock}/*" },
+			"edge": { "base": "block/stone/drystone/{rock}/*" },
+			"fence": { "base": "block/stone/drystone/{rock}/*" }
+		},
+
+	}
+]
