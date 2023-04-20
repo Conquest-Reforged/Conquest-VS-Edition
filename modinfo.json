@@ -8,9 +8,9 @@
     "requiredOnClient": true,
     "requiredOnServer": true,
     "dependencies": {
-        "game": "1.17.8"
+        "game": "1.18.0"
     },
-    "version": "0.0.15",
+    "version": "0.0.16",
     "textureSize" : 32,
     "website": "https://discord.gg/u52x8pGkXq"
 }
