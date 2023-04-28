@@ -10,7 +10,7 @@
     "dependencies": {
         "game": "1.18.0"
     },
-    "version": "0.0.16",
+    "version": "0.0.17",
     "textureSize" : 32,
     "website": "https://discord.gg/u52x8pGkXq"
 }
