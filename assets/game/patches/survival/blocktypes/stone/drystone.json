@@ -4,7 +4,7 @@
 		"op": "replace",
 		"path": "/textures",
 		"value": {
-			"all": { "base": "block/stone/drystone/{rock}/*" }
+			"all": { "base": "block/stone/drystone/{rock}*" }
 		},
 
 	}

@@ -4,8 +4,8 @@
         "op": "replace",
         "path": "/textures",
         "value": {
-            "horizontals": { "base": "block/stone/cobblestonestairs/{rock}/*" },
-            "verticals": { "base": "block/stone/cobblestone/{rock}/*" }
+            "horizontals": { "base": "block/stone/cobblestonestairs/{rock}*" },
+            "verticals": { "base": "block/stone/cobblestone/{rock}*" }
         }
     },
 ]
