@@ -1,35 +1,71 @@
 [
-	{
-		"file": "blocktypes/wood/woodtyped/crate.json",
-		"op": "replace",
-		"path": "/textures",
-		"value": {
-			"label-building": { "base": "block/wood/crate/label-building" },
-			"label-decoration": { "base": "block/wood/crate/label-decoration" },
-			"label-defense": { "base": "block/wood/crate/label-defense" },
-			"label-empty": { "base": "block/wood/crate/label-empty" },
-			"label-ingredients": { "base": "block/wood/crate/label-ingredients" },
-			"label-storage": { "base": "block/wood/crate/label-storage" },
-			"label-tools": { "base": "block/wood/crate/label-tools" },
-			"woodlabel-empty": { "base": "block/wood/trunk/accessories" },
-			"crate": { "base": "block/wood/crate/aged-crate" },
-			"aged-inside": { "base": "block/wood/crate/aged-inside" },
-			"aged1": { "base": "block/wood/planks/aged1" },
-			"building": { "base": "block/wood/crate/label-building" },
-			"wood-aged-crate": { "base": "block/wood/crate/aged-crate" },
-			"wood-birch-crate": { "base": "block/wood/crate/birch-crate" },
-			"wood-oak-crate": { "base": "block/wood/crate/oak-crate" },
-			"wood-maple-crate": { "base": "block/wood/crate/maple-crate" },
-			"wood-pine-crate": { "base": "block/wood/crate/pine-crate" },
-			"wood-acacia-crate": { "base": "block/wood/crate/acacia-crate" },
-			"wood-kapok-crate": { "base": "block/wood/crate/kapok-crate" },
-			"wood-baldcypress-crate": { "base": "block/wood/crate/baldcypress-crate" },
-			"wood-larch-crate": { "base": "block/wood/crate/larch-crate" },
-			"wood-redwood-crate": { "base": "block/wood/crate/redwood-crate" },
-			"wood-ebony-crate": { "base": "block/wood/crate/ebony-crate" },
-			"wood-walnut-crate": { "base": "block/wood/crate/walnut-crate" },
-			"wood-purpleheart-crate": { "base": "block/wood/crate/purpleheart-crate" }
-		},
-	}
+    {
+        "file": "blocktypes/wood/woodtyped/crate.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "label-building": { "base": "block/wood/crate/label-building" },
+            "label-decoration": { "base": "block/wood/crate/label-decoration" },
+            "label-defense": { "base": "block/wood/crate/label-defense" },
+            "label-empty": { "base": "block/wood/crate/label-empty" },
+            "label-ingredients": { "base": "block/wood/crate/label-ingredients" },
+            "label-storage": { "base": "block/wood/crate/label-storage" },
+            "label-tools": { "base": "block/wood/crate/label-tools" },
+            "woodlabel-empty": { "base": "block/wood/trunk/accessories" },
+            "crate": { "base": "block/wood/crate/aged-crate" },
+            "aged-inside": { "base": "block/wood/crate/aged-inside" },
+            "aged1": { "base": "block/wood/planks/aged1" },
+            "building": { "base": "block/wood/crate/label-building" },
+            "wood-aged-crate": { "base": "block/wood/crate/aged-crate" },
+            "wood-birch-crate": { "base": "block/wood/crate/birch-crate" },
+            "wood-oak-crate": { "base": "block/wood/crate/oak-crate" },
+            "wood-maple-crate": { "base": "block/wood/crate/maple-crate" },
+            "wood-pine-crate": { "base": "block/wood/crate/pine-crate" },
+            "wood-acacia-crate": { "base": "block/wood/crate/acacia-crate" },
+            "wood-kapok-crate": { "base": "block/wood/crate/kapok-crate" },
+            "wood-baldcypress-crate": { "base": "block/wood/crate/baldcypress-crate" },
+            "wood-larch-crate": { "base": "block/wood/crate/larch-crate" },
+            "wood-redwood-crate": { "base": "block/wood/crate/redwood-crate" },
+            "wood-ebony-crate": { "base": "block/wood/crate/ebony-crate" },
+            "wood-walnut-crate": { "base": "block/wood/crate/walnut-crate" },
+            "wood-purpleheart-crate": { "base": "block/wood/crate/purpleheart-crate" }
+        }
+    },
+    {
+        "file": "blocktypes/wood/woodtyped/crate.json",
+        "op": "replace",
+        "path": "/heldTpIdleAnimation",
+        "value": "holdbothhandslarge"
+    },
+    {
+        "file": "blocktypes/wood/woodtyped/crate.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "value": {
+            "translation": {
+                "x": -1.3,
+                "y": -0.9,
+                "z": -0.6
+            },
+            "rotation": {
+                "x": 17,
+                "y": 8,
+                "z": -70
+            },
+            "scale": 0.43
+        }
+    },
+    {
+        "file": "blocktypes/wood/woodtyped/crate.json",
+        "op": "replace",
+        "path": "/guiTransform",
+        "value": {
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 0.96
+        }
+    }
 ]
-

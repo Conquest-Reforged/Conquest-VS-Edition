@@ -1154,6 +1154,45 @@
 								}
 							},
 							{
+								"name": "bottom",
+								"from": [ 2.0, 0.3, 2.0 ],
+								"to": [ 14.0, 1.3, 14.0 ],
+								"renderPass": 1,
+								"rotationOrigin": [ 8.0, 1.1, 8.0 ],
+								"faces": {
+									"north": {
+										"texture": "#crate",
+										"uv": [ 3.0, 30.0, 14.5, 29.5 ],
+										"autoUv": false
+									},
+									"east": {
+										"texture": "#crate",
+										"uv": [ 2.0, 2.0, 14.0, 2.5 ],
+										"autoUv": false
+									},
+									"south": {
+										"texture": "#crate",
+										"uv": [ 0.0, 29.5, 12.0, 30.0 ],
+										"autoUv": false
+									},
+									"west": {
+										"texture": "#crate",
+										"uv": [ 5.0, 29.5, 17.0, 30.0 ],
+										"autoUv": false
+									},
+									"up": {
+										"texture": "#crate",
+										"uv": [ 0.0, 16.0, 12.0, 28.0 ],
+										"autoUv": false
+									},
+									"down": {
+										"texture": "#crate",
+										"uv": [ 0.0, 16.0, 12.0, 28.0 ],
+										"autoUv": false
+									}
+								}
+							},
+							{
 								"name": "Wside",
 								"from": [ 0.5, 0.0, 2.0 ],
 								"to": [ 2.0, 16.0, 14.0 ],

@@ -1,6 +1,6 @@
 [
     {
-        "file": "blocktypes/wood/woodtyped/crate.json",
+        "file": "blocktypes/wood/woodtyped/log-debarked.json",
         "op": "replace",
         "path": "/texturesByType",
         "value": {
