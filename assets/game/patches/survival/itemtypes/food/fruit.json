@@ -1,0 +1,47 @@
+[
+    {
+        "file": "itemtypes/food/fruit.json",
+        "op": "replace",
+        "path": "/shapebytype",
+        "value": {
+
+            "*-breadfruit": { "base": "item/food/fruit/breadfruit" },
+            "*-pineapple": { "base": "item/food/fruit/pineapple-slice" },
+            "*-blueberry": { "base": "item/food/fruit/blueberry" },
+            "*-cranberry": { "base": "item/food/fruit/cranberry" },
+            "*-blackcurrant": { "base": "item/food/fruit/blackcurrant" },
+            "*-saguaro": { "base": "item/food/fruit/saguaro" },
+            "*-whitecurrant": { "base": "item/food/fruit/whitecurrant" },
+            "*-redcurrant": { "base": "item/food/fruit/redcurrant" },
+
+            "*-redapple": { "base": "item/food/fruit/redapple" },
+            "*-pinkapple": { "base": "item/food/fruit/pinkapple" },
+            "*-yellowapple": { "base": "item/food/fruit/yellowapple" },
+
+            "*-cherry": { "base": "item/food/fruit/cherry" },
+            "*-peach": { "base": "item/food/fruit/peach" },
+            "*-pear": { "base": "item/food/fruit/pear" },
+            "*-orange": { "base": "item/food/fruit/orange" },
+            "*-mango": { "base": "item/food/fruit/mango" },
+            "*-lychee": { "base": "item/food/fruit/lychee" },
+            "*-pomegranate": { "base": "item/food/fruit/pomegranate" }
+        }
+    },
+    {
+        "file": "itemtypes/food/fruit.json",
+        "op": "replace",
+        "path": "/textureByType",
+        "value": {
+            "textureByType": {
+                "*-redapple": { "base": "item/food/fruit/{fruit}" },
+                "*-peach": { "base": "item/food/fruit/{fruit}" },
+                "*-pear": { "base": "item/food/fruit/{fruit}" },
+                "*-orange": { "base": "item/food/fruit/{fruit}" },
+                "*-breadfruit": { "base": "item/food/fruit/{fruit}" },
+                "*-lychee": { "base": "item/food/fruit/{fruit}" },
+                "*-pomegranate": { "base": "item/food/fruit/{fruit}" },
+                "*": { "base": "item/food/fruit/{fruit}" }
+            }
+        }
+    }
+]

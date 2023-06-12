@@ -32,7 +32,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ -5.0, 3.75, -3.0 ],
 					"faces": {
 						"north": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
@@ -50,7 +50,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 1.0, 3.75, -11.0 ],
 					"faces": {
 						"north": { "texture": "#2", "uv": [ 0.0, 0.0, 0.5, 28.0 ], "enabled": false },
@@ -68,7 +68,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 4.0, 5.75, 9.0 ],
 					"rotationX": 35.0,
 					"faces": {
@@ -87,7 +87,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 3.0, 5.75, -3.0 ],
 					"rotationX": -35.0,
 					"faces": {
@@ -106,7 +106,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 15.0, 5.75, -3.0 ],
 					"rotationZ": -35.0,
 					"faces": {
@@ -125,7 +125,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 3.0, 5.75, -3.0 ],
 					"rotationZ": 35.0,
 					"faces": {
@@ -144,7 +144,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 5.0, 7.75, -1.0 ],
 					"rotationY": -45.0,
 					"faces": {
@@ -163,7 +163,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 4.0, 7.75, 8.0 ],
 					"rotationY": 44.98,
 					"faces": {
@@ -193,7 +193,7 @@
 							"from": [ -5.0, 0.0, 3.0 ], 
 							"to": [ 23.0, 28.0, 3.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ -5.0, 3.75, -3.0 ],
 							"faces": {
 								"north": { "texture": "#10", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
@@ -209,7 +209,7 @@
 							"from": [ 9.0, 0.0, -10.5 ], 
 							"to": [ 9.0, 28.0, 17.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 1.0, 3.75, -11.0 ],
 							"faces": {
 								"north": { "texture": "#20", "uv": [ 0.0, 0.0, 0.5, 28.0 ], "enabled": false },
@@ -225,7 +225,7 @@
 							"from": [ -4.0, -1.25, 9.0 ], 
 							"to": [ 24.0, 26.75, 9.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 4.0, 5.75, 9.0 ],
 							"rotationX": 35.0,
 							"faces": {
@@ -242,7 +242,7 @@
 							"from": [ -5.0, -1.25, -3.0 ], 
 							"to": [ 23.0, 26.75, -3.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 3.0, 5.75, -3.0 ],
 							"rotationX": -35.0,
 							"faces": {
@@ -259,7 +259,7 @@
 							"from": [ 15.0, -2.0, -10.5 ], 
 							"to": [ 15.0, 26.0, 17.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 15.0, 5.75, -3.0 ],
 							"rotationZ": -35.0,
 							"faces": {
@@ -276,7 +276,7 @@
 							"from": [ 3.0, -2.0, -10.5 ], 
 							"to": [ 3.0, 26.0, 17.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 3.0, 5.75, -3.0 ],
 							"rotationZ": 35.0,
 							"faces": {
@@ -293,7 +293,7 @@
 							"from": [ -3.0, 0.0, -1.0 ], 
 							"to": [ 25.0, 28.0, -1.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 5.0, 7.75, -1.0 ],
 							"rotationY": -45.0,
 							"faces": {
@@ -310,7 +310,7 @@
 							"from": [ -4.0, 0.0, 8.0 ], 
 							"to": [ 24.0, 28.0, 8.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 4.0, 7.75, 8.0 ],
 							"rotationY": 44.98,
 							"faces": {
@@ -348,7 +348,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ -6.0, 3.75, -4.0 ],
 					"faces": {
 						"north": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
@@ -366,7 +366,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 0.0, 0.75, -12.0 ],
 					"faces": {
 						"north": { "texture": "#1", "uv": [ 0.0, 0.0, 0.5, 28.0 ], "enabled": false },
@@ -384,7 +384,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 2.0, 5.75, 8.0 ],
 					"rotationX": 35.0,
 					"faces": {
@@ -403,7 +403,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 2.0, 5.75, -4.0 ],
 					"rotationX": -35.0,
 					"faces": {
@@ -422,7 +422,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 14.0, 5.75, -3.0 ],
 					"rotationZ": -35.0,
 					"faces": {
@@ -441,7 +441,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 2.0, 5.75, -3.0 ],
 					"rotationZ": 35.0,
 					"faces": {
@@ -460,7 +460,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 4.0, 7.75, -3.0 ],
 					"rotationY": -45.0,
 					"faces": {
@@ -479,7 +479,7 @@
 					"shade": false,
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalGrass",
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 4.0, 7.75, 6.0 ],
 					"rotationY": 44.98,
 					"faces": {
@@ -509,7 +509,7 @@
 							"from": [ -6.0, 0.0, 2.0 ], 
 							"to": [ 22.0, 28.0, 2.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ -6.0, 3.75, -4.0 ],
 							"faces": {
 								"north": { "texture": "#30", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
@@ -525,7 +525,7 @@
 							"from": [ 8.0, 0.0, -11.5 ], 
 							"to": [ 8.0, 28.0, 16.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 0.0, 3.75, -12.0 ],
 							"faces": {
 								"north": { "texture": "#10", "uv": [ 0.0, 0.0, 0.5, 28.0 ], "enabled": false },
@@ -541,7 +541,7 @@
 							"from": [ -6.0, -1.25, 8.0 ], 
 							"to": [ 22.0, 26.75, 8.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 2.0, 5.75, 8.0 ],
 							"rotationX": 35.0,
 							"faces": {
@@ -558,7 +558,7 @@
 							"from": [ -6.0, -1.25, -4.0 ], 
 							"to": [ 22.0, 26.75, -4.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 2.0, 5.75, -4.0 ],
 							"rotationX": -35.0,
 							"faces": {
@@ -575,7 +575,7 @@
 							"from": [ 14.0, -2.0, -10.5 ], 
 							"to": [ 14.0, 26.0, 17.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 14.0, 5.75, -3.0 ],
 							"rotationZ": -35.0,
 							"faces": {
@@ -592,7 +592,7 @@
 							"from": [ 2.0, -2.0, -10.5 ], 
 							"to": [ 2.0, 26.0, 17.5 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 2.0, 5.75, -3.0 ],
 							"rotationZ": 35.0,
 							"faces": {
@@ -609,7 +609,7 @@
 							"from": [ -1.0, 0.0, 0.0 ], 
 							"to": [ 27.0, 28.0, 0.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 7.0, 7.75, 0.0 ],
 							"rotationY": -45.0,
 							"faces": {
@@ -626,7 +626,7 @@
 							"from": [ -4.0, 0.0, 6.0 ], 
 							"to": [ 24.0, 28.0, 6.0 ], 
 							"shade": false,
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 4.0, 7.75, 6.0 ],
 							"rotationY": 44.98,
 							"faces": {

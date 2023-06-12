@@ -1,0 +1,12 @@
+[
+	{
+		"file": "blocktypes/soil/sludgygravel.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+			"all": { "base": "block/soil/sludgygravel*" }
+		}
+	}
+]
+
+		

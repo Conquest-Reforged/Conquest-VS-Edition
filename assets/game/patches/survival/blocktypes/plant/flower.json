@@ -165,7 +165,6 @@
             "*-cornflower-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
             "*-heather-*": { "base": "block/plant/flowers/heather/heather_*" },
             "*-smallheather-*": { "base": "block/plant/heather-short" },
-            "*-dandelion-*": { "base": "block/basic/flower-48x48" },
             "*-edelweiss-*": { "base": "block/plant/flowers/edelweiss/edelweiss*" },
             "*-cowparsley-*": { "base": "block/plant/flowers/cowparsley/cowparsley*" },
             "*-horsetail-*": { "base": "block/plant/flowers/horsetail/horsetail_*" },

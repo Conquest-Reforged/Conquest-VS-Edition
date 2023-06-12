@@ -1,904 +1,132 @@
 [
-  {
-    "op": "remove",
-    "path": "/particlePropertiesByType/*-filled-*",
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "add",
-    "path": "/particlePropertiesByType/*-filled-east",
-    "value": [
-      {
-        "__comment": "Ember cubicles",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "gravityEffect": {
-          "dist": "invexp",
-          "avg": -0.07,
-          "var": 0.4
-        },
-        "posOffset": [
-          {
-            "avg": -0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.15
-          },
-          {
-            "avg": 0.5,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.15
-          }
-        ],
-        "quantity": {
-          "avg": 0.015
-        },
-        "size": {
-          "avg": 0.4,
-          "var": 0
-        },
-        "sizeEvolve": {
-          "transform": "quadratic",
-          "factor": -0.7
-        },
-        "lifeLength": {
-          "avg": 1.5
-        },
-        "vertexFlags": 128,
-        "windAffectednes": 0.2
-      },
-      {
-        "__comment": "Smoke quads",
-        "hsvaColor": [
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 40,
-            "var": 30
-          },
-          {
-            "avg": 220,
-            "var": 50
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": -0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.15,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.05
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "windAffectednes": 0.7
-      },
-      {
-        "__comment": "Fire quads",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": -0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.18,
-            "var": 0.07
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.4
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "lifeLength": {
-          "avg": 0.5
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "vertexFlags": 128,
-        "windAffectednes": 0.7
-      }
-    ],
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "add",
-    "path": "/particlePropertiesByType/*-filled-north",
-    "value": [
-      {
-        "__comment": "Ember cubicles",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "gravityEffect": {
-          "dist": "invexp",
-          "avg": -0.07,
-          "var": 0.4
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.15
-          },
-          {
-            "avg": 0.5,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.15
-          }
-        ],
-        "quantity": {
-          "avg": 0.015
-        },
-        "size": {
-          "avg": 0.4,
-          "var": 0
-        },
-        "sizeEvolve": {
-          "transform": "quadratic",
-          "factor": -0.7
-        },
-        "lifeLength": {
-          "avg": 1.5
-        },
-        "vertexFlags": 128,
-        "windAffectednes": 0.2
-      },
-      {
-        "__comment": "Smoke quads",
-        "hsvaColor": [
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 40,
-            "var": 30
-          },
-          {
-            "avg": 220,
-            "var": 50
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.15,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.05
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "windAffectednes": 0.7
-      },
-      {
-        "__comment": "Fire quads",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.18,
-            "var": 0.07
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.4
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "lifeLength": {
-          "avg": 0.5
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "vertexFlags": 128,
-        "windAffectednes": 0.7
-      }
-    ],
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "add",
-    "path": "/particlePropertiesByType/*-filled-south",
-    "value": [
-      {
-        "__comment": "Ember cubicles",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "gravityEffect": {
-          "dist": "invexp",
-          "avg": -0.07,
-          "var": 0.4
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": -0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.15
-          },
-          {
-            "avg": 0.5,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.15
-          }
-        ],
-        "quantity": {
-          "avg": 0.015
-        },
-        "size": {
-          "avg": 0.4,
-          "var": 0
-        },
-        "sizeEvolve": {
-          "transform": "quadratic",
-          "factor": -0.7
-        },
-        "lifeLength": {
-          "avg": 1.5
-        },
-        "vertexFlags": 128,
-        "windAffectednes": 0.2
-      },
-      {
-        "__comment": "Smoke quads",
-        "hsvaColor": [
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 40,
-            "var": 30
-          },
-          {
-            "avg": 220,
-            "var": 50
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": -0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.15,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.05
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "windAffectednes": 0.7
-      },
-      {
-        "__comment": "Fire quads",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": -0.2,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.18,
-            "var": 0.07
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.4
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "lifeLength": {
-          "avg": 0.5
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "vertexFlags": 128,
-        "windAffectednes": 0.7
-      }
-    ],
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "add",
-    "path": "/particlePropertiesByType/*-filled-west",
-    "value": [
-      {
-        "__comment": "Ember cubicles",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "gravityEffect": {
-          "dist": "invexp",
-          "avg": -0.07,
-          "var": 0.4
-        },
-        "posOffset": [
-          {
-            "avg": 0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.15
-          },
-          {
-            "avg": 0.5,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.15
-          }
-        ],
-        "quantity": {
-          "avg": 0.015
-        },
-        "size": {
-          "avg": 0.4,
-          "var": 0
-        },
-        "sizeEvolve": {
-          "transform": "quadratic",
-          "factor": -0.7
-        },
-        "lifeLength": {
-          "avg": 1.5
-        },
-        "vertexFlags": 128,
-        "windAffectednes": 0.2
-      },
-      {
-        "__comment": "Smoke quads",
-        "hsvaColor": [
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0
-          },
-          {
-            "avg": 40,
-            "var": 30
-          },
-          {
-            "avg": 220,
-            "var": 50
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.15,
-            "var": 0.1
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.05
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "windAffectednes": 0.7
-      },
-      {
-        "__comment": "Fire quads",
-        "hsvaColor": [
-          {
-            "avg": 20,
-            "var": 20
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 50
-          },
-          {
-            "avg": 255,
-            "var": 0
-          }
-        ],
-        "opacityEvolve": {
-          "transform": "quadratic",
-          "factor": -16
-        },
-        "gravityEffect": {
-          "avg": 0,
-          "var": 0
-        },
-        "posOffset": [
-          {
-            "avg": 0.2,
-            "var": 0.1
-          },
-          {
-            "avg": 0.25,
-            "var": 0
-          },
-          {
-            "avg": 0,
-            "var": 0.1
-          }
-        ],
-        "velocity": [
-          {
-            "avg": 0,
-            "var": 0.025
-          },
-          {
-            "avg": 0.18,
-            "var": 0.07
-          },
-          {
-            "avg": 0,
-            "var": 0.025
-          }
-        ],
-        "quantity": {
-          "avg": 0.4
-        },
-        "size": {
-          "avg": 0.25,
-          "var": 0.05
-        },
-        "lifeLength": {
-          "avg": 0.5
-        },
-        "sizeEvolve": {
-          "transform": "linear",
-          "factor": 0.5
-        },
-        "particleModel": "Quad",
-        "vertexFlags": 128,
-        "windAffectednes": 0.7
-      }
-    ],
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "remove",
-    "path": "/textures/material",
-    "file": "blocktypes/metal/torchholder.json"
-  },
-  {
-    "op": "add",
-    "path": "/textures/0",
-    "value": {
-      "base": "block/metal/torchholder/torchholder"
+    {
+        "file": "blocktypes/block/metal/torchholder.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "material": { "base": "block/metal/torchholder/{material}" }
+        }
     },
-    "file": "blocktypes/metal/torchholder.json"
-  }
+    {
+        "file": "blocktypes/block/metal/torchholder.json",
+        "op": "replace",
+        "path": "/fpHandTransform",
+        "value": {
+
+            "translation": {
+                "x": 0.89,
+                "y": -0.5,
+                "z": -0.6
+            },
+            "rotation": {
+                "x": -13,
+                "y": 132,
+                "z": -21
+            },
+            "scale": 2.41
+        }
+    },
+    {
+        "file": "blocktypes/block/metal/torchholder.json",
+        "op": "replace",
+        "path": "/guiTransform",
+        "value": {
+
+            "translation": {
+                "x": -3,
+                "y": 6,
+                "z": 0
+            },
+            "rotation": {
+                "x": -20,
+                "y": 132,
+                "z": -3
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.4,
+                "z": 0.18
+            },
+            "scale": 2.08
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/0/posOffset/0/avg",
+        "value": 0.0,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/0/posOffset/1/avg",
+        "value": 0.45,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/0/posOffset/2/avg",
+        "value": 0.2,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/1/posOffset/0/avg",
+        "value": 0.0,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/1/posOffset/1/avg",
+        "value": 0.4,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/1/posOffset/2/avg",
+        "value": 0.2,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/2/posOffset/0/avg",
+        "value": 0.0,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/2/posOffset/1/avg",
+        "value": 0.3,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "replace",
+        "path": "/particlePropertiesByType/*-filled-*/2/posOffset/2/avg",
+        "value": 0.2,
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "file": "blocktypes/block/metal/torchholder.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "value": {
+
+            "translation": {
+                "x": -4.2,
+                "y": -1.9,
+                "z": 2.16
+            },
+            "rotation": {
+                "x": 85,
+                "y": 174,
+                "z": 70
+            },
+            "origin": {
+                "x": 2.7,
+                "y": 1.4,
+                "z": 0.1
+            },
+            "scale": 0.66
+        }
+    }
 ]

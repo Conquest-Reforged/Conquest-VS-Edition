@@ -1,0 +1,680 @@
+[
+	{
+		"file": "shapes/block/plant/fruittree/fruit-pear.json",
+		"op": "replace",
+		"path": "/textureWidth",
+		"value": 32
+	},
+	{
+		"file": "shapes/block/plant/fruittree/fruit-pear.json",
+		"op": "replace",
+		"path": "/textureHeight",
+		"value": 32
+	},
+	{
+		"file": "shapes/block/plant/fruittree/fruit-pear.json",
+		"op": "replace",
+		"path": "/textureSizes",
+		"value": {
+			"fruit": [ 32, 32 ],
+			"largeleavesfruit": [ 32, 32 ]
+		}
+	},
+	{
+		"file": "shapes/block/plant/fruittree/fruit-pear.json",
+		"op": "replace",
+		"path": "/elements",
+		"value": [
+
+			{
+				"name": "fruits-s",
+				"from": [ -6.0, -5.0, 7.0 ],
+				"to": [ -5.0, -4.0, 8.0 ],
+				"rotationOrigin": [ 11.0, -5.0, 7.0 ],
+				"rotationY": 22.5,
+				"faces": {
+					"north": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"east": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"south": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"west": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"up": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"down": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					}
+				},
+				"children": [
+					{
+						"name": "fruit1",
+						"from": [ 7.0, 2.0, 1.0 ],
+						"to": [ 39.0, 34.0, 1.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 23.0, 2.0, 1.0 ],
+						"rotationZ": 45.0,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"autoUv": false,
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "fruit2",
+						"from": [ 17.0, 0.0, -15.0 ],
+						"to": [ 17.0, 32.0, 17.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 17.0, 0.0, -15.0 ],
+						"faces": {
+							"north": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "Cube1",
+						"from": [ 13.0, 5.0, -8.0 ],
+						"to": [ 25.5, 21.0, 4.5 ],
+						"shade": false,
+						"rotationOrigin": [ 13.0, 5.0, -8.0 ],
+						"rotationY": -22.5,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 11.0, 1.0, 23.5, 17.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"south": {
+								"texture": "#fruit",
+								"uv": [ 3.0, 15.0, 15.5, 31.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruit",
+								"uv": [ 14.0, 2.0, 26.5, 14.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"down": {
+								"texture": "#fruit",
+								"uv": [ 19.5, 14.0, 32.0, 26.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "fruits-w",
+				"from": [ -6.0, -5.0, 7.0 ],
+				"to": [ -5.0, -4.0, 8.0 ],
+				"rotationOrigin": [ 11.0, -5.0, 7.0 ],
+				"rotationY": 22.5,
+				"faces": {
+					"north": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"east": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"south": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"west": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"up": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"down": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					}
+				},
+				"children": [
+					{
+						"name": "fruit5",
+						"from": [ 7.0, 2.0, 1.0 ],
+						"to": [ 39.0, 34.0, 1.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 23.0, 2.0, 1.0 ],
+						"rotationZ": 45.0,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "fruit6",
+						"from": [ 17.0, 0.0, -15.0 ],
+						"to": [ 17.0, 32.0, 17.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 17.0, 0.0, -15.0 ],
+						"faces": {
+							"north": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "Cube14",
+						"from": [ 13.0, 5.0, -8.0 ],
+						"to": [ 25.5, 21.0, 4.5 ],
+						"shade": false,
+						"rotationOrigin": [ 13.0, 5.0, -8.0 ],
+						"rotationY": -22.5,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 11.0, 1.0, 23.5, 17.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"south": {
+								"texture": "#fruit",
+								"uv": [ 3.0, 15.0, 15.5, 31.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruit",
+								"uv": [ 14.0, 2.0, 26.5, 14.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"down": {
+								"texture": "#fruit",
+								"uv": [ 19.5, 14.0, 32.0, 26.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "fruits-n",
+				"from": [ -6.0, -5.0, 7.0 ],
+				"to": [ -5.0, -4.0, 8.0 ],
+				"rotationOrigin": [ 11.0, -5.0, 7.0 ],
+				"rotationY": 22.5,
+				"faces": {
+					"north": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"east": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"south": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"west": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"up": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"down": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					}
+				},
+				"children": [
+					{
+						"name": "fruit8",
+						"from": [ 7.0, 2.0, 1.0 ],
+						"to": [ 39.0, 34.0, 1.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 23.0, 2.0, 1.0 ],
+						"rotationZ": 45.0,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "fruit9",
+						"from": [ 17.0, 0.0, -15.0 ],
+						"to": [ 17.0, 32.0, 17.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 17.0, 0.0, -15.0 ],
+						"faces": {
+							"north": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "Cube15",
+						"from": [ 13.0, 5.0, -8.0 ],
+						"to": [ 25.5, 21.0, 4.5 ],
+						"shade": false,
+						"rotationOrigin": [ 13.0, 5.0, -8.0 ],
+						"rotationY": -22.5,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 11.0, 1.0, 23.5, 17.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"south": {
+								"texture": "#fruit",
+								"uv": [ 3.0, 15.0, 15.5, 31.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruit",
+								"uv": [ 14.0, 2.0, 26.5, 14.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"down": {
+								"texture": "#fruit",
+								"uv": [ 19.5, 14.0, 32.0, 26.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							}
+						}
+					}
+				]
+			},
+			{
+				"name": "fruits-e",
+				"from": [ -6.0, -5.0, 7.0 ],
+				"to": [ -5.0, -4.0, 8.0 ],
+				"rotationOrigin": [ 11.0, -5.0, 7.0 ],
+				"rotationY": 22.5,
+				"faces": {
+					"north": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"east": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"south": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"west": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"up": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					},
+					"down": {
+						"texture": "#fruiting",
+						"uv": [ 0.0, 0.0, 1.0, 1.0 ],
+						"enabled": false
+					}
+				},
+				"children": [
+					{
+						"name": "fruit11",
+						"from": [ 7.0, 2.0, 1.0 ],
+						"to": [ 39.0, 34.0, 1.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 23.0, 2.0, 1.0 ],
+						"rotationZ": 45.0,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 0.5 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "fruit12",
+						"from": [ 17.0, 0.0, -15.0 ],
+						"to": [ 17.0, 32.0, 17.0 ],
+						"shade": false,
+						"renderPass": 1,
+						"rotationOrigin": [ 17.0, 0.0, -15.0 ],
+						"faces": {
+							"north": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"east": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"enabled": false
+							},
+							"south": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							},
+							"down": {
+								"texture": "#fruiting",
+								"uv": [ 0.0, 0.0, 0.5, 32.0 ],
+								"enabled": false
+							}
+						}
+					},
+					{
+						"name": "Cube16",
+						"from": [ 13.0, 5.0, -8.0 ],
+						"to": [ 25.5, 21.0, 4.5 ],
+						"shade": false,
+						"rotationOrigin": [ 13.0, 5.0, -8.0 ],
+						"rotationY": -22.5,
+						"faces": {
+							"north": {
+								"texture": "#fruit",
+								"uv": [ 11.0, 1.0, 23.5, 17.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"east": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"south": {
+								"texture": "#fruit",
+								"uv": [ 3.0, 15.0, 15.5, 31.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"west": {
+								"texture": "#fruit",
+								"uv": [ 0.0, 0.0, 12.5, 16.0 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"up": {
+								"texture": "#fruit",
+								"uv": [ 14.0, 2.0, 26.5, 14.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							},
+							"down": {
+								"texture": "#fruit",
+								"uv": [ 19.5, 14.0, 32.0, 26.5 ],
+								"windMode": [ 3, 3, 3, 3 ]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+]

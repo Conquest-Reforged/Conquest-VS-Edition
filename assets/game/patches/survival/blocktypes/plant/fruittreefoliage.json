@@ -1,0 +1,1046 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/base/textures/sticks1-flowering",
+        "value": {
+            "base": "empty"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/base/textures/sticks1-fruiting",
+        "value": {
+            "base": "empty"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/base/textures/sticks1-plain",
+        "value": {
+            "base": "empty"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/base/textures/sticks1-ripe",
+        "value": {
+            "base": "empty"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/breadfruit/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/breadfruit/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/breadfruit/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit1-fruiting": {
+                "base": "fruiting1"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "fruit1-ripe": {
+                "base": "ripe1"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "branch1-fruiting": {
+                "base": "branch1"
+            },
+            "branch1-ripe": {
+                "base": "branch1"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/cherry/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/cherry/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/cherry/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/lychee/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/lychee/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/lychee/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/mango/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/mango/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/mango/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/foliageProperties/olive/climateColorMap",
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/olive/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/olive/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/olive/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/foliageProperties/orange/climateColorMap",
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/orange/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/orange/climateColorMapBy",
+        "value": "climatePlantTint",
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/orange/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/orange/seasonColorMap",
+        "value": "seasonalFoliage",
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/orange/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "fruit2-ripe": {
+                "base": "ripe1"
+            },
+            "fruit2-fruiting": {
+                "base": "fruiting1"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/peach/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/peach/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/peach/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pear/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pear/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pear/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pinkapple/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pinkapple/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pinkapple/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pomegranate/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pomegranate/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/pomegranate/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/redapple/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/redapple/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/redapple/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/yellowapple/blossomParticlesTexture",
+        "value": {
+            "base": "blossom"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/yellowapple/leafParticlesTexture",
+        "value": {
+            "base": "leaves"
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/foliageProperties/yellowapple/textures",
+        "value": {
+            "sticks1-flowering": {
+                "base": "empty"
+            },
+            "sticks1-fruiting": {
+                "base": "empty"
+            },
+            "sticks1-ripe": {
+                "base": "empty"
+            },
+            "sticks1-plain": {
+                "base": "empty"
+            },
+            "smallleaves-flowering": {
+                "base": "leaves"
+            },
+            "smallleaves-fruiting": {
+                "base": "leaves"
+            },
+            "smallleaves-ripe": {
+                "base": "leaves"
+            },
+            "smallleaves-plain": {
+                "base": "leaves"
+            },
+            "largeleaves-flowering": {
+                "base": "largeleaves"
+            },
+            "largeleaves-fruiting": {
+                "base": "largeleaves"
+            },
+            "largeleaves-ripe": {
+                "base": "largeleaves"
+            },
+            "largeleaves-plain": {
+                "base": "largeleaves"
+            },
+            "fruit-fruiting": {
+                "base": "fruiting"
+            },
+            "fruit-ripe": {
+                "base": "ripe"
+            },
+            "branch-fruiting": {
+                "base": "branch"
+            },
+            "branch-ripe": {
+                "base": "branch"
+            },
+            "blossom": {
+                "base": "blossom"
+            },
+            "largeblossom": {
+                "base": "largeblossom"
+            },
+            "bark": {
+                "base": "bark"
+            },
+            "treetrunk": {
+                "base": "treetrunk"
+            }
+        },
+        "file": "game:blocktypes/plant/fruittreefoliage.json"
+    }
+]

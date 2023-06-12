@@ -1,8 +1,27 @@
 [
-  {
-	"file": "blocktypes/soil/peat.json",
-    "op": "replace",
-    "path": "/textures/all/base",
-    "value": "block/soil/peat*"
-  }
+    {
+        "file": "blocktypes/soil/peat.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "up": {
+                "base": "block/soil/peat",
+                "alternates": [
+                    { "base": "block/soil/peat1" },
+                    { "base": "block/soil/peat2" },
+                    { "base": "block/soil/peat3" }
+                ]
+            },
+            "sides": {
+                "base": "block/soil/p1",
+                "alternates": [
+                    { "base": "block/soil/p2" },
+                    { "base": "block/soil/p3" },
+                    { "base": "block/soil/p4" }
+                ]
+            },
+            "snowed": { "base": "block/plant/grasscoverage/snow/normal" },
+            "specialSecondTexture": { "base": "block/plant/grasscoverage/{grasscoverage}" }
+        }
+    }
 ]

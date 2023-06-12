@@ -1,12 +1,16 @@
 [
+   
+
     {
-        "file": "blocktypes/stone/drystone.json",
+        "file": "blocktypes/stone/rock.json",
         "op": "replace",
         "path": "/texturesByType",
         "value": {
 
-
-            "*-Basalt": {
+            "*-dolomite": {
+                "all": { "base": "conquest:block/stone/rock/dolomite/{rock}*" }
+            },
+            "*-basalt": {
                 "all": { "base": "block/stone/rock/{rock}*" },
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
