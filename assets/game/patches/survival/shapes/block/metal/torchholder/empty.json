@@ -14,14 +14,6 @@
 	{
 		"file": "shapes/block/metal/torchholder/empty.json",
 		"op": "replace",
-		"path": "/textureSizes",
-		"value": {
-			"material": [ 64, 64 ]
-		}
-	},
-	{
-		"file": "shapes/block/metal/torchholder/empty.json",
-		"op": "replace",
 		"path": "/elements",
 		"value": [
 

@@ -53,7 +53,7 @@
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/0/posOffset/0/avg",
-        "value": 0.0,
+        "value": -0.2,
         "file": "game:blocktypes/metal/torchholder.json"
     },
 
@@ -66,13 +66,13 @@
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/0/posOffset/2/avg",
-        "value": 0.2,
+        "value": 0.0,
         "file": "game:blocktypes/metal/torchholder.json"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/1/posOffset/0/avg",
-        "value": 0.0,
+        "value": -0.1,
         "file": "game:blocktypes/metal/torchholder.json"
     },
     {
@@ -84,13 +84,13 @@
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/1/posOffset/2/avg",
-        "value": 0.2,
+        "value": 0.1,
         "file": "game:blocktypes/metal/torchholder.json"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/2/posOffset/0/avg",
-        "value": 0.0,
+        "value": -0.2,
         "file": "game:blocktypes/metal/torchholder.json"
     },
     {
@@ -102,7 +102,7 @@
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/2/posOffset/2/avg",
-        "value": 0.2,
+        "value": 0.0,
         "file": "game:blocktypes/metal/torchholder.json"
     },
     {

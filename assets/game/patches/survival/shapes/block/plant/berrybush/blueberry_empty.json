@@ -1,21 +1,5 @@
 [
-    {
-        "file": "shapes/block/plant/berrybush/blueberry_empty.json",
-        "op": "replace",
-        "path": "/textures",
-        "value": {
-            "1": "block/plant/berrybush/leaves/blueberry1",
-            "2": "block/plant/berrybush/leaves/blueberry2",
-            "3": "block/plant/berrybush/leaves/blueberry3",
-            "4": "block/plant/berrybush/leaves/blueberry4",
-            "5": "block/plant/berrybush/leaves/blueberry5",
-            "100": "block/plant/berrybush/branches/blueberry1",
-            "200": "block/plant/berrybush/branches/blueberry2",
-            "300": "block/plant/berrybush/branches/blueberry3",
-            "400": "block/plant/berrybush/branches/blueberry4",
-            "500": "block/plant/berrybush/branches/blueberry5"
-        }
-    },
+
     {
         "file": "shapes/block/plant/berrybush/blueberry_empty.json",
         "op": "replace",

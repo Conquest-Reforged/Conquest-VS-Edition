@@ -29,7 +29,7 @@
 			"*-oak-ns": {
 				"all": { "base": "block/wood/bark/{wood}-h*" },
 				"up": { "base": "block/wood/bark/vertical/{wood}*" },
-				"down": { "base": "block/wood/bark/vertical/{wood}*}" },
+				"down": { "base": "block/wood/bark/vertical/{wood}*" },
 
 
 				"inside-up": {

@@ -10,15 +10,7 @@
             "branch1": [ 32, 32 ]
         }
     },
-    {
-        "file": "shapes/block/plant/leaves/branchy-birch.json",
-        "op": "replace",
-        "path": "/textures",
-        "value": {
-            "largeleaves": "block/plant/leaves/large/birch/birchleaves1",
-            "smallleaves": "block/plant/leaves/small/birch/birchleaves9"
-        }
-    },
+ 
     {
         "file": "shapes/block/plant/leaves/branchy-birch.json",
         "op": "replace",
