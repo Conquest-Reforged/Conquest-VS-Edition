@@ -3,6 +3,7 @@
         "file": "blocktypes/wood/chest-trunk.json",
         "op": "replace",
         "path": "/textures",
+        "side": "Server",
         "value": {
             "normal-generic-chest": { "base": "block/wood/trunk/chest" },
 

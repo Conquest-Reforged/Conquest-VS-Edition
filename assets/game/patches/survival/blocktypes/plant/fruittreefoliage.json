@@ -2,6 +2,7 @@
     {
         "op": "add",
         "path": "/attributes/foliageProperties/base/textures/sticks1-flowering",
+        "side": "Server",
         "value": {
             "base": "empty"
         },
@@ -13,7 +14,8 @@
         "value": {
             "base": "empty"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -21,7 +23,8 @@
         "value": {
             "base": "empty"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -29,7 +32,8 @@
         "value": {
             "base": "empty"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -37,7 +41,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -45,7 +50,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -124,7 +130,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -132,7 +139,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -140,7 +148,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -201,7 +210,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -209,7 +219,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -217,7 +228,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -284,7 +296,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -292,7 +305,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -300,7 +314,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -367,12 +382,14 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "remove",
         "path": "/attributes/foliageProperties/olive/climateColorMap",
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -380,7 +397,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -388,7 +406,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -449,12 +468,14 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "remove",
         "path": "/attributes/foliageProperties/orange/climateColorMap",
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -462,13 +483,15 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
         "path": "/attributes/foliageProperties/orange/climateColorMapBy",
         "value": "climatePlantTint",
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -476,13 +499,15 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
         "path": "/attributes/foliageProperties/orange/seasonColorMap",
         "value": "seasonalFoliage",
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -549,7 +574,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -557,7 +583,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -565,7 +592,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -632,7 +660,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -640,7 +669,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -648,7 +678,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -709,7 +740,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -717,7 +749,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -725,7 +758,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -792,7 +826,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -800,7 +835,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -808,7 +844,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -875,7 +912,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -883,7 +921,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -891,7 +930,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -958,7 +998,8 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -966,7 +1007,8 @@
         "value": {
             "base": "blossom"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -974,7 +1016,8 @@
         "value": {
             "base": "leaves"
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     },
     {
         "op": "add",
@@ -1041,6 +1084,7 @@
                 "base": "treetrunk"
             }
         },
-        "file": "game:blocktypes/plant/fruittreefoliage.json"
+        "file": "game:blocktypes/plant/fruittreefoliage.json",
+        "side": "Server"
     }
 ]

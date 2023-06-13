@@ -3,6 +3,7 @@
         "file": "blocktypes/block/metal/torchholder.json",
         "op": "replace",
         "path": "/textures",
+        "side": "Server",
         "value": {
             "material": { "base": "block/metal/torchholder/{material}" }
         }
@@ -11,6 +12,7 @@
         "file": "blocktypes/block/metal/torchholder.json",
         "op": "replace",
         "path": "/fpHandTransform",
+        "side": "Server",
         "value": {
 
             "translation": {
@@ -30,6 +32,7 @@
         "file": "blocktypes/block/metal/torchholder.json",
         "op": "replace",
         "path": "/guiTransform",
+        "side": "Server",
         "value": {
 
             "translation": {
@@ -54,61 +57,71 @@
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/0/posOffset/0/avg",
         "value": -0.2,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
 
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/0/posOffset/1/avg",
         "value": 0.45,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/0/posOffset/2/avg",
         "value": 0.0,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/1/posOffset/0/avg",
         "value": -0.1,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/1/posOffset/1/avg",
         "value": 0.4,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/1/posOffset/2/avg",
         "value": 0.1,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/2/posOffset/0/avg",
         "value": -0.2,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/2/posOffset/1/avg",
         "value": 0.3,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType/*-filled-*/2/posOffset/2/avg",
         "value": 0.0,
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "file": "blocktypes/block/metal/torchholder.json",
         "op": "replace",
         "path": "/tpHandTransform",
+        "side": "Server",
         "value": {
 
             "translation": {
