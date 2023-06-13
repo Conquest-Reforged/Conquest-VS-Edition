@@ -3,7 +3,7 @@
 		"file": "blocktypes/wood/chest-labeled.json",
 		"op": "replace",
 		"path": "/textures",
-		"side": "Server",
+		"side": "client",
 		"value": {
 			"normal-labeled-chest": { "base": "block/wood/trunk/chest" }
 
