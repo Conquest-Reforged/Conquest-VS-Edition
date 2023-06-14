@@ -2,7 +2,31 @@
     {
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
+        "path": "/variantgroups",
+        "side": "server",
+        "value": [
+            {
+                "code": "flower",
+                "states": [],
+                "loadFromProperties": "block/flower"
+            },
+            {
+                "code": "cover",
+                "states": [ "free", "snow" ]
+            },
+            {
+                "code": "type",
+                "states": [ "raw", "burnt", "amber", "ashforest", "copper", "cthonic", "earthern", "loam", "ochre", "rime", "seasalt", "tenmoku", "undergrowth" ],
+                "loadFromProperties": "block/flowerpot",
+                "combine": "add"
+            }
+        ]
+    },
+    {
+        "file": "blocktypes/plant/flower.json",
+        "op": "replace",
         "path": "/guitransformByType",
+        "side": "server",
         "value": {
             "*-forgetmenot-*": {
                 "rotation": {
@@ -108,6 +132,7 @@
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/attributes",
+        "side": "server",
         "value": {
             "butterflyFeed": true,
             "beeFeed": true,
@@ -127,14 +152,54 @@
                 "*-goldenpoppy-*": 0.41,
                 "*-woad-*": 0.8125,
                 "*-redtopgrass-*": 0.75
+            },
+            "overrideRandomDrawOffsetByType": {
+                "*-heather-*": 3
+            },
+            "plantContainable": {
+                "smallContainerByType": {
+                    "*-lilyofthevalley-*": {
+                        "shape": { "base": "block/clay/flowerpot/contents-lilyofthevalley" }
+                    },
+                    "*": {
+                        "shape": { "base": "block/clay/flowerpot/contents" },
+                        "textures": {
+                            "north": { "base": "block/plant/potted/{flower}" },
+                            "south": { "base": "block/plant/potted/{flower}" }
+                        }
+                    }
+                },
+                "largeContainerByType": {
+                    "*-lilyofthevalley-*": {
+                        "shape": { "base": "block/clay/planter/contents-lilyofthevalley" }
+                    },
+                    "*": {
+                        "shapeByType": {
+                            "*-ashforest": { "base": "block/clay/planter/contents-ashforest" },
+                            "*": { "base": "block/clay/planter/contents-ashforest" }
+                        },
+                        "textures": {
+                            "north": { "base": "block/plant/potted/{flower}" },
+                            "south": { "base": "block/plant/potted/{flower}" }
+                        }
+                    }
+                }
+            },
+            "drawnHeightByType": {
+                "*-goldenpoppy-*": 32,
+                "*-edelweiss-*": 24,
+                "*-forgetmenot-*": 16,
+                "*-horsetail-*": 40,
+                "*-heather-*": 32,
+                "*": 48
             }
         }
-
     },
     {
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/drawtypeByType",
+        "side": "server",
         "value": {
             "*-snow": "JSONAndSnowLayer",
             "*-lilyofthevalley-*": "JSON",
@@ -154,6 +219,7 @@
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/shapeByType",
+        "side": "server",
         "value": {
             "*-lilyofthevalley-*": {
                 "base": "block/plant/flowers/lillyofthevalley/lillyofthevalley_*",
@@ -165,6 +231,7 @@
             "*-cornflower-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
             "*-heather-*": { "base": "block/plant/flowers/heather/heather_*" },
             "*-smallheather-*": { "base": "block/plant/heather-short" },
+            "*-dandelion-*": { "base": "block/basic/flower-48x48" },
             "*-edelweiss-*": { "base": "block/plant/flowers/edelweiss/edelweiss*" },
             "*-cowparsley-*": { "base": "block/plant/flowers/cowparsley/cowparsley*" },
             "*-horsetail-*": { "base": "block/plant/flowers/horsetail/horsetail_*" },
@@ -181,6 +248,7 @@
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/lod2shapeByType",
+        "side": "server",
         "value": {
             "*-smallheather-*": { "base": "block/basic/flower-tall" }
         }
@@ -190,6 +258,7 @@
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "*-orangemallow-*": {
                 "1": { "base": "block/plant/flower/petal/orangemallow_1" },
@@ -917,5 +986,4 @@
             }
         }
     }
-
 ]

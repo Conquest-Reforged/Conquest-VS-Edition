@@ -3,10 +3,11 @@
 		"file": "shapes/block/plant/bamboo/green/segment1-1.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"stem-leafs1": "block/plant/bamboo/stem-leafs1",
 			"stem-green": "block/plant/bamboo/stem-green"
-		},
+		}
 	},
 	{
 		"file": "shapes/block/plant/bamboo/green/segment1-1.json",

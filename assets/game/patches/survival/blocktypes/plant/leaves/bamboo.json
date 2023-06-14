@@ -3,6 +3,7 @@
 		"file": "blocktypes/plant/leaves/bamboo.json",
 		"op": "replace",
 		"path": "/shape",
+		"side": "server",
 		"value": {
 			"base": "block/plant/leaves/bamboo-*",
 			"alternates": [
@@ -19,6 +20,7 @@
 		"file": "blocktypes/plant/leaves/bamboo.json",
 		"op": "replace",
 		"path": "/lod0Shape",
+		"side": "server",
 		"value": {
 			"base": "block/plant/leaves/bamboo-*",
 			"alternates": [
@@ -35,17 +37,20 @@
 		"file": "blocktypes/plant/leaves/bamboo.json",
 		"op": "replace",
 		"path": "/shapeInventory",
+		"side": "server",
 		"value": { "base": "block/plant/leaves/bamboo-1" }
 	},
 	{
 		"file": "blocktypes/plant/leaves/bamboo.json",
 		"op": "remove",
-		"path": "/textures"
+		"path": "/textures",
+		"side": "server"
 	},
 	{
 		"file": "blocktypes/plant/leaves/bamboo.json",
 		"op": "add",
 		"path": "/texturesByType",
+		"side": "server",
 		"value": {
 			"*-grown": {
 				"bamboo-leaves1": {

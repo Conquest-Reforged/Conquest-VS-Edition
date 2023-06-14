@@ -3,6 +3,7 @@
         "file": "blocktypes/wood/woodtyped/log-withresin.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "bark": { "base": "block/wood/bark/vertical/{wood}*" },
             "trunk": { "base": "block/wood/treetrunk/{wood}*" },

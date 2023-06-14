@@ -1,8 +1,9 @@
 [
-  {
-	"file": "blocktypes/metal/hopper.json",
-    "op": "replace",
-    "path": "/textures/all/base",
-    "value": "block/metal/sheet/copper5"
-  }
+    {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "block/metal/sheet/copper5",
+        "side": "server",
+        "file": "blocktypes/metal/hopper.json"
+    }
 ]

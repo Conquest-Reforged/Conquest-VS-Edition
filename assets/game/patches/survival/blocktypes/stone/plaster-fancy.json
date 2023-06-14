@@ -1,8 +1,9 @@
 [
-  {
-	"file": "blocktypes/stone/plaster-fancy.json",
-    "op": "replace",
-    "path": "/textures/type/base",
-    "value": "block/stone/plaster/{type}*"
-  }
+    {
+        "op": "replace",
+        "path": "/textures/type/base",
+        "value": "block/stone/plaster/{type}*",
+        "side": "server",
+        "file": "blocktypes/stone/plaster-fancy.json"
+    }
 ]

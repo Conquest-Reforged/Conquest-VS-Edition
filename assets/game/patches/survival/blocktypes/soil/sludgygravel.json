@@ -3,6 +3,7 @@
 		"file": "blocktypes/soil/sludgygravel.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"all": { "base": "block/soil/sludgygravel*" }
 		}

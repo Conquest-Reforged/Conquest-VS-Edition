@@ -3,6 +3,7 @@
         "file": "blocktypes/wood/woodtyped/log-section.json",
         "op": "remove",
         "path": "/textures",
+        "side": "server",
         "value": {
         }
     },
@@ -10,6 +11,7 @@
         "file": "blocktypes/wood/woodtyped/log-section.json",
         "op": "add",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "*-*-redwood-*": {
                 "bark": { "base": "block/wood/bark/2x2/{wood}-2x2" },

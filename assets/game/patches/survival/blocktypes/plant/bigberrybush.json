@@ -3,6 +3,7 @@
 		"file": "blocktypes/plant/bigberrybush.json",
 		"op": "replace",
 		"path": "/shapeByType",
+		"side": "server",
 		"value": {
 			"*-empty": {
 				"base": "block/plant/berrybush/large_empty*",
@@ -37,12 +38,13 @@
 					{ "rotateY": 310 }
 				]
 			}
-		},
+		}
 	},
 	{
 		"file": "blocktypes/plant/bigberrybush.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"1": {
 				"base": "block/plant/berrybush/leaves/{type}1",
@@ -134,12 +136,13 @@
 					{ "base": "block/plant/berrybush/branches/currant4" }
 				]
 			}
-		},
+		}
 	},
 	{
 		"file": "blocktypes/plant/bigberrybush.json",
 		"op": "replace",
 		"path": "/texturesByType",
+		"side": "server",
 		"value": {
 			"*-flowering": {
 				"1": {
@@ -415,6 +418,6 @@
 					]
 				}
 			}
-		},
+		}
 	}
 ]

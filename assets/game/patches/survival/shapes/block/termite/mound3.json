@@ -1,8 +1,9 @@
 [
-  {
-	"file": "shapes/block/termite/mound3.json",
-    "op": "replace",
-    "path": "/textures/termitemound",
-    "value": "block/termitemound*"
-  }
+    {
+        "op": "replace",
+        "path": "/textures/termitemound",
+        "value": "block/termitemound*",
+        "side": "server",
+        "file": "shapes/block/termite/mound3.json"
+    }
 ]

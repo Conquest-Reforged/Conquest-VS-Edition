@@ -1,41 +1,42 @@
 [
-  {
-	"file": "blocktypes/wood/workbench.json",
-    "op": "replace",
-    "path": "/texturesByType",
-    "value": {
-		"*-north": {
-			up: { base: "block/wood/workbench/top*" },
-			down: { base: "block/wood/workbench/bottom" },
-			south: { base: "block/wood/workbench/back" },
-			north: { base: "block/wood/workbench/front" },
-			west: { base: "block/wood/workbench/left" },
-			east: { base: "block/wood/workbench/right" },
+	{
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*-north": {
+				"up": { "base": "block/wood/workbench/top*" },
+				"down": { "base": "block/wood/workbench/bottom" },
+				"south": { "base": "block/wood/workbench/back" },
+				"north": { "base": "block/wood/workbench/front" },
+				"west": { "base": "block/wood/workbench/left" },
+				"east": { "base": "block/wood/workbench/right" }
+			},
+			"*-east": {
+				"up": { "base": "block/wood/workbench/top*" },
+				"down": { "base": "block/wood/workbench/bottom" },
+				"west": { "base": "block/wood/workbench/front" },
+				"east": { "base": "block/wood/workbench/back" },
+				"north": { "base": "block/wood/workbench/left" },
+				"south": { "base": "block/wood/workbench/right" }
+			},
+			"*-west": {
+				"up": { "base": "block/wood/workbench/top*" },
+				"down": { "base": "block/wood/workbench/bottom" },
+				"south": { "base": "block/wood/workbench/front" },
+				"east": { "base": "block/wood/workbench/back" },
+				"west": { "base": "block/wood/workbench/left" },
+				"north": { "base": "block/wood/workbench/right" }
+			},
+			"*-south": {
+				"up": { "base": "block/wood/workbench/top*" },
+				"down": { "base": "block/wood/workbench/bottom" },
+				"west": { "base": "block/wood/workbench/front" },
+				"south": { "base": "block/wood/workbench/back" },
+				"north": { "base": "block/wood/workbench/left" },
+				"east": { "base": "block/wood/workbench/right" }
+			}
 		},
-		"*-east": {
-			up: { base: "block/wood/workbench/top*" },
-			down: { base: "block/wood/workbench/bottom" },
-			west: { base: "block/wood/workbench/front" },
-			east: { base: "block/wood/workbench/back" },
-			north: { base: "block/wood/workbench/left" },
-			south: { base: "block/wood/workbench/right" },
-		},
-		"*-west": {
-			up: { base: "block/wood/workbench/top*" },
-			down: { base: "block/wood/workbench/bottom" },
-			south: { base: "block/wood/workbench/front" },
-			east: { base: "block/wood/workbench/back" },
-			west: { base: "block/wood/workbench/left" },
-			north: { base: "block/wood/workbench/right" },
-		},
-		"*-south": {
-			up: { base: "block/wood/workbench/top*" },
-			down: { base: "block/wood/workbench/bottom" },
-			west: { base: "block/wood/workbench/front" },
-			south: { base: "block/wood/workbench/back" },
-			north: { base: "block/wood/workbench/left" },
-			east: { base: "block/wood/workbench/right" },
-		},
+		"file": "blocktypes/wood/workbench.json"
 	}
-  }
 ]

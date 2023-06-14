@@ -1,12 +1,14 @@
 [
-  {
-    "op": "remove",
-    "path": "/shape",
-    "file": "blocktypes/plant/herb.json"
-  },
+    {
+        "op": "remove",
+        "path": "/shape",
+        "side": "server",
+        "file": "blocktypes/plant/herb.json"
+    },
     {
         "op": "add",
         "path": "/shapeByType",
+        "side": "server",
         "value": {
             "*-basil": {
                 "base": "block/basic/cross"
@@ -45,6 +47,7 @@
         "file": "blocktypes/plant/herb.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "plant1a": { "base": "block/plant/herb/petal/{herb}" },
             "plant1b": { "base": "block/plant/herb/petal/{herb}" },

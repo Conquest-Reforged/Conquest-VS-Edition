@@ -3,6 +3,7 @@
     {
         "file": "shapes/block/plant/berrybush/blueberry_empty.json",
         "op": "replace",
+        "side": "server",
         "path": "/elements",
         "value": [
             {

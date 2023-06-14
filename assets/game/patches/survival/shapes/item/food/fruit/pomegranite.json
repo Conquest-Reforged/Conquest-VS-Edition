@@ -3,6 +3,7 @@
 		"file": "shapes/item/food/fruit/pomegranite.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"pomegranite": "item/food/fruit/pomegranite"
 		}
@@ -11,6 +12,7 @@
 		"file": "shapes/item/food/fruit/pomegranite.json",
 		"op": "replace",
 		"path": "/elements",
+		"side": "server",
 		"value": [
 
 			{

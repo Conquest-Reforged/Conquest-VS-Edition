@@ -3,14 +3,16 @@
 		"file": "shapes/block/plant/bamboo/green/segment1-2.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"stem-green": "block/plant/bamboo/stem-green"
-		},
+		}
 	},
 	{
 		"file": "shapes/block/plant/bamboo/green/segment1-2.json",
 		"op": "replace",
 		"path": "/elements",
+		"side": "server",
 		"value": [
 			{
 				"name": "StalkMidNW",

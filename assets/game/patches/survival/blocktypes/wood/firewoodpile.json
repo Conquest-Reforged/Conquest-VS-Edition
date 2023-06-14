@@ -1,11 +1,13 @@
 [
-  {
-	"file": "blocktypes/wood/firewoodpile.json",
-    "op": "replace",
-    "path": "/textures",
-    "value": {
-		"front": { base: "block/wood/firewood/front*" },
-		"side": { base: "block/wood/firewood/side*" }
-	}
-  }
+    {
+        "file": "blocktypes/wood/firewoodpile.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "front": { "base": "block/wood/firewood/front*" },
+            "side": { "base": "block/wood/firewood/side*" }
+        }
+
+    }
 ]

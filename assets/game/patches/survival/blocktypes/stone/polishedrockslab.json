@@ -1,21 +1,28 @@
 [
-  {
-	"file": "blocktypes/stone/polished/polishedrockslab.json",
-    "op": "replace",
-    "path": "/texturesByType",
-    "value": {
-		"*-up": {
-			horizontals: { base: "block/stone/polishedrockslab/{rock}*" },
-			verticals: { base: "block/stone/polishedrock/{rock}*" }
+	{
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*-up": {
+				"horizontals": { "base": "block/stone/polishedrockslab/{rock}*" },
+				"verticals": { "base": "block/stone/polishedrock/{rock}*" }
+			},
+			"*-down": {
+				"horizontals": { "base": "block/stone/polishedrockslab/{rock}*" },
+				"verticals": { "base": "block/stone/polishedrock/{rock}*" }
+			},
+			"*": {
+				"verticals": {
+					"base": "block/stone/polishedrockslab/{rock}*",
+					"rotation": 90
+				},
+				"horizontals": {
+					"base": "block/stone/polishedrock/{rock}*",
+					"rotation": 90
+				}
+			}
 		},
-		"*-down": {
-			horizontals: { base: "block/stone/polishedrockslab/{rock}*" },
-			verticals: { base: "block/stone/polishedrock/{rock}*" }
-		},
-		"*": {
-			verticals: { base: "block/stone/polishedrockslab/{rock}*", rotation: 90 },
-			horizontals: { base: "block/stone/polishedrock/{rock}*", rotation: 90 }
-		}
+		"file": "blocktypes/stone/polished/polishedrockslab.json"
 	}
-  }
 ]

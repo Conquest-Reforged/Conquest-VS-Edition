@@ -3,12 +3,14 @@
         "file": "blocktypes/plant/smallberrybush.json",
         "op": "add",
         "path": "/drawtype",
+        "side": "server",
         "value": "JSON"
     },
     {
         "file": "blocktypes/plant/smallberrybush.json",
         "op": "replace",
         "path": "/shapeByType",
+        "side": "server",
         "value": {
             "*-empty": {
                 "base": "block/plant/berrybush/{type}_empty*",
@@ -49,6 +51,7 @@
         "file": "blocktypes/plant/smallberrybush.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "1": {
                 "base": "block/plant/berrybush/leaves/{type}1",
@@ -170,6 +173,7 @@
         "file": "blocktypes/plant/smallberrybush.json",
         "op": "replace",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "*-flowering": {
                 "1": {

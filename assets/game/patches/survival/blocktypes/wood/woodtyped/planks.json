@@ -3,6 +3,7 @@
 		"file": "blocktypes/wood/woodtyped/planks.json",
 		"op": "replace",
 		"path": "/texturesByType",
+		"side": "server",
 		"value": {
 			"*-aged-ud": {
 				"all": {

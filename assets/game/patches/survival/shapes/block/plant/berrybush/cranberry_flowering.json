@@ -3,6 +3,7 @@
 		"file": "shapes/block/plant/berrybush/cranberry_flowering.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 		}
 	},
@@ -10,6 +11,7 @@
 		"file": "shapes/block/plant/berrybush/cranberry_flowering.json",
 		"op": "replace",
 		"path": "/elements",
+		"side": "server",
 		"value": [
 			{
 				"name": "Leaves",
