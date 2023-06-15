@@ -5,6 +5,7 @@
         "file": "blocktypes/stone/rock.json",
         "op": "replace",
         "path": "/texturesByType",
+		"side": "server",
         "value": {
             "*-basalt": {
                 "all": { "base": "block/stone/rock/{rock}*" },
