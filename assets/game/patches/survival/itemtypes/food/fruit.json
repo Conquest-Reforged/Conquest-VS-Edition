@@ -3,6 +3,7 @@
         "file": "itemtypes/food/fruit.json",
         "op": "replace",
         "path": "/shapebytype",
+        "side": "server",
         "value": {
 
             "*-breadfruit": { "base": "item/food/fruit/breadfruit" },
@@ -31,6 +32,7 @@
         "file": "itemtypes/food/fruit.json",
         "op": "replace",
         "path": "/textureByType",
+        "side": "server",
         "value": {
             "textureByType": {
                 "*-redapple": { "base": "item/food/fruit/{fruit}" },

@@ -3,6 +3,7 @@
 		"file": "blocktypes/stone/stonebrick/stonebricks.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"sides": { "base": "block/stone/brick/{rock}*" }
 		}

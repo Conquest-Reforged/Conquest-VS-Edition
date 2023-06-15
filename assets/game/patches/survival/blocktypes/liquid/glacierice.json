@@ -1,11 +1,12 @@
 [
-  {
-	"file": "blocktypes/liquid/glacierice.json",
-    "op": "replace",
-    "path": "/textures",
-    "value": {
-		horizontals: { base: "block/liquid/ice/glacier*" },
-		verticals: { base: "block/liquid/ice/top/glacier*" }
+	{
+		"file": "blocktypes/liquid/glacierice.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"horizontals": { "base": "block/liquid/ice/glacier*" },
+			"verticals": { "base": "block/liquid/ice/top/glacier*" }
+		}
 	}
-  }
 ]

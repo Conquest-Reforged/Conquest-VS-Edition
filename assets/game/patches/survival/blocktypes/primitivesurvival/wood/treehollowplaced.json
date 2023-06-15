@@ -3,6 +3,7 @@
         "file": "primitivesurvival:blocktypes/wood/treehollowplaced.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "sides": {
                 "base": "game:block/wood/bark/vertical/{wood}*"
@@ -49,7 +50,7 @@
             "up2-topbottom": {
                 "base": "game:block/wood/treetrunk/{wood}*"
             }
-        },
+        }
     }
 ]
                 

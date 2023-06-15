@@ -1,8 +1,9 @@
 [
-  {
-	"file": "blocktypes/stone/polished/polishedrock.json",
-    "op": "replace",
-    "path": "/textures/all/base",
-    "value": "block/stone/polishedrock/{rock}*"
-  }
+    {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "block/stone/polishedrock/{rock}*",
+        "side": "server",
+        "file": "blocktypes/stone/polished/polishedrock.json"
+    }
 ]

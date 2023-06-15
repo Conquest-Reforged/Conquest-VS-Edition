@@ -3,14 +3,16 @@
 		"file": "shapes/block/plant/bamboo/green/segment2-2.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"stem": "block/plant/bamboo/stem-green"
-		},
+		}
 	},
 	{
 		"file": "shapes/block/plant/bamboo/green/segment2-2.json",
 		"op": "replace",
 		"path": "/elements",
+		"side": "server",
 		"value": [
 			{
 				"name": "StalkTopSE",

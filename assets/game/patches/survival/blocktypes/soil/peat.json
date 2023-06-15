@@ -3,6 +3,7 @@
         "file": "blocktypes/soil/peat.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "up": {
                 "base": "block/soil/peat",

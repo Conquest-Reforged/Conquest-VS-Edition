@@ -3,9 +3,10 @@
         "file": "blocktypes/stone/cobble/cobbleslab.json",
         "op": "replace",
         "path": "/textures",
+        "side": "server",
         "value": {
             "horizontals": { "base": "block/stone/cobblestonestairs/{rock}*" },
             "verticals": { "base": "block/stone/cobblestone/{rock}*" }
         }
-    },
+    }
 ]

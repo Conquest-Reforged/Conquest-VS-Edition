@@ -2,12 +2,14 @@
 	{
 		"file": "blocktypes/plant/leaves/branchy.json",
 		"op": "remove",
-		"path": "/lod0Shape"
+		"path": "/lod0Shape",
+		"side": "server"
 	},
 	{
 		"file": "blocktypes/plant/leaves/branchy.json",
 		"op": "replace",
 		"path": "/shape",
+		"side": "server",
 		"value": {
 			"baseByType": {
 				"*-pine": "block/plant/leaves/branchy-pine",
@@ -35,6 +37,7 @@
 		"file": "blocktypes/plant/leaves/branchy.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"largeleavesByType": {
 				"*-redwood": { "base": "block/plant/leaves/large/pine*" },
@@ -68,7 +71,7 @@
 				"*-purpleheart": { "base": "block/plant/leaves/small/purpleheart/purpleheartleaves*" },
 				"*": { "base": "block/plant/leaves/small/{wood}*" }
 			}
-			}
+		}
 	}
 ]
    

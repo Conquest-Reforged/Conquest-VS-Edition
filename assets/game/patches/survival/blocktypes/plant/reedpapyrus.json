@@ -3,6 +3,7 @@
         "file": "blocktypes/plant/reedpapyrus.json",
         "op": "replace",
         "path": "/lod2shapeByType",
+        "side": "server",
         "value": {
             "tallplant-coopersreed-*": { "base": "block/plant/reedpapyrus/reed_*" }
         }
@@ -11,6 +12,7 @@
         "file": "blocktypes/plant/reedpapyrus.json",
         "op": "replace",
         "path": "/shapeByType",
+        "side": "server",
         "value": {
             "tallplant-papyrus-*-harvested-*": { "base": "block/plant/reedpapyrus/papyrus-harvested" },
             "tallplant-papyrus-*": {
@@ -25,6 +27,7 @@
         "file": "blocktypes/plant/reedpapyrus.json",
         "op": "replace",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "tallplant-papyrus-*": {
                 "northCross": { "base": "block/plant/flower/petal/{type}-{state}*" },

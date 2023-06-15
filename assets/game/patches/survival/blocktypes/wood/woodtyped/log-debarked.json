@@ -3,6 +3,7 @@
         "file": "blocktypes/wood/woodtyped/log-debarked.json",
         "op": "replace",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "*-ud": {
                 "all": {

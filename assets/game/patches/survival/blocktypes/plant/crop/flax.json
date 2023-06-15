@@ -3,12 +3,14 @@
 		"file": "blocktypes/plant/crop/flax.json",
 		"op": "replace",
 		"path": "/shape",
-		"value": { "base": "block/plant/crop/flax_*" },
+		"side": "server",
+		"value": { "base": "block/plant/crop/grain_*" }
 	},
 	{
 		"file": "blocktypes/plant/crop/flax.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"1": {
 				"base": "block/plant/crop/{type}/normal{stage}_1",
@@ -31,7 +33,7 @@
 					{ "base": "block/plant/crop/{type}/normal{stage}_2" }
 				]
 			}
-		},
+		}
 	}
 ]
 		

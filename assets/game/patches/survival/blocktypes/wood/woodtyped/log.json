@@ -3,6 +3,7 @@
 		"file": "blocktypes/wood/woodtyped/log.json",
 		"op": "replace",
 		"path": "/texturesByType",
+		"side": "server",
 		"value": {
 			"*-oak-ud": {
 				"all": { "base": "block/wood/bark/vertical/{wood}*" },

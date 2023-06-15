@@ -3,14 +3,16 @@
 		"file": "blocktypes/plant/flower-lupine.json",
 		"op": "replace",
 		"path": "/shape",
+		"side": "server",
 		"value": {
 			"base": "block/plant/flowers/lupine/lupine_*"
-		},
+		}
 	},
 	{
 		"file": "blocktypes/plant/flower-lupine.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"1": { "base": "block/plant/flower/petal/lupine/{color}_1" },
 			"2": { "base": "block/plant/flower/petal/lupine/{color}_2" },
@@ -23,7 +25,7 @@
 			"lupineleaves3": { "base": "block/plant/flower/petal/lupine/lupineleaves3" },
 			"lupineleaves2": { "base": "block/plant/flower/petal/lupine/lupineleaves2" },
 			"lupineleaves4": { "base": "block/plant/flower/petal/lupine/lupineleaves4" }
-		},
+		}
 	}
 ]
 		

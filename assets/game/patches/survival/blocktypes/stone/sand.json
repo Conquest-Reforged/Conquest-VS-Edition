@@ -1,8 +1,9 @@
 [
-  {
-	"file": "blocktypes/stone/sand.json",
-    "op": "replace",
-    "path": "/textures/all/base",
-    "value": "block/stone/sand/{rock}*"
-  }
+    {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "block/stone/sand/{rock}*",
+        "side": "server",
+        "file": "blocktypes/stone/sand.json"
+    }
 ]

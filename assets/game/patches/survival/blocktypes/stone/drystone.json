@@ -3,9 +3,10 @@
 		"file": "blocktypes/stone/drystone.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"all": { "base": "block/stone/drystone/{rock}*" }
-		},
+		}
 
 	}
 ]

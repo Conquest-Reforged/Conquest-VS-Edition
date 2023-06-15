@@ -3,6 +3,7 @@
 		"file": "shapes/block/plant/bamboo/green/segment2lod0-1.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"stem-leafs1": "block/plant/bamboo/stem-leafs1",
 			"stem-leafs2": "block/plant/bamboo/stem-leafs2",
@@ -14,6 +15,7 @@
 		"file": "shapes/block/plant/bamboo/green/segment2lod0-1.json",
 		"op": "replace",
 		"path": "/elements",
+		"side": "server",
 		"value": [
 			{
 				"name": "FoliageNW",

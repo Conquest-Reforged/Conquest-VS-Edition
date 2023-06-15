@@ -3,6 +3,7 @@
         "file": "primitivesurvival:blocktypes/clay/irrigationvessel.json",
         "op": "replace",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
             "*": {
                 "ceramic": { "base": "game:block/clay/ceramic" },
@@ -14,6 +15,6 @@
                 "updry": { "base": "game:primitivesurvival/clay/fertcompost-dry" },
                 "sidedry": { "base": "game:block/soil/farmland/fertcompost-side*" }
             }
-        },
+        }
     }
 ]

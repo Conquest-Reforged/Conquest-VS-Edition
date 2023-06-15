@@ -1,30 +1,12 @@
 [
-  {
-	"file": "blocktypes/plant/hay.json",
-    "op": "replace",
-    "path": "/texturesByType",
-    "value": {
-      "*-ud": {
-        horizontals: { base: "block/hay/bale/{type}-side*" },
-        verticals: { base: "block/hay/bale/{type}-top*" }
-      },
-      "*-ns": {
-        "all": { base: "block/hay/bale/{type}-side*", rotation: 90 },
-        "west": { base: "block/hay/bale/{type}-side*", rotation: 270 },
-        "up": { base: "block/hay/bale/{type}-side*" },
-        "down": { base: "block/hay/bale/{type}-side*", rotation: 90 },
-
-        "north": { base: "block/hay/bale/{type}-top*" },
-        "south": { base: "block/hay/bale/{type}-top*" }
-      },
-      "*-we": {
-        "all": { base: "block/hay/bale/{type}-side*", rotation: 270 },
-        "south": { base: "block/hay/bale/{type}-side*", rotation: 90 },
-        "up": { base: "block/hay/bale/{type}-side*", rotation: 270 },
-
-        "west": { base: "block/hay/bale/{type}-top*" },
-        "east": { base: "block/hay/bale/{type}-top*" }
-      }
+    {
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "horizontals": { "base": "block/hay/bale/{type}-side*" },
+            "verticals": { "base": "block/hay/bale/{type}-top*" }
+        },
+        "file": "blocktypes/plant/hay.json"
     }
-  }
 ]

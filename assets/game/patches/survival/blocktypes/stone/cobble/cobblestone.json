@@ -3,6 +3,7 @@
 		"file": "blocktypes/stone/cobble/cobblestone.json",
 		"op": "replace",
 		"path": "/textures",
+		"side": "server",
 		"value": {
 			"all": { "base": "block/stone/cobblestone/{rock}*" }
 		}

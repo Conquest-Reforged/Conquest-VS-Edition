@@ -4,6 +4,7 @@
         "file": "shapes/block/plant/berrybush/blueberry_flowering.json",
         "op": "replace",
         "path": "/elements",
+        "side": "server",
         "value": [
             {
                 "name": "Bush1",
