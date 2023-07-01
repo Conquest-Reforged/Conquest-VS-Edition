@@ -10,7 +10,10 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-andesite-porous": {
+			"*-andesite_porous": {
+                "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
+            },
+			"*-andesite_weathered": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
             "*-basalt": {
@@ -18,19 +21,19 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-basalt-porous": {
+			"*-basalt_porous": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-basalt-weathered": {
+			"*-basalt_weathered": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-blackstone": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-dacite-porous": {
+			"*-dacite_porous": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-dacite-weathered": {
+			"*-dacite_weathered": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-kimberlite": {
@@ -39,10 +42,10 @@
 			"*-obsidian": {
                 "all": { base: "block/stone/rock/{rock}*" }
             },
-			"*-obsidian-*": {
+			"*-obsidian_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-rhyolite-weathered": {
+			"*-rhyolite_weathered": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-scoria": {
@@ -54,10 +57,10 @@
 			"*-tuff": {
                 "all": { base: "block/stone/rock/{rock}*" }
             },
-			"*-tuff-*": {
+			"*-tuff_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-anorthosite-*": {
+			"*-anorthosite_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
             "*-granite": {
@@ -65,7 +68,7 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-granite-s*": {
+			"*-granite_s*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-peridotite": {
@@ -80,7 +83,7 @@
 			"*-redmarble": {
                 "all": { base: "block/stone/rock/{rock}*" }
             },
-			"*-marble-*": {
+			"*-marble_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-whitemarble": {
@@ -91,16 +94,16 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-quartzite-*": {
+			"*-quartzite_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-schist-lichen-blue": {
+			"*-schist_lichen_blue": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-schist-mossy-blue": {
+			"*-schist_mossy_blue": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-schist-weathered-blue": {
+			"*-schist_weathered_blue": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-serpentinite*": {
@@ -111,10 +114,10 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-slate-warped": {
+			"*-slate_warped": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-slate-wet": {
+			"*-slate_wet": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-bauxite": {
@@ -123,7 +126,7 @@
 			"*-chalk": {
                 "all": { base: "block/stone/rock/{rock}*" }
             },
-			"*-chalk-light": {
+			"*-chalk_light": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
             "*-chert": {
@@ -147,22 +150,22 @@
 			"*-limestone": {
                 "all": { base: "block/stone/rock/{rock}*" }
             },
-			"*-limestone-boulders-light": {
+			"*-limestone_boulders_light": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-limestone-light": {
+			"*-limestone_light": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-limestone-pink": {
+			"*-limestone_pink": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-limestone-stained-tan": {
+			"*-limestone_stained_tan": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-limestone-tan": {
+			"*-limestone_tan": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-mudstone-*": {
+			"*-mudstone_*": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
             "*-sandstone": {
@@ -170,7 +173,7 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-sandstone-warped": {
+			"*-sandstone_warped": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
             "*-shale": {
@@ -178,7 +181,7 @@
                 "up": { "base": "block/stone/rock/top/{rock}*" },
                 "down": { "base": "block/stone/rock/top/{rock}*" }
             },
-			"*-silt-cave-gray": {
+			"*-silt_cave_gray": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*-calcite": {
@@ -193,10 +196,10 @@
 			"*-pahoehoe": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-salt-flats-blue": {
+			"*-salt_flats_blue": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
-			"*-salt-flats-pink": {
+			"*-salt_flats_pink": {
                 "all": { base: "conquestnaturepack:block/topography/rock/{rock}/*" }
             },
 			"*": {
