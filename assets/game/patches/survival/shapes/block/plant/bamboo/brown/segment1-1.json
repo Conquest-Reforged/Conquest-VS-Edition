@@ -5,7 +5,7 @@
 		"path": "/textures",
 		"value": {
 			"stem-brown": "block/plant/bamboo/stem-brown"
-		},
+		}
 	},
 	{
 		"file": "shapes/block/plant/bamboo/brown/segment1-1.json",

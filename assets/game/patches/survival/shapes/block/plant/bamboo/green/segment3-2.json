@@ -1,17 +1,17 @@
 [
 	{
-		"file": "shapes/block/plant/bamboo/brown/segment3-2.json",
+		"file": "shapes/block/plant/bamboo/green/segment3-2.json",
 		"op": "replace",
 		"path": "/textures",
 		"value": {
 			"bamboo-leaves3": "block/plant/bamboo/bamboo-leaves3",
 			"bamboo-leaves1": "block/plant/bamboo/bamboo-leaves1",
 			"bamboo-leaves2": "block/plant/bamboo/bamboo-leaves2",
-			"stem": "block/plant/bamboo/stem-brown"
-		}
+			"stem": "block/plant/bamboo/stem-green"
+		},
 	},
 	{
-		"file": "shapes/block/plant/bamboo/brown/segment3-2.json",
+		"file": "shapes/block/plant/bamboo/green/segment3-2.json",
 		"op": "replace",
 		"path": "/elements",
 		"value": [

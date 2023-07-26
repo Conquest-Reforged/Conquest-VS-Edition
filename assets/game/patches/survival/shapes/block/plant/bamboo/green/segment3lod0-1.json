@@ -1,13 +1,13 @@
 [
 	{
-		"file": "shapes/block/plant/bamboo/green/segment2lod0-2.json",
+		"file": "shapes/block/plant/bamboo/green/segment3lod0-1.json",
 		"op": "replace",
 		"path": "/textures",
 		"value": {
 		}
 	},
 	{
-		"file": "shapes/block/plant/bamboo/green/segment2lod0-2.json",
+		"file": "shapes/block/plant/bamboo/green/segment3lod0-1.json",
 		"op": "replace",
 		"path": "/elements",
 		"value": [
