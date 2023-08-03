@@ -1,6 +1,6 @@
 [
     {
-        "file": "blocktypes/wood/firewoodpile.json",
+        "file": "blocktypes/legacy/firewoodpile.json",
         "op": "replace",
         "path": "/textures",
         "side": "server",

@@ -1,15 +1,6 @@
 [
     {
-        "file": "blocktypes/block/metal/torchholder.json",
-        "op": "replace",
-        "path": "/textures",
-        "side": "Server",
-        "value": {
-            "material": { "base": "block/metal/torchholder/{material}" }
-        }
-    },
-    {
-        "file": "blocktypes/block/metal/torchholder.json",
+        "file": "blocktypes/metal/torchholder.json",
         "op": "replace",
         "path": "/fpHandTransform",
         "side": "Server",
@@ -29,7 +20,7 @@
         }
     },
     {
-        "file": "blocktypes/block/metal/torchholder.json",
+        "file": "blocktypes/metal/torchholder.json",
         "op": "replace",
         "path": "/guiTransform",
         "side": "Server",
@@ -118,7 +109,7 @@
         "side": "Server"
     },
     {
-        "file": "blocktypes/block/metal/torchholder.json",
+        "file": "blocktypes/metal/torchholder.json",
         "op": "replace",
         "path": "/tpHandTransform",
         "side": "Server",

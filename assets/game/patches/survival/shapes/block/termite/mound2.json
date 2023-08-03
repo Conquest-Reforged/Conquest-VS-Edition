@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/textures/termitemound",
-        "value": "block/termitemound*",
-        "side": "server",
-        "file": "shapes/block/termite/mound2.json"
-    }
-]

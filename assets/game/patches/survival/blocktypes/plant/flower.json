@@ -1,27 +1,5 @@
 [
-    {
-        "file": "blocktypes/plant/flower.json",
-        "op": "replace",
-        "path": "/variantgroups",
-        "side": "server",
-        "value": [
-            {
-                "code": "flower",
-                "states": [],
-                "loadFromProperties": "block/flower"
-            },
-            {
-                "code": "cover",
-                "states": [ "free", "snow" ]
-            },
-            {
-                "code": "type",
-                "states": [ "raw", "burnt", "amber", "ashforest", "copper", "cthonic", "earthern", "loam", "ochre", "rime", "seasalt", "tenmoku", "undergrowth" ],
-                "loadFromProperties": "block/flowerpot",
-                "combine": "add"
-            }
-        ]
-    },
+   
     {
         "file": "blocktypes/plant/flower.json",
         "op": "replace",
@@ -152,47 +130,8 @@
                 "*-goldenpoppy-*": 0.41,
                 "*-woad-*": 0.8125,
                 "*-redtopgrass-*": 0.75
-            },
-            "overrideRandomDrawOffsetByType": {
-                "*-heather-*": 3
-            },
-            "plantContainable": {
-                "smallContainerByType": {
-                    "*-lilyofthevalley-*": {
-                        "shape": { "base": "block/clay/flowerpot/contents-lilyofthevalley" }
-                    },
-                    "*": {
-                        "shape": { "base": "block/clay/flowerpot/contents" },
-                        "textures": {
-                            "north": { "base": "block/plant/potted/{flower}" },
-                            "south": { "base": "block/plant/potted/{flower}" }
-                        }
-                    }
-                },
-                "largeContainerByType": {
-                    "*-lilyofthevalley-*": {
-                        "shape": { "base": "block/clay/planter/contents-lilyofthevalley" }
-                    },
-                    "*": {
-                        "shapeByType": {
-                            "*-ashforest": { "base": "block/clay/planter/contents-ashforest" },
-                            "*": { "base": "block/clay/planter/contents-ashforest" }
-                        },
-                        "textures": {
-                            "north": { "base": "block/plant/potted/{flower}" },
-                            "south": { "base": "block/plant/potted/{flower}" }
-                        }
-                    }
-                }
-            },
-            "drawnHeightByType": {
-                "*-goldenpoppy-*": 32,
-                "*-edelweiss-*": 24,
-                "*-forgetmenot-*": 16,
-                "*-horsetail-*": 40,
-                "*-heather-*": 32,
-                "*": 48
             }
+            
         }
     },
     {
@@ -240,7 +179,7 @@
             "*-wilddaisy-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
             "*-forgetmenot-*": { "base": "block/plant/flowers/forgetmenot/forgetmenot_*" },
             "*-redtopgrass-*": { "base": "block/plant/flowers/redtopgrass/redtopgrass_*" },
-            "*": { "base": "block/basic/flower-instanced" }
+            "*": { "base": "block/plant/flower/1patch-cross-24x24" }
         }
 
     },
@@ -977,11 +916,19 @@
                 }
             },
             "*": {
-                "north": { "base": "block/plant/flower/petal/{flower}*" },
-                "south": { "base": "block/plant/flower/petal/{flower}*" },
+                "north1": { "base": "block/plant/flower/petal/{flower}*" },
+                "south1": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+                "north2": { "base": "block/plant/flower/petal/{flower}*" },
+                "south2": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+                "north3": { "base": "block/plant/flower/petal/{flower}*" },
+                "south3": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted3": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted3": { "base": "block/plant/flower/stem/{flower}*" },
                 "flower2": { "base": "block/plant/flower/petal/{flower}*" },
-                "northTinted": { "base": "block/plant/flower/stem/{flower}*" },
-                "southTinted": { "base": "block/plant/flower/stem/{flower}*" },
                 "flower2Tinted": { "base": "block/plant/flower/stem/{flower}*" }
             }
         }
