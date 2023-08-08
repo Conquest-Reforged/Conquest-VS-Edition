@@ -5,9 +5,11 @@
         "path": "/textures",
         "side": "server",
         "value": {
-            "front": { "base": "block/wood/firewood/front*" },
-            "side": { "base": "block/wood/firewood/side*" }
-        }
+                "side": { "base": "block/wood/firewood/side" },
+                "south": { "base": "block/wood/firewood/south" },
+                "bark": { "base": "block/wood/firewood/bark" },
+                "north": { "base": "block/wood/firewood/north" }
+            }
 
-    }
+        }
 ]

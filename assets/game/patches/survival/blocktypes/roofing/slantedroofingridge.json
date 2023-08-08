@@ -1,0 +1,46 @@
+[
+	{
+		"file": "blocktypes/roofing/slantedroofingridge.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*-copper-*": {
+				"material": { "base": "block/metal/shingles/copper*" }
+			},
+			"*-slate-*": {
+				"material": { "base": "block/stone/shingles/slate*" }
+			},
+			"*-fireclay-*": {
+				"material": { "base": "block/clay/shingles/fire" }
+			},
+			"*-blueclay-*": {
+				"material": { "base": "block/clay/shingles/blue" }
+			},
+			"*-redclay-*": {
+				"material": { "base": "block/clay/shingles/red" }
+			},
+			"*-brownclay-*": {
+				"material": { "base": "block/clay/shingles/brown" }
+			},
+			"*-thatch-*": {
+				"normal-side1": { "base": "block/plant/grassroofing/normal/normal-side*" },
+				"normal-top1": { "base": "block/plant/grassroofing/normal/normal-top*" },
+				"straw1": { "base": "block/plant/grassroofing/normal/straw1" }
+			},
+			"*-agedthatch-*": {
+				"normal": { "base": "block/plant/grassroofing/thatch/agedstraw" },
+				"top": { "base": "block/plant/grassroofing/thatch/aged1" },
+				"bamboo-top": { "base": "block/plant/grassroofing/thatch/bamboo-top" },
+				"agedstraw": { "base": "block/plant/grassroofing/thatch/agedstraw" }
+			},
+			"*-bamboo-*": {
+				"bamboo-side": { "base": "block/wood/planks/bamboo-side" },
+				"bamboo-top": { "base": "block/wood/planks/bamboo-top" },
+				"bamboosmooth": { "base": "block/wood/planks/bamboosmooth" }
+			}
+		}
+	}
+]
+			
