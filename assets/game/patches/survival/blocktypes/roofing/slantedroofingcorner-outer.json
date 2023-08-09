@@ -24,9 +24,9 @@
 				"material": { "base": "block/clay/shingles/brown" }
 			},
 			"*-thatch-*": {
-				"normal-side1": { "base": "block/plant/grassroofing/normal/normal-side*" },
-				"normal-top1": { "base": "block/plant/grassroofing/normal/normal-top*" },
-				"straw1": { "base": "block/plant/grassroofing/normal/straw1" }
+				"top": { "base": "block/hay/normal/normal-side*" },
+				"bamboo-top": { "base": "block/hay/normal/normal-top*" },
+				"agedstraw": { "base": "block/plant/grassroofing/straw1" }
 			},
 			"*-agedthatch-*": {
 				"top": { "base": "block/plant/grassroofing/thatch/aged1" },
