@@ -1,6 +1,25 @@
 [
     {
         "file": "blocktypes/plant/smallberrybush.json",
+        "op": "add",
+        "path": "/guiTransform",
+        "side": "server",
+        "value": {
+            "rotation": {
+                "x": -22.6,
+                "y": -27,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.87,
+                "z": -0.05
+            }
+        }
+
+    },
+    {
+        "file": "blocktypes/plant/smallberrybush.json",
         "op": "replace",
         "path": "/shapeByType",
         "side": "server",
