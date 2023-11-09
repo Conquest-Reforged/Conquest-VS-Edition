@@ -1,0 +1,51 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/flower_3,Root/dome/floor2,Root/dome/dome4,Root/dome/dome5,Root/dome/dome6,Root/dome/dome7,Root/legs,Root/flower4,Root/dome1,Root/flower5,Root/dome3,Root/dome4,Root/dome6,Root/flower2,Root/dome7,Root/flower3,Root/bottom,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "flower_1",
+			"from": [ 14.1, 0.9, -0.2 ],
+			"to": [ 15.1, 1.9, 0.8 ],
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 14.1, 0.9, -0.2 ],
+			"rotationX": 7.4,
+			"rotationY": -72.9,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Plant2",
+					"from": [ 6.1, 0.0, -7.8 ],
+					"to": [ 6.1, 30.0, 24.2 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 6.1, 0.0, -7.8 ],
+					"faces": {
+						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Plant3",
+					"from": [ 14.1, 0.0, 0.2 ],
+					"to": [ 14.1, 30.0, 32.2 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 14.1, 8.0, 8.2 ],
+					"rotationY": -89.98,
+					"faces": {
+						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				}
+			]
+		}
+	]}

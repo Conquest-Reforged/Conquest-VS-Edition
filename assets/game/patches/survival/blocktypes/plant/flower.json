@@ -1,113 +1,8 @@
 [
-   
+
+
     {
-        "file": "blocktypes/plant/flower.json",
-        "op": "replace",
-        "path": "/guitransformByType",
-        "side": "server",
-        "value": {
-            "*-forgetmenot-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.5,
-                    "y": 0.2,
-                    "z": 0.5
-                },
-                "scale": 2.5
-            },
-            "*-wilddaisy-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.6,
-                    "y": 0.4,
-                    "z": 0.5
-                },
-                "scale": 2
-            },
-            "*-cornflower-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.6,
-                    "y": 0.4,
-                    "z": 0.5
-                },
-                "scale": 1.5
-            },
-            "*-californiapoppy-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.6,
-                    "y": 0.4,
-                    "z": 0.5
-                },
-                "scale": 1.5
-            },
-            "*-edelweiss-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                }
-            },
-            "*-catmint-*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.62,
-                    "y": 0.6,
-                    "z": 0.5
-                },
-                "scale": 1
-            },
-            "*-horsetail-*": {
-                "rotation": {
-                    "x": 166,
-                    "y": 34,
-                    "z": -40
-                },
-                "origin": {
-                    "x": 0.53,
-                    "y": 0.13,
-                    "z": 0.55
-                },
-                "scale": 2.5
-            },
-            "*": {
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "origin": {
-                    "x": 0.5,
-                    "y": 0.6,
-                    "z": 0.5
-                },
-                "scale": 1
-            }
-        }
-    },
-    {
-        "file": "blocktypes/plant/flower.json",
+        "file": "game:blocktypes/plant/flower.json",
         "op": "replace",
         "path": "/attributes",
         "side": "server",
@@ -130,8 +25,106 @@
                 "*-goldenpoppy-*": 0.41,
                 "*-woad-*": 0.8125,
                 "*-redtopgrass-*": 0.75
+            },
+            "overrideRandomDrawOffsetByType": {
+                "*-heather-*": 3
+            },
+            "plantContainable": {
+                "smallContainerByType": {
+                    "*-lilyofthevalley-*": {
+                        "shape": { "base": "block/clay/flowerpot/contents-lilyofthevalley" }
+                    },
+                    "*": {
+                        "shape": { "base": "block/clay/flowerpot/contents" },
+                        "textures": {
+                            "north": { "base": "block/plant/potted/{flower}" },
+                            "south": { "base": "block/plant/potted/{flower}" }
+                        }
+                    }
+                },
+                "largeContainerByType": {
+                    "*-lilyofthevalley-*": {
+                        "shape": { "base": "block/clay/planter/contents-lilyofthevalley" },
+                        "textures": {
+                            "1": {
+                                "base": "block/plant/potted/lilyofthevalley1",
+                                "alternates": [
+                                    { "base": "block/plant/potted/lilyofthevalley2" },
+                                    { "base": "block/plant/potted/lilyofthevalley3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "block/plant/potted/lilyofthevalley2",
+                                "alternates": [
+                                    { "base": "block/plant/potted/lilyofthevalley3" },
+                                    { "base": "block/plant/potted/lilyofthevalley1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "block/plant/potted/lilyofthevalley3",
+                                "alternates": [
+                                    { "base": "block/plant/potted/lilyofthevalley1" },
+                                    { "base": "block/plant/potted/lilyofthevalley2" }
+                                ]
+                            }
+                        }
+                    },
+                    "@.*-(catmint|forgetmenot|cowparsley|heather|orangemallow|westerngorse|woad)-.*": {
+                        "shape": { "base": "block/clay/planter/contents-shrub" },
+                        "textures": {
+                            "1": {
+                                "base": "block/plant/potted/{flower}1",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}2" },
+                                    { "base": "block/plant/potted/{flower}3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "block/plant/potted/{flower}2",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}3" },
+                                    { "base": "block/plant/potted/{flower}1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "block/plant/potted/{flower}3",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}1" },
+                                    { "base": "block/plant/potted/{flower}2" }
+                                ]
+                            }
+                        }
+
+                    },
+
+                    "*": {
+                        "shape": { "base": "block/clay/planter/contents-basic" },
+                        "textures": {
+                            "1": {
+                                "base": "block/plant/potted/{flower}1",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}2" },
+                                    { "base": "block/plant/potted/{flower}3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "block/plant/potted/{flower}2",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}3" },
+                                    { "base": "block/plant/potted/{flower}1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "block/plant/potted/{flower}3",
+                                "alternates": [
+                                    { "base": "block/plant/potted/{flower}1" },
+                                    { "base": "block/plant/potted/{flower}2" }
+                                ]
+                            }
+                        }
+                    }
+                }
             }
-            
         }
     },
     {
@@ -164,21 +157,21 @@
                 "base": "block/plant/flowers/lillyofthevalley/lillyofthevalley_*",
                 "scaleAdjust": 0.15
             },
-            "*-goldenpoppy-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
-            "*-orangemallow-*": { "base": "block/plant/flowers/orangemallow/orangemallow_*" },
-            "*-westerngorse-*": { "base": "block/plant/flowers/gorse/westerngorse_*" },
-            "*-cornflower-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
-            "*-heather-*": { "base": "block/plant/flowers/heather/heather_*" },
+            "*-goldenpoppy-*": { "base": "block/plant/flowers/basic/flower_64_*" },
+            "*-orangemallow-*": { "base": "block/plant/flowers/basic/flower_shrub_64_*" },
+            "*-westerngorse-*": { "base": "block/plant/flowers/basic/flower_shrub_64_*" },
+            "*-cornflower-*": { "base": "block/plant/flowers/basic/flower_64_*" },
+            "*-heather-*": { "base": "block/plant/flowers/basic/flower_shrub_64_*" },
             "*-smallheather-*": { "base": "block/plant/heather-short" },
             "*-dandelion-*": { "base": "block/basic/flower-48x48" },
-            "*-edelweiss-*": { "base": "block/plant/flowers/edelweiss/edelweiss*" },
+            "*-edelweiss-*": { "base": "block/plant/flowers/basic/flower_64_*" },
             "*-cowparsley-*": { "base": "block/plant/flowers/cowparsley/cowparsley*" },
-            "*-horsetail-*": { "base": "block/plant/flowers/horsetail/horsetail_*" },
-            "*-catmint-*": { "base": "block/plant/flowers/catmint/catmint*" },
-            "*-woad-*": { "base": "block/plant/flowers/woad/woad_*" },
-            "*-wilddaisy-*": { "base": "block/plant/flowers/basic/flowersmall_*" },
-            "*-forgetmenot-*": { "base": "block/plant/flowers/forgetmenot/forgetmenot_*" },
-            "*-redtopgrass-*": { "base": "block/plant/flowers/redtopgrass/redtopgrass_*" },
+            "*-horsetail-*": { "base": "block/plant/flowers/basic/flower_64_*" },
+            "*-catmint-*": { "base": "block/plant/flowers/basic/flower_shrub_64_*" },
+            "*-woad-*": { "base": "block/plant/flowers/cowparsley/cowparsley*" },
+            "*-wilddaisy-*": { "base": "block/plant/flowers/basic/flower_64_*" },
+            "*-forgetmenot-*": { "base": "block/plant/flowers/basic/flower_shrub_64_*" },
+            "*-redtopgrass-*": { "base": "block/plant/flowers/basic/flower_64_*" },
             "*": { "base": "block/plant/flower/1patch-cross-24x24" }
         }
 
@@ -199,451 +192,125 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "*-orangemallow-*": {
-                "1": { "base": "block/plant/flower/petal/orangemallow_1" },
-                "2": { "base": "block/plant/flower/petal/orangemallow_2" },
-                "3": { "base": "block/plant/flower/petal/orangemallow_3" },
-                "10": { "base": "block/plant/flower/stem/orangemallow_1" },
-                "20": { "base": "block/plant/flower/stem/orangemallow_2" },
-                "30": { "base": "block/plant/flower/stem/orangemallow_3" }
-            },
             "*-lilyofthevalley-*": {
                 "1": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_1",
+                    "base": "block/plant/flower/petal/lilyofthevalley1",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_6" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley2" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley3" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley4" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley5" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley6" }
                     ]
                 },
                 "2": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_2",
+                    "base": "block/plant/flower/petal/lilyofthevalley2",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_1" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley3" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley4" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley5" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley6" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley1" }
                     ]
                 },
                 "3": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_3",
+                    "base": "block/plant/flower/petal/lilyofthevalley3",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_2" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley4" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley5" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley6" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley1" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley2" }
                     ]
                 },
                 "4": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_4",
+                    "base": "block/plant/flower/petal/lilyofthevalley4",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_3" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley5" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley6" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley1" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley2" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley3" }
                     ]
                 },
                 "5": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_5",
+                    "base": "block/plant/flower/petal/lilyofthevalley5",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_4" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley6" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley1" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley2" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley3" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley4" }
                     ]
                 },
                 "6": {
-                    "base": "block/plant/flower/petal/lilyofthevalley_6",
+                    "base": "block/plant/flower/petal/lilyofthevalley6",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/petal/lilyofthevalley_5" }
+                        { "base": "block/plant/flower/petal/lilyofthevalley1" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley2" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley3" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley4" },
+                        { "base": "block/plant/flower/petal/lilyofthevalley5" }
                     ]
                 },
                 "10": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_1",
+                    "base": "block/plant/flower/stem/lilyofthevalley1",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_6" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley2" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley3" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley4" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley5" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley6" }
                     ]
                 },
                 "20": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_2",
+                    "base": "block/plant/flower/stem/lilyofthevalley2",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_1" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley3" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley4" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley5" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley6" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley1" }
                     ]
                 },
                 "30": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_3",
+                    "base": "block/plant/flower/stem/lilyofthevalley3",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_2" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley4" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley5" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley6" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley1" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley2" }
                     ]
                 },
                 "40": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_4",
+                    "base": "block/plant/flower/stem/lilyofthevalley4",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_5" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_3" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley5" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley6" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley1" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley2" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley3" }
                     ]
                 },
                 "50": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_5",
+                    "base": "block/plant/flower/stem/lilyofthevalley5",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_6" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_4" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley6" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley1" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley2" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley3" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley4" }
                     ]
                 },
                 "60": {
-                    "base": "block/plant/flower/stem/lilyofthevalley_6",
+                    "base": "block/plant/flower/stem/lilyofthevalley6",
                     "alternates": [
-                        { "base": "block/plant/flower/stem/lilyofthevalley_1" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_2" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_3" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_4" },
-                        { "base": "block/plant/flower/stem/lilyofthevalley_5" }
-                    ]
-                }
-            },
-            "*-redtopgrass-*": {
-                "north": {
-                    "base": "block/plant/flower/petal/redtopgrass_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/redtopgrass_3" },
-                        { "base": "block/plant/flower/petal/redtopgrass_4" }
-                    ]
-                },
-                "south": {
-                    "base": "block/plant/flower/petal/redtopgrass_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/redtopgrass_4" },
-                        { "base": "block/plant/flower/petal/redtopgrass_3" }
-                    ]
-                },
-                "north1": {
-                    "base": "block/plant/flower/stem/redtopgrass_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/redtopgrass_3" },
-                        { "base": "block/plant/flower/stem/redtopgrass_4" }
-                    ]
-                },
-                "south1": {
-                    "base": "block/plant/flower/stem/redtopgrass_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/redtopgrass_4" },
-                        { "base": "block/plant/flower/stem/redtopgrass_3" }
-                    ]
-                }
-            },
-            "*-forgetmenot-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/forgetmenot_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/forgetmenot_2" },
-                        { "base": "block/plant/flower/petal/forgetmenot_3" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/forgetmenot_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/forgetmenot_3" },
-                        { "base": "block/plant/flower/petal/forgetmenot_1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/forgetmenot_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/forgetmenot_1" },
-                        { "base": "block/plant/flower/petal/forgetmenot_2" }
-                    ]
-                },
-                "10": {
-                    "base": "block/plant/flower/stem/forgetmenot_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenot_2" },
-                        { "base": "block/plant/flower/stem/forgetmenot_3" }
-                    ]
-                },
-                "20": {
-                    "base": "block/plant/flower/stem/forgetmenot_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenot_3" },
-                        { "base": "block/plant/flower/stem/forgetmenot_1" }
-                    ]
-                },
-                "30": {
-                    "base": "block/plant/flower/stem/forgetmenot_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenot_1" },
-                        { "base": "block/plant/flower/stem/forgetmenot_2" }
-                    ]
-                },
-                "100": {
-                    "base": "block/plant/flower/stem/forgetmenotleaves_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_2" },
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_3" }
-                    ]
-                },
-                "200": {
-                    "base": "block/plant/flower/stem/forgetmenotleaves_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_3" },
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_1" }
-                    ]
-                },
-                "300": {
-                    "base": "block/plant/flower/stem/forgetmenotleaves_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_1" },
-                        { "base": "block/plant/flower/stem/forgetmenotleaves_2" }
-                    ]
-                }
-            },
-            "*-wilddaisy-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/daisy_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/daisy_2" },
-                        { "base": "block/plant/flower/petal/daisy_3" },
-                        { "base": "block/plant/flower/petal/daisy_2" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/daisy_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/daisy_3" },
-                        { "base": "block/plant/flower/petal/daisy_4" },
-                        { "base": "block/plant/flower/petal/daisy_1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/daisy_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/daisy_4" },
-                        { "base": "block/plant/flower/petal/daisy_1" },
-                        { "base": "block/plant/flower/petal/daisy_2" }
-                    ]
-                },
-                "4": {
-                    "base": "block/plant/flower/petal/daisy_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/daisy_1" },
-                        { "base": "block/plant/flower/petal/daisy_2" },
-                        { "base": "block/plant/flower/petal/daisy_3" }
-                    ]
-                },
-                "10": {
-                    "base": "block/plant/flower/stem/daisy_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/daisy_2" },
-                        { "base": "block/plant/flower/stem/daisy_3" },
-                        { "base": "block/plant/flower/stem/daisy_4" }
-                    ]
-                },
-                "20": {
-                    "base": "block/plant/flower/stem/daisy_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/daisy_3" },
-                        { "base": "block/plant/flower/stem/daisy_4" },
-                        { "base": "block/plant/flower/stem/daisy_1" }
-                    ]
-                },
-                "30": {
-                    "base": "block/plant/flower/stem/daisy_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/daisy_4" },
-                        { "base": "block/plant/flower/stem/daisy_1" },
-                        { "base": "block/plant/flower/stem/daisy_2" }
-                    ]
-                },
-                "40": {
-                    "base": "block/plant/flower/stem/daisy_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/daisy_3" },
-                        { "base": "block/plant/flower/stem/daisy_4" },
-                        { "base": "block/plant/flower/stem/daisy_1" }
-                    ]
-                }
-            },
-            "*-cornflower-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/cornflower_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/cornflower_2" },
-                        { "base": "block/plant/flower/petal/cornflower_3" },
-                        { "base": "block/plant/flower/petal/cornflower_4" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/cornflower_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/cornflower_3" },
-                        { "base": "block/plant/flower/petal/cornflower_4" },
-                        { "base": "block/plant/flower/petal/cornflower_1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/cornflower_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/cornflower_4" },
-                        { "base": "block/plant/flower/petal/cornflower_1" },
-                        { "base": "block/plant/flower/petal/cornflower_2" }
-                    ]
-                },
-                "4": {
-                    "base": "block/plant/flower/petal/cornflower_4",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/cornflower_1" },
-                        { "base": "block/plant/flower/petal/cornflower_2" },
-                        { "base": "block/plant/flower/petal/cornflower_3" }
-                    ]
-                },
-                "10": {
-                    "base": "block/plant/flower/stem/cornflower_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/cornflower_2" },
-                        { "base": "block/plant/flower/stem/cornflower_3" },
-                        { "base": "block/plant/flower/stem/cornflower_4" }
-                    ]
-                },
-                "20": {
-                    "base": "block/plant/flower/stem/cornflower_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/cornflower_3" },
-                        { "base": "block/plant/flower/stem/cornflower_4" },
-                        { "base": "block/plant/flower/stem/cornflower_1" }
-                    ]
-                },
-                "30": {
-                    "base": "block/plant/flower/stem/cornflower_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/cornflower_4" },
-                        { "base": "block/plant/flower/stem/cornflower_1" },
-                        { "base": "block/plant/flower/stem/cornflower_2" }
-                    ]
-                },
-                "40": {
-                    "base": "block/plant/flower/stem/cornflower_4",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/cornflower_1" },
-                        { "base": "block/plant/flower/stem/cornflower_2" },
-                        { "base": "block/plant/flower/stem/cornflower_3" }
-                    ]
-                }
-            },
-            "*-horsetail-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/horsetail_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/horsetail_2" },
-                        { "base": "block/plant/flower/petal/horsetail_3" },
-                        { "base": "block/plant/flower/petal/horsetail_4" },
-                        { "base": "block/plant/flower/petal/horsetail_5" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/horsetail_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/horsetail_3" },
-                        { "base": "block/plant/flower/petal/horsetail_4" },
-                        { "base": "block/plant/flower/petal/horsetail_5" },
-                        { "base": "block/plant/flower/petal/horsetail_1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/horsetail_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/horsetail_4" },
-                        { "base": "block/plant/flower/petal/horsetail_5" },
-                        { "base": "block/plant/flower/petal/horsetail_1" },
-                        { "base": "block/plant/flower/petal/horsetail_2" }
-                    ]
-                },
-                "4": {
-                    "base": "block/plant/flower/petal/horsetail_4",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/horsetail_5" },
-                        { "base": "block/plant/flower/petal/horsetail_1" },
-                        { "base": "block/plant/flower/petal/horsetail_2" },
-                        { "base": "block/plant/flower/petal/horsetail_3" }
-                    ]
-                },
-                "5": {
-                    "base": "block/plant/flower/petal/horsetail_5",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/horsetail_1" },
-                        { "base": "block/plant/flower/petal/horsetail_2" },
-                        { "base": "block/plant/flower/petal/horsetail_3" },
-                        { "base": "block/plant/flower/petal/horsetail_4" }
-                    ]
-                }
-            },
-            "*-westerngorse-*": {
-                "10": {
-                    "base": "block/plant/flower/petal/gorse_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/gorse_2" },
-                        { "base": "block/plant/flower/petal/gorse_3" }
-                    ]
-                },
-                "20": {
-                    "base": "block/plant/flower/petal/gorse_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/gorse_3" },
-                        { "base": "block/plant/flower/petal/gorse_1" }
-                    ]
-                },
-                "30": {
-                    "base": "block/plant/flower/petal/gorse_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/gorse_2" },
-                        { "base": "block/plant/flower/petal/gorse_1" }
-                    ]
-                },
-                "1": {
-                    "base": "block/plant/flower/stem/gorse_1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/gorse_2" },
-                        { "base": "block/plant/flower/stem/gorse_3" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/stem/gorse_2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/gorse_3" },
-                        { "base": "block/plant/flower/stem/gorse_1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/stem/gorse_3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/gorse_2" },
-                        { "base": "block/plant/flower/stem/gorse_1" }
+                        { "base": "block/plant/flower/stem/lilyofthevalley1" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley2" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley3" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley4" },
+                        { "base": "block/plant/flower/stem/lilyofthevalley5" }
                     ]
                 }
             },
@@ -689,131 +356,6 @@
                         { "base": "block/plant/flower/stem/woad_1" },
                         { "base": "block/plant/flower/stem/woad_2" }
                     ]
-                },
-                "100": { "base": "block/plant/flower/stem/woadleafs" }
-            },
-            "*-heather-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/heather1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/heather2" },
-                        { "base": "block/plant/flower/petal/heather3" },
-                        { "base": "block/plant/flower/petal/heather4" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/heather2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/heather3" },
-                        { "base": "block/plant/flower/petal/heather4" },
-                        { "base": "block/plant/flower/petal/heather1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/heather3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/heather4" },
-                        { "base": "block/plant/flower/petal/heather1" },
-                        { "base": "block/plant/flower/petal/heather2" }
-                    ]
-                },
-                "4": {
-                    "base": "block/plant/flower/petal/heather4",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/heather1" },
-                        { "base": "block/plant/flower/petal/heather2" },
-                        { "base": "block/plant/flower/petal/heather3" }
-                    ]
-                }
-            },
-            "*-goldenpoppy-*": {
-                "1": {
-                    "base": "block/plant/flower/petal/californiapoppy1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/californiapoppy2" },
-                        { "base": "block/plant/flower/petal/californiapoppy3" },
-                        { "base": "block/plant/flower/petal/californiapoppy4" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/californiapoppy2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/californiapoppy3" },
-                        { "base": "block/plant/flower/petal/californiapoppy4" },
-                        { "base": "block/plant/flower/petal/californiapoppy1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/californiapoppy3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/californiapoppy4" },
-                        { "base": "block/plant/flower/petal/californiapoppy1" },
-                        { "base": "block/plant/flower/petal/californiapoppy2" }
-                    ]
-                },
-                "4": {
-                    "base": "block/plant/flower/petal/californiapoppy4",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/californiapoppy1" },
-                        { "base": "block/plant/flower/petal/californiapoppy2" },
-                        { "base": "block/plant/flower/petal/californiapoppy3" }
-                    ]
-                },
-                "10": {
-                    "base": "block/plant/flower/stem/californiapoppy1",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/californiapoppy2" },
-                        { "base": "block/plant/flower/stem/californiapoppy3" },
-                        { "base": "block/plant/flower/stem/californiapoppy4" }
-                    ]
-                },
-                "20": {
-                    "base": "block/plant/flower/stem/californiapoppy2",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/californiapoppy3" },
-                        { "base": "block/plant/flower/stem/californiapoppy4" },
-                        { "base": "block/plant/flower/stem/californiapoppy1" }
-                    ]
-                },
-                "30": {
-                    "base": "block/plant/flower/stem/californiapoppy3",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/californiapoppy4" },
-                        { "base": "block/plant/flower/stem/californiapoppy1" },
-                        { "base": "block/plant/flower/stem/californiapoppy2" }
-                    ]
-                },
-                "40": {
-                    "base": "block/plant/flower/stem/californiapoppy4",
-                    "alternates": [
-                        { "base": "block/plant/flower/stem/californiapoppy1" },
-                        { "base": "block/plant/flower/stem/californiapoppy2" },
-                        { "base": "block/plant/flower/stem/californiapoppy3" }
-                    ]
-                }
-            },
-            "*-catmint-*": {
-
-                "1": {
-                    "base": "block/plant/flower/petal/catmint1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/catmint2" },
-                        { "base": "block/plant/flower/petal/catmint3" }
-                    ]
-                },
-                "2": {
-                    "base": "block/plant/flower/petal/catmint2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/catmint3" },
-                        { "base": "block/plant/flower/petal/catmint1" }
-                    ]
-                },
-                "3": {
-                    "base": "block/plant/flower/petal/catmint3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/catmint1" },
-                        { "base": "block/plant/flower/petal/catmint2" }
-                    ]
                 }
             },
             "*-cowparsley-*": {
@@ -858,79 +400,381 @@
                         { "base": "block/plant/flower/stem/cowparsley1" },
                         { "base": "block/plant/flower/stem/cowparsley2" }
                     ]
-                },
-                "leaves1": {
-                    "base": "block/plant/flower/petal/leaves1",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/leaves2" },
-                        { "base": "block/plant/flower/petal/leaves3" }
-                    ]
-                },
-                "leaves2": {
-                    "base": "block/plant/flower/petal/leaves2",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/leaves3" },
-                        { "base": "block/plant/flower/petal/leaves1" }
-                    ]
-                },
-                "leaves3": {
-                    "base": "block/plant/flower/petal/leaves3",
-                    "alternates": [
-                        { "base": "block/plant/flower/petal/leaves1" },
-                        { "base": "block/plant/flower/petal/leaves2" }
-                    ]
                 }
             },
-            "*-edelweiss-*": {
+
+            "*": {
                 "1": {
-                    "base": "block/plant/flower/petal/edelweiss1",
+                    "base": "block/plant/flower/petal/{flower}1",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/edelweiss2" },
-                        { "base": "block/plant/flower/petal/edelweiss3" },
-                        { "base": "block/plant/flower/petal/edelweiss4" }
+                        { "base": "block/plant/flower/petal/{flower}2" },
+                        { "base": "block/plant/flower/petal/{flower}3" },
+                        { "base": "block/plant/flower/petal/{flower}4" }
                     ]
                 },
                 "2": {
-                    "base": "block/plant/flower/petal/edelweiss2",
+                    "base": "block/plant/flower/petal/{flower}2",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/edelweiss3" },
-                        { "base": "block/plant/flower/petal/edelweiss4" },
-                        { "base": "block/plant/flower/petal/edelweiss1" }
+                        { "base": "block/plant/flower/petal/{flower}3" },
+                        { "base": "block/plant/flower/petal/{flower}4" },
+                        { "base": "block/plant/flower/petal/{flower}1" }
                     ]
                 },
                 "3": {
-                    "base": "block/plant/flower/petal/edelweiss3",
+                    "base": "block/plant/flower/petal/{flower}3",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/edelweiss4" },
-                        { "base": "block/plant/flower/petal/edelweiss1" },
-                        { "base": "block/plant/flower/petal/edelweiss2" }
+                        { "base": "block/plant/flower/petal/{flower}4" },
+                        { "base": "block/plant/flower/petal/{flower}1" },
+                        { "base": "block/plant/flower/petal/{flower}2" }
                     ]
                 },
                 "4": {
-                    "base": "block/plant/flower/petal/edelweiss4",
+                    "base": "block/plant/flower/petal/{flower}4",
                     "alternates": [
-                        { "base": "block/plant/flower/petal/edelweiss1" },
-                        { "base": "block/plant/flower/petal/edelweiss2" },
-                        { "base": "block/plant/flower/petal/edelweiss3" }
+                        { "base": "block/plant/flower/petal/{flower}1" },
+                        { "base": "block/plant/flower/petal/{flower}2" },
+                        { "base": "block/plant/flower/petal/{flower}3" }
+                    ]
+                },
+                "10": {
+                    "base": "block/plant/flower/stem/{flower}1",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{flower}2" },
+                        { "base": "block/plant/flower/stem/{flower}3" },
+                        { "base": "block/plant/flower/stem/{flower}4" }
+                    ]
+                },
+                "20": {
+                    "base": "block/plant/flower/stem/{flower}2",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{flower}3" },
+                        { "base": "block/plant/flower/stem/{flower}4" },
+                        { "base": "block/plant/flower/stem/{flower}1" }
+                    ]
+                },
+                "30": {
+                    "base": "block/plant/flower/stem/{flower}3",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{flower}4" },
+                        { "base": "block/plant/flower/stem/{flower}1" },
+                        { "base": "block/plant/flower/stem/{flower}2" }
+                    ]
+                },
+                "40": {
+                    "base": "block/plant/flower/stem/{flower}4",
+                    "alternates": [
+                        { "base": "block/plant/flower/stem/{flower}1" },
+                        { "base": "block/plant/flower/stem/{flower}2" },
+                        { "base": "block/plant/flower/stem/{flower}3" }
                     ]
                 }
-            },
-            "*": {
-                "north1": { "base": "block/plant/flower/petal/{flower}*" },
-                "south1": { "base": "block/plant/flower/petal/{flower}*" },
-                "northTinted1": { "base": "block/plant/flower/stem/{flower}*" },
-                "southTinted1": { "base": "block/plant/flower/stem/{flower}*" },
-                "north2": { "base": "block/plant/flower/petal/{flower}*" },
-                "south2": { "base": "block/plant/flower/petal/{flower}*" },
-                "northTinted2": { "base": "block/plant/flower/stem/{flower}*" },
-                "southTinted2": { "base": "block/plant/flower/stem/{flower}*" },
-                "north3": { "base": "block/plant/flower/petal/{flower}*" },
-                "south3": { "base": "block/plant/flower/petal/{flower}*" },
-                "northTinted3": { "base": "block/plant/flower/stem/{flower}*" },
-                "southTinted3": { "base": "block/plant/flower/stem/{flower}*" },
-                "flower2": { "base": "block/plant/flower/petal/{flower}*" },
-                "flower2Tinted": { "base": "block/plant/flower/stem/{flower}*" }
             }
         }
+    },
+    {
+        "file": "blocktypes/plant/flower.json",
+        "op": "replace",
+        "path": "/guitransformByType",
+        "side": "server",
+        "value": {
+            "*-forgetmenot-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 37,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.44,
+                    "z": 0.67
+                },
+                "scale": 1.4
+            },
+            "*-lilyofthevalley-*": {
+                "rotation": {
+                    "x": -33,
+                    "y": -150,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.42,
+                    "z": 0.5
+                },
+                "scale": 1.63
+            },
+            "*-edelweiss-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -71,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.51,
+                    "z": 0.3
+                },
+                "scale": 1.35
+            },
+            "*-horsetail-*": {
+                "rotation": {
+                    "x": 166,
+                    "y": 34,
+                    "z": -40
+                },
+                "origin": {
+                    "x": 0.53,
+                    "y": 0.13,
+                    "z": 0.55
+                },
+                "scale": 3.3
+            },
+            "*-redtopgrass-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -49,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.54,
+                    "z": 0.26
+                },
+                "scale": 1.3
+            },
+            "*-cowparsley-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 34,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.76,
+                    "z": 0.5
+                },
+                "scale": 0.85
+            },
+            "*-orangemallow-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 5,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.44,
+                    "y": 0.65,
+                    "z": 0.61
+                },
+                "scale": 0.96
+            },
+            "*-catmint-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 6,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.39,
+                    "y": 0.6,
+                    "z": 0.5
+                },
+                "scale": 1.09
+            },
+            "*-cornflower-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -5,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.75,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "scale": 1.37
+            },
+            "*-wilddaisy-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -28,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.59,
+                    "y": 0.4,
+                    "z": 0.5
+                },
+                "scale": 1.58
+            },
+            "*-westerngorse-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 65,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.64,
+                    "z": 0.5
+                },
+                "scale": 0.97
+            },
+            "*-goldenpoppy-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -44,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.59,
+                    "y": 0.45,
+                    "z": 0.5
+                },
+                "scale": 1.41
+            },
+            "*-woad-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -94,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 1.4,
+                    "y": 0.64,
+                    "z": 0.5
+                },
+                "scale": 0.83
+            },
+            "*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.6,
+                    "z": 0.5
+                }
+            }
+        }
+    },
+    {
+        "file": "blocktypes/plant/flower.json",
+        "op": "replace",
+        "path": "/tpHandTransformByType",
+        "side": "server",
+        "value": {
+            "*": {
+                "translation": {
+                    "x": -1,
+                    "y": -0.1,
+                    "z": -1
+                },
+                "rotation": {
+                    "x": 71,
+                    "y": 0,
+                    "z": -84
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.1,
+                    "z": 0.5
+                },
+                "scale": 0.48
+            },
+            "*-horsetail-*": {
+                "translation": {
+                    "x": -0.7,
+                    "y": -0.2,
+                    "z": -0.5
+                },
+                "rotation": {
+                    "x": 16,
+                    "y": 25,
+                    "z": -25
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.1,
+                    "z": 0.5
+                },
+                "scale": 0.9
+            },
+            "*-woad-*": {
+                "translation": {
+                    "x": -1,
+                    "y": -0.1,
+                    "z": -1
+                },
+                "rotation": {
+                    "x": 71,
+                    "y": 0,
+                    "z": -84
+                },
+                "origin": {
+                    "x": 0.33,
+                    "y": -0,
+                    "z": 0.32
+                },
+                "scale": 0.35
+            }
+        },
+        "*-westerngorse-*": {
+            "translation": {
+                "x": -1,
+                "y": -0.1,
+                "z": -1
+            },
+            "rotation": {
+                "x": 71,
+                "y": 0,
+                "z": -84
+            },
+            "origin": {
+                "x": 0.3,
+                "y": 0.07,
+                "z": 0.43
+            },
+            "scale": 0.37
+        },
+        "*-orangemallow-*": {
+            "translation": {
+                "x": -1,
+                "y": -0.1,
+                "z": -1
+            },
+            "rotation": {
+                "x": 71,
+                "y": 0,
+                "z": -84
+            },
+            "origin": {
+                "x": 0.5,
+                "y": -0.1,
+                "z": 0.4
+            },
+            "scale": 0.37
+        },
+        "*-cowparsley-*": {
+            "translation": {
+                "x": -1,
+                "y": -0.1,
+                "z": -1
+            },
+            "rotation": {
+                "x": 71,
+                "y": 0,
+                "z": -84
+            },
+            "origin": {
+                "x": 0.4,
+                "y": 0,
+                "z": 0.3
+            },
+            "scale": 0.28
+        }
+
     }
 ]

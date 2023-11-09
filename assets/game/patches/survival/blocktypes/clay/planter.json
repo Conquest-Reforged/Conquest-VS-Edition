@@ -1,0 +1,339 @@
+[
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "replace",
+        "path": "/variantgroups",
+        "side": "server",
+        "value": [
+            {
+                "code": "type",
+                "states": [ "raw", "burnt", "amber", "ashforest", "copper", "cthonic", "earthern", "loam", "ochre", "rime", "seasalt", "tenmoku", "undergrowth" ]
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "replace",
+        "path": "/attributes",
+        "side": "server",
+        "value": {
+            "sitHeight": 0.75,
+            "beeFeedByType": {
+                "*-empty": false,
+                "*": true
+            },
+            "butterflyFeedByType": {
+                "*-empty": false,
+                "*": true
+            },
+            "plantContainerSize": "large",
+            "filledShape": { "base": "block/clay/planter/{type}-full" },
+            "fillHeight": 0.5
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "add",
+        "path": "/attributesByType",
+        "side": "server",
+        "value": {
+            "*-ashforest": {
+                "fillHeight": 0.8
+            },
+            "*-burnt": {
+                "fillHeight": 0.6
+            },
+            "*-amber": {
+                "fillHeight": 0.9
+            },
+            "*-earthern": {
+                "fillHeight": 0.6
+            },
+            "*-copper": {
+                "fillHeight": 0.55
+            },
+            "*-cthonic": {
+                "fillHeight": 0.75
+            },
+            "*-ochre": {
+                "fillHeight": 0.6
+            },
+            "*-undergrowth": {
+                "fillHeight": 0.95
+            },
+            "*-tenmoku": {
+                "fillHeight": 0.45
+            },
+            "*-loam": {
+                "fillHeight": 0.55
+            },
+            "*-rime": {
+                "fillHeight": 0.6
+            },
+            "*-seasalt": {
+                "fillHeight": 0.45
+            },
+            "*": {
+                "fillHeight": 0.5
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "*-raw": { "base": "block/clay/planter/raw" },
+            "*": { "base": "block/clay/planter/{type}-empty" }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-raw": { "all": { "base": "block/clay/blueclay" } },
+            "*-burnt": {
+                "sides": { "base": "block/clay/planter/burnt" },
+                "ceramic": { "base": "block/clay/planter/burnt" },
+                "soil": { "base": "block/soil/fertmedium10" }
+            },
+            "*": {
+                "sides": { "base": "block/clay/planter/{type}" },
+                "soil": { "base": "block/soil/fertmedium10" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/planter.json",
+        "op": "add",
+        "path": "/collisionselectionboxbytype",
+        "side": "server",
+        "value": {
+            "*-undergrowth": {
+                "x1": 0.2747,
+                "y1": 0,
+                "z1": 0.2782,
+                "x2": 0.7117,
+                "y2": 1.0005,
+                "z2": 0.7175
+            },
+
+            "*-ochre": {
+                "x1": 0.2041,
+                "y1": 0,
+                "z1": 0.2035,
+                "x2": 0.7885,
+                "y2": 0.7506,
+                "z2": 0.802
+            },
+            "*-copper": {
+                "x1": 0.2362,
+                "y1": 0,
+                "z1": 0.2347,
+                "x2": 0.765,
+                "y2": 0.6255,
+                "z2": 0.7683
+            }
+        }
+    },
+    {
+            "file": "game:blocktypes/clay/planter.json",
+            "op": "add",
+            "path": "/collisionselectionboxesbytype",
+            "side": "server",
+        "value": {
+            "*- tenmoku": [
+                {
+                    "x1": 0.2339,
+                    "y1": 0.0932,
+                    "z1": 0.2316,
+                    "x2": 0.764,
+                    "y2": 0.5634,
+                    "z2": 0.7672
+                },
+                {
+                    "x1": 0.2026,
+                    "y1": 0,
+                    "z1": 0.2015,
+                    "x2": 0.7966,
+                    "y2": 0.4372,
+                    "z2": 0.7999
+                },
+                {
+                    "x1": 0.1688,
+                    "y1": 0.1878,
+                    "z1": 0.1737,
+                    "x2": 0.8297,
+                    "y2": 0.3738,
+                    "z2": 0.8269
+                }
+            ],
+            "*-seasalt": [
+                {
+                    "x1": 0.1541,
+                    "y1": 0.125,
+                    "z1": 0.156,
+                    "x2": 0.8462,
+                    "y2": 0.5334,
+                    "z2": 0.8423
+                },
+                {
+                    "x1": 0.1245,
+                    "y1": 0,
+                    "z1": 0.125,
+                    "x2": 0.875,
+                    "y2": 0.4375,
+                    "z2": 0.8757
+                }
+            ],
+            "*-rime": [
+                {
+                    "x1": 0.2015,
+                    "y1": 0.094,
+                    "z1": 0.1565,
+                    "x2": 0.8922,
+                    "y2": 0.6591,
+                    "z2": 0.8435
+                },
+                {
+                    "x1": 0.1681,
+                    "y1": 0,
+                    "z1": 0.125,
+                    "x2": 0.9259,
+                    "y2": 0.531,
+                    "z2": 0.8746
+                }
+            ],
+
+            "*-loam": [
+                {
+                    "x1": 0.2815,
+                    "y1": 0.0277,
+                    "z1": 0.2801,
+                    "x2": 0.781,
+                    "y2": 0.5937,
+                    "z2": 0.78
+                },
+                {
+                    "x1": 0.2476,
+                    "y1": 0,
+                    "z1": 0.2495,
+                    "x2": 0.8183,
+                    "y2": 0.4063,
+                    "z2": 0.813
+                }
+            ],
+            "*-chthonic": [
+                {
+                    "x1": 0.2059,
+                    "y1": 0,
+                    "z1": 0.2013,
+                    "x2": 0.796,
+                    "y2": 0.4682,
+                    "z2": 0.7988
+                },
+                {
+                    "x1": 0.2906,
+                    "y1": 0.5931,
+                    "z1": 0.3004,
+                    "x2": 0.699,
+                    "y2": 0.7821,
+                    "z2": 0.7025
+                },
+                {
+                    "x1": 0.2626,
+                    "y1": 0.5205,
+                    "z1": 0.265,
+                    "x2": 0.7311,
+                    "y2": 0.624,
+                    "z2": 0.7341
+                }
+            ],
+
+
+            "*-amber": [
+                {
+                    "x1": 0.0945,
+                    "y1": 0.9387,
+                    "z1": 0.0935,
+                    "x2": 0.9056,
+                    "y2": 1.0325,
+                    "z2": 0.9065
+                },
+                {
+                    "x1": 0.1245,
+                    "y1": 0.875,
+                    "z1": 0.1248,
+                    "x2": 0.874,
+                    "y2": 0.9378,
+                    "z2": 0.875
+                },
+                {
+                    "x1": 0.1881,
+                    "y1": 0,
+                    "z1": 0.1556,
+                    "x2": 0.8423,
+                    "y2": 0.8788,
+                    "z2": 0.8441
+                }
+            ],
+            "*-earthern": [
+                {
+                    "x1": 0.125,
+                    "y1": 0.625,
+                    "z1": 0.125,
+                    "x2": 0.875,
+                    "y2": 0.6875,
+                    "z2": 0.875
+                },
+                {
+                    "x1": 0.156,
+                    "y1": 0,
+                    "z1": 0.1749,
+                    "x2": 0.8561,
+                    "y2": 0.6313,
+                    "z2": 0.844
+                }
+            ],
+            "*-burnt": [
+                {
+                    "x1": 0.1565,
+                    "y1": 0.5315,
+                    "z1": 0.1577,
+                    "x2": 0.8435,
+                    "y2": 0.625,
+                    "z2": 0.8435
+                },
+                {
+                    "x1": 0.1907,
+                    "y1": 0,
+                    "z1": 0.1866,
+                    "x2": 0.7873,
+                    "y2": 0.5247,
+                    "z2": 0.8165
+                }
+            ],
+            "*-ashforest": [
+                {
+                    "x1": 0.25,
+                    "y1": 0.2185,
+                    "z1": 0.2374,
+                    "x2": 0.75,
+                    "y2": 0.5625,
+                    "z2": 0.749
+                },
+                {
+                    "x1": 0.281,
+                    "y1": 0.0499,
+                    "z1": 0.2752,
+                    "x2": 0.719,
+                    "y2": 0.8445,
+                    "z2": 0.7195
+                }
+            ]
+        }
+        }
+]

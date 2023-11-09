@@ -1,0 +1,56 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"round_barrel_bottom": [32,32],
+		"waterportion": [16,16],
+		"round_barrel_side": [32,32]
+	},
+	"textures": {
+		
+	},
+	"elements": [
+		{
+			"name": "liquidmiddle",
+			"from": [ 3.5, 1.0, 1.65 ],
+			"to": [ 12.5, 2.0, 14.4 ],
+			"renderPass": 1,
+			"rotationOrigin": [ 11.5, 14.0, 9.6 ],
+			"faces": {
+				"up": {
+					"texture": "#waterportion",
+					"uv": [ 3.3333, 1.3333, 12.0, 14.0 ]
+				}
+			}
+		},
+		{
+			"name": "liquidleft",
+			"from": [ 1.5, 1.0, 4.0 ],
+			"to": [ 3.5, 2.0, 12.0 ],
+			"renderPass": 1,
+			"rotationOrigin": [ 9.5, 14.0, 12.0 ],
+			"faces": {
+				"up": {
+					"texture": "#waterportion",
+					"uv": [ 1.3333, 4.0, 3.3333, 12.0 ]
+				}
+			}
+		},
+		{
+			"name": "liquidright",
+			"from": [ 12.5, 1.0, 4.0 ],
+			"to": [ 14.5, 2.0, 12.0 ],
+			"renderPass": 1,
+			"rotationOrigin": [ 20.5, 14.0, 12.0 ],
+			"faces": {
+				"up": {
+					"texture": "#waterportion",
+					"uv": [ 12.0, 4.0, 14.0, 12.0 ]
+				}
+			}
+		}
+	]}

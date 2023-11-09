@@ -1,0 +1,24 @@
+[
+	{
+		"file": "game:blocktypes/clay/oven.json",
+		"op": "replace",
+		"path": "/guiTransform",
+		"side": "server",
+		"value": {
+			"rotation": {
+				"x": -33,
+				"y": -136,
+				"z": 1
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.5,
+				"z": 0.53
+			},
+			"scale": 1.07
+		}
+	}
+]
+
+
+	

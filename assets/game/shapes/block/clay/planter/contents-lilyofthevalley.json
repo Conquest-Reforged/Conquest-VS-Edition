@@ -1,0 +1,109 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/dome/floor2,Root/dome/dome4,Root/dome/dome5,Root/dome/dome6,Root/dome/dome7,Root/legs,Root/flower4,Root/dome1,Root/flower5,Root/dome3,Root/dome4,Root/dome6,Root/dome7,Root/bottom,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "flower1",
+			"from": [ 0.7, 0.0, 4.7 ],
+			"to": [ 1.7, 1.0, 5.7 ],
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 0.7, 0.0, 4.7 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ 0.0, 0.0, 4.0 ],
+					"to": [ 16.0, 16.0, 4.0 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 4.0 ],
+					"faces": {
+						"north": {
+							"texture": "#1",
+							"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+							"autoUv": false,
+							"windMode": [ 0, 2, 2, 0 ],
+							"windData": [ 0, 1, 1, 0 ]
+						}
+					}
+				},
+				{
+					"name": "Cube2",
+					"from": [ 7.9, 0.0, -4.1 ],
+					"to": [ 23.9, 16.0, -4.1 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 7.9, 0.0, -4.1 ],
+					"rotationY": -89.98,
+					"faces": {
+						"north": {
+							"texture": "#2",
+							"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+							"autoUv": false,
+							"windMode": [ 0, 2, 2, 0 ],
+							"windData": [ 0, 1, 1, 0 ]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "flower2",
+			"from": [ -0.4, 0.0, 1.0 ],
+			"to": [ 0.6, 1.0, 2.0 ],
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ -0.4, 0.0, 1.0 ],
+			"rotationY": -45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube5",
+					"from": [ 1.0, 0.0, -1.0 ],
+					"to": [ 17.0, 16.0, -1.0 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+					"faces": {
+						"north": {
+							"texture": "#1",
+							"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+							"autoUv": false,
+							"windMode": [ 0, 2, 2, 0 ],
+							"windData": [ 0, 1, 1, 0 ]
+						}
+					}
+				},
+				{
+					"name": "Cube6",
+					"from": [ 9.6, 0.0, -9.7 ],
+					"to": [ 25.6, 16.0, -9.7 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 8.6, 0.0, -9.7 ],
+					"rotationY": -89.98,
+					"faces": {
+						"north": {
+							"texture": "#3",
+							"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+							"autoUv": false,
+							"windMode": [ 0, 2, 2, 0 ],
+							"windData": [ 0, 1, 1, 0 ]
+						}
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/dome/dome4,Root/dome/dome5,Root/dome/dome6,Root/dome/dome7,Root/legs,Root/dome/floor2,Root/dome1,Root/dome3,Root/dome4,Root/dome6,Root/dome7,Root/bottom,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"goldenpoppy": [32,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ -2.2, 0.0, 7.3 ],
+			"to": [ -1.2, 1.0, 8.3 ],
+			"rotationOrigin": [ -1.6, 2.0, 9.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "flower1",
+					"from": [ -5.3, 0.0, 1.4 ],
+					"to": [ 26.7, 32.0, 1.4 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 5.8, -0.5, 1.4 ],
+					"faces": {
+						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "flower2",
+					"from": [ -0.3, 0.0, 6.4 ],
+					"to": [ 31.7, 32.0, 6.4 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 10.7, 11.0, 6.4 ],
+					"rotationY": 90.0,
+					"faces": {
+						"south": { "texture": "#2", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "flower3",
+					"from": [ 2.7, 0.0, 4.3 ],
+					"to": [ 34.7, 32.0, 4.3 ],
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 13.7, 11.0, 4.3 ],
+					"rotationX": -180.0,
+					"rotationY": 45.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"south": { "texture": "#3", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}
