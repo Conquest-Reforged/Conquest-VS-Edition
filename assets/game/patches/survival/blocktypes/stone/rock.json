@@ -5,11 +5,61 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(andesite|basalt|chalk|obsidian|sulfur|tuff|greenmarble|redmarble|whitemarble)": {
+            "*-slate": {
                 "all": {
                     "base": "block/stone/rock/{rock}/1",
                     "tiles": [
                         { "base": "block/stone/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(andesite|basalt|chalk|claystone|kimberlite|obsidian|peridotite|scoria|suevite|tuff|greenmarble|redmarble|whitemarble)": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-phyllite": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 6
+                }
+            },
+            "@.*-(conglomerate|halite)": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 8
+                }
+            },
+            "@.*-(bauxite|chert|sandstone)": {
+                "sides": {
+                    "base": "block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
                     ],
                     "tilesWidth": 4
                 }
@@ -37,27 +87,27 @@
                     "tilesWidth": 8
                 }
             },
-			"*-sandstone": {
+            "*-limestone": {
                 "sides": {
                     "base": "block/stone/rock/{rock}/sides/1",
                     "tiles": [
                         { "base": "block/stone/rock/{rock}/sides/*" }
                     ],
-                    "tilesWidth": 4
+                    "tilesWidth": 8
                 },
                 "up": {
                     "base": "block/stone/rock/{rock}/top/1",
                     "tiles": [
                         { "base": "block/stone/rock/{rock}/top/*" }
                     ],
-                    "tilesWidth": 2
+                    "tilesWidth": 7
                 },
                 "down": {
                     "base": "block/stone/rock/{rock}/top/1",
                     "tiles": [
                         { "base": "block/stone/rock/{rock}/top/*" }
                     ],
-                    "tilesWidth": 2
+                    "tilesWidth": 7
                 }
             },
 		    "*-shale": {
