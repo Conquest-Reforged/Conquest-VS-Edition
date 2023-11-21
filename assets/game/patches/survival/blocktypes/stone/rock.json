@@ -1,30 +1,88 @@
 [
-
     {
-        "file": "game:blocktypes/stone/rock.json",
+        "file": "blocktypes/stone/rock.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
-                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
-                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
-                "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+            "@.*-(andesite|basalt|chalk|obsidian|sulfur|tuff|greenmarble|redmarble|whitemarble)": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
             },
-            "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)": {
-                "sides": { "base": "game:block/stone/rock/{rock}*" },
-                "up": { "base": "game:block/stone/rock/top/{rock}*" },
-                "down": { "base": "game:block/stone/rock/top/{rock}*" }
+            "*-granite": {
+                "sides": {
+                    "base": "block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "up": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "down": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 8
+                }
             },
-            "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
-                "all": { "base": "game:block/stone/rock/{rock}*" }
-
+			"*-sandstone": {
+                "sides": {
+                    "base": "block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
             },
-            "*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
-
+		    "*-shale": {
+                "sides": {
+                    "base": "block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 6
+                },
+                "up": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
             }
         }
-
     }
 ]
