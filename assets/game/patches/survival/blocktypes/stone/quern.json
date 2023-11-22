@@ -1,0 +1,63 @@
+[
+
+    {
+        "file": "game:blocktypes/stone/quern.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+
+            "base": {
+                "base": "game:block/stone/quern/{rock}-base"
+            },
+            "table": {
+                "base": "game:block/stone/quern/table"
+            },
+            "top": {
+                "base": "game:block/stone/quern/{rock}-top"
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/stone/quern.json",
+        "op": "replace",
+        "path": "/sidesolid",
+        "side": "server",
+        "value": {
+            "all": false
+        }
+    },
+    {
+        "file": "game:blocktypes/stone/quern.json",
+        "op": "replace",
+        "path": "/sideopaque",
+        "side": "server",
+        "value": {
+            "all": false
+        }
+    },
+    {
+        "file": "game:blocktypes/stone/quern.json",
+        "op": "replace",
+        "path": "/collisionSelectionBoxes",
+        "side": "server",
+        "value": [
+                {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.375,
+                    "z2": 1
+                },
+                {
+                    "x1": 0.0625,
+                    "y1": 0.375,
+                    "z1": 0.0625,
+                    "x2": 0.9375,
+                    "y2": 0.75,
+                    "z2": 0.9375
+                }
+            ]
+        }
+]
