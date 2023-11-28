@@ -5,7 +5,13 @@
         "side": "server",
         "path": "/textures",
         "value": {
-            "all": { "base": "game:block/stone/gravel/{rock}*" }
-        }
-    }
+			"all": {
+				"base": "block/stone/gravel/{rock}/1",
+				"tiles": [
+					{ "base": "block/stone/gravel/{rock}/*" }
+				],
+				"tilesWidth": 4
+			}
+		}
+	}
 ]
