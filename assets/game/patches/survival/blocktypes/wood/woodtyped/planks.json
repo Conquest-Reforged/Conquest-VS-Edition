@@ -1,68 +1,284 @@
 [
-	{
-		"file": "blocktypes/wood/woodtyped/planks.json",
-		"op": "replace",
-		"path": "/texturesByType",
-		"side": "server",
-		"value": {
-			"*-aged-ud": {
-				"all": {
-					"base": "block/wood/planks/aged/generic*",
-					"rotation": 90
-				}
-			},
-			"*-aged-we": {
-				"all": {
-					"base": "block/wood/planks/aged/generic*",
-					"rotation": 0
-				}
-			},
-			"*-aged-ns": {
-				"all": { "base": "block/wood/planks/aged/generic*" },
-				"verticals": {
-					"base": "block/wood/planks/aged/generic*",
-					"rotation": 90
-				}
-			},
-			"*-agedebony-ud": {
-				"all": {
-					"base": "block/wood/planks/aged/ebony*",
-					"rotation": 90
-				}
-			},
-			"*-agedebony-we": {
-				"all": {
-					"base": "block/wood/planks/aged/ebony*",
-					"rotation": 0
-				}
-			},
-			"*-agedebony-ns": {
-				"all": { "base": "block/wood/planks/aged/ebony*" },
-				"verticals": {
-					"base": "block/wood/planks/aged/ebony*",
-					"rotation": 90
-				}
-			},
-			"*-ud": {
-				"all": {
-					"base": "block/wood/planks/{wood}*",
-					"rotation": 90
-				}
-			},
-			"*-we": {
-				"all": {
-					"base": "block/wood/planks/{wood}*",
-					"rotation": 0
-				}
-			},
-			"*-ns": {
-				"all": { "base": "block/wood/planks/{wood}*" },
-				"verticals": {
-					"base": "block/wood/planks/{wood}*",
-					"rotation": 90
-				}
-			}
-		}
-	}
+    {
+        "file": "blocktypes/wood/woodtyped/planks.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+           
+            "*-acacia-ud": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/sides/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "*-acacia-we": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "westeast": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "northsouth": {
+                    "base": "block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "*-acacia-ns": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/sides/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "westeast": {
+                    "base": "block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "northsouth": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-ud": {
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-we": {
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-ns": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(oak)-ud": {
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(oak)-we": {
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(oak)-ns": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "*-ud": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-we": {
+                "up": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-ns": {
+                "all": {
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "rotation": 90,
+                    "base": "block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+
+            }
+        }
+    }
 ]
-	
