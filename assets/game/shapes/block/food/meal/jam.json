@@ -1,0 +1,67 @@
+{
+	"editor": {
+		"backDropShape": "block/clay/bowl-empty-ground",
+		"collapsedPaths": "Root/bottom,Root/legs,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "bowl",
+			"from": [ 6.5, -0.6, 6.5 ],
+			"to": [ 9.5, 0.4, 9.5 ],
+			"rotationOrigin": [ 0.0, -0.6, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "fruit",
+					"from": [ -0.5, 1.9, -0.5 ],
+					"to": [ 3.5, 1.9, 3.5 ],
+					"renderPass": 3,
+					"faces": {
+						"up": {
+							"texture": "#fruit",
+							"uv": [ 1.0, 11.0, 5.0, 15.0 ]
+						}
+					}
+				},
+				{
+					"name": "honey",
+					"from": [ -0.5, 2.1, -0.5 ],
+					"to": [ 3.5, 2.1, 3.5 ],
+					"renderPass": 3,
+					"rotationOrigin": [ 0.0, -0.2, 0.0 ],
+					"faces": {
+						"north": {
+							"texture": "#honey",
+							"uv": [ 0.0, 0.0, 4.0, 0.5 ]
+						},
+						"east": {
+							"texture": "#honey",
+							"uv": [ 0.0, 0.0, 4.0, 0.5 ]
+						},
+						"south": {
+							"texture": "#honey",
+							"uv": [ 0.0, 0.0, 4.0, 0.5 ]
+						},
+						"west": {
+							"texture": "#honey",
+							"uv": [ 0.0, 0.0, 4.0, 0.5 ]
+						},
+						"up": {
+							"texture": "#honey",
+							"uv": [ 0.0, 0.0, 4.0, 4.0 ]
+						}
+					}
+				}
+			]
+		}
+	]
+}

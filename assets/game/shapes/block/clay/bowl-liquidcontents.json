@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/bottom,Root/legs,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Content",
+			"from": [ 6.5, 0.0, 6.5 ],
+			"to": [ 9.5, 0.3, 9.5 ],
+			"renderPass": 4,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"up": {
+					"texture": "#content",
+					"uv": [ 0.0, 0.0, 3.0, 3.0 ]
+				}
+			}
+		}
+	]
+}

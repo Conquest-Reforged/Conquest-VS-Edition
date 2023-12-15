@@ -1,0 +1,38 @@
+{
+	"editor": {
+		"backDropShape": "block/clay/bowl-empty-ground",
+		"collapsedPaths": "Root/bottom,Root/legs,Root/stone,Root/Top",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "bowl",
+			"from": [ 6.5, -1.2, 6.5 ],
+			"to": [ 9.5, -0.2, 9.5 ],
+			"rotationOrigin": [ 0.0, -1.2, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "liquid",
+					"from": [ -0.5, 1.47, -0.5 ],
+					"to": [ 3.5, 1.97, 3.5 ],
+					"rotationOrigin": [ 0.0, -0.3, 0.0 ],
+					"faces": {
+						"up": {
+							"texture": "#liquid",
+							"uv": [ 4.5, 4.5, 8.5, 8.5 ]
+						}
+					}
+				}
+			]
+		}
+	]
+}

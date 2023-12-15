@@ -1,0 +1,39 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/handle2,Root/handle3",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"label": "block/clay/crock/label"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.3, 8.5 ],
+			"to": [ 8.0, 0.3, 8.5 ],
+			"rotationOrigin": [ 8.0, 0.3, 8.5 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "label",
+					"from": [ -2.0, 1.0, 2.01 ],
+					"to": [ 2.0, 4.0, 2.51 ],
+					"rotationOrigin": [ -3.0, 0.4, 2.5 ],
+					"faces": {
+						"south": {
+							"texture": "#label",
+							"uv": [ 12.0, 0.0, 16.0, 2.5 ],
+							"autoUv": false
+						}
+					}
+				}
+			]
+		}
+	]
+}

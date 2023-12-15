@@ -94,7 +94,7 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "*-raw": { "all": { "base": "block/clay/blueclay" } },
+            "*-raw": { "all": { "base": "block/clay/planter/raw" } },
             "*-burnt": {
                 "sides": { "base": "block/clay/planter/burnt" },
                 "ceramic": { "base": "block/clay/planter/burnt" },

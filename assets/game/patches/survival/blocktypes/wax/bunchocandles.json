@@ -1,0 +1,92 @@
+[
+    {
+        "file": "game:blocktypes/wax/bunchocandles.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+
+                "*-1": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 7,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-2": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 10,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-3": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 19,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-4": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 21,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-5": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 28,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-6": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 35,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-7": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 42,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-8": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 49,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                },
+                "*-9": {
+                    "base": "block/wax/bunch",
+                    "quantityElements": 56,
+                    "alternates": [
+                        { "rotateY": 90 },
+                        { "rotateY": 180 },
+                        { "rotateY": 270 }
+                    ]
+                }
+            }
+        }
+]
