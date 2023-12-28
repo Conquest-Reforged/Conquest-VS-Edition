@@ -1,0 +1,80 @@
+[
+	{
+		"file": "blocktypes/wood/woodtyped/door.json",
+		"op": "remove",
+		"path": "/shape",
+		"side": "server",
+		"value": {}
+	},
+	{
+		"file": "blocktypes/wood/woodtyped/door.json",
+		"op": "add",
+		"path": "/shapeByType",
+		"side": "server",
+		"value": {
+
+			"@*-sleek-windowed-(oak|walnut)": { "base": "block/wood/door/sleek1" },
+			"@*-sleek-windowed-(maple|acacia|ebony)": { "base": "block/wood/door/sleek2" },
+			"@*-sleek-windowed-(birch|pine)": { "base": "block/wood/door/sleek3" },
+			"@*-sleek-windowed-(redwood|purpleheart|larch)": { "base": "block/wood/door/sleek4" },
+			"@*-sleek-windowed-(kapok|baldcypress)": { "base": "block/wood/door/sleek5" },
+			"@*-sleek-windowed-(aged)": { "base": "block/wood/door/sleek-age" },
+			"@*-solid-(larch|kapok)": { "base": "block/wood/door/solid1" },
+			"@*-solid-(oak|maple)": { "base": "block/wood/door/solid2" },
+			"@*-solid-(birch|pine|purpleheart)": { "base": "block/wood/door/solid3" },
+			"@*-solid-(redwood|baldcypress|ebony)": { "base": "block/wood/door/solid4" },
+			"*-solid-aged": { "base": "block/wood/door/solid-age" },
+			"*-solid-acacia": { "base": "block/wood/door/solid-acacia" },
+			"*-solid-walnut": { "base": "block/wood/door/solid-walnut" },
+			"*": { "base": "block/wood/door/{style}" }
+		}
+	},
+	{
+		"file": "blocktypes/wood/woodtyped/door.json",
+		"op": "add",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"door-sleek-windowed-*": {
+				"sleek": {
+					"base": "block/wood/door/sleek-{wood}"
+				}
+			},
+			"door-solid-*": {
+				"solid": {
+					"base": "block/wood/door/solid-{wood}"
+				}
+			},
+			"door-1x3gate-*": {
+				"wood": {
+					"base": "block/wood/debarked/{wood}",
+					"rotation": 90,
+					"blendedOverlays": [
+						{
+							"base": "block/wood/door/overlay-tall",
+							"blendMode": "Overlay"
+						}
+					]
+				}
+			},
+			"door-2x2gate-*": {
+				"wood": {
+					"base": "block/wood/debarked/{wood}",
+					"rotation": 90,
+					"blendedOverlays": [
+						{
+							"base": "block/wood/door/overlay-wide",
+							"blendMode": "Overlay"
+						}
+					]
+				}
+			},
+			"door-2x4gate-*": {
+				"wood": {
+					"base": "block/wood/debarked/{wood}",
+					"rotation": 90
+				}
+			}
+		}
+	}
+]
