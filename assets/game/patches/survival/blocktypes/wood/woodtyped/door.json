@@ -26,6 +26,20 @@
 			"*-solid-aged": { "base": "block/wood/door/solid-age" },
 			"*-solid-acacia": { "base": "block/wood/door/solid-acacia" },
 			"*-solid-walnut": { "base": "block/wood/door/solid-walnut" },
+			"@*-1x3gate-(walnut|pine)": { "base": "block/wood/door/1x3gate1" },
+			"@*-1x3gate-(oak|maple)": { "base": "block/wood/door/1x3gate2" },
+			"@*-1x3gate-(baldcypress|redwood|ebony)": { "base": "block/wood/door/1x3gate3" },
+			"@*-1x3gate-(birch|purpleheart)": { "base": "block/wood/door/1x3gate4" },
+			"@*-1x3gate-(acacia)": { "base": "block/wood/door/1x3gate-acacia" },
+			"@*-1x3gate-(kapok)": { "base": "block/wood/door/1x3gate5" },
+			"@*-1x3gate-(larch)": { "base": "block/wood/door/1x3gate6" },
+			"@*-1x3gate-(aged)": { "base": "block/wood/door/1x3gate-aged" },
+			"@*-2x2gate-(oak|birch|redwood|pine|purpleheart)": { "base": "block/wood/door/2x2gate1" },
+			"@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)": { "base": "block/wood/door/2x2gate2" },
+			"@*-2x2gate-(aged)": { "base": "block/wood/door/2x2gate-aged" },
+			"@*-2x4gate-(oak|larch|purpleheart|maple|aged)": { "base": "block/wood/door/2x4gate1" },
+			"@*-2x4gate-(baldcypress|pine|birch|redwood)": { "base": "block/wood/door/2x4gate2" },
+			"@*-2x4gate-(kapok|walnut|acacia|ebony)": { "base": "block/wood/door/2x4gate3" },
 			"*": { "base": "block/wood/door/{style}" }
 		}
 	},
@@ -46,33 +60,27 @@
 				}
 			},
 			"door-1x3gate-*": {
-				"wood": {
-					"base": "block/wood/debarked/{wood}",
-					"rotation": 90,
-					"blendedOverlays": [
-						{
-							"base": "block/wood/door/overlay-tall",
-							"blendMode": "Overlay"
-						}
-					]
+				"tall": {
+					"base": "block/wood/door/tall-{wood}"
+				},
+				"tall-extension": {
+					"base": "block/wood/door/tall-{wood}-extension"
 				}
 			},
 			"door-2x2gate-*": {
-				"wood": {
-					"base": "block/wood/debarked/{wood}",
-					"rotation": 90,
-					"blendedOverlays": [
-						{
-							"base": "block/wood/door/overlay-wide",
-							"blendMode": "Overlay"
-						}
-					]
+				"gate": {
+					"base": "block/wood/door/2x2-{wood}"
+				},
+				"gate-extension": {
+					"base": "block/wood/door/2x2-{wood}-extension"
 				}
 			},
 			"door-2x4gate-*": {
-				"wood": {
-					"base": "block/wood/debarked/{wood}",
-					"rotation": 90
+				"gate": {
+					"base": "block/wood/door/2x4-{wood}"
+				},
+				"gate-extension": {
+					"base": "block/wood/door/2x4-{wood}-extension"
 				}
 			}
 		}

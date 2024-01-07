@@ -13,9 +13,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
-			"rotationOrigin": [ 8.0, 0.0, 21.5 ],
+			"from": [ -16.0, 0.0, -11.0 ],
+			"to": [ -16.0, 0.0, -11.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 16.0 ],
 			"rotationY": -180.0,
 			"faces": {
 			},
@@ -72,8 +72,8 @@
 						},
 						{
 							"name": "hinge49",
-							"from": [ 14.51, 5.55, 27.0 ],
-							"to": [ 16.01, 9.05, 28.99 ],
+							"from": [ 14.51, 5.55, 26.99 ],
+							"to": [ 16.01, 9.05, 28.98 ],
 							"rotationOrigin": [ 0.75, 16.25, 15.05 ],
 							"faces": {
 								"north": { "texture": "#sleek", "uv": [ 16.5, 8.0, 18.0, 11.5 ], "autoUv": false },
@@ -225,7 +225,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -13.5, "offsetY": 0.0, "offsetZ": 0.3, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -2.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]
