@@ -67,7 +67,7 @@
 					"base": "block/wood/door/tall-{wood}-extension"
 				}
 			},
-			"door-2x2gate-*": {
+			"@*-2x2gate-(oak|birch|redwood|pine|purpleheart|aged)-*": {
 				"gate": {
 					"base": "block/wood/door/2x2-{wood}"
 				},
@@ -75,14 +75,17 @@
 					"base": "block/wood/door/2x2-{wood}-extension"
 				}
 			},
+			"@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)-*": {
+				"gate": {
+					"base": "block/wood/door/2x2-{wood}"
+				}
+			},
+
 			"door-2x4gate-*": {
 				"gate": {
 					"base": "block/wood/door/2x4-{wood}"
-				},
-				"gate-extension": {
-					"base": "block/wood/door/2x4-{wood}-extension"
 				}
 			}
 		}
-	}
+		}
 ]

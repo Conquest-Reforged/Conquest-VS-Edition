@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"candle": "block/candle-unlit"
+		"candle-unlit": "block/candle-unlit"
 	},
 	"elements": [
 		{

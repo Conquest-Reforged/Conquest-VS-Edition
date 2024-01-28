@@ -1,0 +1,400 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"horsetail": "item/horsetail"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "stem",
+					"from": [ -2.2, -1.0, -0.2 ],
+					"to": [ -1.8, 3.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationZ": 116.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 2.5, 7.5, 3.0, 11.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 2.5, 7.0, 3.0, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 4.0, 14.0, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 4.0, 14.5, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 4.0, 14.0, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 4.0, 14.0, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "tie",
+							"from": [ -0.8, 2.8, -0.6 ],
+							"to": [ 1.0, 3.3, 0.8 ],
+							"rotationOrigin": [ 0.0, 3.0, 0.1 ],
+							"rotationY": -3.0,
+							"rotationZ": -22.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 1.0, 14.5, 2.5, 15.0 ] },
+								"east": { "texture": "#horsetail", "uv": [ 1.0, 14.5, 2.0, 15.0 ] },
+								"south": { "texture": "#horsetail", "uv": [ 2.0, 14.5, 3.5, 15.0 ] },
+								"west": { "texture": "#horsetail", "uv": [ 2.0, 14.0, 3.0, 14.5 ] },
+								"up": { "texture": "#horsetail", "uv": [ 1.5, 14.0, 3.0, 15.0 ] },
+								"down": { "texture": "#horsetail", "uv": [ 1.5, 13.5, 3.0, 14.5 ] }
+							}
+						},
+						{
+							"name": "tie33",
+							"from": [ -0.5, 2.5, -0.6 ],
+							"to": [ 1.3, 3.0, 0.8 ],
+							"rotationOrigin": [ 0.3, 2.7, 0.1 ],
+							"rotationY": 72.0,
+							"rotationZ": 25.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 1.5, 14.0, 3.0, 14.5 ] },
+								"east": { "texture": "#horsetail", "uv": [ 2.0, 14.0, 3.0, 14.5 ] },
+								"south": { "texture": "#horsetail", "uv": [ 1.5, 14.5, 3.0, 15.0 ] },
+								"west": { "texture": "#horsetail", "uv": [ 2.0, 14.0, 3.0, 14.5 ] },
+								"up": { "texture": "#horsetail", "uv": [ 1.5, 13.5, 3.0, 14.5 ] },
+								"down": { "texture": "#horsetail", "uv": [ 1.5, 14.0, 3.0, 15.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "stem7",
+					"from": [ -2.2, 0.0, -0.2 ],
+					"to": [ -1.8, 4.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationY": -19.0,
+					"rotationZ": 97.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 3.0, 7.0, 3.5, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE8",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 4.0, 14.5, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS9",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 4.0, 14.5, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW10",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 4.0, 14.0, 10.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE11",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 4.0, 14.0, 10.0 ], "rotation": 180 }
+							}
+						}
+					]
+				},
+				{
+					"name": "stem12",
+					"from": [ -2.2, 0.0, -0.2 ],
+					"to": [ -1.8, 4.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationX": 91.0,
+					"rotationY": -3.0,
+					"rotationZ": 83.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 2.5, 7.0, 3.0, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE13",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS14",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW15",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.0, 14.0, 9.0 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE16",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						}
+					]
+				},
+				{
+					"name": "stem17",
+					"from": [ -2.2, 1.0, -0.2 ],
+					"to": [ -1.8, 5.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationX": 80.0,
+					"rotationZ": 75.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 3.0, 7.0, 3.5, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE18",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.5, 14.5, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS19",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.5, 14.5, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW20",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE21",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						}
+					]
+				},
+				{
+					"name": "stem22",
+					"from": [ -2.2, 1.0, -0.2 ],
+					"to": [ -1.8, 5.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationX": 39.0,
+					"rotationY": -33.0,
+					"rotationZ": 100.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 2.5, 7.0, 3.0, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE23",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.5, 14.5, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS24",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.5, 14.5, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW25",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.5, 14.5, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE26",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						}
+					]
+				},
+				{
+					"name": "stem27",
+					"from": [ -2.2, 0.0, -0.2 ],
+					"to": [ -1.8, 4.0, 0.2 ],
+					"rotationOrigin": [ -2.0, 2.0, 0.0 ],
+					"rotationX": 25.0,
+					"rotationY": -28.0,
+					"rotationZ": 78.0,
+					"faces": {
+						"north": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#horsetail", "uv": [ 3.0, 7.0, 3.5, 11.0 ], "rotation": 180 },
+						"south": { "texture": "#horsetail", "uv": [ 3.0, 8.5, 3.5, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#horsetail", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 180 },
+						"up": { "texture": "#horsetail", "uv": [ 2.5, 11.5, 3.0, 12.0 ] },
+						"down": { "texture": "#horsetail", "uv": [ 2.5, 10.0, 3.0, 10.5 ] }
+					},
+					"children": [
+						{
+							"name": "fernsideWE28",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNS29",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideSW30",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.0, 3.5, 14.0, 9.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "fernsideNE31",
+							"from": [ -1.8, -5.0, 0.2 ],
+							"to": [ 2.2, 1.0, 0.2 ],
+							"rotationOrigin": [ 0.2, 1.0, 0.2 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#horsetail", "uv": [ 10.5, 3.0, 14.5, 9.0 ], "rotation": 180 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

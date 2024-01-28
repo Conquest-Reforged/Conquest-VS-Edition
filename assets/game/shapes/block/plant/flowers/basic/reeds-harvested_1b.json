@@ -1,0 +1,150 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/door_frame/frame,Root/frame,Root/frame/InnerPannel,Root/door_frame/InnerPannel,Root/aceesories,Root/frame/frame",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "set1s",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 1.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "set1a2",
+							"from": [ -10.0, 0.0, 21.2498 ],
+							"to": [ 22.0, 64.0, 21.2518 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 22.0, 0.0, 21.25 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#20", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,4,4,0] }
+							}
+						},
+						{
+							"name": "set1c2",
+							"from": [ -8.0, 0.0, 6.2498 ],
+							"to": [ 24.0, 64.0, 6.2518 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 24.0, 0.0, 6.25 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#30", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,4,4,0] }
+							}
+						},
+						{
+							"name": "set1b2",
+							"from": [ 3.9982, 0.0, -4.75 ],
+							"to": [ 4.0002, 64.0, 27.25 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 4.0, 0.0, 27.25 ],
+							"rotationY": -22.5,
+							"faces": {
+								"east": { "texture": "#10", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,4,4,0] }
+							}
+						}
+					]
+				},
+				{
+					"name": "set2s",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 1.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "set2a2",
+							"from": [ 23.0, 0.0, -6.25 ],
+							"to": [ 23.002, 64.0, 25.75 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 23.0, 0.0, -6.25 ],
+							"rotationY": -45.0,
+							"faces": {
+								"east": { "texture": "#20", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,4,4,0] }
+							}
+						},
+						{
+							"name": "set2b2",
+							"from": [ 22.998, 0.0, -16.0 ],
+							"to": [ 23.0, 64.0, 16.0 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 23.0, 0.0, 14.75 ],
+							"rotationY": 45.0,
+							"faces": {
+								"east": { "texture": "#10", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,4,4,0] }
+							}
+						}
+					]
+				},
+				{
+					"name": "set3s",
+					"from": [ -2.8, 3.0, 14.0 ],
+					"to": [ -1.8, 4.0, 15.0 ],
+					"rotationOrigin": [ -2.8, 3.0, 14.0 ],
+					"rotationY": 125.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "set3a2",
+							"from": [ 12.0, -5.0, -1.0 ],
+							"to": [ 12.002, 59.0, 31.0 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 12.0, -5.0, -1.0 ],
+							"rotationY": -45.0,
+							"faces": {
+								"east": { "texture": "#30", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,3,3,0] }
+							}
+						},
+						{
+							"name": "set3b2",
+							"from": [ 13.998, -5.0, -12.0 ],
+							"to": [ 14.0, 59.0, 20.0 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalGrass",
+							"renderPass": 2,
+							"rotationOrigin": [ 14.0, -5.0, 20.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"east": { "texture": "#10", "uv": [ 0.0, 0.0, 32.0, 64.0 ], "windMode": [0,5,5,0], "windData": [0,3,3,0] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

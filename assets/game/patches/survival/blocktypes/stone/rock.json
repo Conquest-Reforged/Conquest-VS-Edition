@@ -29,10 +29,10 @@
                     "tiles": [
                         { "base": "block/stone/rock/{rock}/*" }
                     ],
-                    "tilesWidth": 6
+                    "tilesWidth": 8
                 }
             },
-            "@.*-(conglomerate|halite)": {
+            "@.*-(halite)": {
                 "all": {
                     "base": "block/stone/rock/{rock}/1",
                     "tiles": [
@@ -41,7 +41,7 @@
                     "tilesWidth": 8
                 }
             },
-            "@.*-(bauxite|chert|sandstone)": {
+            "@.*-(bauxite|chert|sandstone|conglomerate)": {
                 "sides": {
                     "base": "block/stone/rock/{rock}/sides/1",
                     "tiles": [
