@@ -9,8 +9,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cobble": "block/stone/forge/cobble",
-		"cobbletop": "block/stone/forge/cobbletop"
+		"cobbletop": "block/stone/forge/cobbletop",
+		"cobble": "block/stone/forge/cobble"
+
 	},
 	"elements": [
 		{
