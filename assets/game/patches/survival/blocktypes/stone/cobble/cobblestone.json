@@ -21,7 +21,7 @@
                     "tilesWidth": 5
                 }
             },
-            "*-shale": {
+            "@.*-(shale|basalt)": {
                 "all": {
                     "base": "block/stone/cobblestone/{rock}/1",
                     "tiles": [

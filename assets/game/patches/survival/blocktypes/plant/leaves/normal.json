@@ -23,6 +23,7 @@
 			"baseByType": {
 				"*-pine": "block/plant/leaves/branchy-pine",
 				"*-birch": "block/plant/leaves/branchy-birch",
+				"*-redwood": "block/plant/leaves/branchy-redwood",
 				"*-acacia": "block/plant/leaves/branchy",
 				"*-kapok": "block/plant/leaves/branchy-kapok",
 				"*-larch": "block/plant/leaves/branchy-larch",
@@ -75,8 +76,8 @@
 		"side": "server",
 		"value": {
 			"largeleavesByType": {
-				"*-redwood": { "base": "block/plant/leaves/large/pine*" },
-				"*-crimsonkingmaple": { "base": "block/plant/leaves/large/maple*" },
+				"*-redwood": { "base": "block/plant/leaves/large/redwood/redwood*" },
+				"*-crimsonkingmaple": { "base": "block/plant/leaves/large/maple/mapleleaves*" },
 				"*-oak": { "base": "block/plant/leaves/large/oak/oakleaves*" },
 				"*-pine": { "base": "block/plant/leaves/large/pine/pineleaves*" },
 				"*-maple": { "base": "block/plant/leaves/large/maple/mapleleaves*" },
@@ -92,8 +93,8 @@
 
 			},
 			"smallleavesByType": {
-				"*-redwood": { "base": "block/plant/leaves/small/pine*" },
-				"*-crimsonkingmaple": { "base": "block/plant/leaves/small/maple*" },
+				"*-redwood": { "base": "block/plant/leaves/small/redwood/redwood*" },
+				"*-crimsonkingmaple": { "base": "block/plant/leaves/small/maple/mapleleaves*" },
 				"*-oak": { "base": "block/plant/leaves/small/oak/oakleaves*" },
 				"*-pine": { "base": "block/plant/leaves/small/pine/pineleaves*" },
 				"*-maple": { "base": "block/plant/leaves/small/maple/mapleleaves*" },

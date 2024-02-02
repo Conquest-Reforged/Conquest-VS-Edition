@@ -1,12 +1,23 @@
 [
     {
         "file": "blocktypes/stone/cobble/cobbleslab.json",
-        "op": "replace",
+        "op": "remove",
         "path": "/textures",
+        "side": "server"
+    },
+    {
+        "file": "blocktypes/stone/cobble/cobbleslab.json",
+        "op": "add",
+        "path": "/texturesbytype",
         "side": "server",
         "value": {
-            "horizontals": { "base": "block/stone/cobblestonestairs/{rock}*" },
-            "verticals": { "base": "block/stone/cobblestone/{rock}*" }
+            "@.*-(limestone|slate)-.*": {
+                "sides": { "base": "block/stone/cobblestone/{rock}/sides/*" }
+            },
+            "*": {
+                "sides": { "base": "block/stone/cobblestone/{rock}/*" }
+            }
+
         }
     }
 ]

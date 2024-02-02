@@ -16,7 +16,6 @@
         "path": "/shapeByType",
         "side": "server",
         "value": {
-            "tallplant-papyrus-*-harvested-*": { "base": "block/plant/reedpapyrus/papyrus-harvested" },
             "tallplant-papyrus-*": {
                 "base": "block/plant/flowers/basic/papyrus_*"
             },
@@ -52,10 +51,10 @@
         "side": "server",
         "value": {
             "tallplant-papyrus-*": {
-                "papryus_normal_1": { "base": "block/plant/reeds/papryus_normal_1" },
-                "papryus_normal_2": { "base": "block/plant/reeds/papryus_normal_2" },
-                "papryus_normal_3": { "base": "block/plant/reeds/papryus_normal_3" },
-                "papryus_normal_4": { "base": "block/plant/reeds/papryus_normal_4" }
+                "papryus_normal_1": { "base": "block/plant/reeds/papryus_{state}_1" },
+                "papryus_normal_2": { "base": "block/plant/reeds/papryus_{state}_2" },
+                "papryus_normal_3": { "base": "block/plant/reeds/papryus_{state}_3" },
+                "papryus_normal_4": { "base": "block/plant/reeds/papryus_{state}_4" }
             },
             "tallplant-brownsedge-*": {
                 "1": {
