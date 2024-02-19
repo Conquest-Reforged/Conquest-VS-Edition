@@ -1,0 +1,16 @@
+[
+	{
+		"file": "game:blocktypes/wood/woodtyped/plankstairs.json",
+		"op": "add",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"sides": {
+				"baseByType": {
+					"plankstairs-acacia-*": "game:block/wood/planks/acacia/sides/*",
+					"*": "game:block/wood/planks/{wood}/top/*"
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "file": "game:itemtypes/food/fruit.json",
+        "op": "replace",
+        "path": "/shapebytype",
+        "side": "server",
+        "value": {
+
+            "*-breadfruit": { "base": "game:item/food/fruit/breadfruit" },
+            "*-pineapple": { "base": "game:item/food/fruit/pineapple-slice" },
+            "*-blueberry": { "base": "game:item/food/fruit/blueberry" },
+            "*-cranberry": { "base": "game:item/food/fruit/cranberry" },
+            "*-blackcurrant": { "base": "game:item/food/fruit/blackcurrant" },
+            "*-saguaro": { "base": "game:item/food/fruit/saguaro" },
+            "*-whitecurrant": { "base": "game:item/food/fruit/whitecurrant" },
+            "*-redcurrant": { "base": "game:item/food/fruit/redcurrant" },
+
+            "*-redapple": { "base": "game:item/food/fruit/redapple" },
+            "*-pinkapple": { "base": "game:item/food/fruit/pinkapple" },
+            "*-yellowapple": { "base": "game:item/food/fruit/yellowapple" },
+
+            "*-cherry": { "base": "game:item/food/fruit/cherry" },
+            "*-peach": { "base": "game:item/food/fruit/peach" },
+            "*-pear": { "base": "game:item/food/fruit/pear" },
+            "*-orange": { "base": "game:item/food/fruit/orange" },
+            "*-mango": { "base": "game:item/food/fruit/mango" },
+            "*-lychee": { "base": "game:item/food/fruit/lychee" },
+            "*-pomegranate": { "base": "game:item/food/fruit/pomegranate" }
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fruit.json",
+        "op": "replace",
+        "path": "/textureByType",
+        "side": "server",
+        "value": {
+            "textureByType": {
+                "*-redapple": { "base": "game:item/food/fruit/{fruit}" },
+                "*-peach": { "base": "game:item/food/fruit/{fruit}" },
+                "*-pear": { "base": "game:item/food/fruit/{fruit}" },
+                "*-orange": { "base": "game:item/food/fruit/{fruit}" },
+                "*-breadfruit": { "base": "game:item/food/fruit/{fruit}" },
+                "*-lychee": { "base": "game:item/food/fruit/{fruit}" },
+                "*-pomegranate": { "base": "game:item/food/fruit/{fruit}" },
+                "*": { "base": "game:item/food/fruit/{fruit}" }
+            }
+        }
+    }
+]

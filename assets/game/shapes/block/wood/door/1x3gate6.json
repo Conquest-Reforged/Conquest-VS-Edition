@@ -15,9 +15,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, 15.5 ],
-			"to": [ 0.0, 0.0, 15.5 ],
-			"rotationOrigin": [ 0.0, 0.0, 15.5 ],
+			"from": [ 0.5, 0.0, 13.0 ],
+			"to": [ 0.5, 0.0, 13.0 ],
+			"rotationOrigin": [ 1.5, 0.0, 14.5 ],
 			"rotationY": 90.0,
 			"faces": {
 				"north": { "texture": "#tall", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
@@ -44,13 +44,13 @@
 					"children": [
 						{
 							"name": "base",
-							"from": [ 0.0, 0.0, 0.0 ],
+							"from": [ 0.0, 0.01, 0.0 ],
 							"to": [ 2.0, 32.0, 16.0 ],
 							"faces": {
-								"north": { "texture": "#tall", "uv": [ 22.0, 0.0, 24.0, 32.0 ] },
+								"north": { "texture": "#tall", "uv": [ 22.0, 0.0, 24.0, 31.5 ] },
 								"east": { "texture": "#tall", "uv": [ 16.0, 0.0, 0.0, 32.0 ], "autoUv": false },
-								"south": { "texture": "#tall", "uv": [ 22.0, 0.0, 24.0, 32.0 ] },
-								"west": { "texture": "#tall", "uv": [ 0.0, 0.0, 16.0, 32.0 ] },
+								"south": { "texture": "#tall", "uv": [ 22.0, 0.0, 24.0, 31.5 ] },
+								"west": { "texture": "#tall", "uv": [ 0.0, 0.0, 16.0, 31.5 ] },
 								"up": { "texture": "#tall", "uv": [ 1.0, 11.5, 3.0, 27.5 ] },
 								"down": { "texture": "#tall", "uv": [ 1.0, 11.5, 3.0, 27.5 ] }
 							}
@@ -395,7 +395,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -2.5, "offsetY": -0.0, "offsetZ": -0.5, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.0, "offsetY": -0.0, "offsetZ": -0.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]

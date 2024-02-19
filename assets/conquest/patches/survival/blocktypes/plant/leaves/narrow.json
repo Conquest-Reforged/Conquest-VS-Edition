@@ -1,0 +1,40 @@
+[
+    {
+        "file": "game:blocktypes/plant/leaves/narrow.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server"
+    },
+    {
+        "file": "game:blocktypes/plant/leaves/narrow.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-5": {
+                "1": { "base": "block/plant/leaves/large/cypress/*" },
+                "2": { "base": "block/plant/leaves/large/cypress/*" },
+                "10": { "base": "block/plant/leaves/large/cypress/cypress1" },
+                "20": { "base": "block/plant/leaves/large/cypress/cypress2" },
+                "30": { "base": "block/plant/leaves/large/cypress/cypress3" },
+                "40": { "base": "block/plant/leaves/large/cypress/cypress4" }
+            },
+            "*-4": {
+                "smallleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_4*" },
+                "largeleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_4*" }
+            },
+            "*-3": {
+                "smallleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_3*" },
+                "largeleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_3*" }
+            },
+            "*-2": {
+                "smallleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_2*" },
+                "largeleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_2*" }
+            },
+            "*-1": {
+                "smallleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_1*" },
+                "largeleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_1*" }
+            }
+        }
+    }
+]

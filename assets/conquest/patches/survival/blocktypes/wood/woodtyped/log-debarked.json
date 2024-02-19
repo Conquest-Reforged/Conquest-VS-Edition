@@ -1,0 +1,34 @@
+[
+    {
+        "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-ud": {
+                "all": {
+                    "base": "game:block/wood/debarked/{wood}*",
+                    "rotation": 90
+                },
+                "up": { "base": "game:block/wood/debarked/{wood}*" },
+                "down": { "base": "game:block/wood/debarked/{wood}*" }
+            },
+            "*-ns": {
+                "all": {
+                    "base": "game:block/wood/debarked/{wood}*",
+                    "rotation": 90
+                },
+                "east": { "base": "game:block/wood/debarked/{wood}*" },
+                "west": { "base": "game:block/wood/debarked/{wood}*" },
+                "north": { "base": "game:block/wood/debarked/{wood}*" },
+                "south": { "base": "game:block/wood/debarked/{wood}*" }
+            },
+            "*-we": {
+                "all": { "base": "game:block/wood/debarked/{wood}*" },
+                "west": { "base": "game:block/wood/debarked/{wood}*" },
+                "east": { "base": "game:block/wood/debarked/{wood}*" }
+            }
+        }
+    }
+]
+         

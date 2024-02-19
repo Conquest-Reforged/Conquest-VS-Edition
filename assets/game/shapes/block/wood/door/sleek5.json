@@ -13,9 +13,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, -0.35 ],
-			"to": [ 0.0, 0.0, -0.35 ],
-			"rotationOrigin": [ 8.0, 0.0, 21.2 ],
+			"from": [ -13.5, 0.0, -13.25 ],
+			"to": [ -13.5, 0.0, -13.25 ],
+			"rotationOrigin": [ 1.25, 0.0, 14.75 ],
 			"rotationY": -180.0,
 			"faces": {
 			},
@@ -61,8 +61,13 @@
 							"from": [ 2.07, 18.1, 28.02 ],
 							"to": [ 14.05, 30.1, 28.02 ],
 							"rotationOrigin": [ 8.0, 0.0, 28.0 ],
+							"renderPass": 2,
 							"faces": {
-								"north": { "texture": "#sleek", "uv": [ 16.5, 0.5, 28.48, 12.5 ], "autoUv": false }
+								"north": {
+									"texture": "#sleek",
+									"uv": [ 16.5, 0.5, 28.48, 12.5 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -388,7 +393,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -13.2, "offsetY": 0.0, "offsetZ": 0.3, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]

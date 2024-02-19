@@ -1,0 +1,56 @@
+[
+    {
+        "file": "game:blocktypes/wood/woodtyped/log-section.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/woodtyped/log-section.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-*-redwood-*": {
+                "bark": { "base": "game:block/wood/bark/2x2/{wood}-2x2" },
+                "wood": { "base": "game:block/wood/treetrunk/2x2/{wood}-2x2" },
+                "inside": { "base": "game:block/wood/debarked/2x2/redwood-2x2" },
+
+                "north": { "base": "game:block/wood/treetrunk/{wood}*" },
+                "up": { "base": "game:block/wood/treetrunk/{wood}*" },
+                "down": { "base": "game:block/wood/bark/vertical/{wood}*" },
+                "east": { "base": "game:block/wood/bark/vertical/{wood}*" },
+                "south": { "base": "game:block/wood/bark/vertical/{wood}*" },
+                "west": { "base": "game:block/wood/bark/vertical/{wood}*" },
+
+
+                "inside-north": { "base": "game:block/wood/debarked/{wood}*" },
+                "inside-east": { "base": "game:block/wood/debarked/{wood}*" },
+                "inside-south": { "base": "game:block/wood/debarked/{wood}*" },
+                "inside-west": { "base": "game:block/wood/debarked/{wood}*" }
+            },
+            "*": {
+                "bark": { "base": "game:block/wood/bark/{wood}-2x2" },
+                "wood": { "base": "game:block/wood/treetrunk/{wood}-2x2" },
+                "inside": { "base": "game:block/wood/debarked/redwood-2x2" },
+
+                "north": { "base": "game:block/wood/treetrunk/{wood}" },
+                "up": { "base": "game:block/wood/treetrunk/{wood}" },
+                "down": { "base": "game:block/wood/bark/{wood}" },
+                "east": { "base": "game:block/wood/bark/{wood}" },
+                "south": { "base": "game:block/wood/bark/{wood}" },
+                "west": { "base": "game:block/wood/bark/{wood}" },
+
+
+                "inside-north": { "base": "game:block/wood/debarked/{wood}" },
+                "inside-east": { "base": "game:block/wood/debarked/{wood}" },
+                "inside-south": { "base": "game:block/wood/debarked/{wood}" },
+                "inside-west": { "base": "game:block/wood/debarked/{wood}" }
+            }
+
+        }
+
+    }
+]

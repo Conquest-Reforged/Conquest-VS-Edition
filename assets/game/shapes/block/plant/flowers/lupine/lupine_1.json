@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/flower_2,Root/flower_1,Root/stem,Root/flower_3/stem_3",
+		"collapsedPaths": "Root/stem",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -28,6 +28,7 @@
 					"to": [ 5.0, 29.0, 25.2 ],
 					"shade": false,
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 5.0, 1.0, -2.8 ],
 					"faces": {
 						"east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
@@ -39,6 +40,7 @@
 					"to": [ 13.0, 28.0, 33.2 ],
 					"shade": false,
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 13.0, 8.0, 9.2 ],
 					"rotationY": -89.98,
 					"faces": {
@@ -53,6 +55,7 @@
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 9.4, -0.1, 8.1 ],
 					"rotationY": -43.5,
 					"faces": {
@@ -134,6 +137,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 5.0, 1.0, -6.8 ],
 							"faces": {
 								"east": { "texture": "#10", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
@@ -147,6 +151,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 13.0, 8.0, 9.2 ],
 							"rotationY": -89.98,
 							"faces": {
@@ -174,6 +179,7 @@
 					"to": [ 7.3, 33.5, 25.0 ],
 					"shade": false,
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 7.3, 1.5, -7.6 ],
 					"faces": {
 						"east": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,2,2,0] }
@@ -200,7 +206,6 @@
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"renderPass": 2,
-					"renderInEditor": false,
 					"rotationOrigin": [ 5.9, 0.3, 8.1 ],
 					"rotationY": 22.5,
 					"faces": {
@@ -214,10 +219,11 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 4.3, 0.7, 8.5 ],
 							"rotationY": 90.0,
 							"faces": {
-								"east": { "texture": "#lupineleaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,0], "windData": [0,1,1,0] }
+								"east": { "texture": "#lupineleaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
 							}
 						},
 						{
@@ -228,6 +234,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 9.0, 0.7, 4.6 ],
 							"faces": {
 								"east": { "texture": "#lupineleaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
@@ -241,6 +248,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 11.9, 0.1, 5.3 ],
 							"rotationY": -45.0,
 							"faces": {
@@ -255,6 +263,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 12.2, 0.5, 11.9 ],
 							"rotationY": -135.0,
 							"faces": {
@@ -271,7 +280,6 @@
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"renderPass": 2,
-					"renderInEditor": false,
 					"faces": {
 					},
 					"children": [
@@ -283,6 +291,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 7.3, 1.5, -6.0 ],
 							"faces": {
 								"east": { "texture": "#10", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,2,2,0] }
@@ -296,6 +305,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 15.3, 9.0, 9.0 ],
 							"rotationY": -89.98,
 							"faces": {
@@ -324,6 +334,7 @@
 					"to": [ 8.8, 31.0, 25.0 ],
 					"shade": false,
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 8.8, 1.0, -7.0 ],
 					"faces": {
 						"east": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,2,0] }
@@ -335,6 +346,7 @@
 					"to": [ 16.0, 31.0, 32.2 ],
 					"shade": false,
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 16.0, 9.0, 9.0 ],
 					"rotationY": -89.98,
 					"faces": {
@@ -349,6 +361,7 @@
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"renderPass": 2,
+					"renderInEditor": false,
 					"rotationOrigin": [ 9.0984, -0.7478, 7.2942 ],
 					"rotationX": -5.009,
 					"rotationY": 22.5,
@@ -364,6 +377,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 3.2, -0.5, 4.0 ],
 							"rotationX": 8.0,
 							"rotationY": 45.0,
@@ -379,6 +393,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 9.1, -0.3, 5.2 ],
 							"rotationX": 9.0,
 							"rotationY": -25.4,
@@ -394,6 +409,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 7.4, -0.4, 2.3 ],
 							"faces": {
 								"east": { "texture": "#lupineleaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
@@ -436,6 +452,7 @@
 							"climateColorMap": "climatePlantTint",
 							"seasonColorMap": "seasonalFoliage",
 							"renderPass": 2,
+							"renderInEditor": false,
 							"rotationOrigin": [ 8.8, 1.0, -7.0 ],
 							"faces": {
 								"east": { "texture": "#30", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,2,0] }

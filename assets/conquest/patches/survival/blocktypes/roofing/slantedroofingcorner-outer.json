@@ -1,0 +1,44 @@
+[
+	{
+		"file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*-copper-*": {
+				"material": { "base": "game:block/metal/shingles/copper*" }
+			},
+			"*-slate-*": {
+				"material": { "base": "game:block/stone/shingles/slate*" }
+			},
+			"*-fireclay-*": {
+				"material": { "base": "game:block/clay/shingles/fire" }
+			},
+			"*-blueclay-*": {
+				"material": { "base": "game:block/clay/shingles/blue" }
+			},
+			"*-redclay-*": {
+				"material": { "base": "game:block/clay/shingles/red" }
+			},
+			"*-brownclay-*": {
+				"material": { "base": "game:block/clay/shingles/brown" }
+			},
+			"*-thatch-*": {
+				"top": { "base": "game:block/hay/normal/normal-side*" },
+				"bamboo-top": { "base": "game:block/hay/normal/normal-top*" },
+				"agedstraw": { "base": "game:block/plant/grassroofing/straw1" }
+			},
+			"*-agedthatch-*": {
+				"top": { "base": "game:block/plant/grassroofing/thatch/aged1" },
+				"bamboo-top": { "base": "game:block/plant/grassroofing/thatch/bamboo-top" },
+				"agedstraw": { "base": "game:block/plant/grassroofing/thatch/agedstraw" }
+			},
+			"*-bamboo-*": {
+				"bamboo-side": { "base": "game:block/wood/planks/bamboo-side" },
+				"bamboo-top": { "base": "game:block/wood/planks/bamboo-top" },
+				"bamboosmooth": { "base": "game:block/wood/planks/bamboosmooth" }
+			}
+		}
+	}
+]
+		

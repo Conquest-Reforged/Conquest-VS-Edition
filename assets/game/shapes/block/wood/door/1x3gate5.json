@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/frame/InnerPannel,Root/aceesories,Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/frame",
+		"collapsedPaths": "Root/frame/InnerPannel,Root/aceesories,Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/frame,Root/door/handle1",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -15,9 +15,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, 0.0 ],
-			"to": [ 0.0, 0.0, 0.0 ],
-			"rotationOrigin": [ 8.0, 0.0, 21.5 ],
+			"from": [ -13.6, 0.0, -13.55 ],
+			"to": [ -13.6, 0.0, -13.55 ],
+			"rotationOrigin": [ 1.2, 0.0, 14.6 ],
 			"rotationY": -180.0,
 			"faces": {
 			},
@@ -141,8 +141,13 @@
 							"from": [ 1.5, 12.5, 26.8 ],
 							"to": [ 5.0, 16.0, 26.8 ],
 							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
+							"renderPass": 2,
 							"faces": {
-								"north": { "texture": "#tall", "uv": [ 19.0, 10.5, 22.5, 14.0 ], "autoUv": false }
+								"north": {
+									"texture": "#tall",
+									"uv": [ 19.0, 10.5, 22.5, 14.0 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -150,8 +155,13 @@
 							"from": [ 3.25, 15.0, 26.175 ],
 							"to": [ 3.25, 16.5, 27.175 ],
 							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
+							"renderPass": 2,
 							"faces": {
-								"west": { "texture": "#tall", "uv": [ 20.5, 11.0, 21.5, 9.5 ], "autoUv": false }
+								"west": {
+									"texture": "#tall",
+									"uv": [ 20.5, 11.0, 21.5, 9.5 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -184,8 +194,13 @@
 							"from": [ 1.5, 12.5, 29.3 ],
 							"to": [ 5.0, 16.0, 29.3 ],
 							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
+							"renderPass": 2,
 							"faces": {
-								"north": { "texture": "#tall", "uv": [ 19.0, 10.5, 22.5, 14.0 ], "autoUv": false }
+								"north": {
+									"texture": "#tall",
+									"uv": [ 19.0, 10.5, 22.5, 14.0 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -193,8 +208,13 @@
 							"from": [ 3.25, 15.0, 28.675 ],
 							"to": [ 3.25, 16.5, 29.675 ],
 							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
+							"renderPass": 2,
 							"faces": {
-								"west": { "texture": "#tall", "uv": [ 20.5, 11.0, 21.5, 9.5 ], "autoUv": false }
+								"west": {
+									"texture": "#tall",
+									"uv": [ 20.5, 11.0, 21.5, 9.5 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -279,7 +299,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -13.2, "offsetY": 0.0, "offsetZ": 0.5, "rotationX": 0.0, "rotationY": 88.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.2, "offsetY": 0.0, "offsetZ": 0.1, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]

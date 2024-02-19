@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/textures/all/base",
-        "value": "block/coal/ember*",
-        "side": "server",
-        "file": "blocktypes/ember.json"
-    }
-]

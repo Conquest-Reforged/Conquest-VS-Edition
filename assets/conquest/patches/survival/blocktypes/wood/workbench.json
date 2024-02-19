@@ -1,0 +1,42 @@
+[
+	{
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*-north": {
+				"up": { "base": "game:block/wood/workbench/top*" },
+				"down": { "base": "game:block/wood/workbench/bottom" },
+				"south": { "base": "game:block/wood/workbench/back" },
+				"north": { "base": "game:block/wood/workbench/front" },
+				"west": { "base": "game:block/wood/workbench/left" },
+				"east": { "base": "game:block/wood/workbench/right" }
+			},
+			"*-east": {
+				"up": { "base": "game:block/wood/workbench/top*" },
+				"down": { "base": "game:block/wood/workbench/bottom" },
+				"west": { "base": "game:/wood/workbench/front" },
+				"east": { "base": "game:block/wood/workbench/back" },
+				"north": { "base": "game:block/wood/workbench/left" },
+				"south": { "base": "game:block/wood/workbench/right" }
+			},
+			"*-west": {
+				"up": { "base": "game:block/wood/workbench/top*" },
+				"down": { "base": "game:block/wood/workbench/bottom" },
+				"south": { "base": "game:block/wood/workbench/front" },
+				"east": { "base": "game:block/wood/workbench/back" },
+				"west": { "base": "game:block/wood/workbench/left" },
+				"north": { "base": "game:block/wood/workbench/right" }
+			},
+			"*-south": {
+				"up": { "base": "game:block/wood/workbench/top*" },
+				"down": { "base": "game:block/wood/workbench/bottom" },
+				"west": { "base": "game:block/wood/workbench/front" },
+				"south": { "base": "game:block/wood/workbench/back" },
+				"north": { "base": "game:block/wood/workbench/left" },
+				"east": { "base": "game:block/wood/workbench/right" }
+			}
+		},
+		"file": "game:blocktypes/wood/workbench.json"
+	}
+]

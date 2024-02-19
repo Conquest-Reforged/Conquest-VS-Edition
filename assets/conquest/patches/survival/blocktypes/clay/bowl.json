@@ -1,0 +1,46 @@
+[
+    {
+        "file": "game:blocktypes/clay/bowl.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "bowl-raw": {
+                "bowl": { "base": "game:block/clay/bowl-raw" }
+            },
+            "bowl-fired": {
+                "bowl": { "base": "game:block/clay/bowl" }
+            },
+            "*-honey": {
+                "content": { "base": "game:block/liquid/honey" }
+            },
+            "*-milk": {
+                "content": { "base": "game:block/food/dairy/milk" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/bowl.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "side": "server",
+        "value": {
+            "translation": {
+                "x": -0.9,
+                "y": -0.121,
+                "z": -0.662
+            },
+            "rotation": {
+                "x": -50,
+                "y": 15,
+                "z": -103
+            },
+            "origin": {
+                "x": 0.612,
+                "y": -0.05,
+                "z": 0.45
+            },
+            "scale": 0.66
+        }
+    }
+]

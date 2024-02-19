@@ -13,9 +13,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, -0.35 ],
-			"to": [ 0.0, 0.0, -0.35 ],
-			"rotationOrigin": [ 8.0, 0.0, 21.2 ],
+			"from": [ -13.5, 0.0, -13.25 ],
+			"to": [ -13.5, 0.0, -13.25 ],
+			"rotationOrigin": [ 1.25, 0.0, 14.75 ],
 			"rotationY": -180.0,
 			"faces": {
 			},
@@ -110,11 +110,16 @@
 					"children": [
 						{
 							"name": "handle12",
-							"from": [ 1.5, 12.5, 26.8 ],
-							"to": [ 5.0, 16.0, 26.8 ],
-							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
+							"from": [ 1.5, 12.5, 26.6 ],
+							"to": [ 5.0, 16.0, 26.6 ],
+							"rotationOrigin": [ 9.5, -0.5, 27.875 ],
+							"renderPass": 2,
 							"faces": {
-								"north": { "texture": "#solid", "uv": [ 17.0, 10.0, 20.5, 13.5 ], "autoUv": false }
+								"north": {
+									"texture": "#solid",
+									"uv": [ 17.0, 10.0, 20.5, 13.5 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -122,8 +127,13 @@
 							"from": [ 3.25, 15.0, 26.175 ],
 							"to": [ 3.25, 16.5, 27.175 ],
 							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
+							"renderPass": 2,
 							"faces": {
-								"west": { "texture": "#solid", "uv": [ 18.5, 10.5, 19.5, 9.0 ], "autoUv": false }
+								"west": {
+									"texture": "#solid",
+									"uv": [ 18.5, 10.5, 19.5, 9.0 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -147,16 +157,22 @@
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
 					"rotationOrigin": [ 3.25, 15.4167, 29.3167 ],
+					"rotationY": -180.0,
 					"faces": {
 					},
 					"children": [
 						{
 							"name": "handle28",
-							"from": [ 1.5, 12.5, 29.3 ],
-							"to": [ 5.0, 16.0, 29.3 ],
-							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
+							"from": [ 1.5, 12.5, 29.2 ],
+							"to": [ 5.0, 16.0, 29.2 ],
+							"rotationOrigin": [ 9.5, -0.5, 30.475 ],
+							"renderPass": 2,
 							"faces": {
-								"north": { "texture": "#solid", "uv": [ 17.0, 10.0, 20.5, 13.5 ], "autoUv": false }
+								"north": {
+									"texture": "#solid",
+									"uv": [ 17.0, 10.0, 20.5, 13.5 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -164,8 +180,13 @@
 							"from": [ 3.25, 15.0, 28.675 ],
 							"to": [ 3.25, 16.5, 29.675 ],
 							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
+							"renderPass": 2,
 							"faces": {
-								"west": { "texture": "#solid", "uv": [ 18.5, 10.5, 19.5, 9.0 ], "autoUv": false }
+								"west": {
+									"texture": "#solid",
+									"uv": [ 18.5, 10.5, 19.5, 9.0 ],
+									"autoUv": false
+								}
 							}
 						},
 						{
@@ -198,7 +219,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -13.2, "offsetY": 0.0, "offsetZ": 0.3, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]

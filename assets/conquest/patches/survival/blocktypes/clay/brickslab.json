@@ -1,0 +1,13 @@
+[
+	{
+		"file": "game:blocktypes/clay/brickslab.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"horizontals": { "base": "game:block/clay/brick/{type}*" },
+			"up": { "base": "game:block/clay/brick/{type}*" },
+			"down": { "base": "game:block/clay/brick/{type}*" }
+		}
+	}
+]

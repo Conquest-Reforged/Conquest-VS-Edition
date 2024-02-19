@@ -1,0 +1,258 @@
+[
+    {
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "op": "add",
+        "path": "/guiTransform",
+        "side": "server",
+        "value": {
+            "rotation": {
+                "x": -22.6,
+                "y": -27,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.87,
+                "z": -0.05
+            }
+        }
+
+    },
+    {
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "*-empty": {
+                "base": "game:block/plant/berrybush/{type}*",
+                "selectiveElements": [ "Stem/*", "Stem2/*", "Leaves/*", "Leaves2/*", "Largeleaves/*" ],
+                "alternates": [
+                    { "rotateY": 10 },
+                    { "rotateY": 70 },
+                    { "rotateY": 130 },
+                    { "rotateY": 190 },
+                    { "rotateY": 250 },
+                    { "rotateY": 310 }
+                ]
+            },
+            "*": {
+                "base": "game:block/plant/berrybush/{type}*",
+                "alternates": [
+                    { "rotateY": 10 },
+                    { "rotateY": 70 },
+                    { "rotateY": 130 },
+                    { "rotateY": 190 },
+                    { "rotateY": 250 },
+                    { "rotateY": 310 }
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "leavessmall": {
+                "base": "game:block/plant/berrybush/small/leaves/{type}1",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}5" }
+                ]
+            },
+            "leavessmall2": {
+                "base": "game:block/plant/berrybush/small/leaves/{type}2",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}1" }
+                ]
+            },
+            "leavessmall3": {
+                "base": "game:block/plant/berrybush/small/leaves/{type}3",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}2" }
+                ]
+            },
+            "leavessmall4": {
+                "base": "game:block/plant/berrybush/small/leaves/{type}4",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}3" }
+                ]
+            },
+            "leavessmall5": {
+                "base": "game:block/plant/berrybush/small/leaves/{type}5",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/leaves/{type}4" }
+                ]
+            },
+
+            "stem": {
+                "base": "game:block/plant/berrybush/small/branches/{type}1",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/branches/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}5" }
+                ]
+            },
+            "stem2": {
+                "base": "game:block/plant/berrybush/small/branches/{type}2",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/branches/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}1" }
+                ]
+            },
+            "stem3": {
+                "base": "game:block/plant/berrybush/small/branches/{type}3",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/branches/{type}4" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}2" }
+                ]
+            },
+            "stem4": {
+                "base": "game:block/plant/berrybush/small/branches/{type}4",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/branches/{type}5" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}3" }
+                ]
+            },
+            "stem5": {
+                "base": "game:block/plant/berrybush/small/branches/{type}5",
+                "alternates": [
+                    { "base": "game:block/plant/berrybush/small/branches/{type}1" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}2" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}3" },
+                    { "base": "game:block/plant/berrybush/small/branches/{type}4" }
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/smallberrybush.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-flowering": {
+                "flowerberrysmall": {
+                    "base": "game:block/plant/berrybush/small/flower/{type}1",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/flower/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}5" }
+                    ]
+                },
+
+                "flowerberrysmall2": {
+                    "base": "game:block/plant/berrybush/small/flower/{type}2",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/flower/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}1" }
+                    ]
+                },
+                "flowerberrysmall3": {
+                    "base": "game:block/plant/berrybush/small/flower/{type}3",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/flower/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}2" }
+                    ]
+                },
+                "flowerberrysmall4": {
+                    "base": "game:block/plant/berrybush/small/flower/{type}4",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/flower/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}3" }
+                    ]
+                },
+                "flowerberrysmall5": {
+                    "base": "game:block/plant/berrybush/small/flower/{type}5",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/flower/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/flower/{type}4" }
+                    ]
+                }
+
+            },
+            "*-ripe": {
+
+                "flowerberrysmall": {
+                    "base": "game:block/plant/berrybush/small/fruit/{type}1",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}5" }
+                    ]
+                },
+                "flowerberrysmall2": {
+                    "base": "game:block/plant/berrybush/small/fruit/{type}2",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}1" }
+                    ]
+                },
+                "flowerberrysmall3": {
+                    "base": "game:block/plant/berrybush/small/fruit/{type}3",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}4" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}2" }
+                    ]
+                },
+                "flowerberrysmall4": {
+                    "base": "game:block/plant/berrybush/small/fruit/{type}4",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}5" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}3" }
+                    ]
+                },
+                "flowerberrysmall5": {
+                    "base": "game:block/plant/berrybush/small/fruit/{type}5",
+                    "alternates": [
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}1" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}2" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}3" },
+                        { "base": "game:block/plant/berrybush/small/fruit/{type}4" }
+                    ]
+                }
+
+
+            }
+        }
+    }
+]

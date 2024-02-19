@@ -1,0 +1,37 @@
+[
+    {
+        "file": "bricklayers:blocktypes/clay/bowlcolored.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "bricklayers:shapes/block/clay/bowl-empty-ground_bricklayers"
+        }
+
+    },
+    {
+        "file": "bricklayers:blocktypes/clay/bowlcolored.json",
+        "op": "replace",
+        "path": "/attributesByType",
+        "side": "server",
+        "value": {
+            "coloredbowl-burnt-*": {
+                "handbook": { "groupBy": [ "coloredbowl-burnt-*" ] },
+                "shelvable": true,
+                "liquidContainerProps": {
+                    "capacityLitres": 1,
+                    "transferSizeLitres": 0.1,
+                    "emptyShapeLoc": "bricklayers:shapes/block/clay/bowl-empty-ground_bricklayers",
+                    "opaqueContentShapeLoc": "game:shapes/block/clay/bowl-contents",
+                    "liquidContentShapeLoc": "game:shapes/block/clay/bowl-liquidcontents",
+                    "liquidMaxYTranslate": 0.05
+                },
+                "mealContainer": true,
+                "mealBlockCode": "bricklayers:coloredbowl-meal-{color}-{pattern}",
+                "servingCapacity": 1,
+                "bowlContents": null
+            }
+        }
+    }
+
+]

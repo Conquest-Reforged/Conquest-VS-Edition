@@ -1,9 +1,0 @@
-[
-    {
-        "file": "blocktypes/soil/termitemound.json",
-        "op": "replace",
-        "path": "/textures/material/base",
-        "side": "server",
-        "value": "block/stone/termitemound/{rock}*"
-    }
-]

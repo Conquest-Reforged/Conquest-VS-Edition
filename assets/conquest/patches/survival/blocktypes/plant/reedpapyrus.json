@@ -1,0 +1,294 @@
+[
+    {
+        "file": "game:blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/lod2shapeByType",
+        "side": "server",
+        "value": {
+            "tallplant-coopersreed-*": { "base": "game:block/plant/flowers/basic/reeds-normal_1a" },
+            "tallplant-tule-*": { "base": "game:block/plant/flowers/basic/reeds-normal_1a" },
+            "tallplant-brownsedge-*": { "base": "game:block/plant/flowers/basic/flower_64_a" }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "tallplant-papyrus-*": {
+                "base": "game:block/plant/flowers/basic/papyrus_*"
+            },
+            "tallplant-coopersreed-*": {
+                "base": "game:block/plant/flowers/basic/reeds-{state}_2*",
+                "alternates": [
+                    { "base": "game:block/plant/flowers/basic/reeds-{state}_1*" },
+                    { "base": "game:block/plant/flowers/basic/reeds-{state}_2*" }
+                ]
+            },
+            "tallplant-tule-land-normal-*": {
+                "base": "game:block/plant/flowers/basic/reeds-normal_1*",
+                "alternates": [
+                    { "base": "game:block/plant/flowers/basic/reeds-normal_2*" },
+                    { "base": "game:block/plant/flowers/basic/reeds-harvested_2*" },
+                    { "base": "game:block/plant/flowers/basic/reeds-normal_2*" }
+                ]
+            },
+            "tallplant-tule-land-harvested-*": {
+                "base": "game:block/plant/flowers/basic/reeds-harvested_1*",
+                "alternates": [
+
+                    { "base": "game:block/plant/flowers/basic/reeds-harvested_2*" }
+                ]
+            },
+            "tallplant-brownsedge-*": { "base": "game:block/plant/flowers/basic/flower_64_*" }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "tallplant-papyrus-*": {
+                "papryus_normal_1": { "base": "game:block/plant/reeds/papryus_{state}_1" },
+                "papryus_normal_2": { "base": "game:block/plant/reeds/papryus_{state}_2" },
+                "papryus_normal_3": { "base": "game:block/plant/reeds/papryus_{state}_3" },
+                "papryus_normal_4": { "base": "game:block/plant/reeds/papryus_{state}_4" }
+            },
+            "tallplant-brownsedge-*": {
+                "1": {
+                    "base": "game:block/plant/reeds/{type}_top_1",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" }
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/reeds/{type}_top_2",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" }
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/reeds/{type}_top_3",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" }
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/reeds/{type}_top_4",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" }
+                    ]
+                },
+                "10": {
+                    "base": "game:block/plant/reeds/{type}-{state}_1",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" }
+                    ]
+                },
+                "20": {
+                    "base": "game:block/plant/reeds/{type}-{state}_2",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" }
+                    ]
+                },
+                "30": {
+                    "base": "game:block/plant/reeds/{type}-{state}_3",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" }
+                    ]
+                },
+                "40": {
+                    "base": "game:block/plant/reeds/{type}-{state}_4",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" }
+                    ]
+                }
+            },
+            "*": {
+                "1": {
+                    "base": "game:block/plant/reeds/{type}_top_1",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_5" },
+                        { "base": "game:block/plant/reeds/{type}_top_6" }
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/reeds/{type}_top_2",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_5" },
+                        { "base": "game:block/plant/reeds/{type}_top_6" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" }
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/reeds/{type}_top_3",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_5" },
+                        { "base": "game:block/plant/reeds/{type}_top_6" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" }
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/reeds/{type}_top_4",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_5" },
+                        { "base": "game:block/plant/reeds/{type}_top_6" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" }
+                    ]
+                },
+                "5": {
+                    "base": "game:block/plant/reeds/{type}_top_5",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_6" },
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" }
+                    ]
+                },
+                "6": {
+                    "base": "game:block/plant/reeds/{type}_top_6",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}_top_1" },
+                        { "base": "game:block/plant/reeds/{type}_top_2" },
+                        { "base": "game:block/plant/reeds/{type}_top_3" },
+                        { "base": "game:block/plant/reeds/{type}_top_4" },
+                        { "base": "game:block/plant/reeds/{type}_top_5" }
+                    ]
+                },
+                "10": {
+                    "base": "game:block/plant/reeds/{type}-{state}_1",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_5" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_6" }
+                    ]
+                },
+                "20": {
+                    "base": "game:block/plant/reeds/{type}-{state}_2",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_5" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_6" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" }
+                    ]
+                },
+                "30": {
+                    "base": "game:block/plant/reeds/{type}-{state}_3",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_5" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_6" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" }
+                    ]
+                },
+                "40": {
+                    "base": "game:block/plant/reeds/{type}-{state}_4",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_5" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_6" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" }
+                    ]
+                },
+                "50": {
+                    "base": "game:block/plant/reeds/{type}-{state}_5",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_6" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" }
+                    ]
+                },
+                "60": {
+                    "base": "game:block/plant/reeds/{type}-{state}_6",
+                    "alternates": [
+                        { "base": "game:block/plant/reeds/{type}-{state}_1" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_2" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_3" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_4" },
+                        { "base": "game:block/plant/reeds/{type}-{state}_5" }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/reedpapyrus.json",
+        "op": "replace",
+        "path": "/guiTransformByType",
+        "side": "server",
+        "value": {
+            "tallplant-brownsedge-*": {
+                "translation": {
+                    "x": 0,
+                    "y": 2.8,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": -4,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "scale": 1.12
+            },
+            "*": {
+                "rotate": true,
+                "translation": {
+                    "x": 0,
+                    "y": -1.5,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 1.2,
+                    "z": 0.5
+                },
+                "scale": 0.65
+            }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "file": "bricklayers:blocktypes/clay/bowlcolored-meal.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "bricklayers:shapes/block/clay/bowl-empty-ground_bricklayers"
+        }
+
+    }
+
+]

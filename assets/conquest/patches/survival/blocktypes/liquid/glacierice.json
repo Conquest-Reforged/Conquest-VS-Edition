@@ -1,0 +1,12 @@
+[
+	{
+		"file": "game:blocktypes/liquid/glacierice.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"horizontals": { "base": "game:block/liquid/ice/glacier*" },
+			"verticals": { "base": "game:block/liquid/ice/top/glacier*" }
+		}
+	}
+]

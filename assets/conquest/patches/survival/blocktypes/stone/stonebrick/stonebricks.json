@@ -1,0 +1,41 @@
+[
+    {
+        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server"
+
+    },
+    {
+        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone)": {
+                "all": {
+                    "base": "game:block/stone/brick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/brick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(granite)": {
+                "all": {
+                    "base": "game:block/stone/brick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/brick/{rock}/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(chalk|claystone|limestone|phyllite|peridotite|slate|shale)": {
+                "all": { "base": "game:block/stone/brick/{rock}/*" }
+            },
+            "*": {
+                "all": { "base": "game:block/stone/brick/{rock}*" }
+            }
+        }
+    }
+]

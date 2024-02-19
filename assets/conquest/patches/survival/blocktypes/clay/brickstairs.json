@@ -1,0 +1,24 @@
+[
+    {
+        "file": "game:blocktypes/clay/brickstairs.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server"
+    },
+    {
+        "file": "game:blocktypes/clay/brickstairs.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-brown-*": {
+                "sides": { "base": "game:block/clay/brickstairs/brown-side" },
+                "up": { "base": "game:block/clay/brickstairs/brown-top" },
+                "down": { "base": "game:block/clay/brickstairs/brown-top" }
+            },
+            "*": {
+                "all": { "base": "game:block/clay/brick/{type}*" }
+            }
+        }
+    }
+]

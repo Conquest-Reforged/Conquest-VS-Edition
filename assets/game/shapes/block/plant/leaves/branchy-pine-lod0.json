@@ -1,0 +1,93 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "cube2",
+			"from": [ -2.0769, 8.2249, -3.3269 ],
+			"to": [ 17.9231, 8.2249, 19.1731 ],
+			"rotationOrigin": [ 7.9231, 8.125, 8.0 ],
+			"rotationX": -45.0,
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalNeedles",
+			"renderPass": 1,
+			"faces": {
+				"up": {
+					"texture": "#10",
+					"uv": [ 7.25, 5.25, 27.25, 27.75 ],
+					"rotation": 180,
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [ -2.0769, 8.2019, -3.1501 ],
+			"to": [ 17.9231, 8.2019, 19.3499 ],
+			"rotationOrigin": [ 7.9231, 8.125, 8.0 ],
+			"rotationX": 45.0,
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalNeedles",
+			"renderPass": 1,
+			"faces": {
+				"up": {
+					"texture": "#20",
+					"uv": [ 4.75, 5.25, 24.75, 27.75 ],
+					"rotation": 180,
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "cube4",
+			"from": [ -6.5, 7.5, -2.0 ],
+			"to": [ 16.0, 7.5, 18.0 ],
+			"rotationOrigin": [ 5.5, 11.5, 0.0 ],
+			"rotationZ": 45.0,
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalNeedles",
+			"renderPass": 1,
+			"faces": {
+				"up": {
+					"texture": "#30",
+					"uv": [ 7.25, 5.25, 27.25, 27.75 ],
+					"rotation": 90,
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "cube5",
+			"from": [ -6.25, 8.75, -2.0 ],
+			"to": [ 16.25, 8.75, 18.0 ],
+			"rotationOrigin": [ 5.75, 4.75, 0.0 ],
+			"rotationZ": -45.0,
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalNeedles",
+			"renderPass": 1,
+			"faces": {
+				"up": {
+					"texture": "#40",
+					"uv": [ 4.75, 5.25, 24.75, 27.75 ],
+					"rotation": 90,
+					"autoUv": false
+				}
+			}
+		}
+	]}

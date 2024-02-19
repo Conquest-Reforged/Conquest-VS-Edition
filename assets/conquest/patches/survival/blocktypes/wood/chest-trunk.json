@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:blocktypes/wood/chest-trunk.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "normal-generic-chest": { "base": "game:block/wood/trunk/chest" },
+
+            "collapsed1-corners": { "base": "game:block/wood/chest/aged/corners" },
+            "collapsed1-sides": { "base": "game:block/wood/chest/aged/sides" },
+            "collapsed1-lid": { "base": "game:block/wood/chest/aged/lid" },
+            "collapsed1-floor": { "base": "game:block/wood/chest/aged/floor" },
+
+            "collapsed2-corners": { "base": "game:block/wood/chest/aged/corners" },
+            "collapsed2-sides": { "base": "game:block/wood/chest/aged/sides" },
+            "collapsed2-lid": { "base": "game:block/wood/chest/aged/lid" },
+            "collapsed2-floor": { "base": "game:block/wood/chest/aged/floor" },
+
+            "collapsed3-corners": { "base": "game:block/wood/chest/aged/corners" },
+            "collapsed3-sides": { "base": "game:block/wood/chest/aged/sides" },
+            "collapsed3-lid": { "base": "game:block/wood/chest/aged/lid" },
+            "collapsed3-floor": { "base": "game:block/wood/chest/aged/floor" }
+        }
+    }
+]

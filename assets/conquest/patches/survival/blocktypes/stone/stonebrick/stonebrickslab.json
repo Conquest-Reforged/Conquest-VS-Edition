@@ -1,0 +1,11 @@
+[
+	{
+		"file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"sides": { "base": "game:block/stone/brick/{rock}/*" }
+		}
+	}
+]

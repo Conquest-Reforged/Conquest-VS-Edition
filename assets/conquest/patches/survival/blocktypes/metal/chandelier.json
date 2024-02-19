@@ -1,0 +1,16 @@
+[
+	{
+		"file": "game:blocktypes/metal/chandelier.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"chandelier": { "base": "block/metal/chandelier/chandelier" }
+		}
+	}
+]
+
+
+
+
+

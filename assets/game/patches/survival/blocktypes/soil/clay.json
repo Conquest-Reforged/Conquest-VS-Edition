@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/textures/all/base",
-        "value": "block/soil/{type}clay*",
-        "side": "server",
-        "file": "blocktypes/soil/clay.json"
-    }
-]

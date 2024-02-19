@@ -1,0 +1,26 @@
+[
+
+	{
+		"file": "game:blocktypes/wood/bucket.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"bucket": { "base": "game:block/wood/bucket/bucket" }
+		}
+	},
+	{
+		"file": "game:blocktypes/wood/bucket.json",
+		"op": "replace",
+		"path": "/guiTransform",
+		"side": "server",
+		"value": {
+			"origin": {
+				"x": 0.5,
+				"y": 0.347,
+				"z": 0.5
+			},
+			"scale": 1.66
+		}
+	}
+]

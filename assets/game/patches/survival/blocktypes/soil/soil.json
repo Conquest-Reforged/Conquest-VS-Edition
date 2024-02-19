@@ -1,9 +1,0 @@
-[
-    {
-        "file": "blocktypes/soil/soil.json",
-        "op": "replace",
-        "path": "/textures/all/base",
-        "side": "server",
-        "value": "block/soil/fert{fertility}*"
-    }
-]

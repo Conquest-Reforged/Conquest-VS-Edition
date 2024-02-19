@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/group",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+	},
+	"textures": {
+	
+	},
+	"elements": [
+		{
+			"name": "large branch",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "large3",
+					"from": [ -13.8, -8.5, 8.5 ],
+					"to": [ 27.8, 23.5, 8.5 ],
+					"rotationOrigin": [ 7.0, 7.5, 8.5 ],
+					"rotationY": 45.0,
+					"shade": false,
+					"gradientShade": true,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"renderPass": 1,
+					"faces": {
+						"north": {
+							"texture": "#1",
+							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+							"autoUv": false
+						}
+					}
+				},
+				{
+					"name": "large4",
+					"from": [ -13.8, -8.5, 8.5 ],
+					"to": [ 27.8, 23.5, 8.5 ],
+					"rotationOrigin": [ 7.0, 7.5, 8.5 ],
+					"rotationY": -45.0,
+					"shade": false,
+					"gradientShade": true,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"renderPass": 1,
+					"faces": {
+						"north": {
+							"texture": "#2",
+							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+							"autoUv": false
+						}
+					}
+				}
+			]
+		}
+	]}

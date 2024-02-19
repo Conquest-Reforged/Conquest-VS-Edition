@@ -1,0 +1,14 @@
+[
+    {
+        "file": "bricklayers:patches/survival-blocktypes-stone-rock.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]

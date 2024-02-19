@@ -17,7 +17,7 @@
 			"name": "gate",
 			"from": [ 16.0, 0.0, 6.5 ],
 			"to": [ 17.0, 1.0, 7.5 ],
-			"rotationOrigin": [ 0.0, 0.0, 16.0 ],
+			"rotationOrigin": [ 1.5, 0.0, 14.5 ],
 			"faces": {
 			},
 			"children": [
@@ -381,7 +381,7 @@
 										"south": { "texture": "#gate-extension", "uv": [ 13.0, 16.0, 15.0, 17.5 ] },
 										"west": { "texture": "#gate-extension", "uv": [ 14.0, 16.0, 14.5, 17.5 ] },
 										"up": { "texture": "#gate-extension", "uv": [ 13.0, 16.5, 15.0, 17.0 ] },
-										"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+										"down": { "texture": "#gate-extension", "uv": [ 13.0, 16.5, 15.0, 17.0 ] }
 									}
 								},
 								{
@@ -584,7 +584,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"gate": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 3.0, "rotationX": 0.0, "rotationY": 88.0, "rotationZ": 0.0 }
+						"gate": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 88.0, "rotationZ": 0.0 }
 					}
 				}
 			]

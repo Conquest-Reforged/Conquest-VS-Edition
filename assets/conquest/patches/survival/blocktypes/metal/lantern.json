@@ -1,0 +1,36 @@
+[
+    {
+        "file": "game:blocktypes/metal/lantern.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "Server",
+        "value": {
+            "copper": { "base": "game:block/metal/lantern/copper_1" },
+            "brass": { "base": "game:block/metal/lantern/brass_1" },
+            "blackbronze": { "base": "game:block/metal/lantern/blackbronze_1" },
+            "bismuth": { "base": "game:block/metal/lantern/bismuth_1" },
+            "tinbronze": { "base": "game:block/metal/lantern/tinbronze_1" },
+            "bismuthbronze": { "base": "game:block/metal/lantern/bismuthbronze_1" },
+            "iron": { "base": "game:block/metal/lantern/iron_1" },
+            "molybdochalkos": { "base": "game:block/metal/lantern/molybdochalkos_1" },
+            "silver": { "base": "game:block/metal/lantern/silver_1" },
+            "gold": { "base": "game:block/metal/lantern/gold_1" },
+            "steel": { "base": "game:block/metal/lantern/steel_1" },
+            "meteoriciron": { "base": "game:block/metal/lantern/meteoriciron_1" },
+
+            "deco-copper": { "base": "game:block/metal/lantern/copper_2" },
+            "deco-brass": { "base": "game:block/metal/lantern/brass_2" },
+            "deco-blackbronze": { "base": "game:block/metal/lantern/blackbronze_2" },
+            "deco-bismuth": { "base": "game:block/metal/lantern/bismuth_2" },
+            "deco-tinbronze": { "base": "game:block/metal/lantern/tinbronze_2" },
+            "deco-bismuthbronze": { "base": "game:block/metal/lantern/bismuthbronze_2" },
+            "deco-iron": { "base": "game:block/metal/lantern/iron_2" },
+            "deco-molybdochalkos": { "base": "game:block/metal/lantern/molybdochalkos_2" },
+            "deco-silver": { "base": "game:block/metal/lantern/silver_2" },
+            "deco-gold": { "base": "game:block/metal/lantern/gold_2" },
+            "deco-steel": { "base": "game:block/metal/lantern/steel_2" },
+            "deco-meteoriciron": { "base": "game:block/metal/lantern/meteoriciron_2" }
+        }
+    }
+]
+

@@ -1,0 +1,13 @@
+[
+	{
+		"file": "wildcrafttree:blocktypes/wood/petrified-table.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": { "base": "wildcrafttree:block/wood/table" }
+	}
+]
+
+
+
+			

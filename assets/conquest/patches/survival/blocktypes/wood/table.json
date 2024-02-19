@@ -1,0 +1,31 @@
+[
+    {
+        "file": "game:blocktypes/wood/table.json",
+        "op": "remove",
+        "path": "/shape",
+        "side": "server"
+    },
+    {
+        "file": "game:blocktypes/wood/table.json",
+        "op": "add",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "*-normal": { "base": "game:block/wood/table" },
+            "*-aged": { "base": "game:block/wood/table" },
+            "*": { "base": "game:block/wood/table-marble" }
+
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/table.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*": {
+                "table": { "base": "game:block/wood/table/{type}" }
+            }
+        }
+    }
+]

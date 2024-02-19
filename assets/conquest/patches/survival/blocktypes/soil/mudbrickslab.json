@@ -1,0 +1,17 @@
+[
+	{
+		"file": "game:blocktypes/soil/mudbrickslab.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"north": { "base": "game:block/soil/mudbrick/{type}1" },
+			"south": { "base": "game:block/soil/mudbrick/{type}1" },
+			"east": { "base": "game:block/soil/mudbrick/side1" },
+			"west": { "base": "game:block/soil/mudbrick/side1" },
+			"up": { "base": "game:block/soil/mudbrick/{type}1" },
+			"down": { "base": "game:block/soil/mudbrick/{type}1" }
+		}
+
+	}
+]

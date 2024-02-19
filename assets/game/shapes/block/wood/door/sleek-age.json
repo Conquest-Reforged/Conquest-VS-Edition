@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/frame/InnerPannel,Root/aceesories,Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/frame",
+		"collapsedPaths": "Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/InnerPannel,Root/aceesories,Root/frame/frame",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -13,9 +13,9 @@
 	"elements": [
 		{
 			"name": "door",
-			"from": [ 0.0, 0.0, -0.2 ],
-			"to": [ 0.0, 0.0, -0.2 ],
-			"rotationOrigin": [ 8.0, 0.0, 21.3 ],
+			"from": [ -13.5, 0.0, -13.5 ],
+			"to": [ -13.5, 0.0, -13.5 ],
+			"rotationOrigin": [ 1.25, 0.0, 14.65 ],
 			"rotationY": -180.0,
 			"faces": {
 			},
@@ -328,7 +328,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"door": { "offsetX": -13.3, "offsetY": 0.0, "offsetZ": 0.2, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
+						"door": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.1, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": 0.0 }
 					}
 				}
 			]

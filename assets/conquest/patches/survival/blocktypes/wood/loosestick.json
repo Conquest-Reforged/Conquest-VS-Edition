@@ -1,0 +1,37 @@
+[
+    {
+        "file": "game:blocktypes/wood/loosestick.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "game:block/wood/loosestick/{cover}1",
+            "alternates": [
+                { "base": "game:block/wood/loosestick/{cover}2" },
+                { "base": "game:block/wood/loosestick/{cover}3" },
+                { "base": "game:block/wood/loosestick/{cover}4" },
+                { "base": "game:block/wood/loosestick/{cover}5" }
+            ]
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/loosestick.json",
+        "op": "add",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "sticklarge": {
+                "base": "game:block/wood/loosestick/set5/large_1",
+                "alternates": [
+                    { "base": "game:block/wood/loosestick/set5/large_2" }
+                ]
+            },
+            "sticksmall": {
+                "base": "game:block/wood/loosestick/set5/small_1",
+                "alternates": [
+                    { "base": "game:block/wood/loosestick/set5/small_2" }
+                ]
+            }
+        }
+    }
+]

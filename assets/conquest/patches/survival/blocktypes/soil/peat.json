@@ -1,0 +1,28 @@
+[
+    {
+        "file": "game:blocktypes/soil/peat.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "up": {
+                "base": "game:block/soil/peat",
+                "alternates": [
+                    { "base": "game:block/soil/peat1" },
+                    { "base": "game:block/soil/peat2" },
+                    { "base": "game:block/soil/peat3" }
+                ]
+            },
+            "sides": {
+                "base": "game:block/soil/p1",
+                "alternates": [
+                    { "base": "game:block/soil/p2" },
+                    { "base": "game:block/soil/p3" },
+                    { "base": "game:block/soil/p4" }
+                ]
+            },
+            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
+            "specialSecondTexture": { "base": "game:block/plant/grasscoverage/{grasscoverage}" }
+        }
+    }
+]

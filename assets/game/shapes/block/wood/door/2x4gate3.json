@@ -7,10 +7,8 @@
 	"textureWidth": 32,
 	"textureHeight": 32,
 	"textureSizes": {
-		
 	},
 	"textures": {
-		
 	},
 	"elements": [
 		{
@@ -38,7 +36,7 @@
 								"north": { "texture": "#gate", "uv": [ 0.0, 2.0, 4.0, 28.0 ] },
 								"east": { "texture": "#gate", "uv": [ 3.0, 2.5, 6.0, 28.5 ] },
 								"south": { "texture": "#gate", "uv": [ 0.0, 0.5, 4.0, 26.5 ] },
-								"west": { "texture": "#gate", "uv": [ 13.0, 0.5, 16.0, 26.5 ] }
+								"west": { "texture": "#gate", "uv": [ 0.0, 2.5, 3.0, 28.5 ], "rotation": 180 }
 							}
 						},
 						{
@@ -61,8 +59,8 @@
 							"rotationOrigin": [ 28.0, 8.0, 1.5 ],
 							"faces": {
 								"north": { "texture": "#gate", "uv": [ 12.0, 0.0, 16.0, 26.0 ] },
-								"east": { "texture": "#gate", "uv": [ 3.5, 3.5, 6.5, 29.5 ] },
-								"south": { "texture": "#gate", "uv": [ 11.5, 2.0, 15.5, 28.0 ] },
+								"east": { "texture": "#gate", "uv": [ 12.0, 5.5, 15.0, 31.5 ] },
+								"south": { "texture": "#gate", "uv": [ 12.0, 2.0, 16.0, 28.0 ] },
 								"west": { "texture": "#gate", "uv": [ 11.5, 2.0, 14.5, 28.0 ] }
 							}
 						},
@@ -89,7 +87,7 @@
 								"north": { "texture": "#gate", "uv": [ 0.0, 0.0, 4.0, 26.0 ] },
 								"east": { "texture": "#gate", "uv": [ 1.0, 0.0, 4.0, 26.0 ] },
 								"south": { "texture": "#gate", "uv": [ 0.0, 0.0, 4.0, 26.0 ] },
-								"west": { "texture": "#gate", "uv": [ 1.0, 0.0, 4.0, 26.0 ] }
+								"west": { "texture": "#gate", "uv": [ 0.5, 0.5, 3.5, 26.5 ] }
 							}
 						},
 						{
@@ -99,7 +97,7 @@
 							"rotationOrigin": [ 28.0, 34.0, 1.5 ],
 							"faces": {
 								"north": { "texture": "#gate", "uv": [ 16.0, 0.0, 12.0, 26.0 ], "rotation": 180, "autoUv": false },
-								"east": { "texture": "#gate", "uv": [ 11.5, 0.5, 14.5, 26.5 ] },
+								"east": { "texture": "#gate", "uv": [ 12.0, 0.5, 15.0, 26.5 ] },
 								"south": { "texture": "#gate", "uv": [ 16.0, 0.0, 12.0, 25.5 ], "rotation": 180, "autoUv": false },
 								"west": { "texture": "#gate", "uv": [ 11.5, 2.5, 14.5, 28.5 ] }
 							}
@@ -265,7 +263,6 @@
 							"from": [ -0.02, 59.5, -0.05 ],
 							"to": [ 32.01, 60.0, 3.05 ],
 							"rotationOrigin": [ -0.1, 59.5, 0.0 ],
-							"renderpass": 2,
 							"faces": {
 								"north": { "texture": "#gate", "uv": [ 11.5, 0.0, 12.0, 32.0 ], "rotation": 90 },
 								"east": { "texture": "#gate", "uv": [ 14.0, 0.5, 14.5, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },

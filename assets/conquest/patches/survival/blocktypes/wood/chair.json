@@ -1,0 +1,46 @@
+[
+    {
+        "file": "game:blocktypes/wood/chair.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-aged": null,
+            "*": {
+                "cover": { "base": "game:block/wood/chair/normal/{type}" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/chair.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "*-aged": { "base": "game:block/wood/chair-aged" },
+            "*-plain": {
+                "base": "game:block/wood/chair-normal"
+            },
+            "@.*-(orange|red)": {
+                "base": "game:block/wood/chair-fabric2"
+            },
+            "*": { "base": "game:block/wood/chair-fabric" }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/chair.json",
+        "op": "replace",
+        "path": "/creativeinventoryByType",
+        "side": "server",
+        "value": {
+            "*-aged": {
+                "general": [ "*" ],
+                "decorative": [ "*" ]
+            },
+            "*": {
+                "general": [ "*" ],
+                "decorative": [ "*" ]
+            }
+        }
+    }
+]

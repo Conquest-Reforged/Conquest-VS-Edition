@@ -1,0 +1,14 @@
+[
+	{
+		"file": "game:blocktypes/stone/drystonefence-free.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"wall": { "base": "game:block/stone/drystone/{rock}/*" },
+			"edge": { "base": "game:block/stone/drystone/{rock}/*" },
+			"fence": { "base": "game:block/stone/drystone/{rock}/*" }
+		}
+
+	}
+]

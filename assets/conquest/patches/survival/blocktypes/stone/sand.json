@@ -1,0 +1,11 @@
+[
+    {
+        "file": "game:blocktypes/stone/sand.json",
+        "side": "server",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "all": { "base": "block/stone/sand/{rock}/*" }
+        }
+    }
+]

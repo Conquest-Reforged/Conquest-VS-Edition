@@ -1,0 +1,39 @@
+[
+    {
+        "file": "game:blocktypes/wood/shelf.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "side": "server",
+        "value": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.68,
+                "z": -0.41
+            },
+            "rotation": {
+                "x": 93,
+                "y": -24,
+                "z": -1
+            },
+            "origin": {
+                "x": 0.32,
+                "y": 0.38,
+                "z": 0.28
+            },
+            "scale": 0.34
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/shelf.json",
+        "op": "add",
+        "path": "/guiTransform",
+        "side": "server",
+        "value": {
+            "origin": {
+                "x": 0.6,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    }
+]

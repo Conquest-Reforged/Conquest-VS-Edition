@@ -1,0 +1,16 @@
+[
+	{
+		"file": "game:shapes/block/plant/bamboo/green/segment2lod0-2.json",
+		"op": "replace",
+		"path": "/textures",
+		"value": {
+		}
+	},
+	{
+		"file": "game:shapes/block/plant/bamboo/green/segment2lod0-2.json",
+		"op": "replace",
+		"path": "/elements",
+		"value": [
+		]
+	}
+]

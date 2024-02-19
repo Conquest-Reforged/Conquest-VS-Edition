@@ -1,0 +1,91 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/group",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+	},
+	"textures": {
+		"walnutleaves1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Plants/Leaves/large/walnut/New folder/walnutleaves1"
+	},
+	"elements": [
+		{
+			"name": "cube2",
+			"from": [ -8.08, 8.2249, -3.33 ],
+			"to": [ 23.92, 8.2249, 28.67 ],
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
+			"renderPass": 1,
+			"rotationOrigin": [ 1.9231, 8.125, 8.0 ],
+			"rotationX": -45.0,
+			"faces": {
+				"up": {
+					"texture": "#walnutleaves1",
+					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+					"rotation": 180
+				}
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [ -8.08, 8.2019, -3.15 ],
+			"to": [ 23.92, 8.2019, 28.85 ],
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
+			"renderPass": 1,
+			"rotationOrigin": [ 1.9231, 8.125, 8.0 ],
+			"rotationX": 45.0,
+			"faces": {
+				"up": {
+					"texture": "#walnutleaves1",
+					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+					"rotation": 180
+				}
+			}
+		},
+		{
+			"name": "cube4",
+			"from": [ -6.5, 7.5, -8.0 ],
+			"to": [ 25.5, 7.5, 24.0 ],
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
+			"renderPass": 1,
+			"rotationOrigin": [ 5.5, 11.5, -6.0 ],
+			"rotationZ": 45.0,
+			"faces": {
+				"up": {
+					"texture": "#walnutleaves1",
+					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+					"rotation": 90
+				}
+			}
+		},
+		{
+			"name": "cube5",
+			"from": [ -6.25, 8.75, -7.0 ],
+			"to": [ 25.75, 8.75, 25.0 ],
+			"shade": false,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalWalnut",
+			"renderPass": 1,
+			"rotationOrigin": [ 5.75, 6.75, -5.0 ],
+			"rotationZ": -45.0,
+			"faces": {
+				"up": {
+					"texture": "#walnutleaves1",
+					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+					"rotation": 90
+				}
+			}
+		}
+	]}

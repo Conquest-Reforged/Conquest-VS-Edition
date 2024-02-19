@@ -1,0 +1,8 @@
+[
+    {
+        "file": "game:shapes/block/coating/nd.json",
+        "op": "replace",
+        "path": "/textures/material",
+        "value": "game:block/stone/ore/saltpeter*"
+    }
+]

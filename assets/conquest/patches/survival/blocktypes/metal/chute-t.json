@@ -1,0 +1,9 @@
+[
+    {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "game:block/metal/sheet/copper5",
+        "side": "server",
+        "file": "game:blocktypes/metal/chute-t.json"
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "file": "game:blocktypes/stone/drystone.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server"
+
+    },
+    {
+        "file": "game:blocktypes/stone/drystone.json",
+        "op": "add",
+        "path": "/texturesbytype",
+        "side": "server",
+        "value": {
+            "@.*-(chalk)": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "*-slate": {
+                "sides": {
+                    "base": "game:block/stone/drystone/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "up": {
+                    "base": "game:block/stone/drystone/{rock}/top/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "game:block/stone/drystone/{rock}/top/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(whitemarble|greenmarble)": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/*"
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            }
+        }
+    }
+]

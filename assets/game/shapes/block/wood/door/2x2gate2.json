@@ -15,7 +15,7 @@
 			"name": "gate",
 			"from": [ 16.0, 0.0, 6.5 ],
 			"to": [ 17.0, 1.0, 7.5 ],
-			"rotationOrigin": [ 0.0, 0.0, 16.0 ],
+			"rotationOrigin": [ 1.5, 0.0, 14.5 ],
 			"faces": {
 			},
 			"children": [
@@ -519,7 +519,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"gate": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 3.0, "rotationX": 0.0, "rotationY": 88.0, "rotationZ": 0.0 }
+						"gate": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 88.0, "rotationZ": 0.0 }
 					}
 				}
 			]

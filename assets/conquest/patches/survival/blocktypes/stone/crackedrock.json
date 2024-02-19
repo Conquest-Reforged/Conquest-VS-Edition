@@ -1,0 +1,150 @@
+[
+    {
+        "file": "game:blocktypes/stone/crackedrock.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-kimberlite": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "overlays": [ "block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/4",
+                            "overlays": [ "block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/5",
+                            "overlays": [ "block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/6",
+                            "overlays": [ "block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                }
+            },
+            "*-obsidian": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "overlays": [ "block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/4",
+                            "overlays": [ "block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/5",
+                            "overlays": [ "block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/6",
+                            "overlays": [ "block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                }
+            },
+            "*-suevite": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "overlays": [ "block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/1",
+                            "overlays": [ "block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(bauxite|chert|conglomerate|granite|limestone|sandstone|shale)": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/sides/1",
+                    "overlays": [ "block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "block/stone/rock/{rock}/sides/2",
+                            "overlays": [ "block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/sides/3",
+                            "overlays": [ "block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/sides/4",
+                            "overlays": [ "block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/sides/3",
+                            "overlays": [ "block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/sides/2",
+                            "overlays": [ "block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "block/stone/rock/{rock}/1",
+                    "overlays": [ "block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/4",
+                            "overlays": [ "block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/3",
+                            "overlays": [ "block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "block/stone/rock/{rock}/2",
+                            "overlays": [ "block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

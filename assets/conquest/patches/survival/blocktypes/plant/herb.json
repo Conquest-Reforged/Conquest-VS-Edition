@@ -1,0 +1,80 @@
+[
+    {
+        "op": "remove",
+        "path": "/shape",
+        "side": "server",
+        "file": "game:blocktypes/plant/herb.json"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "*-basil": {
+                "base": "game:block/basic/cross"
+            },
+            "*-chamomile": {
+                "base": "game:block/basic/cross"
+            },
+            "*-cilantro": {
+                "base": "game:block/basic/cross"
+            },
+            "*-lavender": {
+                "base": "game:block/plant/herb/lavender"
+            },
+            "*-marjoram": {
+                "base": "game:block/basic/cross"
+            },
+            "*-mint": {
+                "base": "game:block/basic/cross"
+            },
+            "*-saffron": {
+                "base": "game:block/basic/cross"
+            },
+            "*-sage": {
+                "base": "game:block/basic/cross"
+            },
+            "*-thyme": {
+                "base": "game:block/basic/cross"
+            },
+            "*": {
+                "base": "game:block/basic/cross"
+            }
+        },
+        "file": "game:blocktypes/plant/herb.json"
+    },
+    {
+        "file": "game:blocktypes/plant/herb.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "plant1a": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant1b": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant1astem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "plant1bstem": { "base": "game:block/plant/herb/stem/{herb}" },
+
+            "plant2a": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant2b": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant2astem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "plant2bstem": { "base": "game:block/plant/herb/stem/{herb}" },
+
+            "plant3a": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant3b": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant3astem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "plant3bstem": { "base": "game:block/plant/herb/stem/{herb}" },
+
+            "plant4a": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant4b": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant4astem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "plant4bstem": { "base": "game:block/plant/herb/stem/{herb}" },
+
+            "plant5a": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant5b": { "base": "game:block/plant/herb/petal/{herb}" },
+            "plant5astem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "plant5bstem": { "base": "game:block/plant/herb/stem/{herb}" },
+            "north": { "base": "game:block/plant/herb/petal/{herb}" },
+            "south": { "base": "game:block/plant/herb/petal/{herb}" }
+        }
+    }
+]

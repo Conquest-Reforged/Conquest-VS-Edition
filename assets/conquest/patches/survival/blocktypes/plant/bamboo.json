@@ -1,0 +1,12 @@
+[
+	{
+		"file": "game:blocktypes/plant/bamboo.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+			"base": "game:block/plant/bamboo/{color}/{part}-2"
+		}
+	}
+]
+			

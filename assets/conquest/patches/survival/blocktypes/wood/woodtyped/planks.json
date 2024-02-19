@@ -1,0 +1,284 @@
+[
+    {
+        "file": "game:blocktypes/wood/woodtyped/planks.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+           
+            "*-acacia-ud": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/sides/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "*-acacia-we": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "westeast": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "northsouth": {
+                    "base": "game:block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "*-acacia-ns": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/sides/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "westeast": {
+                    "base": "game:block/wood/planks/{wood}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "northsouth": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-ud": {
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-we": {
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(pine|larch)-ns": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(oak)-ud": {
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(oak)-we": {
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(oak)-ns": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "*-ud": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "rotation": 90,
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-we": {
+                "up": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-ns": {
+                "all": {
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "rotation": 90,
+                    "base": "game:block/wood/planks/{wood}/top/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "game:block/wood/planks/{wood}/bottom/1",
+                    "tiles": [
+                        { "base": "game:block/wood/planks/{wood}/bottom/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+
+            }
+        }
+    }
+]

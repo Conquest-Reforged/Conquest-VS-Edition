@@ -1,0 +1,124 @@
+[
+	{
+		"file": "game:blocktypes/wood/woodtyped/log.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"@.*-(oak|acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|pine|purpleheart|redwood|walnut)-ud": {
+				"all": { "base": "game:block/wood/bark/vertical/{wood}*" },
+				"inside-north": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-east": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-south": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-west": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+
+				"up": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"down": { "base": "game:block/wood/treetrunk/{wood}*" }
+			},
+			"@.*-(oak|acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|pine|purpleheart|redwood|walnut)-ns": {
+				"all": { "base": "game:block/wood/bark/{wood}-h*" },
+				"up": { "base": "game:block/wood/bark/vertical/{wood}*" },
+				"down": { "base": "game:block/wood/bark/vertical/{wood}*" },
+
+
+				"inside-up": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-down": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-west": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-east": { "base": "game:block/wood/debarked/{wood}*" },
+
+
+				"north": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"south": { "base": "game:block/wood/treetrunk/{wood}*" }
+			},
+			"@.*-(oak|acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|pine|purpleheart|redwood|walnut)-we": {
+				"all": { "base": "game:block/wood/bark/{wood}-h*" },
+				"up": { "base": "game:block/wood/bark/{wood}-h*" },
+
+				"inside-up": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-down": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-north": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-south": { "base": "game:block/wood/debarked/{wood}*" },
+
+
+				"west": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"east": { "base": "game:block/wood/treetrunk/{wood}*" }
+			},
+
+			"*-ud": {
+				"all": { "base": "game:block/wood/bark/{wood}*" },
+				"inside-north": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-east": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-south": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-west": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+
+				"up": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"down": { "base": "game:block/wood/treetrunk/{wood}*" }
+			},
+			"*-ns": {
+				"all": { "base": "game:block/wood/bark/{wood}-h*" },
+				"up": { "base": "game:block/wood/bark/{wood}*" },
+				"down": { "base": "game:block/wood/bark/{wood}*" },
+
+
+				"inside-up": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-down": {
+					"base": "game:block/wood/debarked/{wood}*",
+					"rotation": 90
+				},
+				"inside-west": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-east": { "base": "game:block/wood/debarked/{wood}*" },
+
+
+				"north": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"south": { "base": "game:block/wood/treetrunk/{wood}*" }
+			},
+			"*-we": {
+				"all": { "base": "game:block/wood/bark/{wood}-h*" },
+				"up": { "base": "game:block/wood/bark/{wood}-h*" },
+
+				"inside-up": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-down": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-north": { "base": "game:block/wood/debarked/{wood}*" },
+				"inside-south": { "base": "game:block/wood/debarked/{wood}*" },
+
+
+				"west": { "base": "game:block/wood/treetrunk/{wood}*" },
+				"east": { "base": "game:block/wood/treetrunk/{wood}*" }
+			}
+		}
+
+	}
+]

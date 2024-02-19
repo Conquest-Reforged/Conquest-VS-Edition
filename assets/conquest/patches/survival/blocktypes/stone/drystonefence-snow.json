@@ -1,0 +1,13 @@
+[
+	{
+		"file": "game:blocktypes/stone/drystonefence-snow.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"wall": { "base": "game:block/stone/drystone/{rock}/*" },
+			"edge": { "base": "game:block/stone/drystone/{rock}/*" },
+			"fence": { "base": "game:block/stone/drystone/{rock}/*" }
+		}
+	}
+]
