@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/dome/dome4,Root/dome/dome5,Root/dome/dome6,Root/dome/dome7,Root/legs,Root/dome/floor2,Root/dome1,Root/dome3,Root/dome4,Root/dome6,Root/dome7,Root/bottom,Root/stone,Root/Top",
+		"collapsedPaths": "Root/dome/floor2,Root/dome/dome4,Root/dome/dome5,Root/dome/dome6,Root/dome/dome7,Root/legs,Root/dome1,Root/dome3,Root/dome4,Root/dome6,Root/dome7,Root/bottom,Root/stone,Root/Top",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -28,7 +28,7 @@
 					"renderPass": 2,
 					"rotationOrigin": [ 5.8, -0.5, 1.4 ],
 					"faces": {
-						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [0,0,1,1], "windData": [0,0,2,2] }
 					}
 				},
 				{
@@ -40,7 +40,7 @@
 					"rotationOrigin": [ 10.7, 11.0, 6.4 ],
 					"rotationY": 90.0,
 					"faces": {
-						"south": { "texture": "#2", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+						"south": { "texture": "#2", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [0,0,1,1], "windData": [0,0,2,2] }
 					}
 				},
 				{
@@ -54,7 +54,7 @@
 					"rotationY": 45.0,
 					"rotationZ": -180.0,
 					"faces": {
-						"south": { "texture": "#3", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+						"south": { "texture": "#3", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,2] }
 					}
 				}
 			]

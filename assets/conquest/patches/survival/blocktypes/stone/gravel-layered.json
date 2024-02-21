@@ -1,0 +1,12 @@
+[
+	{
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"op": "replace",
+		"side": "server",
+		"path": "/textures",
+		"value": {
+			"material": { "base": "game:block/stone/gravel/{rock}/*" }
+		}
+	}
+]
+

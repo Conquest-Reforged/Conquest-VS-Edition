@@ -1,0 +1,21 @@
+[
+	{
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"op": "replace",
+		"side": "server",
+		"path": "/textures",
+		"value": {
+			"flint": { "base": "game:block/stone/flint" },
+			"chert": { "base": "game:block/stone/rock/chert/sides/1" },
+			"granite": { "base": "game:block/stone/rock/granite/sides/1" },
+			"basalt": { "base": "game:block/stone/rock/basalt/1" },
+			"obsidian": { "base": "game:block/stone/rock/obsidian/1" },
+			"chalk": { "base": "game:block/stone/rock/chalk/1" },
+			"claystone": { "base": "game:block/stone/rock/claystone/1" },
+			"andesite": { "base": "game:block/stone/rock/andesite/1" },
+			"sandstone": { "base": "game:block/stone/rock/sandstone/sides/1" },
+			"shale": { "base": "game:block/stone/rock/shale/sides/1" },
+			"peridotite": { "base": "game:block/stone/rock/peridotite/1" }
+		}
+	}
+]

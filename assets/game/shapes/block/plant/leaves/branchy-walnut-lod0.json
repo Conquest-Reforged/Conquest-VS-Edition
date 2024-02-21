@@ -9,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"walnutleaves1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Plants/Leaves/large/walnut/New folder/walnutleaves1"
 	},
 	"elements": [
 		{
@@ -25,7 +24,7 @@
 			"rotationX": -45.0,
 			"faces": {
 				"up": {
-					"texture": "#walnutleaves1",
+					"texture": "#10",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 180
 				}
@@ -44,7 +43,7 @@
 			"rotationX": 45.0,
 			"faces": {
 				"up": {
-					"texture": "#walnutleaves1",
+					"texture": "#20",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 180
 				}
@@ -63,7 +62,7 @@
 			"rotationZ": 45.0,
 			"faces": {
 				"up": {
-					"texture": "#walnutleaves1",
+					"texture": "#30",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 90
 				}
@@ -82,7 +81,7 @@
 			"rotationZ": -45.0,
 			"faces": {
 				"up": {
-					"texture": "#walnutleaves1",
+					"texture": "#40",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 90
 				}

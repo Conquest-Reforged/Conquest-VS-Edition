@@ -41,177 +41,140 @@
         "side": "server",
         "value": {
             "@.*-(oak)": {
-                "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves7",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves8" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves9" }
-                    ]
-                },
-                "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves9",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves8" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves7" }
-                    ]
-                },
+                "1": { "base": "block/plant/leaves/large/oak/oak1" },
+                "2": { "base": "block/plant/leaves/large/oak/oak2" },
                 "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves5"
+                    "base": "game:block/plant/leaves/small/oak/oak1"
                 },
                 "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves6"
+                    "base": "game:block/plant/leaves/small/oak/oak2"
                 },
                 "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves7"
+                    "base": "game:block/plant/leaves/small/oak/oak3"
                 },
                 "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves8"
+                    "base": "game:block/plant/leaves/small/oak/oak"
                 }
             },
             "@.*-(birch)": {
-                "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves6" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves7" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves8" }
-                    ]
-                },
-                "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves6" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves7" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves8" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3" }
-                    ]
-                },
+                "1": { "base": "block/plant/leaves/large/birch/birch1" },
+                "2": { "base": "block/plant/leaves/large/birch/birch2" },
                 "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves1"
+                    "base": "game:block/plant/leaves/small/birch/birch1"
                 },
                 "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves2"
+                    "base": "game:block/plant/leaves/small/birch/birch2"
                 },
                 "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves3"
+                    "base": "game:block/plant/leaves/small/birch/birch3"
                 },
                 "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves4"
+                    "base": "game:block/plant/leaves/small/birch/birch"
                 }
             },
-
-            "@.*-(maple|pine|walnut)": {
+            "@.*-(pine|walnut)": {
                 "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1",
+                    "base": "game:block/plant/leaves/large/{wood}/{wood}1",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves6" }
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}5" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}6" }
                     ]
                 },
                 "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4",
+                    "base": "game:block/plant/leaves/large/{wood}/{wood}4",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves6" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3" }
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}5" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}6" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}1" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" }
                     ]
                 },
                 "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves1"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}1"
                 },
                 "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves2"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}2"
                 },
                 "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves3"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}3"
                 },
                 "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves4"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}4"
                 }
             },
-            "@.*-(crimsonkingmaple)": {
+            "@.*-(crimsonkingmaple|maple)": {
                 "1": {
-                    "base": "game:block/plant/leaves/large/maple/mapleleaves1",
+                    "base": "game:block/plant/leaves/large/maple/maple1",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves2" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves3" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves4" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves5" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves6" }
+                        { "base": "game:block/plant/leaves/large/maple/maple2" },
+                        { "base": "game:block/plant/leaves/large/maple/maple3" },
+                        { "base": "game:block/plant/leaves/large/maple/maple4" },
+                        { "base": "game:block/plant/leaves/large/maple/maple5" },
+                        { "base": "game:block/plant/leaves/large/maple/maple6" }
                     ]
                 },
                 "2": {
-                    "base": "game:block/plant/leaves/large/maple/mapleleaves4",
+                    "base": "game:block/plant/leaves/large/maple/maple4",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves5" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves6" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves1" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves2" },
-                        { "base": "game:block/plant/leaves/large/maple/mapleleaves3" }
+                        { "base": "game:block/plant/leaves/large/maple/maple5" },
+                        { "base": "game:block/plant/leaves/large/maple/maple6" },
+                        { "base": "game:block/plant/leaves/large/maple/maple1" },
+                        { "base": "game:block/plant/leaves/large/maple/maple2" },
+                        { "base": "game:block/plant/leaves/large/maple/maple3" }
                     ]
                 },
                 "10": {
-                    "base": "game:block/plant/leaves/small/maple/mapleleaves1"
+                    "base": "game:block/plant/leaves/small/maple/maple1"
                 },
                 "20": {
-                    "base": "game:block/plant/leaves/small/maple/mapleleaves2"
+                    "base": "game:block/plant/leaves/small/maple/maple2"
                 },
                 "30": {
-                    "base": "game:block/plant/leaves/small/maple/mapleleaves3"
+                    "base": "game:block/plant/leaves/small/maple/maple3"
                 },
                 "40": {
-                    "base": "game:block/plant/leaves/small/maple/mapleleaves4"
+                    "base": "game:block/plant/leaves/small/maple/maple"
                 }
             },
             "@.*-(acacia|baldcypress|ebony|kapok|larch|purpleheart|redwood|cypress)": {
                 "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1",
+                    "base": "game:block/plant/leaves/large/{wood}/{wood}1",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4" }
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" }
                     ]
                 },
                 "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}leaves3",
+                    "base": "game:block/plant/leaves/large/{wood}/{wood}3",
                     "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves4" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves1" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}leaves2" }
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}1" },
+                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" }
                     ]
                 },
                 "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves1"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}1"
                 },
                 "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves2"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}2"
                 },
                 "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves3"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}3"
                 },
                 "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}leaves4"
+                    "base": "game:block/plant/leaves/small/{wood}/{wood}4"
                 }
             },
             "*": {
                 "largeleaves": { "base": "block/plant/leaves/large/{wood}*" },
-                "smallleaves": { "base": "block/plant/leaves/small/{wood}*" },
-                "branch": { "base": "block/plant/leaves/large/branch" }
+                "smallleaves": { "base": "block/plant/leaves/small/{wood}*" }
             }
 
         }
     }
-
 ]

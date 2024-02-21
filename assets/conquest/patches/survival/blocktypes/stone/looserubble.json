@@ -1,0 +1,241 @@
+[
+    {
+        "file": "game:blocktypes/stone/looserubble.json",
+        "op": "replace",
+        "side": "server",
+        "path": "/attributes",
+        "value": {
+            "canChisel": false,
+            "types": [
+                {
+                    "code": "rubble-ashlar1",
+                    "drops": [
+                        {
+                            "type": "item",
+                            "code": "game:stone-{rock}",
+                            "quantity": {
+                                "avg": 7,
+                                "var": 3
+                            }
+                        }
+                    ],
+                    "shapePathByType": {
+                        "*-snow": "game:block/clutter/rubble-stone1-snow",
+                        "*": "game:block/clutter/rubble-stone1"
+                    },
+                    "colSelBoxes": [
+                        {
+                            "x1": 0,
+                            "y1": 0,
+                            "z1": 0,
+                            "x2": 1,
+                            "y2": 0.3687,
+                            "z2": 1
+                        }
+                    ],
+                    "tpTf": {
+                        "translation": {
+                            "x": -1.9,
+                            "y": -1.6,
+                            "z": -1.6
+                        },
+                        "rotation": {
+                            "y": -45,
+                            "z": -25
+                        },
+                        "scale": 0.3
+                    },
+                    "textures": {
+                        "rubble": {
+                            "base": "game:block/stone/agedbrick/{rock}/1",
+                            "overlays": [ "game:block/overlay/damagedstone1" ],
+                            "alternates": [
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone2" ]
+                                },
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone3" ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "code": "game:rubble-ashlar2",
+                    "drops": [
+                        {
+                            "type": "item",
+                            "code": "game:stone-{rock}",
+                            "quantity": {
+                                "avg": 7,
+                                "var": 3
+                            }
+                        }
+                    ],
+                    "shapePathByType": {
+                        "*-snow": "game:block/clutter/rubble-stone2-snow",
+                        "*": "game:block/clutter/rubble-stone2"
+                    },
+                    "colSelBoxes": [
+                        {
+                            "x1": 0,
+                            "y1": 0,
+                            "z1": 0,
+                            "x2": 1,
+                            "y2": 0.25,
+                            "z2": 1
+                        },
+                        {
+                            "x1": 0,
+                            "y1": 0,
+                            "z1": 0,
+                            "x2": 0.7873,
+                            "y2": 0.4496,
+                            "z2": 0.6061
+                        }
+                    ],
+                    "tpTf": {
+                        "translation": {
+                            "x": -1.9,
+                            "y": -1.6,
+                            "z": -1.6
+                        },
+                        "rotation": {
+                            "y": -45,
+                            "z": -25
+                        },
+                        "scale": 0.3
+                    },
+                    "textures": {
+                        "rubble": {
+                            "base": "game:block/stone/agedbrick/{rock}/1",
+                            "overlays": [ "game:block/overlay/damagedstone1" ],
+                            "alternates": [
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone2" ]
+                                },
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone3" ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "code": "game:rubble-ashlar3",
+                    "drops": [
+                        {
+                            "type": "item",
+                            "code": "game:stone-{rock}",
+                            "quantity": {
+                                "avg": 7,
+                                "var": 3
+                            }
+                        }
+                    ],
+                    "shapePathByType": {
+                        "*-snow": "game:block/clutter/rubble-stone3-snow",
+                        "*": "game:block/clutter/rubble-stone3"
+                    },
+                    "colSelBoxes": [
+                        {
+                            "x1": 0,
+                            "y1": 0,
+                            "z1": 0,
+                            "x2": 1,
+                            "y2": 0.3314,
+                            "z2": 1
+                        }
+                    ],
+                    "tpTf": {
+                        "translation": {
+                            "x": -1.9,
+                            "y": -1.6,
+                            "z": -1.6
+                        },
+                        "rotation": {
+                            "y": -45,
+                            "z": -25
+                        },
+                        "scale": 0.3
+                    },
+                    "textures": {
+                        "rubble": {
+                            "base": "game:block/stone/agedbrick/{rock}/1",
+                            "overlays": [ "game:block/overlay/damagedstone1" ],
+                            "alternates": [
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone2" ]
+                                },
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone3" ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "code": "game:rubble-ashlar4",
+                    "drops": [
+                        {
+                            "type": "item",
+                            "code": "game:stone-{rock}",
+                            "quantity": {
+                                "avg": 7,
+                                "var": 3
+                            }
+                        }
+                    ],
+                    "shapePathByType": {
+                        "*-snow": "game:block/clutter/rubble-stone4-snow",
+                        "*": "game:block/clutter/rubble-stone4"
+                    },
+                    "colSelBoxes": [
+                        {
+                            "x1": 0,
+                            "y1": 0,
+                            "z1": 0,
+                            "x2": 1,
+                            "y2": 0.3687,
+                            "z2": 1
+                        }
+                    ],
+                    "tpTf": {
+                        "translation": {
+                            "x": -1.9,
+                            "y": -1.6,
+                            "z": -1.6
+                        },
+                        "rotation": {
+                            "y": -45,
+                            "z": -25
+                        },
+                        "scale": 0.3
+                    },
+                    "textures": {
+                        "rubble": {
+                            "base": "game:block/stone/agedbrick/{rock}/1",
+                            "overlays": [ "game:block/overlay/damagedstone1" ],
+                            "alternates": [
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone2" ]
+                                },
+                                {
+                                    "base": "game:block/stone/agedbrick/{rock}/1",
+                                    "overlays": [ "game:block/overlay/damagedstone3" ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
