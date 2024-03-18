@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+			"rotationY": -45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face2",
+					"from": [ -3.5, 0.0, 18.5 ],
+					"to": [ 28.5, 32.0, 19.5 ],
+					"shade": false,
+					"rotationOrigin": [ -3.5, 0.0, 19.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"south": { "texture": "#south", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Face",
+					"from": [ -3.5, 0.0, -3.5 ],
+					"to": [ 28.5, 32.0, -2.5 ],
+					"shade": false,
+					"rotationOrigin": [ -3.5, 0.0, -3.5 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#north", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Cube3",
+			"from": [ 4.0, 0.0, -3.0 ],
+			"to": [ 5.0, 1.0, -2.0 ],
+			"rotationOrigin": [ 4.0, 0.0, -3.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face3",
+					"from": [ -3.5, 0.0, 18.5 ],
+					"to": [ 28.5, 32.0, 19.5 ],
+					"shade": false,
+					"rotationOrigin": [ -3.5, 0.0, 19.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"south": { "texture": "#south", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
+					}
+				},
+				{
+					"name": "Face4",
+					"from": [ -3.5, 0.0, -3.5 ],
+					"to": [ 28.5, 32.0, -2.5 ],
+					"shade": false,
+					"rotationOrigin": [ -3.5, 0.0, -3.5 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#north", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
+					}
+				}
+			]
+		}
+	]}
