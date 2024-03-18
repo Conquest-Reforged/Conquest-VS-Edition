@@ -63,7 +63,7 @@
                     }
                 },
                 {
-                    "code": "game:rubble-ashlar2",
+                    "code": "rubble-ashlar2",
                     "drops": [
                         {
                             "type": "item",
@@ -126,7 +126,7 @@
                     }
                 },
                 {
-                    "code": "game:rubble-ashlar3",
+                    "code": "rubble-ashlar3",
                     "drops": [
                         {
                             "type": "item",
@@ -181,7 +181,7 @@
                     }
                 },
                 {
-                    "code": "game:rubble-ashlar4",
+                    "code": "rubble-ashlar4",
                     "drops": [
                         {
                             "type": "item",

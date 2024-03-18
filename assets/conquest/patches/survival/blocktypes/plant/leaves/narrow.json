@@ -12,12 +12,8 @@
         "side": "server",
         "value": {
             "*-5": {
-                "1": { "base": "block/plant/leaves/large/cypress/*" },
-                "2": { "base": "block/plant/leaves/large/cypress/*" },
-                "10": { "base": "block/plant/leaves/large/cypress/cypress1" },
-                "20": { "base": "block/plant/leaves/large/cypress/cypress2" },
-                "30": { "base": "block/plant/leaves/large/cypress/cypress3" },
-                "40": { "base": "block/plant/leaves/large/cypress/cypress4" }
+                "smallleaves": { "base": "block/plant/leaves/small/cypress/cypress*" },
+                "largeleaves": { "base": "block/plant/leaves/large/cypress/cypress*" }
             },
             "*-4": {
                 "smallleaves": { "base": "block/plant/leaves/large/cypress/narrow/cypressnarrow_4*" },
