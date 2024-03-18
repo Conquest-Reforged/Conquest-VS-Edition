@@ -1,0 +1,91 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Berries,Root/Stem,Root/Berries2,Root/Leaves2,Root/Branches,Root/Stem2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stem-brown": "game:block/plant/bamboo/stem-brown"
+	},
+	"elements": [
+		{
+			"name": "StalkTopSE",
+			"from": [ 9.5, 0.0, 9.5 ],
+			"to": [ 11.5, 16.0, 11.5 ],
+			"windMode": 4,
+			"faces": {
+				"north": {
+					"texture": "#stem-brown",
+					"uv": [ 0.5, 0.0, 2.5, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"east": {
+					"texture": "#stem-brown",
+					"uv": [ 0.5, 0.0, 2.5, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"south": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 0.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"west": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 0.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"up": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"down": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				}
+			}
+		},
+		{
+			"name": "StlakTopNW",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 7.5, 16.0, 7.5 ],
+			"windMode": 4,
+			"faces": {
+				"north": {
+					"texture": "#stem-brown",
+					"uv": [ 5.0, 0.0, 7.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"east": {
+					"texture": "#stem-brown",
+					"uv": [ 6.0, 0.0, 8.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"south": {
+					"texture": "#stem-brown",
+					"uv": [ 6.0, 0.0, 8.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"west": {
+					"texture": "#stem-brown",
+					"uv": [ 5.0, 0.0, 7.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"up": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"down": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				}
+			}
+		}
+	]}

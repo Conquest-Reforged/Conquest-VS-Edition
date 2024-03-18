@@ -8,7 +8,8 @@
 			"sides": {
 				"baseByType": {
 					"plankstairs-acacia-*": "game:block/wood/planks/acacia/sides/*",
-					"*": "game:block/wood/planks/{wood}/top/*"
+					"@.*-(aged|agedebony|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|rottenebony|walnut)-.*": "game:block/wood/planks/{wood}/top/*",
+					"*": "game:block/wood/planks/{wood}*"
 				}
 			}
 		}

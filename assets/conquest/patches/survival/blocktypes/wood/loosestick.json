@@ -1,0 +1,54 @@
+[
+    
+
+
+    {
+        "file": "game:blocktypes/wood/loosestick.json",
+        "op": "add",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "game:block/wood/loosestick/{cover}/stick1",
+            "alternates": [
+                { "base": "game:block/wood/loosestick/{cover}/stick2" },
+                { "base": "game:block/wood/loosestick/{cover}/stick3" },
+                { "base": "game:block/wood/loosestick/{cover}/stick4" },
+                { "base": "game:block/wood/loosestick/{cover}/stick5" },
+                { "base": "game:block/wood/loosestick/{cover}/stick6" },
+                { "base": "game:block/wood/loosestick/{cover}/stick7" },
+                { "base": "game:block/wood/loosestick/{cover}/stick8" },
+                { "base": "game:block/wood/loosestick/{cover}/stick9" },
+                { "base": "game:block/wood/loosestick/{cover}/stick10" },
+                { "base": "game:block/wood/loosestick/{cover}/stick11" }
+            ]
+        }
+    },
+
+    {
+        "file": "game:blocktypes/wood/loosestick.json",
+        "op": "add",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "log": { "base": "game:block/wood/bark/vertical/oak3" },
+            "stick_1": { "base": "game:block/wood/loosestick/large_sticks/stick_1" },
+            "stick_2": { "base": "game:block/wood/loosestick/large_sticks/stick_2" },
+            "stick_3": { "base": "game:block/wood/loosestick/large_sticks/stick_3" },
+            "stick_4": { "base": "game:block/wood/loosestick/large_sticks/stick_4" },
+            "stick_5": { "base": "game:block/wood/loosestick/large_sticks/stick_5" },
+            "stick_6": { "base": "game:block/wood/loosestick/large_sticks/stick_6" },
+            "stick_7": { "base": "game:block/wood/loosestick/large_sticks/stick_7" },
+            "stick_8": { "base": "game:block/wood/loosestick/large_sticks/stick_8" },
+            "stick_9": { "base": "game:block/wood/loosestick/large_sticks/stick_9" },
+            "stick_10": { "base": "game:block/wood/loosestick/large_sticks/stick_10" },
+            "stick_s1": { "base": "game:block/wood/loosestick/small_sticks/stick_s1" },
+            "stick_s2": { "base": "game:block/wood/loosestick/small_sticks/stick_s2" },
+            "stick_s3": { "base": "game:block/wood/loosestick/small_sticks/stick_s3" },
+            "stick_s4": { "base": "game:block/wood/loosestick/small_sticks/stick_s4" },
+            "snowcover": { "base": "game:block/snow/normal1" }
+
+
+        }
+    }
+]
+

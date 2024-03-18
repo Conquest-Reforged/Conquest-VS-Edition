@@ -1,14 +1,5 @@
 [
-	{
-		"file": "game:blocktypes/metal/anvilpart.json",
-		"op": "replace",
-		"path": "/shapeByType",
-		"side": "server",
-		"value": {
-			"anvilpart-base-*": { "base": "game:block/metal/anvil/iron-base" },
-			"anvilpart-top-*": { "base": "game:block/metal/anvil/iron-top" }
-		}
-	},
+	
 	{
 		"file": "game:blocktypes/metal/anvilpart.json",
 		"op": "replace",

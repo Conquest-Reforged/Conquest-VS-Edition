@@ -24,7 +24,7 @@
 			"rotationX": -45.0,
 			"faces": {
 				"up": {
-					"texture": "#10",
+					"texture": "#smallleaves",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 180
 				}
@@ -43,7 +43,7 @@
 			"rotationX": 45.0,
 			"faces": {
 				"up": {
-					"texture": "#20",
+					"texture": "#smallleaves",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 180
 				}
@@ -62,7 +62,7 @@
 			"rotationZ": 45.0,
 			"faces": {
 				"up": {
-					"texture": "#30",
+					"texture": "#smallleaves",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 90
 				}
@@ -81,7 +81,7 @@
 			"rotationZ": -45.0,
 			"faces": {
 				"up": {
-					"texture": "#40",
+					"texture": "#smallleaves",
 					"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 					"rotation": 90
 				}

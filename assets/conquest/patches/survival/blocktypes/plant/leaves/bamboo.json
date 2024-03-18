@@ -22,7 +22,7 @@
 		"path": "/lod0Shape",
 		"side": "server",
 		"value": {
-			"base": "game:block/plant/leaves/bamboo-*",
+			"base": "game:block/plant/leaves/bamboolod0-*",
 			"alternates": [
 				{ "rotateY": 10 },
 				{ "rotateY": 70 },
@@ -53,48 +53,48 @@
 		"side": "server",
 		"value": {
 			"*-grown": {
-				"bamboo-leaves1": {
-					"base": "game:block/plant/bamboo/bamboo-leaves1",
+				"leaves1": {
+					"base": "game:block/plant/bamboo/leaves1",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves2" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves3" }
+						{ "base": "game:block/plant/bamboo/leaves2" },
+						{ "base": "game:block/plant/bamboo/leaves3" }
 					]
 				},
-				"bamboo-leaves2": {
-					"base": "game:block/plant/bamboo/bamboo-leaves2",
+				"leaves2": {
+					"base": "game:block/plant/bamboo/leaves2",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves3" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves1" }
+						{ "base": "game:block/plant/bamboo/leaves3" },
+						{ "base": "game:block/plant/bamboo/leaves1" }
 					]
 				},
-				"bamboo-leaves3": {
-					"base": "game:block/plant/bamboo/bamboo-leaves3",
+				"leaves3": {
+					"base": "game:block/plant/bamboo/leaves3",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves1" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves2" }
+						{ "base": "game:block/plant/bamboo/leaves1" },
+						{ "base": "game:block/plant/bamboo/leaves2" }
 					]
 				}
 			},
 			"*": {
-				"bamboo-leaves1": {
-					"base": "game:block/plant/bamboo/bamboo-leaves1",
+				"leaves1": {
+					"base": "game:block/plant/bamboo/leaves1",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves2" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves3" }
+						{ "base": "game:block/plant/bamboo/leaves2" },
+						{ "base": "game:block/plant/bamboo/leaves3" }
 					]
 				},
-				"bamboo-leaves2": {
-					"base": "game:block/plant/bamboo/bamboo-leaves2",
+				"leaves2": {
+					"base": "game:block/plant/bamboo/leaves2",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves3" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves1" }
+						{ "base": "game:block/plant/bamboo/leaves3" },
+						{ "base": "game:block/plant/bamboo/leaves1" }
 					]
 				},
-				"bamboo-leaves3": {
-					"base": "game:block/plant/bamboo/bamboo-leaves3",
+				"leaves3": {
+					"base": "game:block/plant/bamboo/leaves3",
 					"alternaes": [
-						{ "base": "game:block/plant/bamboo/bamboo-leaves1" },
-						{ "base": "game:block/plant/bamboo/bamboo-leaves2" }
+						{ "base": "game:block/plant/bamboo/leaves1" },
+						{ "base": "game:block/plant/bamboo/leaves2" }
 					]
 				}
 			}

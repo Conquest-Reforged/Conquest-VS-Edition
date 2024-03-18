@@ -1,0 +1,79 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Berries,Root/Stem,Root/Berries2,Root/Leaves2,Root/Branches,Root/Stem2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 12.0, -17.0, -7.0 ],
+			"to": [ 12.0, 15.0, 25.0 ],
+			"shade": false,
+			"rotationOrigin": [ 7.25, 6.75, 5.0 ],
+			"rotationZ": 45.0,
+			"faces": {
+				"east": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube1",
+			"from": [ -8.0, -8.0, 23.0 ],
+			"to": [ 24.0, 24.0, 23.0 ],
+			"shade": false,
+			"rotationOrigin": [ 4.0, -2.5, 21.75 ],
+			"rotationX": -45.0,
+			"faces": {
+				"south": { "texture": "#leaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [ -7.0, -16.0, 5.0 ],
+			"to": [ 25.0, 16.0, 5.0 ],
+			"shade": false,
+			"rotationOrigin": [ 7.75, 7.75, 10.0 ],
+			"rotationX": 45.0,
+			"faces": {
+				"south": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cross1",
+			"from": [ -9.0, -17.0, 8.4 ],
+			"to": [ 23.0, 15.0, 8.4 ],
+			"shade": false,
+			"rotationOrigin": [ -9.0, -17.0, 8.4 ],
+			"faces": {
+				"north": { "texture": "#leaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cross2",
+			"from": [ 8.3, -18.0, 24.0 ],
+			"to": [ 40.3, 14.0, 24.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.3, -18.0, 24.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube2",
+			"from": [ 3.0, -15.0, -8.0 ],
+			"to": [ 3.0, 17.0, 24.0 ],
+			"shade": false,
+			"rotationOrigin": [ 5.5, 6.0, 8.25 ],
+			"rotationZ": -45.0,
+			"faces": {
+				"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

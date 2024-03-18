@@ -1,11 +1,16 @@
 [
 	{
 		"file": "game:blocktypes/plant/bamboo.json",
-		"op": "replace",
-		"path": "/shapeInventory",
+		"op": "add",
+		"path": "/textures",
 		"side": "server",
 		"value": {
-			"base": "game:block/plant/bamboo/{color}/{part}-2"
+			"leaves1": { "base": "game:block/plant/bamboo/leaves1" },
+			"leaves2": { "base": "game:block/plant/bamboo/leaves2" },
+			"leaves3": { "base": "game:block/plant/bamboo/leaves3" },
+			"stem1": { "base": "game:block/plant/bamboo/stem1" },
+			"stem2": { "base": "game:block/plant/bamboo/stem2" },
+			"stem3": { "base": "game:block/plant/bamboo/stem3" }
 		}
 	}
 ]

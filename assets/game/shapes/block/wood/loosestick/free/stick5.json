@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/top2,Root/top3",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [ 1.0, -1.8, -2.0 ],
+			"to": [ 1.0, -1.8, -2.0 ],
+			"shade": false,
+			"rotationOrigin": [ 9.25, 4.575, 3.5 ],
+			"rotationX": 5.0,
+			"rotationY": -4.0,
+			"rotationZ": 3.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "base0",
+					"from": [ 8.13, 2.07, 17.0 ],
+					"to": [ 15.13, 3.07, 18.0 ],
+					"shade": false,
+					"rotationOrigin": [ 15.075, 2.075, 18.0 ],
+					"rotationY": -19.0,
+					"rotationZ": -17.5,
+					"faces": {
+						"north": { "texture": "#log", "uv": [ 7.0, 0.0, 8.0, 7.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#log", "uv": [ 7.5, 9.0, 8.5, 10.0 ], "autoUv": false },
+						"south": { "texture": "#log", "uv": [ 7.0, 0.0, 8.0, 7.0 ], "rotation": 270, "autoUv": false },
+						"west": { "texture": "#log", "uv": [ 5.0, 0.0, 6.0, 1.0 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#log", "uv": [ 1.0, 0.0, 2.0, 7.0 ], "rotation": 270, "autoUv": false },
+						"down": { "texture": "#log", "uv": [ 5.0, 0.0, 6.0, 7.0 ], "rotation": 270, "autoUv": false }
+					}
+				},
+				{
+					"name": "sticks",
+					"from": [ 0.5, 5.0, -1.0 ],
+					"to": [ 1.5, 6.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.5, 5.0, -1.0 ],
+					"rotationX": 22.5,
+					"rotationZ": 10.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "stick4",
+							"from": [ -0.05, 5.85, 0.0 ],
+							"to": [ 15.95, 5.85, 10.0 ],
+							"shade": false,
+							"rotationOrigin": [ 7.95, 12.875, 8.0 ],
+							"rotationX": 15.0,
+							"rotationY": 50.0,
+							"rotationZ": -50.0,
+							"renderpass": 1,
+							"faces": {
+								"up": {
+									"texture": "#stick_s3",
+									"uv": [ 0.0, 0.0, 16.0, 10.0 ]
+								}
+							}
+						},
+						{
+							"name": "stick1",
+							"from": [ 1.05, -2.25, -4.0 ],
+							"to": [ 1.05, 13.75, 12.0 ],
+							"shade": false,
+							"rotationOrigin": [ 9.05, 4.775, 4.0 ],
+							"rotationX": -18.5,
+							"rotationY": 63.0,
+							"rotationZ": -10.0,
+							"renderpass": 1,
+							"faces": {
+								"east": {
+									"texture": "#stick_10",
+									"uv": [ 16.0, 0.0, 0.0, 16.0 ],
+									"autoUv": false
+								}
+							}
+						},
+						{
+							"name": "stick5",
+							"from": [ -5.85, 1.35, -1.8 ],
+							"to": [ 10.15, 1.35, 14.2 ],
+							"shade": false,
+							"rotationOrigin": [ 2.15, 8.375, 6.2 ],
+							"rotationX": -34.0,
+							"rotationY": 37.0,
+							"rotationZ": -8.0,
+							"renderpass": 1,
+							"faces": {
+								"up": {
+									"texture": "#stick_s2",
+									"uv": [ 0.0, 0.0, 16.0, 16.0 ]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

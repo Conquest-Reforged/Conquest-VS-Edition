@@ -2,8 +2,12 @@
     {
         "file": "game:blocktypes/soil/soil.json",
         "op": "replace",
-        "path": "/textures/all/base",
+        "path": "/textures",
         "side": "server",
-        "value": "game:block/soil/fert{fertility}*"
+        "value": {
+            "all": { "base": "game:block/soil/fert{fertility}*" },
+            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
+            "specialSecondTexture": { "base": "game:block/plant/grasscoverage/{grasscoverage}" }
+        }
     }
 ]

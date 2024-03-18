@@ -12,7 +12,7 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone)": {
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|claystone)": {
                 "all": {
                     "base": "game:block/stone/brick/{rock}/1",
                     "tiles": [
@@ -30,7 +30,7 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(chalk|claystone|limestone|phyllite|peridotite|slate|shale)": {
+            "@.*-(chalk|limestone|phyllite|peridotite|slate|shale)": {
                 "all": { "base": "game:block/stone/brick/{rock}/*" }
             },
             "*": {

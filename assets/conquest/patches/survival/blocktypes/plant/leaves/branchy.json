@@ -2,10 +2,35 @@
     {
         "file": "game:blocktypes/plant/leaves/branchy.json",
         "op": "replace",
+        "path": "/shapeInventory",
+        "side": "server",
+        "value": {
+            "baseByType": {
+                "*-birch": "game:block/plant/leaves/branchy-birch-lod0",
+                "*-crimsonkingmaple": "game:block/plant/leaves/branchy-crimsonkingmaple-lod0",
+                "*-kapok": "game:block/plant/leaves/branchy-kapok-lod0",
+                "*-larch": "game:block/plant/leaves/branchy-larch-lod0",
+                "*-maple": "game:block/plant/leaves/branchy-maple-lod0",
+                "*-oak": "game:block/plant/leaves/branchy-oak-lod0",
+                "*-pine": "game:block/plant/leaves/branchy-pine-lod0",
+                "*-redwood": "game:block/plant/leaves/branchy-redwood-lod0",
+                "*-walnut": "game:block/plant/leaves/branchy-walnut-lod0",
+                "*-acacia": "game:block/plant/leaves/branchy-lod0",
+                "*-baldcypress": "game:block/plant/leaves/branchy-lod0",
+                "*-ebony": "game:block/plant/leaves/branchy-lod0",
+                "*-purpleheart": "game:block/plant/leaves/branchy-lod0",
+                "*": "game:block/plant/leaves/branchy_v-lod0"
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "op": "replace",
         "path": "/shape",
         "side": "server",
         "value": {
             "baseByType": {
+                "*-acacia": "game:block/plant/leaves/branchy",
                 "*-pine": "game:block/plant/leaves/branchy-pine",
                 "*-redwood": "game:block/plant/leaves/branchy-redwood",
                 "*-birch": "game:block/plant/leaves/branchy-birch",
@@ -15,7 +40,10 @@
                 "*-larch": "game:block/plant/leaves/branchy-larch",
                 "*-kapok": "game:block/plant/leaves/branchy-kapok",
                 "*-walnut": "game:block/plant/leaves/branchy-walnut",
-                "*": "game:block/plant/leaves/branchy"
+                "*-baldcypress": "game:block/plant/leaves/branchy",
+                "*-ebony": "game:block/plant/leaves/branchy",
+                "*-purpleheart": "game:block/plant/leaves/branchy",
+                "*": "game:block/plant/leaves/branchy_v"
             },
             "rotateY": 10,
             "alternates": [
@@ -30,151 +58,79 @@
     },
     {
         "file": "game:blocktypes/plant/leaves/branchy.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server"
+        "op": "replace",
+        "path": "/lod0Shape",
+        "side": "server",
+        "value": {
+            "baseByType": {
+                "*-birch": "game:block/plant/leaves/branchy-birch-lod0",
+                "*-crimsonkingmaple": "game:block/plant/leaves/branchy-crimsonkingmaple-lod0",
+                "*-kapok": "game:block/plant/leaves/branchy-kapok-lod0",
+                "*-larch": "game:block/plant/leaves/branchy-larch-lod0",
+                "*-maple": "game:block/plant/leaves/branchy-maple-lod0",
+                "*-oak": "game:block/plant/leaves/branchy-oak-lod0",
+                "*-pine": "game:block/plant/leaves/branchy-pine-lod0",
+                "*-redwood": "game:block/plant/leaves/branchy-redwood-lod0",
+                "*-walnut": "game:block/plant/leaves/branchy-walnut-lod0",
+                "*-acacia": "game:block/plant/leaves/branchy-lod0",
+                "*-baldcypress": "game:block/plant/leaves/branchy-lod0",
+                "*-ebony": "game:block/plant/leaves/branchy-lod0",
+                "*-purpleheart": "game:block/plant/leaves/branchy-lod0",
+                "*": "game:block/plant/leaves/branchy_v-lod0"
+            },
+            "rotateY": 10,
+            "alternates": [
+                { "rotateY": 61 },
+                { "rotateY": 113 },
+                { "rotateY": 164 },
+                { "rotateY": 216 },
+                { "rotateY": 267 },
+                { "rotateY": 319 }
+            ]
+        }
     },
     {
         "file": "game:blocktypes/plant/leaves/branchy.json",
-        "op": "add",
-        "path": "/texturesByType",
+        "op": "replace",
+        "path": "/textures",
         "side": "server",
         "value": {
-            "@.*-(oak)": {
-                "1": { "base": "block/plant/leaves/large/oak/oak1" },
-                "2": { "base": "block/plant/leaves/large/oak/oak2" },
-                "10": {
-                    "base": "game:block/plant/leaves/small/oak/oak1"
-                },
-                "20": {
-                    "base": "game:block/plant/leaves/small/oak/oak2"
-                },
-                "30": {
-                    "base": "game:block/plant/leaves/small/oak/oak3"
-                },
-                "40": {
-                    "base": "game:block/plant/leaves/small/oak/oak"
-                }
+            "largeleavesByType": {
+                "*-acacia": { "base": "block/plant/leaves/large/acacia/acacia*" },
+                "*-baldcypress": { "base": "block/plant/leaves/large/baldcypress/baldcypress*" },
+                "*-birch": { "base": "block/plant/leaves/large/birch/birch2" },
+                "*-cypress": { "base": "block/plant/leaves/large/cypress/cypress*" },
+                "*-ebony": { "base": "block/plant/leaves/large/ebony/ebony*" },
+                "*-kapok": { "base": "block/plant/leaves/large/kapok/kapok*" },
+                "*-larch": { "base": "block/plant/leaves/large/larch/larch*" },
+                "*-maple": { "base": "block/plant/leaves/large/maple/maple*" },
+                "*-oak": { "base": "block/plant/leaves/large/oak/oak2*" },
+                "*-pine": { "base": "block/plant/leaves/large/pine/pine*" },
+                "*-purpleheart": { "base": "block/plant/leaves/large/purpleheart/purpleheart*" },
+                "*-redwood": { "base": "block/plant/leaves/large/redwood/redwood*" },
+                "*-walnut": { "base": "block/plant/leaves/large/walnut/walnut*" },
+                "*-crimsonkingmaple": { "base": "block/plant/leaves/large/maple*" },
+                "*": { "base": "block/plant/leaves/large/{wood}*" }
             },
-            "@.*-(birch)": {
-                "1": { "base": "block/plant/leaves/large/birch/birch1" },
-                "2": { "base": "block/plant/leaves/large/birch/birch2" },
-                "10": {
-                    "base": "game:block/plant/leaves/small/birch/birch1"
-                },
-                "20": {
-                    "base": "game:block/plant/leaves/small/birch/birch2"
-                },
-                "30": {
-                    "base": "game:block/plant/leaves/small/birch/birch3"
-                },
-                "40": {
-                    "base": "game:block/plant/leaves/small/birch/birch"
-                }
+            "smallleavesByType": {
+                "*-acacia": { "base": "block/plant/leaves/small/acacia/acacia*" },
+                "*-baldcypress": { "base": "block/plant/leaves/small/baldcypress/baldcypress*" },
+                "*-birch": { "base": "block/plant/leaves/small/birch/birch1" },
+                "*-cypress": { "base": "block/plant/leaves/small/cypress/cypress*" },
+                "*-ebony": { "base": "block/plant/leaves/small/ebony/ebony*" },
+                "*-kapok": { "base": "block/plant/leaves/small/kapok/kapok*" },
+                "*-larch": { "base": "block/plant/leaves/small/larch/larch*" },
+                "*-maple": { "base": "block/plant/leaves/small/maple/maple*" },
+                "*-oak": { "base": "block/plant/leaves/small/oak/oak1" },
+                "*-pine": { "base": "block/plant/leaves/small/pine/pine*" },
+                "*-purpleheart": { "base": "block/plant/leaves/small/purpleheart/purpleheart*" },
+                "*-redwood": { "base": "block/plant/leaves/small/redwood/redwood*" },
+                "*-walnut": { "base": "block/plant/leaves/small/walnut/walnut*" },
+                "*-crimsonkingmaple": { "base": "block/plant/leaves/small/maple*" },
+                "*": { "base": "block/plant/leaves/small/{wood}*" }
             },
-            "@.*-(pine|walnut)": {
-                "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}1",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}6" }
-                    ]
-                },
-                "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}4",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}5" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}6" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}1" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" }
-                    ]
-                },
-                "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}1"
-                },
-                "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}2"
-                },
-                "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}3"
-                },
-                "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}4"
-                }
-            },
-            "@.*-(crimsonkingmaple|maple)": {
-                "1": {
-                    "base": "game:block/plant/leaves/large/maple/maple1",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/maple/maple2" },
-                        { "base": "game:block/plant/leaves/large/maple/maple3" },
-                        { "base": "game:block/plant/leaves/large/maple/maple4" },
-                        { "base": "game:block/plant/leaves/large/maple/maple5" },
-                        { "base": "game:block/plant/leaves/large/maple/maple6" }
-                    ]
-                },
-                "2": {
-                    "base": "game:block/plant/leaves/large/maple/maple4",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/maple/maple5" },
-                        { "base": "game:block/plant/leaves/large/maple/maple6" },
-                        { "base": "game:block/plant/leaves/large/maple/maple1" },
-                        { "base": "game:block/plant/leaves/large/maple/maple2" },
-                        { "base": "game:block/plant/leaves/large/maple/maple3" }
-                    ]
-                },
-                "10": {
-                    "base": "game:block/plant/leaves/small/maple/maple1"
-                },
-                "20": {
-                    "base": "game:block/plant/leaves/small/maple/maple2"
-                },
-                "30": {
-                    "base": "game:block/plant/leaves/small/maple/maple3"
-                },
-                "40": {
-                    "base": "game:block/plant/leaves/small/maple/maple"
-                }
-            },
-            "@.*-(acacia|baldcypress|ebony|kapok|larch|purpleheart|redwood|cypress)": {
-                "1": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}1",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}3" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" }
-                    ]
-                },
-                "2": {
-                    "base": "game:block/plant/leaves/large/{wood}/{wood}3",
-                    "alternates": [
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}4" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}1" },
-                        { "base": "game:block/plant/leaves/large/{wood}/{wood}2" }
-                    ]
-                },
-                "10": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}1"
-                },
-                "20": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}2"
-                },
-                "30": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}3"
-                },
-                "40": {
-                    "base": "game:block/plant/leaves/small/{wood}/{wood}4"
-                }
-            },
-            "*": {
-                "largeleaves": { "base": "block/plant/leaves/large/{wood}*" },
-                "smallleaves": { "base": "block/plant/leaves/small/{wood}*" }
-            }
-
+            "branch": { "base": "block/plant/leaves/large/branch" }
         }
     }
+
 ]

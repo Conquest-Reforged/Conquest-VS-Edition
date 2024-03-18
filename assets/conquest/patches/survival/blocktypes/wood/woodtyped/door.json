@@ -1,91 +1,145 @@
 [
-	{
-		"file": "game:blocktypes/wood/woodtyped/door.json",
-		"op": "remove",
-		"path": "/shape",
-		"side": "server",
-		"value": {}
-	},
-	{
-		"file": "game:blocktypes/wood/woodtyped/door.json",
-		"op": "add",
-		"path": "/shapeByType",
-		"side": "server",
-		"value": {
+    {
+        "file": "game:blocktypes/wood/woodtyped/door.json",
+        "op": "remove",
+        "path": "/shape",
+        "side": "server",
+        "value": {}
+    },
+    {
+        "file": "game:blocktypes/wood/woodtyped/door.json",
+        "op": "add",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
 
-			"@*-sleek-windowed-(oak|walnut)": { "base": "game:block/wood/door/sleek1" },
-			"@*-sleek-windowed-(maple|acacia|ebony)": { "base": "game:block/wood/door/sleek2" },
-			"@*-sleek-windowed-(birch|pine)": { "base": "game:block/wood/door/sleek3" },
-			"@*-sleek-windowed-(redwood|purpleheart|larch)": { "base": "game:block/wood/door/sleek4" },
-			"@*-sleek-windowed-(kapok|baldcypress)": { "base": "game:block/wood/door/sleek5" },
-			"@*-sleek-windowed-(aged)": { "base": "game:block/wood/door/sleek-age" },
-			"@*-solid-(larch|kapok)": { "base": "game:block/wood/door/solid1" },
-			"@*-solid-(oak|maple)": { "base": "game:block/wood/door/solid2" },
-			"@*-solid-(birch|pine|purpleheart)": { "base": "game:block/wood/door/solid3" },
-			"@*-solid-(redwood|baldcypress|ebony)": { "base": "game:block/wood/door/solid4" },
-			"*-solid-aged": { "base": "game:block/wood/door/solid-age" },
-			"*-solid-acacia": { "base": "game:block/wood/door/solid-acacia" },
-			"*-solid-walnut": { "base": "game:block/wood/door/solid-walnut" },
-			"@*-1x3gate-(walnut|pine)": { "base": "game:block/wood/door/1x3gate1" },
-			"@*-1x3gate-(oak|maple)": { "base": "game:block/wood/door/1x3gate2" },
-			"@*-1x3gate-(baldcypress|redwood|ebony)": { "base": "game:block/wood/door/1x3gate3" },
-			"@*-1x3gate-(birch|purpleheart)": { "base": "game:block/wood/door/1x3gate4" },
-			"@*-1x3gate-(acacia)": { "base": "game:block/wood/door/1x3gate-acacia" },
-			"@*-1x3gate-(kapok)": { "base": "game:block/wood/door/1x3gate5" },
-			"@*-1x3gate-(larch)": { "base": "game:block/wood/door/1x3gate6" },
-			"@*-1x3gate-(aged)": { "base": "game:block/wood/door/1x3gate-aged" },
-			"@*-2x2gate-(oak|birch|redwood|pine|purpleheart)": { "base": "game:block/wood/door/2x2gate1" },
-			"@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)": { "base": "game:block/wood/door/2x2gate2" },
-			"@*-2x2gate-(aged)": { "base": "game:block/wood/door/2x2gate-aged" },
-			"@*-2x4gate-(oak|larch|purpleheart|maple|aged)": { "base": "game:block/wood/door/2x4gate1" },
-			"@*-2x4gate-(baldcypress|pine|birch|redwood)": { "base": "game:block/wood/door/2x4gate2" },
-			"@*-2x4gate-(kapok|walnut|acacia|ebony)": { "base": "game:block/wood/door/2x4gate3" },
-			"*": { "base": "game:block/wood/door/{style}" }
-		}
-	},
-	{
-		"file": "game:blocktypes/wood/woodtyped/door.json",
-		"op": "add",
-		"path": "/texturesByType",
-		"side": "server",
-		"value": {
-			"door-sleek-windowed-*": {
-				"sleek": {
-					"base": "game:block/wood/door/sleek-{wood}"
-				}
-			},
-			"door-solid-*": {
-				"solid": {
-					"base": "game:block/wood/door/solid-{wood}"
-				}
-			},
-			"door-1x3gate-*": {
-				"tall": {
-					"base": "game:block/wood/door/tall-{wood}"
-				},
-				"tall-extension": {
-					"base": "game:block/wood/door/tall-{wood}-extension"
-				}
-			},
-			"@*-2x2gate-(oak|birch|redwood|pine|purpleheart|aged)-*": {
-				"gate": {
-					"base": "game:block/wood/door/2x2-{wood}"
-				},
-				"gate-extension": {
-					"base": "game:block/wood/door/2x2-{wood}-extension"
-				}
-			},
-			"@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)-*": {
-				"gate": {
-					"base": "game:block/wood/door/2x2-{wood}"
-				}
-			},
+            "@*-sleek-windowed-(oak|walnut)": { "base": "game:block/wood/door/sleek1" },
+            "@*-sleek-windowed-(maple|acacia|ebony)": { "base": "game:block/wood/door/sleek2" },
+            "@*-sleek-windowed-(birch|pine)": { "base": "game:block/wood/door/sleek3" },
+            "@*-sleek-windowed-(redwood|purpleheart|larch)": { "base": "game:block/wood/door/sleek4" },
+            "@*-sleek-windowed-(kapok|baldcypress)": { "base": "game:block/wood/door/sleek5" },
+            "@*-sleek-windowed-(aged)": { "base": "game:block/wood/door/sleek-age" },
+            "@*-solid-(larch|kapok)": { "base": "game:block/wood/door/solid1" },
+            "@*-solid-(oak|maple)": { "base": "game:block/wood/door/solid2" },
+            "@*-solid-(birch|pine|purpleheart)": { "base": "game:block/wood/door/solid3" },
+            "@*-solid-(redwood|baldcypress|ebony)": { "base": "game:block/wood/door/solid4" },
+            "*-solid-aged": { "base": "game:block/wood/door/solid-age" },
+            "*-solid-acacia": { "base": "game:block/wood/door/solid-acacia" },
+            "*-solid-walnut": { "base": "game:block/wood/door/solid-walnut" },
+            "@*-1x3gate-(walnut|pine)": { "base": "game:block/wood/door/1x3gate1" },
+            "@*-1x3gate-(oak|maple)": { "base": "game:block/wood/door/1x3gate2" },
+            "@*-1x3gate-(baldcypress|redwood|ebony)": { "base": "game:block/wood/door/1x3gate3" },
+            "@*-1x3gate-(birch|purpleheart)": { "base": "game:block/wood/door/1x3gate4" },
+            "@*-1x3gate-(acacia)": { "base": "game:block/wood/door/1x3gate-acacia" },
+            "@*-1x3gate-(kapok)": { "base": "game:block/wood/door/1x3gate5" },
+            "@*-1x3gate-(larch)": { "base": "game:block/wood/door/1x3gate6" },
+            "@*-1x3gate-(aged)": { "base": "game:block/wood/door/1x3gate-aged" },
+            "@*-2x2gate-(oak|birch|redwood|pine|purpleheart)": { "base": "game:block/wood/door/2x2gate1" },
+            "@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)": { "base": "game:block/wood/door/2x2gate2" },
+            "@*-2x2gate-(aged)": { "base": "game:block/wood/door/2x2gate-aged" },
+            "@*-2x4gate-(oak|larch|purpleheart|maple|aged)": { "base": "game:block/wood/door/2x4gate1" },
+            "@*-2x4gate-(baldcypress|pine|birch|redwood)": { "base": "game:block/wood/door/2x4gate2" },
+            "@*-2x4gate-(kapok|walnut|acacia|ebony)": { "base": "game:block/wood/door/2x4gate3" },
+            "*": { "base": "game:block/wood/door/{style}" }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/woodtyped/door.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@*-sleek-windowed-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
+                "sleek": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "@*-solid-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
+                "solid": {
+                    "base": "game:block/wood/door/solid-{wood}"
+                }
+            },
+            "@*-1x3gate-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
+                "tall": {
+                    "base": "game:block/wood/door/tall-{wood}"
+                },
+                "tall-extension": {
+                    "base": "game:block/wood/door/tall-{wood}-extension"
+                }
+            },
+            "@*-2x2gate-(oak|birch|redwood|pine|purpleheart|aged)-*": {
+                "gate": {
+                    "base": "game:block/wood/door/2x2-{wood}"
+                },
+                "gate-extension": {
+                    "base": "game:block/wood/door/2x2-{wood}-extension"
+                }
+            },
+            "@*-2x2gate-(baldcypress|walnut|maple|acacia|kapok|larch|ebony)-*": {
+                "gate": {
+                    "base": "game:block/wood/door/2x2-{wood}"
+                }
+            },
 
-			"door-2x4gate-*": {
-				"gate": {
-					"base": "game:block/wood/door/2x4-{wood}"
-				}
-			}
-		}
-		}
+            "@*-2x4gate-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
+                "gate": {
+                    "base": "game:block/wood/door/2x4-{wood}"
+                }
+            },
+            "door-sleek-windowed-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90,
+                    "blendedOverlays": [
+                        {
+                            "base": "game:block/wood/door/overlay-sleek",
+                            "blendMode": "Overlay"
+                        }
+                    ]
+                }
+            },
+            "door-solid-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90,
+                    "blendedOverlays": [
+                        {
+                            "base": "game:block/wood/door/overlay-solid",
+                            "blendMode": "Overlay"
+                        }
+                    ]
+                }
+            },
+            "door-1x3gate-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90,
+                    "blendedOverlays": [
+                        {
+                            "base": "game:block/wood/door/overlay-tall",
+                            "blendMode": "Overlay"
+                        }
+                    ]
+                }
+            },
+            "door-2x2gate-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90,
+                    "blendedOverlays": [
+                        {
+                            "base": "game:block/wood/door/overlay-wide",
+                            "blendMode": "Overlay"
+                        }
+                    ]
+                }
+            },
+            "door-2x4gate-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90
+                }
+            }
+        }
+    }
 ]

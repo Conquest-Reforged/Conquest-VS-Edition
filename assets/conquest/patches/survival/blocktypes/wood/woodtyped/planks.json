@@ -5,7 +5,7 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-           
+
             "*-acacia-ud": {
                 "up": {
                     "base": "game:block/wood/planks/{wood}/top/1",
@@ -207,7 +207,7 @@
                     "tilesWidth": 3
                 }
             },
-            "*-ud": {
+            "@.*-(aged|agedebony|baldcypress|birch|ebony|kapok|maple|purpleheart|redwood|rottenebony|walnut)-ud": {
                 "up": {
                     "base": "game:block/wood/planks/{wood}/top/1",
                     "tiles": [
@@ -231,7 +231,7 @@
                     "tilesWidth": 4
                 }
             },
-            "*-we": {
+            "@.*-(aged|agedebony|baldcypress|birch|ebony|kapok|maple|purpleheart|redwood|rottenebony|walnut)-we": {
                 "up": {
                     "base": "game:block/wood/planks/{wood}/top/1",
                     "tiles": [
@@ -254,7 +254,7 @@
                     "tilesWidth": 4
                 }
             },
-            "*-ns": {
+            "@.*-(aged|agedebony|baldcypress|birch|ebony|kapok|maple|purpleheart|redwood|rottenebony|walnut)-ns": {
                 "all": {
                     "base": "game:block/wood/planks/{wood}/top/1",
                     "tiles": [
@@ -278,7 +278,28 @@
                     "tilesWidth": 2
                 }
 
+            },
+            "*-ud": {
+                "all": {
+                    "base": "block/wood/planks/{wood}*",
+                    "rotation": 90
+                }
+            },
+            "*-we": {
+                "all": {
+                    "base": "block/wood/planks/{wood}*",
+                    "rotation": 0
+                }
+            },
+            "*-ns": {
+                "all": { "base": "block/wood/planks/{wood}*" },
+                "verticals": {
+                    "base": "block/wood/planks/{wood}*",
+                    "rotation": 90
+                }
             }
+
+
         }
     }
 ]

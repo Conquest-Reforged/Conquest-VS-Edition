@@ -1,0 +1,295 @@
+[
+    {
+        "file": "game:blocktypes/plant/fern.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": { "base": "game:block/plant/fern/{type}/smallfern_*" }
+
+    },
+    {
+        "file": "game:blocktypes/plant/fern.json",
+        "op": "replace",
+        "path": "/attributes",
+        "side": "server",
+        "value": {
+            "butterflyFeed": false,
+            "beeFeed": false,
+            "disappearOnSoilRemoved": true,
+            "plantContainable": {
+                "smallContainer": {
+                    "shape": { "base": "game:block/plant/fern/{type}/smallfern_a" }
+                },
+                "largeContainer": {
+                    "shape": { "base": "game:block/plant/fern/{type}/smallfern_a" }
+                }
+            }
+        }
+
+    },
+
+    {
+        "file": "game:blocktypes/plant/fern.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-cinnamonfern": {
+                "center1": {
+                    "base": "game:block/plant/fern/cinnamonfern/center1",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/cinnamonfern/center3" },
+                        { "base": "game:block/plant/fern/cinnamonfern/center2" },
+                        { "base": "game:block/plant/fern/cinnamonfern/center4" }
+                    ]
+                },
+                "center2": {
+                    "base": "game:block/plant/fern/cinnamonfern/center2",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/cinnamonfern/center3" },
+                        { "base": "game:block/plant/fern/cinnamonfern/center1" },
+                        { "base": "game:block/plant/fern/cinnamonfern/center4" }
+                    ]
+                },
+                "1": {
+                    "base": "game:block/plant/fern/cinnamonfern/leaves1",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves2" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves3" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves4" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves5" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves6" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves7" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves8" }
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/fern/cinnamonfern/leaves2",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves1" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves3" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves4" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves5" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves6" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves7" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves8" }
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/fern/cinnamonfern/leaves3",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves2" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves1" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves4" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves5" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves6" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves7" },
+                        { "base": "game:block/plant/fern/cinnamonfern/leaves8" }
+                    ]
+                }
+            },
+            "*-deerfern": {
+                "1": {
+                    "base": "game:block/plant/fern/deerfern/1",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/deerfern/2" },
+                        { "base": "game:block/plant/fern/deerfern/3" },
+                        { "base": "game:block/plant/fern/deerfern/4" },
+                        { "base": "game:block/plant/fern/deerfern/5" },
+                        { "base": "game:block/plant/fern/deerfern/6" },
+                        { "base": "game:block/plant/fern/deerfern/7" }
+
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/fern/deerfern/2",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/deerfern/1" },
+                        { "base": "game:block/plant/fern/deerfern/3" },
+                        { "base": "game:block/plant/fern/deerfern/4" },
+                        { "base": "game:block/plant/fern/deerfern/5" },
+                        { "base": "game:block/plant/fern/deerfern/6" },
+                        { "base": "game:block/plant/fern/deerfern/7" }
+
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/fern/deerfern/4",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/deerfern/5" },
+                        { "base": "game:block/plant/fern/deerfern/6" },
+                        { "base": "game:block/plant/fern/deerfern/7" },
+                        { "base": "game:block/plant/fern/deerfern/1" },
+                        { "base": "game:block/plant/fern/deerfern/2" },
+                        { "base": "game:block/plant/fern/deerfern/3" }
+
+                    ]
+                },
+                "5": {
+                    "base": "game:block/plant/fern/deerfern/5",
+                    "alternates": [
+
+                        { "base": "game:block/plant/fern/deerfern/6" },
+                        { "base": "game:block/plant/fern/deerfern/7" },
+                        { "base": "game:block/plant/fern/deerfern/1" },
+                        { "base": "game:block/plant/fern/deerfern/2" },
+                        { "base": "game:block/plant/fern/deerfern/3" },
+                        { "base": "game:block/plant/fern/deerfern/4" }
+
+                    ]
+                },
+                "6": {
+                    "base": "game:block/plant/fern/deerfern/6",
+                    "alternates": [
+
+                        { "base": "game:block/plant/fern/deerfern/5" },
+                        { "base": "game:block/plant/fern/deerfern/7" },
+                        { "base": "game:block/plant/fern/deerfern/1" },
+                        { "base": "game:block/plant/fern/deerfern/2" },
+                        { "base": "game:block/plant/fern/deerfern/3" },
+                        { "base": "game:block/plant/fern/deerfern/4" }
+
+
+                    ]
+                },
+                "7": {
+                    "base": "game:block/plant/fern/deerfern/7",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/deerfern/1" },
+                        { "base": "game:block/plant/fern/deerfern/2" },
+                        { "base": "game:block/plant/fern/deerfern/3" },
+                        { "base": "game:block/plant/fern/deerfern/4" },
+                        { "base": "game:block/plant/fern/deerfern/6" },
+                        { "base": "game:block/plant/fern/deerfern/5" }
+
+                    ]
+                }
+            },
+            "*-hartstongue": {
+                "1": {
+                    "base": "game:block/plant/fern/hartstongue/1",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/3" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/fern/hartstongue/2",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/3" },
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/fern/hartstongue/3",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/fern/hartstongue/4",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/3" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "5": {
+                    "base": "game:block/plant/fern/hartstongue/5",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/3" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "6": {
+                    "base": "game:block/plant/fern/hartstongue/6",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/3" },
+                        { "base": "game:block/plant/fern/hartstongue/7" }
+
+                    ]
+                },
+                "7": {
+                    "base": "game:block/plant/fern/hartstongue/7",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/hartstongue/1" },
+                        { "base": "game:block/plant/fern/hartstongue/2" },
+                        { "base": "game:block/plant/fern/hartstongue/4" },
+                        { "base": "game:block/plant/fern/hartstongue/5" },
+                        { "base": "game:block/plant/fern/hartstongue/6" },
+                        { "base": "game:block/plant/fern/hartstongue/3" }
+
+                    ]
+                }
+            },
+            "*-eaglefern": {
+                "1": {
+                    "base": "game:block/plant/fern/eaglefern/1",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/eaglefern/2" },
+                        { "base": "game:block/plant/fern/eaglefern/3" },
+                        { "base": "game:block/plant/fern/eaglefern/4" },
+                        { "base": "game:block/plant/fern/eaglefern/5" },
+                        { "base": "game:block/plant/fern/eaglefern/6" },
+                        { "base": "game:block/plant/fern/eaglefern/7" }
+
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/fern/eaglefern/2",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/eaglefern/3" },
+                        { "base": "game:block/plant/fern/eaglefern/1" },
+                        { "base": "game:block/plant/fern/eaglefern/4" },
+                        { "base": "game:block/plant/fern/eaglefern/5" },
+                        { "base": "game:block/plant/fern/eaglefern/6" },
+                        { "base": "game:block/plant/fern/eaglefern/7" }
+
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/fern/eaglefern/3",
+                    "alternates": [
+                        { "base": "game:block/plant/fern/eaglefern/1" },
+                        { "base": "game:block/plant/fern/eaglefern/2" },
+                        { "base": "game:block/plant/fern/eaglefern/4" },
+                        { "base": "game:block/plant/fern/eaglefern/5" },
+                        { "base": "game:block/plant/fern/eaglefern/6" },
+                        { "base": "game:block/plant/fern/eaglefern/7" }
+
+                    ]
+                }
+            }
+        }
+    }
+]
+

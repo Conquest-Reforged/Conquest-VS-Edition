@@ -32,7 +32,7 @@
 					"renderPass": 1,
 					"faces": {
 						"north": {
-							"texture": "#1",
+							"texture": "#largeleaves",
 							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 							"autoUv": false
 						}
@@ -51,7 +51,7 @@
 					"renderPass": 1,
 					"faces": {
 						"north": {
-							"texture": "#2",
+							"texture": "#largeleaves",
 							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 							"autoUv": false
 						}

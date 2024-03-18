@@ -1,0 +1,192 @@
+{
+    "editor": {
+        "collapsedPaths": "Root/Berries,Root/Stem,Root/Berries2,Root/Leaves2,Root/Branches,Root/Stem2",
+        "allAngles": false,
+        "entityTextureMode": false
+    },
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "textureSizes": {
+    },
+    "textures": {
+
+    },
+    "elements": [
+        {
+            "name": "foliage",
+            "from": [ 0.0, -7.0, 0.7 ],
+            "to": [ 1.0, -6.0, 1.7 ],
+            "shade": false,
+            "climateColorMap": "climatePlantTint",
+            "renderPass": 1,
+            "windMode": 5,
+            "rotationOrigin": [ 0.0, -7.0, 0.7 ],
+            "faces": {
+            },
+            "children": [
+                {
+                    "name": "Cube1",
+                    "from": [ -1.7, 0.0, -5.8 ],
+                    "to": [ -1.7, 14.0, 10.2 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "renderPass": 1,
+                    "windMode": 5,
+                    "rotationOrigin": [ -1.7, 7.0, 1.2 ],
+                    "rotationZ": -45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem3",
+                            "uv": [ 0.0, 2.0, 16.0, 16.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube7",
+                    "from": [ 10.6, 0.0, -3.8 ],
+                    "to": [ 10.6, 16.0, 12.2 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "renderPass": 1,
+                    "windMode": 5,
+                    "rotationOrigin": [ 10.6, 7.0, 3.2 ],
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem2",
+                            "uv": [ 0.0, 0.0, 16.0, 16.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube8",
+                    "from": [ 4.1, 0.0, 1.1 ],
+                    "to": [ 4.1, 14.0, 15.1 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "renderPass": 1,
+                    "windMode": 5,
+                    "rotationOrigin": [ 4.1, 7.0, 8.1 ],
+                    "rotationY": -90.0,
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem1",
+                            "uv": [ 0.0, 0.0, 14.0, 14.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube9",
+                    "from": [ 4.0, 0.0, -10.5 ],
+                    "to": [ 4.0, 14.0, 3.5 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "renderPass": 1,
+                    "windMode": 5,
+                    "rotationOrigin": [ 4.0, 7.0, -3.5 ],
+                    "rotationY": 90.0,
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem3",
+                            "uv": [ 1.0, 0.0, 15.0, 14.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "foliage2",
+            "from": [ 8.7, 2.6, 11.2 ],
+            "to": [ 9.7, 3.6, 12.2 ],
+            "shade": false,
+            "climateColorMap": "climatePlantTint",
+            "windMode": 5,
+            "renderPass": 1,
+            "rotationOrigin": [ 8.7, 2.6, 11.2 ],
+            "faces": {
+            },
+            "children": [
+                {
+                    "name": "Cube2",
+                    "from": [ -1.7, 0.0, -5.8 ],
+                    "to": [ -1.7, 14.0, 10.2 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "windMode": 5,
+                    "renderPass": 1,
+                    "rotationOrigin": [ -1.7, 7.0, 1.2 ],
+                    "rotationZ": -45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem3",
+                            "uv": [ 0.0, 2.0, 16.0, 16.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube10",
+                    "from": [ 10.6, 0.0, -3.8 ],
+                    "to": [ 10.6, 16.0, 12.2 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "windMode": 5,
+                    "renderPass": 1,
+                    "rotationOrigin": [ 10.6, 7.0, 3.2 ],
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem2",
+                            "uv": [ 0.0, 0.0, 16.0, 16.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube11",
+                    "from": [ 3.7, 0.0, 1.8 ],
+                    "to": [ 3.7, 14.0, 15.8 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "windMode": 5,
+                    "renderPass": 1,
+                    "rotationOrigin": [ 3.7, 7.0, 8.8 ],
+                    "rotationY": -90.0,
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem1",
+                            "uv": [ 0.0, 0.0, 14.0, 14.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                },
+                {
+                    "name": "Cube12",
+                    "from": [ 4.0, 0.0, -11.0 ],
+                    "to": [ 4.0, 14.0, 3.0 ],
+                    "shade": false,
+                    "climateColorMap": "climatePlantTint",
+                    "windMode": 5,
+                    "renderPass": 1,
+                    "rotationOrigin": [ 4.0, 7.0, -4.0 ],
+                    "rotationY": 90.0,
+                    "rotationZ": 45.0,
+                    "faces": {
+                        "east": {
+                            "texture": "#stem3",
+                            "uv": [ 1.0, 0.0, 15.0, 14.0 ],
+                            "windMode": [ 5, 5, 5, 5 ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

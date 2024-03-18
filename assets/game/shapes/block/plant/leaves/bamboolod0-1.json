@@ -1,0 +1,60 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Berries,Root/Stem,Root/Berries2,Root/Leaves2,Root/Branches,Root/Stem2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 6.25, -19.75, -7.4 ],
+			"to": [ 6.25, 12.25, 24.6 ],
+			"shade": false,
+			"rotationOrigin": [ 1.25, 4.75, 5.0 ],
+			"rotationY": 22.5,
+			"rotationZ": 60.0,
+			"faces": {
+				"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube1",
+			"from": [ -7.9, -14.75, 12.5 ],
+			"to": [ 24.1, 17.25, 12.5 ],
+			"shade": false,
+			"rotationOrigin": [ 4.0, 5.5, 10.75 ],
+			"rotationX": -45.0,
+			"faces": {
+				"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube2",
+			"from": [ 6.0, -14.0, -8.15 ],
+			"to": [ 6.0, 18.0, 23.85 ],
+			"shade": false,
+			"rotationOrigin": [ 8.5, 6.0, 8.25 ],
+			"rotationY": -22.5,
+			"rotationZ": -60.0,
+			"faces": {
+				"east": { "texture": "#leaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "cube3",
+			"from": [ -7.15, -18.0, 5.0 ],
+			"to": [ 24.85, 14.0, 5.0 ],
+			"shade": false,
+			"rotationOrigin": [ 7.75, 5.75, 10.0 ],
+			"rotationX": 45.0,
+			"faces": {
+				"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

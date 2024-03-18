@@ -1,0 +1,143 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/group",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"leaves1": [ 32, 32 ],
+		"leaves2": [ 32, 32 ],
+		"stem-brown": [ 16, 16 ]
+	},
+	"textures": {
+		"stem-brown": "game:block/plant/bamboo/stem-brown"
+	},
+	"elements": [
+		{
+			"name": "StalkSE",
+			"from": [ 9.5, 0.0, 9.5 ],
+			"to": [ 11.5, 8.01, 11.5 ],
+			"windMode": 4,
+			"faces": {
+				"north": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 8.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"east": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 8.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"south": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 8.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"west": {
+					"texture": "#stem-brown",
+					"uv": [ 1.0, 8.0, 3.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"up": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"down": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				}
+			}
+		},
+		{
+			"name": "StalkNW",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 7.5, 14.0, 7.5 ],
+			"windMode": 4,
+			"faces": {
+				"north": {
+					"texture": "#stem-brown",
+					"uv": [ 5.0, 2.0, 7.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"east": {
+					"texture": "#stem-brown",
+					"uv": [ 5.0, 2.0, 7.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"south": {
+					"texture": "#stem-brown",
+					"uv": [ 5.5, 2.0, 7.5, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"west": {
+					"texture": "#stem-brown",
+					"uv": [ 6.0, 2.0, 8.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"up": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				},
+				"down": {
+					"texture": "#stem-brown",
+					"uv": [ 8.0, 14.0, 10.0, 16.0 ],
+					"windMode": [ 5, 5, 5, 5 ]
+				}
+			}
+		},
+		{
+			"name": "largel branch",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "large3",
+					"from": [ -13.8, -8.5, 8.5 ],
+					"to": [ 27.8, 23.5, 8.5 ],
+					"shade": false,
+					"gradientShade": true,
+					"rotationOrigin": [ 7.0, 7.5, 8.5 ],
+					"rotationY": 45.0,
+					"renderPass": 1,
+					"windMode": 5,
+					"climateColorMap": "climatePlantTint",
+					"faces": {
+						"north": {
+							"texture": "#leaves1",
+							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+							"autoUv": false,
+							"windMode": [ 3, 3, 3, 3 ]
+						}
+					}
+				},
+				{
+					"name": "large4",
+					"from": [ -13.8, -8.5, 8.5 ],
+					"to": [ 27.8, 23.5, 8.5 ],
+					"shade": false,
+					"gradientShade": true,
+					"rotationOrigin": [ 7.0, 7.5, 8.5 ],
+					"rotationY": -45.0,
+					"renderPass": 1,
+					"windMode": 5,
+					"climateColorMap": "climatePlantTint",
+					"faces": {
+						"north": {
+							"texture": "#leaves2",
+							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
+							"autoUv": false,
+							"windMode": [ 3, 3, 3, 3 ]
+						}
+					}
+				}
+			]
+		}
+	]}

@@ -3,43 +3,6 @@
     {
         "file": "game:blocktypes/metal/anvil.json",
         "op": "replace",
-        "path": "/textures",
-        "side": "server",
-        "value": {
-            "all": { "base": "game:block/metal/anvil/{metal}" },
-            "ironbloom": { "base": "game:item/resource/ironbloom" },
-            "blistersteel": { "base": "game:block/metal/ingot/blistersteel" }
-        }
-    },
-    {
-        "file": "game:blocktypes/metal/anvil.json",
-        "op": "replace",
-        "path": "/collisionSelectionBoxesByType",
-        "side": "server",
-        "value": {
-            "*": [
-                {
-                    "x1": 0,
-                    "y1": 0,
-                    "z1": 0.3125,
-                    "x2": 1,
-                    "y2": 1,
-                    "z2": 0.6875
-                },
-                {
-                    "x1": 0.3125,
-                    "y1": 0,
-                    "z1": 0,
-                    "x2": 0.6875,
-                    "y2": 0.625,
-                    "z2": 1
-                }
-            ]
-        }
-    },
-    {
-        "file": "game:blocktypes/metal/anvil.json",
-        "op": "replace",
         "path": "/guiTransform",
         "side": "server",
         "value": {

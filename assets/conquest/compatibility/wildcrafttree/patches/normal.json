@@ -5,7 +5,7 @@
         "path": "/shape",
         "side": "server",
         "value": {
-            "base": "wildcrafttree:block/plant/leaves/normal",
+            "base": "game:block/plant/leaves/normal_v",
             "rotateY": 10,
             "alternates": [
                 { "rotateY": 61 },
@@ -24,7 +24,7 @@
         "side": "server",
         "value": {
 
-            "base": "wildcrafttree:block/plant/leaves/normal-lod0",
+            "base": "game:block/plant/leaves/normal_v-lod0",
             "rotateY": 10,
             "alternates": [
                 { "rotateY": 61 },
@@ -42,7 +42,7 @@
         "path": "/shapeInventory",
         "side": "server",
         "value": {
-            "base": "wildcrafttree:block/plant/leaves/normal-lod0"
+            "base": "game:block/plant/leaves/normal_v-lod0"
         }
     }
 ]

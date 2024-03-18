@@ -22,22 +22,22 @@
 			"children": [
 				{
 					"name": "flower1",
-					"from": [ -5.3, 0.0, 1.4 ],
-					"to": [ 26.7, 32.0, 1.4 ],
+					"from": [ -5.3, 0.0, 0.7 ],
+					"to": [ 26.7, 32.0, 0.7 ],
 					"shade": false,
 					"renderPass": 2,
-					"rotationOrigin": [ 5.8, -0.5, 1.4 ],
+					"rotationOrigin": [ 5.8, -0.5, 0.7 ],
 					"faces": {
 						"south": { "texture": "#1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [0,0,1,1], "windData": [0,0,2,2] }
 					}
 				},
 				{
 					"name": "flower2",
-					"from": [ -0.3, 0.0, 6.4 ],
-					"to": [ 31.7, 32.0, 6.4 ],
+					"from": [ -0.8, 0.0, 6.4 ],
+					"to": [ 31.2, 32.0, 6.4 ],
 					"shade": false,
 					"renderPass": 2,
-					"rotationOrigin": [ 10.7, 11.0, 6.4 ],
+					"rotationOrigin": [ 10.2, 11.0, 6.4 ],
 					"rotationY": 90.0,
 					"faces": {
 						"south": { "texture": "#2", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [0,0,1,1], "windData": [0,0,2,2] }

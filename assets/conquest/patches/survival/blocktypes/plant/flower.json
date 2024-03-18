@@ -32,13 +32,83 @@
             "plantContainable": {
                 "smallContainerByType": {
                     "*-lilyofthevalley-*": {
-                        "shape": { "base": "game:block/clay/flowerpot/contents-lilyofthevalley" }
-                    },
-                    "*": {
-                        "shape": { "base": "game:block/clay/flowerpot/contents" },
+                        "shape": { "base": "game:block/clay/planter/contents-lilyofthevalley" },
                         "textures": {
-                            "north": { "base": "game:block/plant/potted/{flower}" },
-                            "south": { "base": "game:block/plant/potted/{flower}" }
+                            "1": {
+                                "base": "game:block/plant/potted/lilyofthevalley1",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/lilyofthevalley2" },
+                                    { "base": "game:block/plant/potted/lilyofthevalley3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "game:block/plant/potted/lilyofthevalley2",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/lilyofthevalley3" },
+                                    { "base": "game:block/plant/potted/lilyofthevalley1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "game:block/plant/potted/lilyofthevalley3",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/lilyofthevalley1" },
+                                    { "base": "game:block/plant/potted/lilyofthevalley2" }
+                                ]
+                            }
+                        }
+                    },
+                    "@.*-(catmint|forgetmenot|cowparsley|heather|orangemallow|westerngorse|woad)-.*": {
+                        "shape": { "base": "game:block/clay/planter/contents-shrub" },
+                        "textures": {
+                            "1": {
+                                "base": "game:block/plant/potted/{flower}1",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}2" },
+                                    { "base": "game:block/plant/potted/{flower}3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "game:block/plant/potted/{flower}2",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}3" },
+                                    { "base": "game:block/plant/potted/{flower}1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "game:block/plant/potted/{flower}3",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}1" },
+                                    { "base": "game:block/plant/potted/{flower}2" }
+                                ]
+                            }
+                        }
+
+                    },
+
+                    "*": {
+                        "shape": { "base": "game:block/clay/planter/contents-basic" },
+                        "textures": {
+                            "1": {
+                                "base": "game:block/plant/potted/{flower}1",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}2" },
+                                    { "base": "game:block/plant/potted/{flower}3" }
+                                ]
+                            },
+                            "2": {
+                                "base": "game:block/plant/potted/{flower}2",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}3" },
+                                    { "base": "game:block/plant/potted/{flower}1" }
+                                ]
+                            },
+                            "3": {
+                                "base": "game:block/plant/potted/{flower}3",
+                                "alternates": [
+                                    { "base": "game:block/plant/potted/{flower}1" },
+                                    { "base": "game:block/plant/potted/{flower}2" }
+                                ]
+                            }
                         }
                     }
                 },
@@ -161,7 +231,7 @@
             "*-orangemallow-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_*" },
             "*-westerngorse-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_*" },
             "*-cornflower-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
-            "*-heather-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_*" },
+            "*-heather-*": { "base": "game:block/plant/flowers/heather/heather_*" },
             "*-smallheather-*": { "base": "game:block/plant/heather-short" },
             "*-dandelion-*": { "base": "game:block/basic/flower-48x48" },
             "*-edelweiss-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
@@ -402,6 +472,177 @@
                     ]
                 }
             },
+            "*-heather-*": {
+                "1": {
+                    "base": "game:block/plant/flower/petal/heather1",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather3" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/flower/petal/heather2",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather3" },
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/flower/petal/heather3",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/flower/petal/heather4",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather3" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "5": {
+                    "base": "game:block/plant/flower/petal/heather5",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather3" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "6": {
+                    "base": "game:block/plant/flower/petal/heather6",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather3" },
+                        { "base": "game:block/plant/flower/petal/heather7" }
+
+                    ]
+                },
+                "7": {
+                    "base": "game:block/plant/flower/petal/heather7",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/heather1" },
+                        { "base": "game:block/plant/flower/petal/heather2" },
+                        { "base": "game:block/plant/flower/petal/heather4" },
+                        { "base": "game:block/plant/flower/petal/heather5" },
+                        { "base": "game:block/plant/flower/petal/heather6" },
+                        { "base": "game:block/plant/flower/petal/heather3" }
+
+                    ]
+                },
+                "10": {
+                    "base": "game:block/plant/flower/stem/heather1",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather3" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "20": {
+                    "base": "game:block/plant/flower/stem/heather2",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather3" },
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "30": {
+                    "base": "game:block/plant/flower/stem/heather3",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "40": {
+                    "base": "game:block/plant/flower/stem/heather4",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather3" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "50": {
+                    "base": "game:block/plant/flower/stem/heather5",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather3" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "60": {
+                    "base": "game:block/plant/flower/stem/heather6",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather3" },
+                        { "base": "game:block/plant/flower/stem/heather7" }
+
+                    ]
+                },
+                "70": {
+                    "base": "game:block/plant/flower/stem/heather7",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/stem/heather1" },
+                        { "base": "game:block/plant/flower/stem/heather2" },
+                        { "base": "game:block/plant/flower/stem/heather4" },
+                        { "base": "game:block/plant/flower/stem/heather5" },
+                        { "base": "game:block/plant/flower/stem/heather6" },
+                        { "base": "game:block/plant/flower/stem/heather3" }
+
+                    ]
+                }
+            },
+
 
             "*": {
                 "1": {
@@ -491,174 +732,174 @@
                 "scale": 1.4
             },
             "*-lilyofthevalley-*": {
-                    "rotation": {
-                        "x": 5,
-                        "y": 101,
-                        "z": -5
-                    },
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0.49,
-                        "z": 0.54
-                    },
-                    "scale": 1.28
+                "rotation": {
+                    "x": 5,
+                    "y": 101,
+                    "z": -5
                 },
-                "*-edelweiss-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -71,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0.51,
-                        "z": 0.3
-                    },
-                    "scale": 1.35
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.49,
+                    "z": 0.54
                 },
-                "*-horsetail-*": {
-                    "rotation": {
-                        "x": 166,
-                        "y": 34,
-                        "z": -40
-                    },
-                    "origin": {
-                        "x": 0.53,
-                        "y": 0.13,
-                        "z": 0.55
-                    },
-                    "scale": 3.3
+                "scale": 1.28
+            },
+            "*-edelweiss-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -71,
+                    "z": 0
                 },
-                "*-redtopgrass-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -49,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0.54,
-                        "z": 0.26
-                    },
-                    "scale": 1.3
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.51,
+                    "z": 0.3
                 },
-                "*-cowparsley-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": 34,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0.76,
-                        "z": 0.5
-                    },
-                    "scale": 0.85
+                "scale": 1.35
+            },
+            "*-horsetail-*": {
+                "rotation": {
+                    "x": 166,
+                    "y": 34,
+                    "z": -40
                 },
-                "*-orangemallow-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": 5,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.44,
-                        "y": 0.65,
-                        "z": 0.61
-                    },
-                    "scale": 0.96
+                "origin": {
+                    "x": 0.53,
+                    "y": 0.13,
+                    "z": 0.55
                 },
-                "*-catmint-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": 6,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.39,
-                        "y": 0.6,
-                        "z": 0.5
-                    },
-                    "scale": 1.09
+                "scale": 3.3
+            },
+            "*-redtopgrass-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -49,
+                    "z": 0
                 },
-                "*-cornflower-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -5,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.75,
-                        "y": 0.5,
-                        "z": 0.5
-                    },
-                    "scale": 1.37
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.54,
+                    "z": 0.26
                 },
-                "*-wilddaisy-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -28,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.59,
-                        "y": 0.4,
-                        "z": 0.5
-                    },
-                    "scale": 1.58
+                "scale": 1.3
+            },
+            "*-cowparsley-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 34,
+                    "z": 0
                 },
-                "*-westerngorse-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": 65,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.7,
-                        "y": 0.64,
-                        "z": 0.5
-                    },
-                    "scale": 0.97
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.76,
+                    "z": 0.5
                 },
-                "*-goldenpoppy-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -44,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.59,
-                        "y": 0.45,
-                        "z": 0.5
-                    },
-                    "scale": 1.41
+                "scale": 0.85
+            },
+            "*-orangemallow-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 5,
+                    "z": 0
                 },
-                "*-woad-*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": -94,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 1.4,
-                        "y": 0.64,
-                        "z": 0.5
-                    },
-                    "scale": 0.83
+                "origin": {
+                    "x": 0.44,
+                    "y": 0.65,
+                    "z": 0.61
                 },
-                "*": {
-                    "rotation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                    },
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0.6,
-                        "z": 0.5
-                    }
+                "scale": 0.96
+            },
+            "*-catmint-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 6,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.39,
+                    "y": 0.6,
+                    "z": 0.5
+                },
+                "scale": 1.09
+            },
+            "*-cornflower-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -5,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.75,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "scale": 1.37
+            },
+            "*-wilddaisy-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -28,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.59,
+                    "y": 0.4,
+                    "z": 0.5
+                },
+                "scale": 1.58
+            },
+            "*-westerngorse-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 65,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.64,
+                    "z": 0.5
+                },
+                "scale": 0.97
+            },
+            "*-goldenpoppy-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -44,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.59,
+                    "y": 0.45,
+                    "z": 0.5
+                },
+                "scale": 1.41
+            },
+            "*-woad-*": {
+                "rotation": {
+                    "x": 0,
+                    "y": -94,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 1.4,
+                    "y": 0.64,
+                    "z": 0.5
+                },
+                "scale": 0.83
+            },
+            "*": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.6,
+                    "z": 0.5
                 }
             }
+        }
     },
     {
         "file": "game:blocktypes/plant/flower.json",

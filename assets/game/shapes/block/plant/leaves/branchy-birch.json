@@ -31,7 +31,7 @@
 					"seasonColorMap": "seasonalBirch",
 					"faces": {
 						"north": {
-							"texture": "#1",
+							"texture": "#largeleaves",
 							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 							"autoUv": false
 						}
@@ -49,7 +49,7 @@
 					"seasonColorMap": "seasonalBirch",
 					"faces": {
 						"north": {
-							"texture": "#2",
+							"texture": "#largeleaves",
 							"uv": [ 0.0, 0.0, 32.0, 32.0 ],
 							"autoUv": false
 						}
