@@ -51,7 +51,7 @@
         "value": {
             "@*-sleek-windowed-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
                 "sleek": {
-                    "base": "game:block/wood/debarked/{wood}"
+                    "base": "game:block/wood/door/sleek-{wood}"
                 }
             },
             "@*-solid-(acacia|aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-*": {
