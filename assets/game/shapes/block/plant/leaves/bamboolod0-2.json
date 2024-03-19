@@ -16,10 +16,15 @@
 			"from": [ 12.0, -17.0, -7.0 ],
 			"to": [ 12.0, 15.0, 25.0 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ 7.25, 6.75, 5.0 ],
 			"rotationZ": 45.0,
 			"faces": {
-				"east": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"east": {
+					"texture": "#leaves2",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		},
 		{
@@ -27,10 +32,15 @@
 			"from": [ -8.0, -8.0, 23.0 ],
 			"to": [ 24.0, 24.0, 23.0 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ 4.0, -2.5, 21.75 ],
 			"rotationX": -45.0,
 			"faces": {
-				"south": { "texture": "#leaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"south": {
+					"texture": "#leaves3",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		},
 		{
@@ -38,10 +48,15 @@
 			"from": [ -7.0, -16.0, 5.0 ],
 			"to": [ 25.0, 16.0, 5.0 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ 7.75, 7.75, 10.0 ],
 			"rotationX": 45.0,
 			"faces": {
-				"south": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"south": {
+					"texture": "#leaves1",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		},
 		{
@@ -49,9 +64,14 @@
 			"from": [ -9.0, -17.0, 8.4 ],
 			"to": [ 23.0, 15.0, 8.4 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ -9.0, -17.0, 8.4 ],
 			"faces": {
-				"north": { "texture": "#leaves3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"north": {
+					"texture": "#leaves3",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		},
 		{
@@ -59,10 +79,15 @@
 			"from": [ 8.3, -18.0, 24.0 ],
 			"to": [ 40.3, 14.0, 24.0 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ 8.3, -18.0, 24.0 ],
 			"rotationY": 90.0,
 			"faces": {
-				"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"north": {
+					"texture": "#leaves2",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		},
 		{
@@ -70,10 +95,15 @@
 			"from": [ 3.0, -15.0, -8.0 ],
 			"to": [ 3.0, 17.0, 24.0 ],
 			"shade": false,
+			"renderPass": 1,
 			"rotationOrigin": [ 5.5, 6.0, 8.25 ],
 			"rotationZ": -45.0,
 			"faces": {
-				"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+				"east": {
+					"texture": "#leaves1",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
 			}
 		}
 	]}
