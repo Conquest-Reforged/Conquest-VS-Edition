@@ -23,8 +23,15 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "*": {
+
+            "@.*-(aged|normal|greenmarble|redmarble|whitemarble)": {
                 "table": { "base": "game:block/wood/table/{type}" }
+            },
+            "*": {
+                "sides": { "base": "game:block/wood/table/{type}/sides" },
+                "top": { "base": "game:block/wood/table/{type}/top" },
+                "bottom": { "base": "game:block/wood/table/{type}/bottom" },
+                "legs": { "base": "game:block/wood/table/{type}/legs" }
             }
         }
     }
