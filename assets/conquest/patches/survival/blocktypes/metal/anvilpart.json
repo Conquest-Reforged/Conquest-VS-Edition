@@ -6,7 +6,8 @@
 		"path": "/textures",
 		"side": "server",
 		"value": {
-			"metal": { "base": "game:block/metal/anvil/{metal}" }
+			"metal": { "base": "game:block/metal/anvil/{metal}" },
+			"chalk2": { "base": "game:block/stone/rock/chalk/1" }
 		}
 	}
 ]

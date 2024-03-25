@@ -1,0 +1,24 @@
+[
+    {
+        "file": "game:blocktypes/reed/stationarybasket.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+
+            "reed-reedchest": { "base": "game:block/reed/basket/reedchest" },
+
+            "aged-sidesWE": { "base": "game:block/reed/basket/aged-westeast" },
+            "aged-sidesSN": { "base": "game:block/reed/basket/aged-northsouth" },
+            "aged-lid": { "base": "game:block/reed/basket/aged-lid" },
+
+            "aged2-sidesWE": { "base": "game:block/reed/basket/aged-westeast" },
+            "aged2-sidesSN": { "base": "game:block/reed/basket/aged-northsouth" },
+            "aged2-lid": { "base": "game:block/reed/basket/aged-lid" },
+
+            "vine-sidesWE": { "base": "game:block/vines/basket/normal-westeast" },
+            "vine-sidesSN": { "base": "game:block/vines/basket/normal-northsouth" },
+            "vine-lid": { "base": "game:block/vines/basket/normal-lid" }
+        }
+    }
+]
