@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/bottom,Root/legs,Root/stone,Root/Top",
+		"collapsedPaths": "Root/legs,Root/stone,Root/Top",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -9,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-	
 	},
 	"elements": [
 		{
@@ -31,16 +30,16 @@
 				{
 					"name": "base20",
 					"from": [ 5.53, 0.5905, 5.9519 ],
-					"to": [ 10.53, 9.0905, 11.9519 ],
+					"to": [ 10.53, 7.5905, 11.9519 ],
 					"shade": false,
 					"rotationOrigin": [ 8.45, 4.5905, 10.7769 ],
 					"rotationX": -13.0,
 					"faces": {
-						"north": { "texture": "#metal", "uv": [ 0.0, 27.625, 5.3344, 39.2969 ], "autoUv": false },
-						"east": { "texture": "#metal", "uv": [ 17.0531, 30.7594, 22.7875, 39.2594 ], "autoUv": false },
+						"north": { "texture": "#metal", "uv": [ 25.0, 5.5, 30.0, 12.5 ] },
+						"east": { "texture": "#metal", "uv": [ 15.9906, 30.7594, 21.725, 39.2594 ], "autoUv": false },
 						"south": { "texture": "#metal", "uv": [ 5.9234, 31.3305, 11.1227, 38.2992 ], "autoUv": false },
-						"west": { "texture": "#metal", "uv": [ 23.0797, 29.8563, 17.0797, 37.3563 ], "autoUv": false },
-						"up": { "texture": "#metal", "uv": [ 5.3656, 22.2594, 11.6563, 27.5156 ], "autoUv": false },
+						"west": { "texture": "#metal", "uv": [ 17.5, 30.5, 23.5, 37.5 ] },
+						"up": { "texture": "#metal", "uv": [ 6.4281, 21.7282, 12.7188, 26.9844 ], "autoUv": false },
 						"down": { "texture": "#metal", "uv": [ 11.7406, 22.2594, 17.9781, 27.6219 ], "autoUv": false }
 					}
 				},
@@ -55,8 +54,8 @@
 						"north": { "texture": "#metal", "uv": [ 5.8438, 39.3188, 11.0563, 34.3188 ], "autoUv": false },
 						"east": { "texture": "#metal", "uv": [ 23.0, 34.5313, 17.0, 38.5313 ], "autoUv": false },
 						"south": { "texture": "#metal", "uv": [ 0.0, 27.625, 5.3313, 39.2719 ], "autoUv": false },
-						"west": { "texture": "#metal", "uv": [ 17.0133, 34.2656, 22.8539, 39.2656 ], "autoUv": false },
-						"up": { "texture": "#metal", "uv": [ 5.3125, 22.3125, 11.7063, 27.6219 ], "autoUv": false },
+						"west": { "texture": "#metal", "uv": [ 17.5, 34.0, 23.5, 39.0 ] },
+						"up": { "texture": "#metal", "uv": [ 11.6875, 19.125, 18.0813, 24.4344 ], "autoUv": false },
 						"down": { "texture": "#metal", "uv": [ 11.7406, 22.2594, 17.0188, 27.5688 ], "autoUv": false }
 					}
 				},

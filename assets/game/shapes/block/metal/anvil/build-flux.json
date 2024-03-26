@@ -7,8 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+		"2": [16,16]
 	},
 	"textures": {
+
 	},
 	"elements": [
 		{
@@ -23,18 +25,18 @@
 			"children": [
 				{
 					"name": "flux",
-					"from": [ 5.53, 8.87, 4.05 ],
-					"to": [ 10.53, 9.07, 10.04 ],
+					"from": [ 5.53, 7.79, 4.35 ],
+					"to": [ 10.53, 7.99, 10.35 ],
 					"shade": false,
-					"rotationOrigin": [ 8.45, 12.8905, 8.8769 ],
+					"rotationOrigin": [ 8.45, 11.7905, 10.7769 ],
 					"rotationX": -13.0,
 					"faces": {
-						"north": { "texture": "#chalk2", "uv": [ 26.5, 29.0, 31.5, 29.5 ] },
-						"east": { "texture": "#chalk2", "uv": [ 34.5, 39.5, 40.0, 40.0 ] },
-						"south": { "texture": "#chalk2", "uv": [ 19.5, 31.5, 24.5, 32.0 ] },
-						"west": { "texture": "#chalk2", "uv": [ 33.0, 35.5, 38.5, 36.0 ] },
-						"up": { "texture": "#chalk2", "uv": [ 26.5, 24.5, 31.5, 30.0 ] },
-						"down": { "texture": "#chalk2", "uv": [ 29.0, 27.5, 34.0, 33.0 ] }
+						"north": { "texture": "#chalk2", "uv": [ 8.5, 6.5, 13.5, 7.0 ] },
+						"east": { "texture": "#chalk2", "uv": [ 6.0, 6.5, 12.0, 7.0 ] },
+						"south": { "texture": "#chalk2", "uv": [ 4.5, 11.5, 9.5, 12.0 ] },
+						"west": { "texture": "#chalk2", "uv": [ 8.5, 1.0, 14.5, 1.5 ] },
+						"up": { "texture": "#chalk2", "uv": [ 8.0, 1.0, 13.0, 7.0 ] },
+						"down": { "texture": "#chalk2", "uv": [ 8.0, 2.5, 13.0, 8.5 ] }
 					}
 				}
 			]
