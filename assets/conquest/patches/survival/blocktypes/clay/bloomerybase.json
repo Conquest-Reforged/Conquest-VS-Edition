@@ -1,0 +1,47 @@
+[
+
+    {
+        "file": "game:blocktypes/clay/bloomerybase.json",
+        "op": "replace",
+        "path": "/sideopaqueByType",
+        "side": "server",
+        "value": {
+            "*-north": {
+                "all": false
+            },
+            "*-east": {
+                "all": false
+            },
+            "*-south": {
+                "all": false
+            },
+            "*-west": {
+                "all": false
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/bloomerybase.json",
+        "op": "replace",
+        "path": "/sidesolidByType",
+        "side": "server",
+        "value": {
+            "*-north": {
+                "all": false
+
+            },
+            "*-east": {
+                "all": false
+
+            },
+            "*-south": {
+                "all": false
+
+            },
+            "*-west": {
+                "all": false
+
+            }
+        }
+    }
+]
