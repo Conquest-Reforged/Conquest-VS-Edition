@@ -48,7 +48,7 @@
                 "PosOffset": [
                     {
                         "offset": 0.0,
-                        "avg": 0.02,
+                        "avg": 0.0,
                         "var": 0.002,
                         "dist": 0
                     },
@@ -60,10 +60,12 @@
                     },
                     {
                         "offset": 0.0,
-                        "avg": 0.0,
+                        "avg": 0.02,
                         "var": 0.001,
                         "dist": 0
                     }
+
+
                 ],
                 "RandomVelocityChange": false,
                 "DieOnRainHeightmap": false,
@@ -90,22 +92,24 @@
                 },
                 "LifeLength": {
                     "offset": 0.0,
-                    "avg": 0.25,
-                    "var": 0.05,
+                    "avg": 0.05,
+                    "var": 0.02,
                     "dist": 0
                 },
                 "Quantity": {
                     "offset": 0.0,
-                    "avg": 0.35,
-                    "var": 0.1,
+                    "avg": 0.4,
+                    "var": 0.2,
                     "dist": 0
                 },
+
                 "Size": {
                     "offset": 0.0,
                     "avg": 0.08,
                     "var": 0.025,
                     "dist": 0
                 },
+
                 "SizeEvolve": {
                     "transform": 1,
                     "factor": 0.1
@@ -119,16 +123,17 @@
                     },
                     {
                         "offset": 0.0,
-                        "avg": 0.03,
-                        "var": 0.01,
+                        "avg": 0.1,
+                        "var": 0.05,
                         "dist": 0
                     },
                     {
                         "offset": 0.0,
-                        "avg": 0.0,
+                        "avg": 0.025,
                         "var": 0.0125,
                         "dist": 0
                     }
+
                 ],
                 "ParticleModel": 0,
                 "VertexFlags": 128,
@@ -286,22 +291,22 @@
         "path": "/tpOffHandTransform",
         "side": "server",
         "value": {
-            "translation": {
-                "x": -0.83,
-                "y": -0.13,
-                "z": -0.73
-            },
-            "rotation": {
-                "x": -43,
-                "y": 0,
-                "z": -89
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 0.054,
-                "z": 0.5
-            },
-            "scale": 0.66
+                "translation": {
+                    "x": -0.73,
+                    "y": -0.08,
+                    "z": -0.7
+                },
+                "rotation": {
+                    "x": -50,
+                    "y": 0,
+                    "z": -89
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": -0.096,
+                    "z": 0.45
+                },
+                "scale": 0.66
+            }
         }
-    }
 ]
