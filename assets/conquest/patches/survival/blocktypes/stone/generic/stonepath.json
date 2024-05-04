@@ -1,0 +1,29 @@
+[
+	{
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"all": {
+				"base": "game:block/stone/path/stone/1",
+				"tiles": [
+					{ "base": "game:block/stone/path/stone/*" }
+				],
+				"tilesWidth": 4
+			}
+		}
+	},
+	{
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"op": "add",
+		"path": "/drawtype",
+		"side": "server",
+		"value": "cube"
+	}
+]
+
+
+
+
+			

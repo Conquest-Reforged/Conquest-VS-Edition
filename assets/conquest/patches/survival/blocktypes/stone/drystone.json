@@ -12,6 +12,15 @@
         "path": "/texturesbytype",
         "side": "server",
         "value": {
+            "@.*-(kimberlite)": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/*" }
+                    ],
+                    "tilesWidth": 5
+                }
+            },
             "@.*-(chalk)": {
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/1",

@@ -12,7 +12,7 @@
         "path": "/texturesbytype",
         "side": "server",
         "value": {
-            "@.*-(andesite|kimberlite)": {
+            "@.*-(andesite)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/1",
                     "tiles": [
@@ -21,7 +21,7 @@
                     "tilesWidth": 5
                 }
             },
-            "@.*-(shale|basalt)": {
+            "@.*-(shale|basalt|kimberlite)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/1",
                     "tiles": [
