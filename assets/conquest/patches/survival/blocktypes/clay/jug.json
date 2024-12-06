@@ -5,8 +5,8 @@
 		"path": "/texturesByType",
 		"side": "server",
 		"value": {
-			"*-blue-raw": { "jug": { "base": "game:block/clay/jug-raw" } },
-			"*-blue-fired": { "jug": { "base": "game:block/clay/jug" } }
+			"jug-*-raw": { "jug": { "base": "game:block/clay/jug/raw-{color}" } },
+			"jug-*-fired": { "jug": { "base": "game:block/clay/jug/{color}" } }
 		}
 	},
 	{
