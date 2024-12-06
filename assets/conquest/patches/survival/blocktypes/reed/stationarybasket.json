@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/reed/stationarybasket.json",
+        "file": "game:blocktypes/reed/reedchest.json",
         "op": "replace",
         "path": "/textures",
         "side": "server",

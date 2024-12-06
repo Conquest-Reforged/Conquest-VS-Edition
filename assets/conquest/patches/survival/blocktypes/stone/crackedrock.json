@@ -89,7 +89,7 @@
                     ]
                 }
             },
-            "@.*-(bauxite|chert|conglomerate|granite|limestone|sandstone|shale)": {
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)": {
                 "all": {
                     "base": "block/stone/rock/{rock}/sides/1",
                     "overlays": [ "block/overlay/rock/cracked1" ],

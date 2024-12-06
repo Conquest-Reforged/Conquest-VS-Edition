@@ -139,6 +139,18 @@
                     "base": "game:block/wood/debarked/{wood}",
                     "rotation": 90
                 }
+            },
+            "door-2x3gate-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}",
+                    "rotation": 90,
+                    "blendedOverlays": [
+                        {
+                            "base": "game:block/wood/door/overlay-tall",
+                            "blendMode": "Overlay"
+                        }
+                    ]
+                }
             }
         }
     }
