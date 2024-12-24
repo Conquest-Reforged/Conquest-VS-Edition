@@ -5,7 +5,7 @@
 		"path": "/textures",
 		"side": "server",
 		"value": {
-			"normal-generic-chest": { "base": "game:block/wood/trunk/chest" },
+			"normal-generic-sides2": { "base": "game:block/wood/trunk/chest" },
 			"normal-aged-chest": { "base": "game:block/wood/chest/aged/agedchest" },
 
 
