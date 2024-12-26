@@ -9,8 +9,8 @@
 			"normal-generic-lid": { "base": "game:block/wood/trunk/chest" },
 			"normal-generic-accessories": { "base": "game:block/wood/trunk/chest" },
 			"normal-aged-sides2": { "base": "game:block/wood/chest/aged/agedchest" },
-			"normal-aged-lid": { "base": "game:block/wood/trunk/agedchest" },
-			"normal-aged-accessories": { "base": "game:block/wood/trunk/agedchest" },
+			"normal-aged-lid": { "base": "game:block/wood/chest/aged/agedchest" },
+			"normal-aged-accessories": { "base": "game:block/wood/chest/aged/agedchest" },
 
 
 			"collapsed1-corners": {
