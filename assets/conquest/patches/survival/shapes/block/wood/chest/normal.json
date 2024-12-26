@@ -16,7 +16,9 @@
 		"op": "replace",
 		"path": "/textures",
 		"value": {
-			"sides2": "game:block/wood/trunk/chest"
+			"sides2": "game:block/wood/trunk/chest",
+			"lid": "game:block/wood/trunk/chest" ,
+			"accessories":  "game:block/wood/trunk/chest" 
 		}
 	},
 	{
@@ -35,11 +37,11 @@
 				"renderPass": 2,
 				"faces": {
 					"north": {
-						"texture": "#sides2",
+						"texture": "#lid",
 						"uv": [ 0.0, 0.0, 0.0, 0.0 ]
 					},
 					"east": {
-						"texture": "#sides2",
+						"texture": "#accessories",
 						"uv": [ 0.0, 0.0, 0.0, 0.0 ]
 					},
 					"south": {
