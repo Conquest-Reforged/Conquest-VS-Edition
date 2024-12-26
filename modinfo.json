@@ -7,7 +7,7 @@
     "side": "Universal",
     "requiredOnClient": true,
     "requiredOnServer": true,
-    "version": "0.0.29",
+    "version": "0.0.30",
     "textureSize" : 32,
     "website": "https://discord.gg/ZagrZvn"
 }
