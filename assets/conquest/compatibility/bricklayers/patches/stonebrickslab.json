@@ -1,0 +1,34 @@
+[
+    {
+        "file": "bricklayers:patches/survival-blocktypes-stone-stonebrick-stonebrickslab.json",
+        "op": "replace",
+        "path": "/1/value",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ],
+        "value": {
+
+            "*-kimberlite-*": {
+                "all": {
+                    "base": "bricklayers:block/stone/brick/{rock}*"
+                }
+            },
+            "*-obsidian-*": {
+                "all": {
+                    "base": "bricklayers:block/stone/brick/{rock}*"
+                }
+            },
+            "*-suevite-*": {
+                "all": {
+                    "base": "bricklayers:block/stone/brick/{rock}*"
+                }
+            },
+            "*": {
+                "sides": { "base": "game:block/stone/brick/{rock}/*" }
+            }
+        }
+    }
+]

@@ -1,0 +1,84 @@
+[
+
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/polishedrock.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+
+    {
+        "file": "bricklayers:patches/survival-blocktypes-stone-polished-polishedrock.json",
+        "op": "replace",
+        "path": "/1/value",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ],
+        "value": {
+            "*-obsidian": {
+                "all": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian_*"
+                },
+                "inside-north": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                },
+                "inside-east": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                },
+                "inside-south": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                },
+                "inside-west": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                },
+                "inside-up": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                },
+                "inside-down": {
+                    "base": "bricklayers:block/stone/polishedrock/obsidian-inside*"
+                }
+            },
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|kimberlite|limestone|peridotite|phyllite|redmarble|slate|sandstone|shale|suevite|whitemarble)": {
+                "all": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-north": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-east": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-south": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-west": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-up": { "base": "game:block/stone/polishedrock/{rock}*" },
+                "inside-down": { "base": "game:block/stone/polishedrock/{rock}*" }
+
+            },
+            "*": {
+                "all": {
+                    "base": "game:block/stone/polishedrock/{rock}"
+                },
+                "inside-north": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-east": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-south": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-west": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-up": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-down": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                }
+            }
+        }
+    }
+]
