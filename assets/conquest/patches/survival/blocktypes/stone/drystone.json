@@ -12,7 +12,7 @@
         "path": "/texturesbytype",
         "side": "server",
         "value": {
-            "@.*-(kimberlite|granite)": {
+            "@.*-(kimberlite)": {
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/1",
                     "tiles": [
