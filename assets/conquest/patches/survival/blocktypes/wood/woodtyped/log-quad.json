@@ -1,0 +1,137 @@
+[
+	{
+		"file": "game:blocktypes/wood/woodtyped/log-quad.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|maple|oak|purpleheart|redwood|walnut|pine|larch)-ud": {
+				"all": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+
+				"inside-north": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"inside-east": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"inside-south": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"inside-west": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+
+				"up": { "base": "game:block/wood/quad/{type}/ends/{wood}*" },
+				"down": { "base": "game:block/wood/quad/{type}/ends/{wood}*" }
+			},
+			"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|maple|oak|purpleheart|redwood|walnut|pine|larch)-ns": {
+				"all": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"up": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"down": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+
+				"inside-up": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"inside-down": { "base": "game:block/wood/quad/{type}/{wood}/*" },
+				"inside-west": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"inside-east": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+
+				"north": { "base": "game:block/wood/quad/{type}/ends/{wood}*" },
+				"south": { "base": "game:block/wood/quad/{type}/ends/{wood}*" }
+			},
+			"@.*-(acacia|aged|baldcypress|birch|ebony|kapok|maple|oak|purpleheart|redwood|walnut|pine|larch)-we": {
+				"all": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"up": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+
+				"inside-up": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"inside-down": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"inside-north": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+				"inside-south": {
+					"base": "game:block/wood/quad/{type}/{wood}/*",
+					"rotation": 90
+				},
+
+				"west": { "base": "game:block/wood/quad/{type}/ends/{wood}*" },
+				"east": { "base": "game:block/wood/quad/{type}/ends/{wood}*" }
+			},
+			"*-ud": {
+				"all": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+
+				"inside-north": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"inside-east": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"inside-south": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"inside-west": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+
+				"up": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" },
+				"down": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" }
+			},
+			"*-ns": {
+				"all": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"up": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"down": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+
+				"inside-up": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"inside-down": { "base": "game:block/wood/bark/quad/{type}/{wood}*" },
+				"inside-west": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"inside-east": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+
+				"north": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" },
+				"south": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" }
+			},
+			"*-we": {
+				"all": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"up": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+
+				"inside-up": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"inside-down": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"inside-north": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+				"inside-south": {
+					"base": "game:block/wood/bark/quad/{type}/{wood}*",
+					"rotation": 90
+				},
+
+				"west": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" },
+				"east": { "base": "game:block/wood/bark/quad/ends/{type}/{wood}*" }
+			}
+		}
+	}
+]
+				
