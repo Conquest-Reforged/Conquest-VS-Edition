@@ -1,61 +1,23 @@
 [
     {
+        "op": "replace",
+        "path": "/textures/all/alternates/0/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:blocktypes/stone/ore-graded.json",
-        "op": "remove",
-        "side": "server",
-        "path": "/textures"
-
+        "side": "Server"
     },
     {
+        "op": "replace",
+        "path": "/textures/all/alternates/1/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:blocktypes/stone/ore-graded.json",
-        "op": "add",
-        "side": "server",
-        "path": "/texturesByType",
-        "value": {
-            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble)": {
-                "all": {
-                    "base": "game:block/stone/rock/{rock}/1",
-                    "overlays": [
-                        "game:block/stone/ore/{type}1"
-                    ],
-                    "alternates": [
-                        {
-                            "base": "game:block/stone/rock/{rock}/1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}2"
-                            ]
-                        },
-                        {
-                            "base": "game:block/stone/rock/{rock}/1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}3"
-                            ]
-                        }
-                    ]
-                }
-            },
-            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)": {
-                "all": {
-                    "base": "game:block/stone/rock/{rock}/sides/1",
-                    "overlays": [
-                        "game:block/stone/ore/{type}1"
-                    ],
-                    "alternates": [
-                        {
-                            "base": "game:block/stone/rock/{rock}/sides/1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}2"
-                            ]
-                        },
-                        {
-                            "base": "game:block/stone/rock/{rock}/sides/1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}3"
-                            ]
-                        }
-                    ]
-                }
-            }
-        }
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "block/stone/rock/{rock}/sides/1",
+        "file": "game:blocktypes/stone/ore-graded.json",
+        "side": "Server"
     }
 ]

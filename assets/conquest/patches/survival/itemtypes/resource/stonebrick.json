@@ -1,39 +1,23 @@
 [
     {
+        "op": "replace",
+        "path": "/textures/material/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:itemtypes/resource/stonebrick.json",
-        "op": "remove",
-        "side": "server",
-        "path": "/textures"
+        "side": "Server"
     },
     {
+        "op": "replace",
+        "path": "/textures/rock/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:itemtypes/resource/stonebrick.json",
-        "op": "add",
-        "side": "server",
-        "path": "/texturesbyType",
-        "value": {
-            "@.*-(andesite|basalt|phyllite|slate|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|chalk|halite|meteorite-iron)": {
-                "rock": { "base": "game:block/stone/rock/{rock}/1" },
-                "material": { "base": "game:block/stone/rock/{rock}/1" },
-                "top": { "base": "game:block/stone/rock/{rock}/1" }
-
-            },
-            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)": {
-                "rock": {
-                    "base": "game:block/stone/rock/{rock}/sides/1"
-                },
-                "material": {
-                    "base": "game:block/stone/rock/{rock}/sides/1"
-                },
-                "top": {
-                    "base": "game:block/stone/rock/{rock}/sides/1"
-                }
-
-            },
-            "*": {
-                "rock": { "base": "game:block/stone/brick/{rock}1" },
-                "material": { "base": "game:block/stone/brick/{rock}1" },
-                "top": { "base": "game:block/stone/brick/{rock}1" }
-            }
-        }
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/top/base",
+        "value": "block/stone/rock/{rock}/sides/1",
+        "file": "game:itemtypes/resource/stonebrick.json",
+        "side": "Server"
     }
 ]

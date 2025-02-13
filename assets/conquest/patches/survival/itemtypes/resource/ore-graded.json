@@ -1,34 +1,9 @@
 [
     {
-        "op": "remove",
-        "side": "server",
-        "path": "/textures",
-        "file": "game:itemtypes/resource/ore-graded.json"
-    },
-    {
+        "op": "replace",
+        "path": "/textures/ore/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:itemtypes/resource/ore-graded.json",
-        "op": "add",
-        "side": "server",
-        "path": "/texturesByType",
-        "value": {
-            "@.*-(andesite|basalt|phyllite|slate|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|chalk|halite)": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}/1",
-                    "overlays": [ "inherit" ]
-                }
-            },
-            "@.*-(bauxite|claystone|chert|conglomerate|granite|limestone|sandstone|shale)": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}/sides/1",
-                    "overlays": [ "inherit" ]
-                }
-            },
-            "*": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [ "inherit" ]
-                }
-            }
-        }
+        "side": "Server"
     }
 ]

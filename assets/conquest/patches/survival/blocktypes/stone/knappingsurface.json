@@ -1,21 +1,72 @@
 [
 	{
-		"file": "game:blocktypes/stone/knappingsurface.json",
 		"op": "replace",
-		"side": "server",
-		"path": "/textures",
-		"value": {
-			"flint": { "base": "game:block/stone/flint" },
-			"chert": { "base": "game:block/stone/rock/chert/sides/1" },
-			"granite": { "base": "game:block/stone/rock/granite/sides/1" },
-			"basalt": { "base": "game:block/stone/rock/basalt/1" },
-			"obsidian": { "base": "game:block/stone/rock/obsidian/1" },
-			"chalk": { "base": "game:block/stone/rock/chalk/1" },
-			"claystone": { "base": "game:block/stone/rock/claystone/1" },
-			"andesite": { "base": "game:block/stone/rock/andesite/1" },
-			"sandstone": { "base": "game:block/stone/rock/sandstone/sides/1" },
-			"shale": { "base": "game:block/stone/rock/shale/sides/1" },
-			"peridotite": { "base": "game:block/stone/rock/peridotite/1" }
-		}
+		"path": "/textures/andesite/base",
+		"value": "block/stone/rock/andesite/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/basalt/base",
+		"value": "block/stone/rock/basalt/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/chalk/base",
+		"value": "block/stone/rock/chalk/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/chert/base",
+		"value": "block/stone/rock/chert/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/claystone/base",
+		"value": "block/stone/rock/claystone/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/granite/base",
+		"value": "block/stone/rock/granite/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/obsidian/base",
+		"value": "block/stone/rock/obsidian/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/peridotite/base",
+		"value": "block/stone/rock/peridotite/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/sandstone/base",
+		"value": "block/stone/rock/sandstone/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/textures/shale/base",
+		"value": "block/stone/rock/shale/sides/1",
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
 	}
 ]

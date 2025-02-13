@@ -1,13 +1,9 @@
 [
 	{
-		"file": "game:blocktypes/stone/meteorite.json",
 		"op": "replace",
-		"path": "/textures",
-		"side": "server",
-		"value": {
-
-			"all": { "base": "game:block/stone/rock/meteorite-{core}*" }
-		}
+		"path": "/textures/all/base",
+		"value": "block/stone/rock/meteorite-{core}/sides/*",
+		"file": "game:blocktypes/stone/meteorite.json",
+		"side": "Server"
 	}
 ]
-			

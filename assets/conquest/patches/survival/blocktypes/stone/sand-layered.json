@@ -1,12 +1,9 @@
 [
 	{
-		"file": "game:blocktypes/stone/sand-layered.json",
-		"side": "server",
 		"op": "replace",
-		"path": "/textures",
-		"value": {
-			"all": { "base": "game:block/stone/sand/{rock}/*" }
-		}
+		"path": "/textures/all/base",
+		"value": "block/stone/sand/{rock}/sides/1",
+		"file": "game:blocktypes/stone/sand-layered.json",
+		"side": "Server"
 	}
 ]
-

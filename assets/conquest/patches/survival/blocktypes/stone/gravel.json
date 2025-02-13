@@ -1,11 +1,9 @@
 [
 	{
-		"file": "game:blocktypes/stone/gravel.json",
 		"op": "replace",
-		"side": "server",
-		"path": "/textures",
-		"value": {
-			"all": { "base": "block/stone/gravel/{rock}/*" }
-		}
+		"path": "/textures/all/base",
+		"value": "block/stone/gravel/{rock}/sides/*",
+		"file": "game:blocktypes/stone/gravel.json",
+		"side": "Server"
 	}
 ]

@@ -1,52 +1,9 @@
 [
     {
-        "op": "remove",
-        "side": "server",
-        "path": "/textures",
-        "file": "game:itemtypes/resource/crystalizedore-graded.json"
-    },
-    {
+        "op": "replace",
+        "path": "/textures/ore/base",
+        "value": "block/stone/rock/{rock}/sides/1",
         "file": "game:itemtypes/resource/crystalizedore-graded.json",
-        "op": "add",
-        "side": "server",
-        "path": "/texturesByType",
-        "value": {
-            "@.*-(andesite|basalt|phyllite|slate|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|chalk|halite)": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}/1",
-                    "overlays": [ "game:block/stone/ore/{ore}1" ]
-                },
-                "crystalByType": {
-                    "*-quartz_nativegold-*": { "base": "game:item/resource/nugget/nativegold" },
-                    "*-quartz_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*-galena_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*": { "base": "game:item/resource/nugget/{ore}" }
-                }
-            },
-            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}/sides/1",
-                    "overlays": [ "game:block/stone/ore/{ore}1" ]
-                },
-                "crystalByType": {
-                    "*-quartz_nativegold-*": { "base": "game:item/resource/nugget/nativegold" },
-                    "*-quartz_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*-galena_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*": { "base": "game:item/resource/nugget/{ore}" }
-                }
-            },
-            "*": {
-                "ore": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [ "game:block/stone/ore/{ore}1" ]
-                },
-                "crystalByType": {
-                    "*-quartz_nativegold-*": { "base": "game:item/resource/nugget/nativegold" },
-                    "*-quartz_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*-galena_nativesilver-*": { "base": "game:item/resource/nugget/nativesilver" },
-                    "*": { "base": "game:item/resource/nugget/{ore}" }
-                }
-            }
-        }
+        "side": "Server"
     }
 ]

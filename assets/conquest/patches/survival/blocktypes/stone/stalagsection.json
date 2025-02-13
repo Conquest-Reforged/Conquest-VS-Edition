@@ -1,30 +1,9 @@
 [
     {
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "block/stone/rock/{rock}/sides/*",
         "file": "game:blocktypes/stone/stalagsection.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server"
-
-    },
-    {
-        "file": "game:blocktypes/stone/stalagsection.json",
-        "op": "add",
-        "path": "/texturesByType",
-        "side": "server",
-        "value": {
-            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble)-.*": {
-                "all": {
-                    "base": "game:block/stone/rock/{rock}/1"
-                }
-            },
-            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-.*": {
-                "all": {
-                    "base": "game:block/stone/rock/{rock}/sides/1"
-                }
-            },
-            "*": {
-                "all": { "base": "block/stone/rock/{rock}*" }
-            }
-        }
+        "side": "Server"
     }
 ]
