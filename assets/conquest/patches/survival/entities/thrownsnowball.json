@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/client/texturesByType/*/normal2/base",
+    "value": "block/stone/rock/conquest/{rock}/sides/1",
+    "file": "game:entities/thrownsnowball.json",
+    "side": "Server"
+  }
+]

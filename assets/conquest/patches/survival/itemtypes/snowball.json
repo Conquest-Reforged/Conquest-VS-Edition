@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/snowball-*/normal2/base",
+    "value": "block/stone/rock/conquest/{rock}/sides/1",
+    "file": "game:itemtypes/snowball.json",
+    "side": "Server"
+  }
+]
