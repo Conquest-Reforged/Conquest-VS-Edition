@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/textures/all/base",
-        "value": "block/stone/rock/{rock}/sides/*",
+        "value": "block/stone/rock/conquest/{rock}/sides/*",
         "file": "game:blocktypes/stone/stalagsection.json",
         "side": "Server"
     }

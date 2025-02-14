@@ -2,21 +2,21 @@
 	{
 		"op": "replace",
 		"path": "/textures/all/alternates/0/base",
-		"value": "block/stone/rock/{rock}/sides/1",
+		"value": "block/stone/rock/conquest/{rock}/sides/1",
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/all/alternates/1/base",
-		"value": "block/stone/rock/{rock}/sides/1",
+		"value": "block/stone/rock/conquest/{rock}/sides/1",
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/all/base",
-		"value": "block/stone/rock/{rock}/sides/1",
+		"value": "block/stone/rock/conquest/{rock}/sides/1",
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	}

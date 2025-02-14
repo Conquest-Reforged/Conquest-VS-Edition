@@ -2,7 +2,7 @@
 	{
 		"op": "replace",
 		"path": "/textures/rock/base",
-		"value": "block/stone/rock/{rock}/sides/1",
+		"value": "block/stone/rock/conquest/{rock}/sides/1",
 		"file": "game:blocktypes/stone/loosestones.json",
 		"side": "Server"
 	}

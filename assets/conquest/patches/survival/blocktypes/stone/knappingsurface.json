@@ -2,70 +2,70 @@
 	{
 		"op": "replace",
 		"path": "/textures/andesite/base",
-		"value": "block/stone/rock/andesite/sides/1",
+		"value": "block/stone/rock/conquest/andesite/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/basalt/base",
-		"value": "block/stone/rock/basalt/sides/1",
+		"value": "block/stone/rock/conquest/basalt/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/chalk/base",
-		"value": "block/stone/rock/chalk/sides/1",
+		"value": "block/stone/rock/conquest/chalk/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/chert/base",
-		"value": "block/stone/rock/chert/sides/1",
+		"value": "block/stone/rock/conquest/chert/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/claystone/base",
-		"value": "block/stone/rock/claystone/sides/1",
+		"value": "block/stone/rock/conquest/claystone/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/granite/base",
-		"value": "block/stone/rock/granite/sides/1",
+		"value": "block/stone/rock/conquest/granite/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/obsidian/base",
-		"value": "block/stone/rock/obsidian/sides/1",
+		"value": "block/stone/rock/conquest/obsidian/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/peridotite/base",
-		"value": "block/stone/rock/peridotite/sides/1",
+		"value": "block/stone/rock/conquest/peridotite/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/sandstone/base",
-		"value": "block/stone/rock/sandstone/sides/1",
+		"value": "block/stone/rock/conquest/sandstone/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	},
 	{
 		"op": "replace",
 		"path": "/textures/shale/base",
-		"value": "block/stone/rock/shale/sides/1",
+		"value": "block/stone/rock/conquest/shale/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
 	}

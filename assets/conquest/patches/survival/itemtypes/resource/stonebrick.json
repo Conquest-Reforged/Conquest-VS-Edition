@@ -2,21 +2,21 @@
     {
         "op": "replace",
         "path": "/textures/material/base",
-        "value": "block/stone/rock/{rock}/sides/1",
+        "value": "block/stone/rock/conquest/{rock}/sides/1",
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     },
     {
         "op": "replace",
         "path": "/textures/rock/base",
-        "value": "block/stone/rock/{rock}/sides/1",
+        "value": "block/stone/rock/conquest/{rock}/sides/1",
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     },
     {
         "op": "replace",
         "path": "/textures/top/base",
-        "value": "block/stone/rock/{rock}/sides/1",
+        "value": "block/stone/rock/conquest/{rock}/sides/1",
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     }

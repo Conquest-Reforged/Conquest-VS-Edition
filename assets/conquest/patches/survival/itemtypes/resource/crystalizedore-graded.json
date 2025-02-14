@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/textures/ore/base",
-        "value": "block/stone/rock/{rock}/sides/1",
+        "value": "block/stone/rock/conquest/{rock}/sides/1",
         "file": "game:itemtypes/resource/crystalizedore-graded.json",
         "side": "Server"
     }
