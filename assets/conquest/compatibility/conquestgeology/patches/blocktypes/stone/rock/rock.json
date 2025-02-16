@@ -1,0 +1,137 @@
+[
+    {
+        "op": "remove",
+        "path": "/texturesByType/rock-*",
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|serpentinite_weathered|limestone_boulders_light)",
+        "value": {
+            "all": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 4
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(quartzite_pink|quartzite_yellow)",
+        "value": {
+            "all": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 6
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink)",
+        "value": {
+            "all": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 8
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(limestone_moss_covered|limestone_icy_snow_covered)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 8
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/verticals/*"
+                    }
+                ],
+                "tilesWidth": 2
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(limestone_gray_light)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 8
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/verticals/*"
+                    }
+                ],
+                "tilesWidth": 7
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 8
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/verticals/*"
+                    }
+                ],
+                "tilesWidth": 8
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    }
+]
