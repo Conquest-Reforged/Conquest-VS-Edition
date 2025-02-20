@@ -6,22 +6,13 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(slate|mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
+            "@.*-(mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
                     ],
                     "tilesWidth": 2
-                }
-            },
-            "@.*-(sandstone_warped)": {
-                "all": {
-                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
-                    "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
-                    ],
-                    "tilesWidth": 3
                 }
             },
             "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|greenmarble|redmarble|whitemarble|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth)": {
@@ -33,7 +24,7 @@
                     "tilesWidth": 4
                 }
             },
-            "@.*-(quartzite_gray)": {
+            "@.*-(quartzite_stained)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -42,7 +33,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(halite|phyllite|dolomite|gneiss|granite|limestone|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth)": {
+            "@.*-(halite|phyllite|gneiss|granite|limestone|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -83,7 +74,7 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(bauxite|chert|sandstone|conglomerate|graywacke|sandstone_brown|sandstone_orange|sandstone_red|sandstone_tan|schist_blue)": {
+            "@.*-(bauxite|chert|conglomerate|graywacke|schist_blue)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -99,7 +90,7 @@
                     "tilesWidth": 4
                 }
             },
-            "*-shale": {
+            "@.*-(shale|slate)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -112,7 +103,23 @@
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
                     ],
-                    "tilesWidth": 3
+                    "tilesWidth": 6
+                }
+            },
+            "@.*-(sandstone|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded)": {
+                "horizontals": {
+                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 8
                 }
             }
         }
