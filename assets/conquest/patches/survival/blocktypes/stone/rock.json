@@ -15,7 +15,7 @@
                     "tilesWidth": 2
                 }
             },
-            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|greenmarble|redmarble|whitemarble|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth)": {
+            "@.*-(andesite|basalt|basalt_light|basalt_smooth|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|tuff_dark|tuff_light|greenmarble|redmarble|whitemarble|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -106,7 +106,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(sandstone|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded)": {
+            "@.*-(basalt_columnar|sandstone|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [

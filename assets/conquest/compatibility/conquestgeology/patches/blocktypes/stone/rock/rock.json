@@ -24,7 +24,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|serpentinite_weathered|limestone_boulders_light)",
+        "path": "/texturesByType/@.*-(andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|serpentinite_weathered|chalk_smooth|limestone_boulders_light)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -179,7 +179,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)",
+        "path": "/texturesByType/@.*-(andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)",
         "value": {
             "horizontals": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
