@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/textures/rock/base",
+    "value": "block/stone/rock/conquest/{rock}/sides/4",
+    "file": "game:blocktypes/stone/cementationfurnace/stonecoffin.json",
+    "side": "Server"
+  }
+]

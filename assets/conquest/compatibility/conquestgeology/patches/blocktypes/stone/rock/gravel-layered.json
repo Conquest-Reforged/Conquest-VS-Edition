@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/textures/material/base",
-        "value": "block/stone/gravel/{rock}/sides/1",
-        "file": "game:blocktypes/stone/gravel-layered.json",
-        "side": "Server"
-    }
-]
