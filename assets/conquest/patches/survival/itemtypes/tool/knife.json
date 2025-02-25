@@ -1,0 +1,86 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-andesite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-basalt/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-boneandesite/material/base",
+    "value": "block/stone/rock/conquest/andesite/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-bonebasalt/material/base",
+    "value": "block/stone/rock/conquest/basalt/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-bonechert/material/base",
+    "value": "block/stone/rock/conquest/chert/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-bonegranite/material/base",
+    "value": "block/stone/rock/conquest/granite/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-boneobsidian/material/base",
+    "value": "block/stone/rock/conquest/obsidian/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-boneperidotite/material/base",
+    "value": "block/stone/rock/conquest/peridotite/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-chert/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-granite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-obsidian/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/knife-generic-peridotite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  }
+]

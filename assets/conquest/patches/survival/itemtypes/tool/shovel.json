@@ -1,0 +1,44 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-andesite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-basalt/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-chert/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-granite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-obsidian/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/shovel-peridotite/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  }
+]

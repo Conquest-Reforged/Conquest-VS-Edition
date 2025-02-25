@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/*/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-andesite/material/base",
+    "value": "block/stone/rock/conquest/andesite/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-basalt/material/base",
+    "value": "block/stone/rock/conquest/basalt/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-chert/material/base",
+    "value": "block/stone/rock/conquest/chert/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-granite/material/base",
+    "value": "block/stone/rock/conquest/granite/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-obsidian/material/base",
+    "value": "block/stone/rock/conquest/obsidian/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*-bone-peridotite/material/base",
+    "value": "block/stone/rock/conquest/peridotite/sides/1",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  }
+]

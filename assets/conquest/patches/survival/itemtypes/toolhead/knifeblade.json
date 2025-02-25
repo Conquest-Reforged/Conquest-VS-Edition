@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/texturesByType/@knifeblade-(chert|flint|granite|andesite|basalt|obsidian|peridotite)/material/base",
+    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "side": "Server"
+  }
+]
