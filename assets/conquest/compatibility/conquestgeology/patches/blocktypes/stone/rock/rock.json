@@ -7,7 +7,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(sandstone_warped)",
+        "path": "/texturesByType/@.*-(limestone_glow_worms|sandstone_warped)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -58,7 +58,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink)",
+        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",

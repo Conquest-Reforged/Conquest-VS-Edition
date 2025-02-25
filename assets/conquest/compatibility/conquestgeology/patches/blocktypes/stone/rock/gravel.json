@@ -1,0 +1,21 @@
+[
+    {
+        "op": "remove",
+        "path": "/shape/alternates",
+        "file": "game:blocktypes/stone/gravel.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/all",
+        "value": {
+            "base": "game:block/stone/gravel/{rock}/sides/1",
+            "tiles": [
+                { "base": "game:block/stone/gravel/{rock}/sides/*" }
+            ],
+            "tilesWidth": 4
+        },
+        "file": "game:blocktypes/stone/gravel.json",
+        "side": "Server"
+    }
+]

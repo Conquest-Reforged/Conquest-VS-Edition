@@ -42,6 +42,22 @@
                     "tilesWidth": 8
                 }
             },
+            "@.*-(claystone)": {
+                "horizontals": {
+                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "verticals": {
+                    "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
             "@.*-(mudstone)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
@@ -58,7 +74,7 @@
                     "tilesWidth": 2
                 }
             },
-            "@.*-(claystone|schist_green)": {
+            "@.*-(schist_green)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
