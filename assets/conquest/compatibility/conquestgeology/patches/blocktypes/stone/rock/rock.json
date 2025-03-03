@@ -7,6 +7,31 @@
     },
     {
         "op": "add",
+        "path": "/texturesByType/@.*-()",
+        "value": {
+            "all": {
+                "base": "block/stone/rock/conquest/{rock}/sides/*"
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/*"
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/*"
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
         "path": "/texturesByType/@.*-(calcite|silt_cave_gray|magma|pahoehoe)",
         "value": {
             "all": {
@@ -24,7 +49,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(limestone_glow_worms|sandstone_warped)",
+        "path": "/texturesByType/@.*-(obsidian_crying|obsidian_rainbow|limestone_glow_worms|sandstone_warped)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -41,7 +66,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|serpentinite_weathered|chalk_smooth|limestone_boulders_light)",
+        "path": "/texturesByType/@.*-(obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|blackstone_smooth|blackstone_smooth_dark|blackstone_weathered_light|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -75,7 +100,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light)",
+        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -144,7 +169,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(calcite_stalagtite|calcite_stalagtite_dark|limestone_moss_covered|limestone_icy_snow_covered)",
+        "path": "/texturesByType/@.*-(limestone_moss_covered|limestone_icy_snow_covered)",
         "value": {
             "horizontals": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -163,6 +188,32 @@
                     }
                 ],
                 "tilesWidth": 2
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(end_stone)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 8
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/verticals/*"
+                    }
+                ],
+                "tilesWidth": 3
             }
         },
         "file": "conquestgeology:blocktypes/stone/rock.json",
@@ -196,7 +247,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|calcite_rough|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)",
+        "path": "/texturesByType/@.*-(andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)",
         "value": {
             "horizontals": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
