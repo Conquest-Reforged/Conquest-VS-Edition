@@ -6,16 +6,7 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
-                "all": {
-                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
-                    "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
-                    ],
-                    "tilesWidth": 2
-                }
-            },
-            "@.*-(andesite|basalt|basalt_light|basalt_smooth|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|tuff_dark|tuff_light|schist_blue_weathered|greenmarble|redmarble|whitemarble|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|halite)": {
+            "@.*-(andesite|basalt|basalt_light|basalt_smooth|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|tuff_dark|tuff_light|schist_blue_weathered|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|halite)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -33,7 +24,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(phyllite|gneiss|granite|limestone|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth)": {
+            "@.*-(phyllite|gneiss|granite|limestone|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|greenmarble|redmarble|whitemarble)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -58,7 +49,7 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(mudstone)": {
+            "@.*-(mudstone|mudstone_brown|mudstone_brown_light|mudstone_light|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [

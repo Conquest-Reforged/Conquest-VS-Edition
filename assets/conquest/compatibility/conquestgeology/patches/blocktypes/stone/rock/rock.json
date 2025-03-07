@@ -66,7 +66,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|blackstone_smooth|blackstone_smooth_dark|blackstone_weathered_light|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light)",
+        "path": "/texturesByType/@.*-(obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|blackstone_smooth|blackstone_smooth_dark|blackstone_weathered_light|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -100,7 +100,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth)",
+        "path": "/texturesByType/@.*-(granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -110,6 +110,32 @@
                     }
                 ],
                 "tilesWidth": 8
+            }
+        },
+        "file": "conquestgeology:blocktypes/stone/rock.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@.*-(mudstone_bright|mudstone_brown_bright|mudstone_brown_dark|mudstone_brown_light_bright|mudstone_brown_light_dark|mudstone_dark|mudstone_light_bright|mudstone_light_dark|mudstone_orange_bright|mudstone_orange_dark|mudstone_red_bright|mudstone_red_dark|mudstone_umbre_bright|mudstone_umbre_dark|mudstone_yellow_bright|mudstone_yellow_dark)",
+        "value": {
+            "horizontals": {
+                "base": "block/stone/rock/conquest/{rock}/sides/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/sides/*"
+                    }
+                ],
+                "tilesWidth": 4
+            },
+            "verticals": {
+                "base": "block/stone/rock/conquest/{rock}/verticals/1",
+                "tiles": [
+                    {
+                        "base": "block/stone/rock/conquest/{rock}/verticals/*"
+                    }
+                ],
+                "tilesWidth": 2
             }
         },
         "file": "conquestgeology:blocktypes/stone/rock.json",
