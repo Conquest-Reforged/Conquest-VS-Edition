@@ -32,7 +32,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(calcite|silt_cave_gray|magma|pahoehoe)",
+        "path": "/texturesByType/@.*-(calcite)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
@@ -66,7 +66,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|blackstone_smooth|blackstone_smooth_dark|blackstone_weathered_light|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough)",
+        "path": "/texturesByType/@.*-(obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough)",
         "value": {
             "all": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
