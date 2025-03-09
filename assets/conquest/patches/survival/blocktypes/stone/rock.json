@@ -6,7 +6,38 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(andesite|basalt|basalt_smooth|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|tuff_dark|tuff_light|schist_blue_weathered|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|halite)": {
+            "@.*-()": {
+                "all": {
+                    "base": "block/stone/rock/conquest/{rock}/sides/*"
+                }
+            },
+            "@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/*"
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/*"
+                }
+            },
+            "@.*-(calcite)": {
+                "all": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(obsidian_crying|obsidian_rainbow|limestone_glow_worms|sandstone_warped)": {
+                "all": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|halite)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -15,20 +46,38 @@
                     "tilesWidth": 4
                 }
             },
-            "@.*-(quartzite_stained)": {
+            "@.*-(basalt_smooth|tuff_dark|tuff_light|schist_blue_weathered|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough)": {
+                "all": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(quartzite_stained|quartzite_dark|quartzite_light)": {
+                "all": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 6
+                }
+            },
+            "@.*-(phyllite|granite|limestone|greenmarble|redmarble|whitemarble)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
                     ],
-                    "tilesWidth": 6
+                    "tilesWidth": 8
                 }
             },
-            "@.*-(phyllite|gneiss|granite|limestone|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|greenmarble|redmarble|whitemarble)": {
+            "@.*-(gneiss|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)": {
                 "all": {
-                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
                     ],
                     "tilesWidth": 8
                 }
@@ -49,23 +98,23 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
+            "@.*-(mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light)": {
                 "horizontals": {
-                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
                     ],
                     "tilesWidth": 4
                 },
                 "verticals": {
-                    "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
                     ],
                     "tilesWidth": 2
                 }
             },
-            "@.*-(bauxite|chert|conglomerate|graywacke|schist_blue|schist_green)": {
+            "@.*-(bauxite|chert|conglomerate)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -77,6 +126,22 @@
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(graywacke|schist_blue|schist_green|sandstone_brown|sandstone_orange|sandstone_red|sandstone_red_coastal|sandstone_red_mossy|sandstone_tan)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
                     ],
                     "tilesWidth": 4
                 }
@@ -97,7 +162,71 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(basalt_columnar|sandstone|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded)": {
+            "@.*-(slate_dark|slate_gray|slate_light)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 6
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 6
+                }
+            },
+            "@.*-(limestone_moss_covered|limestone_icy_snow_covered)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(end_stone)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(limestone_gray_light)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 7
+                }
+            },
+            "@.*-(sandstone)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -109,6 +238,22 @@
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 8
+                }
+            },
+            "@.*-(basalt_columnar|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
                     ],
                     "tilesWidth": 8
                 }
