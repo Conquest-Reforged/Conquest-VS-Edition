@@ -49,7 +49,7 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(mudstone|mudstone_brown|mudstone_brown_light|mudstone_light|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
+            "@.*-(mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [

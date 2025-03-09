@@ -117,7 +117,7 @@
     },
     {
         "op": "add",
-        "path": "/texturesByType/@.*-(mudstone_bright|mudstone_brown_bright|mudstone_brown_dark|mudstone_brown_light_bright|mudstone_brown_light_dark|mudstone_dark|mudstone_light_bright|mudstone_light_dark|mudstone_orange_bright|mudstone_orange_dark|mudstone_red_bright|mudstone_red_dark|mudstone_umbre_bright|mudstone_umbre_dark|mudstone_yellow_bright|mudstone_yellow_dark)",
+        "path": "/texturesByType/@.*-(mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light)",
         "value": {
             "horizontals": {
                 "base": "block/stone/rock/conquest/{rock}/sides/1",
