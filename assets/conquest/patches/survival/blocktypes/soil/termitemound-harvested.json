@@ -27,7 +27,7 @@
         "interior": {
           "base": "conquestgeology:block/stone/termitemound/{rock}",
           "overlays": [
-            "conquestgeology:block/stone/termitemound/chambers"
+            "game:block/stone/termitemound/chambers"
           ]
         }
       },
