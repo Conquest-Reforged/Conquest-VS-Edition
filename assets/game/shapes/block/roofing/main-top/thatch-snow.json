@@ -1,0 +1,193 @@
+{
+	"editor": {
+		"collapsedPaths": ",Root/Cube2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"shingle2": [16,16],
+		"ridge": [16,16],
+		"ends": [16,16]
+	},
+	"textures": {
+		"ends": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/ends",
+		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/ridge",
+		"shingle2": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/shingle2"
+	},
+	"elements": [
+		{
+			"name": "Cube8",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "snow",
+					"from": [ 0.0, 4.0, 0.0 ],
+					"to": [ 1.0, 5.0, 1.0 ],
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "snow2",
+							"from": [ 5.2, 6.4, -0.01 ],
+							"to": [ 13.2, 8.4, 16.01 ],
+							"rotationOrigin": [ 6.0, 3.0, 8.0 ],
+							"rotationZ": 40.0,
+							"faces": {
+								"north": { "texture": "#snow", "uv": [ 5.5, 0.0, 7.5, 8.0 ], "rotation": 270 },
+								"east": { "texture": "#snow", "uv": [ 0.0, 1.5, 16.0, 3.5 ] },
+								"south": { "texture": "#snow", "uv": [ 0.0, 4.0, 2.0, 12.0 ], "rotation": 90 },
+								"west": { "texture": "#snow", "uv": [ 0.0, 9.5, 16.0, 11.5 ], "rotation": 180 },
+								"up": { "texture": "#snow", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 },
+								"down": { "texture": "#snow", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cube8",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "origin5",
+					"from": [ 8.3, 10.0, 0.0 ],
+					"to": [ 8.3, 10.0, 0.0 ],
+					"rotationOrigin": [ 11.7, 10.2, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "top7",
+							"from": [ -4.4, 1.9, -0.01 ],
+							"to": [ 3.6, 6.9, 16.01 ],
+							"rotationOrigin": [ 6.0, 2.0, 8.0 ],
+							"rotationZ": 40.0,
+							"faces": {
+								"north": { "texture": "#ends", "uv": [ 5.5, 0.0, 10.5, 8.0 ], "rotation": 270 },
+								"east": { "texture": "#shingle2", "uv": [ 0.0, 5.0, 16.0, 10.0 ] },
+								"south": { "texture": "#ends", "uv": [ 0.5, 0.0, 5.5, 8.0 ], "rotation": 90 },
+								"west": { "texture": "#shingle2", "uv": [ 0.0, 8.0, 16.0, 13.0 ], "rotation": 180 },
+								"up": { "texture": "#shingle2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 },
+								"down": { "texture": "#shingle2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [ 6.3, -22.6, 16.3 ],
+							"to": [ 13.3, -17.6, 16.3 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -20.0, -23.0, 15.0 ],
+							"rotationX": -8.0,
+							"rotationY": -8.0,
+							"rotationZ": 38.9,
+							"faces": {
+								"south": { "texture": "#ridge", "uv": [ 0.0, 11.0, 7.0, 16.0 ] }
+							}
+						},
+						{
+							"name": "Cube6",
+							"from": [ 5.4, -20.3, 16.9 ],
+							"to": [ 13.4, -17.3, 16.9 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -20.0, -23.0, 15.0 ],
+							"rotationX": -16.0,
+							"rotationY": -16.0,
+							"rotationZ": 37.9,
+							"faces": {
+								"south": { "texture": "#ridge", "uv": [ 0.0, 4.5, 8.0, 7.5 ] }
+							}
+						},
+						{
+							"name": "straw3",
+							"from": [ 3.6, -17.4, -0.2 ],
+							"to": [ 11.6, -13.4, -0.2 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -14.0, -17.0, 0.0 ],
+							"rotationX": 8.0,
+							"rotationY": 8.0,
+							"rotationZ": 41.0,
+							"faces": {
+								"north": { "texture": "#ridge", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+							}
+						},
+						{
+							"name": "straw4",
+							"from": [ 3.8, -15.4, -1.2 ],
+							"to": [ 11.8, -11.4, -1.2 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -14.0, -17.0, 0.0 ],
+							"rotationX": 16.0,
+							"rotationY": 16.0,
+							"rotationZ": 38.0,
+							"faces": {
+								"north": { "texture": "#ridge", "uv": [ 0.0, 3.5, 8.0, 7.5 ] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cube8",
+			"from": [ 11.1, 10.6, 0.0 ],
+			"to": [ 12.1, 11.6, 1.0 ],
+			"rotationOrigin": [ 11.0, 10.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "origin5",
+					"from": [ 8.3, 10.0, 0.0 ],
+					"to": [ 8.3, 10.0, 0.0 ],
+					"rotationOrigin": [ 11.7, 10.2, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Straw4",
+							"from": [ -31.19, 12.74, 0.0 ],
+							"to": [ -27.69, 12.75, 16.0 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -2.6, 10.6, 8.1 ],
+							"rotationZ": 64.0,
+							"faces": {
+								"up": { "texture": "#ridge", "uv": [ 0.0, 12.5, 16.0, 16.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "Straw5",
+							"from": [ -41.5, 16.54, 0.0 ],
+							"to": [ -37.0, 16.55, 16.0 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -11.6, 13.6, 8.1 ],
+							"rotationZ": 90.0,
+							"faces": {
+								"up": { "texture": "#ridge", "uv": [ 0.0, 3.5, 16.0, 8.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "Straw6",
+							"from": [ -33.7, 15.14, 0.0 ],
+							"to": [ -31.2, 15.15, 16.0 ],
+							"renderPass": 2,
+							"rotationOrigin": [ -1.6, 13.6, 8.1 ],
+							"rotationZ": 71.0,
+							"faces": {
+								"up": { "texture": "#ridge", "uv": [ 0.0, 11.5, 16.0, 14.0 ], "rotation": 90 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

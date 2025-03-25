@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin5,Root/origin6,Root/origin3,Root/origin4,Root/origin2,Root/base/origin",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"shingle1": [16,16],
+		"shinglebottom1": [16,16],
+		"ridge": [16,16]
+	},
+	"textures": {
+		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/ridge",
+		"shingle1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shingle1",
+		"shinglebottom1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shinglebottom1"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "lower5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "slantedB",
+							"from": [ -2.94, 0.5, -0.02 ],
+							"to": [ 11.06, 3.5, 8.02 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#ridge", "uv": [ 1.5, 8.0, 15.5, 11.0 ] },
+								"east": { "texture": "#shingle1", "uv": [ 1.5, 1.0, 4.5, 9.0 ], "rotation": 90 },
+								"south": { "texture": "#ridge", "uv": [ 1.0, 4.5, 15.0, 7.5 ], "autoUv": false },
+								"west": { "texture": "#ridge", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+								"up": { "texture": "#shingle1", "uv": [ 0.0, 2.0, 8.0, 16.0 ], "rotation": 90 },
+								"down": { "texture": "#shinglebottom1", "uv": [ 1.0, 2.0, 9.0, 16.0 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "slantedB2",
+							"from": [ 10.86, 0.49, -0.01 ],
+							"to": [ 22.36, 3.51, 8.01 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#ridge", "uv": [ 0.0, 8.0, 11.5, 11.0 ] },
+								"east": { "texture": "#ridge", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+								"south": { "texture": "#ridge", "uv": [ 1.0, 8.0, 12.5, 11.0 ], "autoUv": false },
+								"west": { "texture": "#shingle1", "uv": [ 4.5, 0.0, 7.5, 8.0 ], "rotation": 90 },
+								"up": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 11.5 ], "rotation": 90 },
+								"down": { "texture": "#shinglebottom1", "uv": [ 1.0, 0.0, 9.0, 11.5 ], "rotation": 270 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

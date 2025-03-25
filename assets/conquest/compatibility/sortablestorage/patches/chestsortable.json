@@ -1,0 +1,15 @@
+[
+    {
+        "file": "sortablestorage:blocktypes/wood/chestsortable.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "normal-generic-sides2": { "base": "game:block/wood/trunk/chest" },
+            "normal-generic-lid": { "base": "game:block/wood/trunk/chest" },
+            "normal-generic-accessories": { "base": "game:block/wood/trunk/chest" }
+        }
+    }
+]
+
+

@@ -1,0 +1,70 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin5,Root/origin6,Root/origin3,Root/origin4,Root/origin2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"shingle2": [16,16],
+		"ridge": [16,16],
+		"shinglebottom1": [16,16],
+		"shingle1": [16,16]
+	},
+	"textures": {
+		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/ridge",
+		"shingle2": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shingle2",
+		"shinglebottom1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shinglebottom1"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ -2.6, -1.8, 0.0 ],
+			"to": [ -1.6, -0.8, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "lower5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "slantedB2",
+							"from": [ 13.32, -0.07, -0.01 ],
+							"to": [ 22.82, 2.92, 16.01 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#ridge", "uv": [ 1.0, 8.0, 13.5, 11.0 ], "autoUv": false },
+								"east": { "texture": "#ridge", "uv": [ 0.0, 0.0, 16.0, 2.5 ], "rotation": 180 },
+								"south": { "texture": "#ridge", "uv": [ 3.0, 8.0, 15.5, 11.0 ], "autoUv": false },
+								"west": { "texture": "#ridge", "uv": [ 0.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#shingle2", "uv": [ 0.0, 0.0, 16.0, 9.5 ], "rotation": 90 },
+								"down": { "texture": "#shinglebottom1", "uv": [ 0.0, 1.5, 16.0, 11.0 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "snow",
+							"from": [ 13.36, 2.9, -0.01 ],
+							"to": [ 22.86, 4.9, 16.01 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#snow", "uv": [ 1.0, 8.5, 10.5, 10.5 ] },
+								"east": { "texture": "#snow", "uv": [ 0.0, 0.0, 16.0, 2.0 ], "rotation": 180 },
+								"south": { "texture": "#snow", "uv": [ 16.0, 8.5, 0.5, 11.0 ], "autoUv": false },
+								"west": { "texture": "#snow", "uv": [ 0.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#snow", "uv": [ 0.0, 1.5, 16.0, 11.0 ], "rotation": 90 },
+								"down": { "texture": "#snow", "uv": [ 0.0, 1.5, 16.0, 11.0 ], "rotation": 270 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

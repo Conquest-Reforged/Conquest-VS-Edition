@@ -1,0 +1,14 @@
+[
+    {
+        "file": "sortablestorage:blocktypes/wood/chestsortable-labeled.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "normal-labeled-chest": { "base": "game:block/wood/trunk/chest" }
+        }
+    }
+]
+
+
+ 

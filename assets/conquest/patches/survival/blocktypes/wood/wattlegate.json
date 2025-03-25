@@ -1,0 +1,15 @@
+[
+	{
+
+		"file": "game:blocktypes/wood/wattlegate.json",
+		"op": "add",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"post": { "base": "game:block/wood/fence/wattle/post" },
+			"door": { "base": "game:block/wood/fence/wattle/door" },
+			"top": { "base": "game:block/wood/fence/wattle/top*" }
+		}
+	}
+]
+

@@ -1,0 +1,37 @@
+[
+    {
+        "file": "game:blocktypes/clay/daub-and-wattle.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-normal": {
+                "all": {
+                    "base": "game:block/clay/daub/{color}/{type}1",
+                    "tiles": [
+                        { "base": "game:block/clay/daub/{color}/{type}*" }
+                    ],
+                    "tilesWidth": 5
+                }
+            },
+            "*-cracked": {
+                "all": {
+                    "base": "game:block/clay/daub/{color}/{type}1",
+                    "tiles": [
+                        { "base": "game:block/clay/daub/{color}/{type}*" }
+                    ],
+                    "tilesWidth": 5
+                }
+            },
+            "*-wattle": {
+                "all": {
+                    "base": "game:block/clay/daub/{color}/{type}1",
+                    "tiles": [
+                        { "base": "game:block/clay/daub/{color}/{type}*" }
+                    ],
+                    "tilesWidth": 5
+                }
+            }
+        }
+    }
+]
