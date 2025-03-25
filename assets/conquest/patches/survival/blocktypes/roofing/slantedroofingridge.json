@@ -1,44 +1,326 @@
 [
 	{
 		"file": "game:blocktypes/roofing/slantedroofingridge.json",
+		"op": "remove",
+		"path": "/renderpass",
+		"side": "server",
+		"value": {
+		}
+	},
+	{
+		"file": "game:blocktypes/roofing/slantedroofingridge.json",
+		"op": "replace",
+		"path": "/shapeByType",
+		"side": "server",
+		"value": {
+
+			"@.*-(agedthatch|thatch)-ns-.*": {
+				"base": "block/roofing/ridge/{material}-{cover}",
+				"rotateY": 0
+			},
+			"@.*-(agedthatch|thatch)-we-.*": {
+				"base": "block/roofing/ridge/{material}-{cover}",
+				"rotateY": 90
+			},
+
+			"@.*-(black|cream|red|tan)clay-ns-.*": {
+				"base": "block/roofing/ridge/shingles-clay-{cover}",
+				"rotateY": 0
+			},
+			"@.*-(black|cream|red|tan)clay-we-.*": {
+				"base": "block/roofing/ridge/shingles-clay-{cover}",
+				"rotateY": 90
+			},
+			"@.*-(brown|fire|gray|orange)clay-ns-.*": {
+				"base": "block/roofing/ridge/shingles-clay2-{cover}",
+				"rotateY": 0
+			},
+			"@.*-(brown|fire|gray|orange)clay-we-.*": {
+				"base": "block/roofing/ridge/shingles-clay2-{cover}",
+				"rotateY": 90
+			},
+
+			"*-bamboo-ns-*": {
+				"base": "block/roofing/ridge/bamboo-{cover}",
+				"rotateY": 0
+			},
+			"*-bamboo-we-*": {
+				"base": "block/roofing/ridge/bamboo-{cover}",
+				"rotateY": 90
+			},
+
+			"*-sod-ns-*": { "base": "block/roofing/ridge/sod-{cover}" },
+			"*-sod-we-*": {
+				"base": "block/roofing/ridge/sod-{cover}",
+				"rotateY": 90
+			},
+
+			"@.*-(copper)-ns-.*": {
+				"base": "block/roofing/ridge/shingles-copper-{cover}",
+				"rotateY": 0
+			},
+			"@.*-(copper)-we-.*": {
+				"base": "block/roofing/ridge/shingles-copper-{cover}",
+				"rotateY": 90
+			},
+			"@.*-(slate)-ns-.*": {
+				"base": "block/roofing/ridge/shingles-slate-{cover}",
+				"rotateY": 0
+			},
+			"@.*-(slate)-we-.*": {
+				"base": "block/roofing/ridge/shingles-slate-{cover}",
+				"rotateY": 90
+			},
+
+			"*-ns-*": {
+				"base": "block/roofing/ridge/wood-{cover}",
+				"rotateY": 0
+			},
+			"*-we-*": {
+				"base": "block/roofing/ridge/wood-{cover}",
+				"rotateY": 90
+			}
+
+		}
+	},
+	{
+		"file": "game:blocktypes/roofing/slantedroofingridge.json",
 		"op": "replace",
 		"path": "/texturesByType",
 		"side": "server",
 		"value": {
-
+			"*-sod-*": {
+				"grass1": {
+					"base": "game:block/soil/roofing/grass1",
+					"alternates": [
+						{ "base": "game:block/soil/roofing/grass2" },
+						{ "base": "game:block/soil/roofing/grass3" },
+						{ "base": "game:block/soil/roofing/grass4" }
+					]
+				},
+				"grass2": {
+					"base": "game:block/soil/roofing/grass4",
+					"alternates": [
+						{ "base": "game:block/soil/roofing/grass3" },
+						{ "base": "game:block/soil/roofing/grass2" },
+						{ "base": "game:block/soil/roofing/grass1" }
+					]
+				},
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": { "base": "game:block/soil/roofing/grasstop/*" },
+				"material": { "base": "game:block/soil/roofing/material/*" },
+				"ridge": { "base": "game:block/soil/roofing/ridge*" },
+				"top": { "base": "game:block/soil/roofing/top" }
+			},
 			"*-copper-*": {
-				"material": { "base": "game:block/metal/shingles/copper*" }
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/metal/shingles/shinglebottom/copper1",
+					"alternates": [
+						{ "base": "game:block/metal/shingles/shinglebottom/copper2" },
+						{ "base": "game:block/metal/shingles/shinglebottom/copper3" },
+						{ "base": "game:block/metal/shingles/shinglebottom/copper4" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/metal/shingles/shingletop/copper1",
+					"alternates": [
+						{ "base": "game:block/metal/shingles/shingletop/copper2" },
+						{ "base": "game:block/metal/shingles/shingletop/copper3" },
+						{ "base": "game:block/metal/shingles/shingletop/copper4" }
+					]
+				},
+				"ridge": { "base": "game:block/metal/shingles/ridge" },
+				"top": { "base": "game:block/metal/shingles/top" }
 			},
 			"*-slate-*": {
-				"material": { "base": "game:block/stone/shingles/slate*" }
+				"material": { "base": "game:block/clay/shingles/woodbase/*" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/stone/shingles/slate1",
+					"alternates": [
+						{ "base": "game:block/stone/shingles/slate2" },
+						{ "base": "game:block/stone/shingles/slate3" },
+						{ "base": "game:block/stone/shingles/slate4" },
+						{ "base": "game:block/stone/shingles/slate5" },
+						{ "base": "game:block/stone/shingles/slate6" },
+						{ "base": "game:block/stone/shingles/slate7" },
+						{ "base": "game:block/stone/shingles/slate8" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/stone/shingles/slate8",
+					"alternates": [
+						{ "base": "game:block/stone/shingles/slate7" },
+						{ "base": "game:block/stone/shingles/slate6" },
+						{ "base": "game:block/stone/shingles/slate5" },
+						{ "base": "game:block/stone/shingles/slate4" },
+						{ "base": "game:block/stone/shingles/slate3" },
+						{ "base": "game:block/stone/shingles/slate2" },
+						{ "base": "game:block/stone/shingles/slate1" }
+					]
+				},
+				"ridge": { "base": "game:block/stone/shingles/ridge1" }
 			},
-			"*-fireclay-*": {
-				"material": { "base": "game:block/clay/shingles/fire" }
-			},
-			"*-blueclay-*": {
-				"material": { "base": "game:block/clay/shingles/blue" }
-			},
-			"*-redclay-*": {
-				"material": { "base": "game:block/clay/shingles/red" }
-			},
-			"*-brownclay-*": {
-				"material": { "base": "game:block/clay/shingles/brown" }
+			"@.*-(black|brown|cream|fire|gray|orange|red|tan)clay-.*": {
+				"material": { "base": "game:block/clay/shingles/woodbase/*" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/clay/shingles/{material}/{material}1",
+					"alternates": [
+						{ "base": "game:block/clay/shingles/{material}/{material}2" },
+						{ "base": "game:block/clay/shingles/{material}/{material}3" },
+						{ "base": "game:block/clay/shingles/{material}/{material}4" },
+						{ "base": "game:block/clay/shingles/{material}/{material}5" },
+						{ "base": "game:block/clay/shingles/{material}/{material}6" },
+						{ "base": "game:block/clay/shingles/{material}/{material}7" },
+						{ "base": "game:block/clay/shingles/{material}/{material}8" },
+						{ "base": "game:block/clay/shingles/{material}/{material}9" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/clay/shingles/{material}/{material}1",
+					"alternates": [
+						{ "base": "game:block/clay/shingles/{material}/{material}2" },
+						{ "base": "game:block/clay/shingles/{material}/{material}3" },
+						{ "base": "game:block/clay/shingles/{material}/{material}4" },
+						{ "base": "game:block/clay/shingles/{material}/{material}5" },
+						{ "base": "game:block/clay/shingles/{material}/{material}6" },
+						{ "base": "game:block/clay/shingles/{material}/{material}7" },
+						{ "base": "game:block/clay/shingles/{material}/{material}8" },
+						{ "base": "game:block/clay/shingles/{material}/{material}9" }
+					]
+				},
+				"ridge": { "base": "game:block/clay/shingles/ridge/{material}_ridge1" },
+				"top": { "base": "game:block/clay/shingles/ridge/{material}_top1" }
+
 			},
 			"*-thatch-*": {
-				"top": { "base": "game:block/hay/normal/normal-top*" },
-				"bamboo-top": { "base": "game:block/hay/normal/normal-top*" },
-				"agedstraw": { "base": "game:block/plant/grassroofing/straw1" }
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/plant/grassroofing/normal/normal1",
+					"alternates": [
+						{ "base": "game:block/plant/grassroofing/normal/normal2" },
+						{ "base": "game:block/plant/grassroofing/normal/normal3" },
+						{ "base": "game:block/plant/grassroofing/normal/normal4" },
+						{ "base": "game:block/plant/grassroofing/normal/normal5" },
+						{ "base": "game:block/plant/grassroofing/normal/normal6" },
+						{ "base": "game:block/plant/grassroofing/normal/normal7" },
+						{ "base": "game:block/plant/grassroofing/normal/normal8" },
+						{ "base": "game:block/plant/grassroofing/normal/normal9" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/plant/grassroofing/normal/normal9",
+					"alternates": [
+						{ "base": "game:block/plant/grassroofing/normal/normal8" },
+						{ "base": "game:block/plant/grassroofing/normal/normal7" },
+						{ "base": "game:block/plant/grassroofing/normal/normal6" },
+						{ "base": "game:block/plant/grassroofing/normal/normal5" },
+						{ "base": "game:block/plant/grassroofing/normal/normal4" },
+						{ "base": "game:block/plant/grassroofing/normal/normal3" },
+						{ "base": "game:block/plant/grassroofing/normal/normal2" },
+						{ "base": "game:block/plant/grassroofing/normal/normal1" }
+					]
+				},
+				"ridge": { "base": "game:block/plant/grassroofing/normal/ridge" },
+				"top": { "base": "block/plant/grassroofing/normal/top*" },
+				"ends": { "base": "block/plant/grassroofing/normal/ends" }
+
 			},
 			"*-agedthatch-*": {
-				"normal": { "base": "game:block/plant/grassroofing/thatch/agedstraw" },
-				"top": { "base": "game:block/plant/grassroofing/thatch/aged1" },
-				"bamboo-top": { "base": "game:block/plant/grassroofing/thatch/bamboo-top" },
-				"agedstraw": { "base": "game:block/plant/grassroofing/thatch/agedstraw" }
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/plant/grassroofing/aged/normal1",
+					"alternates": [
+						{ "base": "game:block/plant/grassroofing/aged/normal2" },
+						{ "base": "game:block/plant/grassroofing/aged/normal3" },
+						{ "base": "game:block/plant/grassroofing/aged/normal4" },
+						{ "base": "game:block/plant/grassroofing/aged/normal5" },
+						{ "base": "game:block/plant/grassroofing/aged/normal6" },
+						{ "base": "game:block/plant/grassroofing/aged/normal7" },
+						{ "base": "game:block/plant/grassroofing/aged/normal8" },
+						{ "base": "game:block/plant/grassroofing/aged/normal9" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/plant/grassroofing/aged/normal9",
+					"alternates": [
+						{ "base": "game:block/plant/grassroofing/aged/normal8" },
+						{ "base": "game:block/plant/grassroofing/aged/normal7" },
+						{ "base": "game:block/plant/grassroofing/aged/normal6" },
+						{ "base": "game:block/plant/grassroofing/aged/normal5" },
+						{ "base": "game:block/plant/grassroofing/aged/normal4" },
+						{ "base": "game:block/plant/grassroofing/aged/normal3" },
+						{ "base": "game:block/plant/grassroofing/aged/normal2" },
+						{ "base": "game:block/plant/grassroofing/aged/normal1" }
+					]
+				},
+				"ridge": { "base": "game:block/plant/grassroofing/aged/ridge" },
+				"top": { "base": "block/plant/grassroofing/aged/top*" },
+				"ends": { "base": "block/plant/grassroofing/aged/ends" }
+
 			},
 			"*-bamboo-*": {
-				"bamboo-side": { "base": "game:block/wood/planks/bamboo-side" },
-				"bamboo-top": { "base": "game:block/wood/planks/bamboo-top" },
-				"bamboosmooth": { "base": "game:block/wood/planks/bamboosmooth" }
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/wood/shingles/bamboo/shingle1",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/bamboo/shingle2" },
+						{ "base": "game:block/wood/shingles/bamboo/shingle3" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/wood/shingles/bamboo/shingle2",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/bamboo/shingle1" },
+						{ "base": "game:block/wood/shingles/bamboo/shingle3" }
+
+					]
+				},
+				"ridge": { "base": "game:block/wood/shingles/bamboo/ridge" },
+				"top": { "base": "game:block/wood/shingles/bamboo/top" }
+			},
+			"*-acacia-*": {
+				"material": { "base": "game:block/wood/planks/{material}/sides/*" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/wood/shingles/{material}/{material}1",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/{material}/{material}2" },
+						{ "base": "game:block/wood/shingles/{material}/{material}3" },
+						{ "base": "game:block/wood/shingles/{material}/{material}4" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/wood/shingles/{material}/{material}5",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/{material}/{material}6" },
+						{ "base": "game:block/wood/shingles/{material}/{material}1" }
+					]
+				},
+				"ridge": { "base": "game:block/wood/shingles/ridge/{material}*" }
+
+			},
+			"@.*-(aged|baldcypress|birch|ebony|kapok|larch|maple|oak|pine|purpleheart|redwood|walnut)-.*": {
+				"material": { "base": "game:block/wood/planks/{material}/top/*" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "game:block/wood/shingles/{material}/{material}1",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/{material}/{material}2" },
+						{ "base": "game:block/wood/shingles/{material}/{material}3" },
+						{ "base": "game:block/wood/shingles/{material}/{material}4" }
+					]
+				},
+				"shingle2": {
+					"base": "game:block/wood/shingles/{material}/{material}5",
+					"alternates": [
+						{ "base": "game:block/wood/shingles/{material}/{material}6" },
+						{ "base": "game:block/wood/shingles/{material}/{material}1" }
+					]
+				},
+				"ridge": { "base": "game:block/wood/shingles/ridge/{material}*" }
 			}
 		}
 	}

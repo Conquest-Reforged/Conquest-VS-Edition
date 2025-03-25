@@ -1,5 +1,72 @@
 [
+    {
+        "file": "game:blocktypes/clay/storagevessel.json",
+        "op": "replace",
+        "path": "/creativeinventoryStacksByType",
+        "side": "server",
+        "value": {
+            "*-raw": [
+                {
+                    "tabs": [ "general", "decorative" ],
+                    "stacks": [
+                        {
+                            "type": "block",
+                            "code": "storagevessel-{variant}"
+                        }
+                    ]
+                }
+            ],
+            "@.*-(ashforest|beehive|caveaurora|chthonic|cloisonne|copper|earthen|rime|talik|wintersea)": [
+                {
+                    "tabs": [ "general", "decorative" ],
+                    "stacks": [
+                        {
+                            "type": "block",
+                            "code": "storagevessel-{variant}",
+                            "attributes": { "type": "normal" }
+                        }
+                    ]
+                }
+            ],
+            "@.*-(cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers)": [
+                {
+                    "tabs": [ "general", "decorative" ],
+                    "stacks": [
+                        {
+                            "type": "block",
+                            "code": "storagevessel-{variant}",
+                            "attributes": { "type": "normal1" }
+                        }
+                    ]
+                }
+            ],
+            "@.*-(collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": [
+                {
+                    "tabs": [ "general", "decorative" ],
+                    "stacks": [
+                        {
+                            "type": "block",
+                            "code": "storagevessel-{variant}",
+                            "attributes": { "type": "normal2" }
+                        }
+                    ]
+                }
+            ],
+            "*": [
+                {
+                    "tabs": [ "general", "decorative" ],
+                    "stacks": [
+                        {
+                            "type": "block",
+                            "code": "storagevessel-{variant}",
+                            "attributes": { "type": "normal" }
 
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     {
         "file": "game:blocktypes/clay/storagevessel.json",
         "op": "replace",
@@ -9,8 +76,90 @@
             "*-raw": {
                 "all": { "base": "game:block/clay/blueclay" }
             },
+            "@.*-(cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers)": {
+                "normal1-storagevessel": { "base": "game:block/clay/vessel/{variant}" }
+            },
+            "@.*-(collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": {
+                "normal2-storagevessel": { "base": "game:block/clay/vessel/{variant}" }
+            },
             "*": {
-                "normal-storagevessel": { "base": "game:block/clay/storagevessel" }
+                "normal-storagevessel": { "base": "game:block/clay/vessel/{variant}" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/storagevessel.json",
+        "op": "replace",
+        "path": "/attributes",
+        "side": "server",
+        "value": {
+            "reinforcable": true,
+            "humanoidTraversalCost": 100,
+            "tempGlowMode": 1,
+            "partialAttachable": true,
+            "inventoryClassName": "chest",
+            "defaultType": "normal",
+            "types": [ "normal", "normal1", "normal2" ],
+            "drop": {
+                "normal": true,
+                "normal1": true,
+                "normal2": true
+            },
+            "quantitySlots": {
+                "normal": 12,
+                "normal1": 12,
+                "normal2": 12
+            },
+            "dialogTitleLangCode": {
+                "normal": "vesselcontents",
+                "normal1": "vesselcontents",
+                "normal2": "vesselcontents"
+            },
+            "storageType": {
+                "normal": 32,
+                "normal1": 32,
+                "normal2": 32
+            },
+            "retrieveOnly": {
+                "normal": false,
+                "normal1": false,
+                "normal2": false
+            },
+            "spoilSpeedMulByFoodCat": {
+                "normal": {
+                    "vegetable": 0.75,
+                    "grain": 0.5
+                },
+                "normal1": {
+                    "vegetable": 0.75,
+                    "grain": 0.5
+                },
+                "normal2": {
+                    "vegetable": 0.75,
+                    "grain": 0.5
+                }
+            },
+            "shape": {
+                "normal": "game:block/clay/storagevessel",
+                "normal1": "game:block/clay/storagevessel1",
+                "normal2": "game:block/clay/storagevessel2"
+            },
+            "variantByGroup": "variant",
+            "variantByGroupInventory": "variant",
+            "openSound": "sounds/block/vesselopen",
+            "closeSound": "sounds/block/vesselclose",
+            "onTongTransform": {
+                "translation": {
+                    "x": -0.7,
+                    "y": -1.7,
+                    "z": -1
+                },
+                "rotation": {
+                    "x": -2,
+                    "y": 1,
+                    "z": -81
+                },
+                "scale": 0.7
             }
         }
     }
