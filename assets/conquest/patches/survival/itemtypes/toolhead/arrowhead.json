@@ -1,7 +1,14 @@
 [
   {
     "op": "replace",
-    "path": "/texturesByType/arrowhead-(granite|andesite|basalt|obsidian|peridotite)/material/base",
+    "path": "/texturesByType/arrowhead-flint/material/base",
+    "value": "block/stone/{material}",
+    "file": "game:itemtypes/toolhead/arrowhead.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/arrowhead-obsidian/material/base",
     "value": "block/stone/rock/conquest/{material}/sides/1",
     "file": "game:itemtypes/toolhead/arrowhead.json",
     "side": "Server"
