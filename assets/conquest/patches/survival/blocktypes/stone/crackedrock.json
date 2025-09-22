@@ -25,7 +25,7 @@
                 "all": {
                     "base": "block/stone/rock/conquest/{rock}/sides/*",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ]
                 }
             },
@@ -33,13 +33,13 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/*",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ]
                 },
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/*",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ]
                 }
             },
@@ -47,7 +47,7 @@
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -59,7 +59,7 @@
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -71,7 +71,7 @@
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -83,7 +83,7 @@
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -95,7 +95,7 @@
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -107,7 +107,7 @@
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -119,7 +119,7 @@
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -131,7 +131,7 @@
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -141,7 +141,7 @@
                 "verticals": {
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
@@ -153,7 +153,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -163,7 +163,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -175,7 +175,7 @@
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -185,7 +185,7 @@
                 "verticals": {
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
@@ -197,7 +197,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -207,7 +207,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -219,7 +219,7 @@
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -229,7 +229,7 @@
                 "verticals": {
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
@@ -241,7 +241,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -251,7 +251,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -263,7 +263,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -273,7 +273,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -285,7 +285,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -295,7 +295,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -307,7 +307,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -317,7 +317,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
@@ -329,7 +329,7 @@
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
@@ -339,7 +339,7 @@
                 "verticals": {
                     "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
@@ -351,7 +351,7 @@
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
@@ -361,7 +361,7 @@
                 "verticals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "overlays": [
-                        "game:block/overlay/cracked/cracked8"
+                        "game:block/overlay/cracked/cracked1"
                     ],
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
