@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "replace",
         "path": "/variantgroups",
         "side": "server",
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "replace",
         "path": "/attributes",
         "side": "server",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "add",
         "path": "/attributesByType",
         "side": "server",
@@ -79,7 +79,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "replace",
         "path": "/shapeByType",
         "side": "server",
@@ -89,7 +89,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
@@ -107,7 +107,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/fired/planter.json",
         "op": "add",
         "path": "/collisionselectionboxbytype",
         "side": "server",
@@ -140,7 +140,7 @@
         }
     },
     {
-            "file": "game:blocktypes/clay/planter.json",
+            "file": "game:blocktypes/clay/fired/planter.json",
             "op": "add",
             "path": "/collisionselectionboxesbytype",
             "side": "server",

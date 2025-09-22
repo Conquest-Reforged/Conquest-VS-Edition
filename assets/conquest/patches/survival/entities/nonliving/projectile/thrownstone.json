@@ -2,7 +2,7 @@
   {
     "op": "remove",
     "path": "/client/textures",
-    "file": "game:entities/thrownboulder.json",
+    "file": "game:entities/nonliving/projectile/thrownstone.json",
     "side": "Server"
   },
   {
@@ -25,7 +25,7 @@
         }
       }
     },
-    "file": "game:entities/thrownboulder.json",
+    "file": "game:entities/nonliving/projectile/thrownstone.json",
     "side": "Server"
   }
 ]

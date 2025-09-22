@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/storagevessel.json",
+        "file": "game:blocktypes/clay/fired/storagevessel.json",
         "op": "replace",
         "path": "/creativeinventoryStacksByType",
         "side": "server",
@@ -68,7 +68,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/storagevessel.json",
+        "file": "game:blocktypes/clay/fired/storagevessel.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
@@ -88,7 +88,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/storagevessel.json",
+        "file": "game:blocktypes/clay/fired/storagevessel.json",
         "op": "replace",
         "path": "/attributes",
         "side": "server",

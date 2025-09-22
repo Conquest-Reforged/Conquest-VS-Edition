@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/flowerpot.json",
+        "file": "game:blocktypes/clay/fired/flowerpot.json",
         "op": "add",
         "path": "/attributesByType",
         "side": "server",
@@ -44,14 +44,14 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/flowerpot.json",
+        "file": "game:blocktypes/clay/fired/flowerpot.json",
         "op": "replace",
         "path": "/shape",
         "side": "server",
         "value": { "base": "game:block/clay/flowerpot/{type}-empty" }
     },
     {
-        "file": "game:blocktypes/clay/flowerpot.json",
+        "file": "game:blocktypes/clay/fired/flowerpot.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
@@ -65,7 +65,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/flowerpot.json",
+        "file": "game:blocktypes/clay/fired/flowerpot.json",
         "op": "replace",
         "path": "/attributes",
         "side": "server",

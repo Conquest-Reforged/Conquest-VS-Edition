@@ -1,19 +1,19 @@
 [
     {
-        "file": "game:blocktypes/clay/oillamp.json",
+        "file": "game:blocktypes/clay/fired/oillamp.json",
         "op": "remove",
         "path": "/textures",
         "side": "server"
     },
     {
-        "file": "game:blocktypes/clay/oillamp.json",
+        "file": "game:blocktypes/clay/fired/oillamp.json",
         "op": "replace",
         "path": "/lightHsv",
         "side": "server",
         "value": [ 5, 4, 7 ]
     },
     {
-        "file": "game:blocktypes/clay/oillamp.json",
+        "file": "game:blocktypes/clay/fired/oillamp.json",
         "op": "replace",
         "path": "/particleProperties",
         "side": "server",
@@ -262,7 +262,7 @@
         ]
     },
     {
-        "file": "game:blocktypes/clay/oillamp.json",
+        "file": "game:blocktypes/clay/fired/oillamp.json",
         "op": "replace",
         "path": "/tpHandTransform",
         "side": "server",
@@ -286,7 +286,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/oillamp.json",
+        "file": "game:blocktypes/clay/fired/oillamp.json",
         "op": "add",
         "path": "/tpOffHandTransform",
         "side": "server",

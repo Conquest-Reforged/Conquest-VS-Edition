@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/crock.json",
+        "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
         "path": "/attributesByType",
         "side": "server",
@@ -33,7 +33,7 @@
     },
 
     {
-        "file": "game:blocktypes/clay/crock.json",
+        "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/crock.json",
+        "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
         "path": "/guiTransform",
         "side": "server",
@@ -67,7 +67,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/crock.json",
+        "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
         "path": "/tpHandTransform",
         "side": "server",

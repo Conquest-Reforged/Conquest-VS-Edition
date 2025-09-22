@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/bowl.json",
+        "file": "game:blocktypes/clay/fired/bowl.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
@@ -20,7 +20,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/bowl.json",
+        "file": "game:blocktypes/clay/fired/bowl.json",
         "op": "replace",
         "path": "/tpHandTransform",
         "side": "server",

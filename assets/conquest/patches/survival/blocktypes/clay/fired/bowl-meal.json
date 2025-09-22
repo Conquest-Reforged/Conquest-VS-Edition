@@ -1,6 +1,6 @@
 [
     {
-        "file": "game:blocktypes/clay/bowl-meal.json",
+        "file": "game:blocktypes/clay/fired/bowl-meal.json",
         "op": "replace",
         "path": "/textures",
         "side": "server",
@@ -10,7 +10,7 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/bowl-meal.json",
+        "file": "game:blocktypes/clay/fired/bowl-meal.json",
         "op": "replace",
         "path": "/tpHandTransform",
         "side": "server",
