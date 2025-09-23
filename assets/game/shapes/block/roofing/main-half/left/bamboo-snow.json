@@ -7,14 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"shingle1": [16,16],
-		"shinglebottom1": [16,16],
-		"ridge": [16,16]
+		
 	},
 	"textures": {
-		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/ridge",
-		"shingle1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shingle1",
-		"shinglebottom1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shinglebottom1"
+
 	},
 	"elements": [
 		{
@@ -60,6 +56,36 @@
 								"west": { "texture": "#shingle1", "uv": [ 4.5, 0.0, 7.5, 8.0 ], "rotation": 90 },
 								"up": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 11.5 ], "rotation": 90 },
 								"down": { "texture": "#shinglebottom1", "uv": [ 1.0, 0.0, 9.0, 11.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "snow1",
+							"from": [ 10.86, 3.49, -0.01 ],
+							"to": [ 22.36, 5.49, 8.01 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#snow", "uv": [ 0.0, 8.0, 11.5, 10.0 ] },
+								"east": { "texture": "#snow", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+								"south": { "texture": "#snow", "uv": [ 1.0, 8.0, 12.5, 11.0 ], "autoUv": false },
+								"west": { "texture": "#snow", "uv": [ 4.5, 0.0, 6.5, 8.0 ], "rotation": 90 },
+								"up": { "texture": "#snow", "uv": [ 0.0, 0.0, 8.0, 11.5 ], "rotation": 90 },
+								"down": { "texture": "#snow", "uv": [ 1.0, 0.0, 9.0, 11.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "snow2",
+							"from": [ -2.94, 3.5, -0.02 ],
+							"to": [ 11.06, 5.5, 8.02 ],
+							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#snow", "uv": [ 1.5, 8.0, 15.5, 10.0 ] },
+								"east": { "texture": "#snow", "uv": [ 1.5, 1.0, 3.5, 9.0 ], "rotation": 90 },
+								"south": { "texture": "#snow", "uv": [ 1.0, 4.5, 15.0, 7.5 ], "autoUv": false },
+								"west": { "texture": "#snow", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+								"up": { "texture": "#snow", "uv": [ 0.0, 2.0, 8.0, 16.0 ], "rotation": 90 },
+								"down": { "texture": "#snow", "uv": [ 1.0, 2.0, 9.0, 16.0 ], "rotation": 270 }
 							}
 						}
 					]

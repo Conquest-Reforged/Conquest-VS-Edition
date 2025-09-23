@@ -1,16 +1,16 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/base,Root/origin2,Root/origin5,Root/origin6,Root/origin3,Root/origin4,Root/base2",
+		"collapsedPaths": "Root/origin5,Root/origin6,Root/origin3,Root/origin4,Root/origin2,Root/base2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		
+	
 	},
 	"textures": {
-
+		
 	},
 	"elements": [
 		{
@@ -41,7 +41,7 @@
 								"south": { "texture": "#ridge", "uv": [ 3.0, 8.0, 14.0, 11.0 ] },
 								"west": { "texture": "#ridge", "uv": [ 0.0, 0.0, 16.0, 3.0 ] },
 								"up": { "texture": "#shingle1", "uv": [ 0.0, 3.5, 16.0, 14.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 16.0, 11.0 ], "rotation": 270 }
+								"down": { "texture": "#shinglebottom1", "uv": [ 0.0, 5.0, 16.0, 16.0 ], "rotation": 270 }
 							}
 						},
 						{
@@ -113,10 +113,10 @@
 							"to": [ 9.3, 5.2, 16.0 ],
 							"rotationOrigin": [ 3.2, -1.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 10.0, 4.0, 16.0, 8.5 ], "rotation": 90 },
-								"east": { "texture": "#shingle1", "uv": [ 10.0, 0.0, 16.0, 16.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
-								"south": { "texture": "#shingle1", "uv": [ 10.0, 4.0, 16.0, 8.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 4.0, 0.0, 8.5, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 6.5, 6.0, 11.0 ], "rotation": 270 },
+								"east": { "texture": "#bamboo-side", "uv": [ 0.0, 0.0, 6.0, 16.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 6.0, 6.0, 10.5 ], "rotation": 270 },
+								"down": { "texture": "#bamboo-side", "uv": [ 4.0, 0.0, 8.5, 16.0 ] }
 							}
 						},
 						{
@@ -125,9 +125,9 @@
 							"to": [ 4.8, 1.2, 16.0 ],
 							"rotationOrigin": [ 4.2, 0.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 14.0, 14.0, 16.0, 16.0 ], "rotation": 90 },
-								"south": { "texture": "#shingle1", "uv": [ 14.0, 10.5, 16.0, 12.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 12.0, 0.0, 14.0, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 13.5, 2.0, 15.5 ], "rotation": 270 },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 9.5, 2.0, 11.5 ], "rotation": 270 },
+								"down": { "texture": "#bamboo-side", "uv": [ 12.0, 0.0, 14.0, 16.0 ] }
 							}
 						}
 					]

@@ -14,19 +14,19 @@
         "side": "server",
         "value": {
             "@.*-(agedthatch|thatch)-north-.*": {
-                "base": "block/roofing/cornerinner/{material}-{cover}",
+                "base": "block/roofing/cornerinner/thatch-{cover}",
                 "rotateY": 90
             },
             "@.*-(agedthatch|thatch)-west-.*": {
-                "base": "block/roofing/cornerinner/{material}-{cover}",
+                "base": "block/roofing/cornerinner/thatch-{cover}",
                 "rotateY": 180
             },
             "@.*-(agedthatch|thatch)-south-.*": {
-                "base": "block/roofing/cornerinner/{material}-{cover}",
+                "base": "block/roofing/cornerinner/thatch-{cover}",
                 "rotateY": 270
             },
             "@.*-(agedthatch|thatch)-east-.*": {
-                "base": "block/roofing/cornerinner/{material}-{cover}",
+                "base": "block/roofing/cornerinner/thatch-{cover}",
                 "rotateY": 0
             },
 
@@ -295,29 +295,29 @@
             "*-agedthatch-*": {
                 "snow": { "base": "game:block/snow/*" },
                 "shingle1": {
-                    "base": "game:block/plant/grassroofing/aged/normal1",
+                    "base": "game:block/plant/grassroofing/aged/aged1",
                     "alternates": [
-                        { "base": "game:block/plant/grassroofing/aged/normal2" },
-                        { "base": "game:block/plant/grassroofing/aged/normal3" },
-                        { "base": "game:block/plant/grassroofing/aged/normal4" },
-                        { "base": "game:block/plant/grassroofing/aged/normal5" },
-                        { "base": "game:block/plant/grassroofing/aged/normal6" },
-                        { "base": "game:block/plant/grassroofing/aged/normal7" },
-                        { "base": "game:block/plant/grassroofing/aged/normal8" },
-                        { "base": "game:block/plant/grassroofing/aged/normal9" }
+                        { "base": "game:block/plant/grassroofing/aged/aged2" },
+                        { "base": "game:block/plant/grassroofing/aged/aged3" },
+                        { "base": "game:block/plant/grassroofing/aged/aged4" },
+                        { "base": "game:block/plant/grassroofing/aged/aged5" },
+                        { "base": "game:block/plant/grassroofing/aged/aged6" },
+                        { "base": "game:block/plant/grassroofing/aged/aged7" },
+                        { "base": "game:block/plant/grassroofing/aged/aged8" },
+                        { "base": "game:block/plant/grassroofing/aged/aged9" }
                     ]
                 },
                 "shingle2": {
-                    "base": "game:block/plant/grassroofing/aged/normal9",
+                    "base": "game:block/plant/grassroofing/aged/aged9",
                     "alternates": [
-                        { "base": "game:block/plant/grassroofing/aged/normal8" },
-                        { "base": "game:block/plant/grassroofing/aged/normal7" },
-                        { "base": "game:block/plant/grassroofing/aged/normal6" },
-                        { "base": "game:block/plant/grassroofing/aged/normal5" },
-                        { "base": "game:block/plant/grassroofing/aged/normal4" },
-                        { "base": "game:block/plant/grassroofing/aged/normal3" },
-                        { "base": "game:block/plant/grassroofing/aged/normal2" },
-                        { "base": "game:block/plant/grassroofing/aged/normal1" }
+                        { "base": "game:block/plant/grassroofing/aged/aged8" },
+                        { "base": "game:block/plant/grassroofing/aged/aged7" },
+                        { "base": "game:block/plant/grassroofing/aged/aged6" },
+                        { "base": "game:block/plant/grassroofing/aged/aged5" },
+                        { "base": "game:block/plant/grassroofing/aged/aged4" },
+                        { "base": "game:block/plant/grassroofing/aged/aged3" },
+                        { "base": "game:block/plant/grassroofing/aged/aged2" },
+                        { "base": "game:block/plant/grassroofing/aged/aged1" }
                     ]
                 },
                 "ridge": { "base": "game:block/plant/grassroofing/aged/ridge" },
@@ -325,6 +325,8 @@
                 "ends": { "base": "block/plant/grassroofing/aged/ends" }
             },
             "*-bamboo-*": {
+                "bamboo-side": { "base": "game:block/wood/planks/bamboo-side*" },
+                "shinglebottom1": { "base": "game:block/wood/shingles/bamboo/shinglebottom1" },
                 "snow": { "base": "game:block/snow/*" },
                 "shingle1": {
                     "base": "game:block/wood/shingles/bamboo/shingle1",

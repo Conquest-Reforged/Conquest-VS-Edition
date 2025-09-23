@@ -5,24 +5,32 @@
         "path": "/textures",
         "side": "server",
         "value": {
-            "up": {
-                "base": "game:block/soil/peat",
-                "alternates": [
-                    { "base": "game:block/soil/peat1" },
-                    { "base": "game:block/soil/peat2" },
-                    { "base": "game:block/soil/peat3" }
-                ]
+            "horizontals": {
+                "base": "game:block/soil/peat/peattop1",
+                "tiles": [
+                    { "base": "game:block/soil/peat/peattop*" }
+                ],
+                "tilesWidth": 2
             },
-            "sides": {
-                "base": "game:block/soil/p1",
-                "alternates": [
-                    { "base": "game:block/soil/p2" },
-                    { "base": "game:block/soil/p3" },
-                    { "base": "game:block/soil/p4" }
-                ]
+            "verticals": {
+                "base": "game:block/soil/peat/peatside1",
+                "tiles": [
+                    { "base": "game:block/soil/peat/peatside*" }
+                ],
+                "tilesWidth": 2
             },
             "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
-            "specialSecondTexture": { "base": "game:block/plant/grasscoverage/{grasscoverage}" }
+            "specialSecondTexture": {
+                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                "tiles": [
+                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
+                ],
+                "tilesWidthByType": {
+                    "*-none": 1,
+                    "*": 4
+                }
+            }
         }
     }
+
 ]

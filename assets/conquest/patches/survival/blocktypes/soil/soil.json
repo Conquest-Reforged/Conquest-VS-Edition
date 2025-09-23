@@ -5,9 +5,24 @@
         "path": "/textures",
         "side": "server",
         "value": {
-            "all": { "base": "game:block/soil/fert{fertility}*" },
-            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
-            "specialSecondTexture": { "base": "game:block/plant/grasscoverage/{grasscoverage}" }
+            "all": {
+                "base": "game:block/soil/fertility/{fertility}/fert{fertility}1",
+                "tiles": [
+                    { "base": "game:block/soil/fertility/{fertility}/fert{fertility}*" }
+                ],
+                "tilesWidth": 5
+            },
+
+            "snowed": {
+                "base": "game:block/plant/grasscoverage/snowed/normal"
+            },
+            "specialSecondTexture": {
+                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                "tiles": [
+                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
+                ],
+                "tilesWidth": 4
+            }
         }
     }
 ]

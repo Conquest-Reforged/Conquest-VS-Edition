@@ -1,16 +1,16 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Cube2,Root/Cube3,Root/Cube8/origin2,Root/Cube8/origin5",
+		"collapsedPaths": ",Root/Cube2,Root/Cube3,Root/Cube8/origin2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		
+
 	},
 	"textures": {
-		
+
 	},
 	"elements": [
 		{
@@ -55,7 +55,7 @@
 								"south": { "texture": "#ends", "uv": [ 11.0, 1.0, 16.0, 15.0 ], "rotation": 90 },
 								"west": { "texture": "#ends", "uv": [ 0.0, 3.5, 8.0, 8.5 ] },
 								"up": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 14.0 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 14.0 ], "rotation": 90 }
+								"down": { "texture": "#shingle1", "uv": [ 0.0, 2.0, 8.0, 16.0 ], "rotation": 90 }
 							}
 						},
 						{
@@ -222,44 +222,6 @@
 							}
 						}
 					]
-				},
-				{
-					"name": "origin2",
-					"from": [ -3.0, 0.0, 0.0 ],
-					"to": [ -3.0, 0.0, 0.0 ],
-					"rotationOrigin": [ 5.0, 0.0, 8.0 ],
-					"faces": {
-					},
-					"children": [
-						{
-							"name": "base horizontal2",
-							"from": [ 5.0, 0.0, 0.0 ],
-							"to": [ 12.0, 7.5, 8.0 ],
-							"rotationOrigin": [ 5.0, 0.0, 0.1 ],
-							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 9.0, 8.5, 16.0, 16.0 ] },
-								"east": { "texture": "#shingle1", "uv": [ 0.0, 0.5, 8.0, 8.0 ] },
-								"south": { "texture": "#shingle1", "uv": [ 0.5, 8.0, 7.5, 15.5 ] },
-								"west": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 7.5 ] },
-								"up": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 7.0, 8.0 ] },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 8.0, 7.0 ], "rotation": 90 }
-							}
-						},
-						{
-							"name": "base vertical2",
-							"from": [ 12.0, 0.0, 0.0 ],
-							"to": [ 19.0, 13.0, 8.0 ],
-							"rotationOrigin": [ 12.0, -2.0, 0.1 ],
-							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 2.0, 1.5, 9.0, 14.5 ] },
-								"east": { "texture": "#shingle1", "uv": [ 0.0, 3.0, 8.0, 16.0 ] },
-								"south": { "texture": "#shingle1", "uv": [ 7.5, 1.5, 14.5, 14.5 ] },
-								"west": { "texture": "#shingle1", "uv": [ 0.0, 2.5, 8.0, 15.5 ] },
-								"up": { "texture": "#shingle1", "uv": [ 0.0, 2.5, 8.0, 9.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.5, 8.0, 7.5 ], "rotation": 90 }
-							}
-						}
-					]
 				}
 			]
 		},
@@ -267,6 +229,7 @@
 			"name": "snow",
 			"from": [ 0.0, 4.0, 0.0 ],
 			"to": [ 1.0, 5.0, 1.0 ],
+			"renderInEditor": false,
 			"faces": {
 			},
 			"children": [

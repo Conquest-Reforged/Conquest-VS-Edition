@@ -1,20 +1,23 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/origin5,Root/origin6,Root/origin3,Root/origin4,Root/base2,Root/base3,Root/base,Root/origin2",
+		"collapsedPaths": "Root/origin5,Root/origin6,Root/origin3,Root/base,Root/origin4,Root/origin2,Root/base2,Root/base3",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+
 	},
 	"textures": {
+
 	},
 	"elements": [
 		{
 			"name": "Cube3",
 			"from": [ -8.7, -4.9, 0.0 ],
 			"to": [ -7.7, -3.9, 1.0 ],
+			"renderInEditor": false,
 			"rotationOrigin": [ -9.0, -5.0, 0.0 ],
 			"faces": {
 			},
@@ -133,9 +136,8 @@
 							"rotationOrigin": [ 15.0, 2.0, 8.0 ],
 							"faces": {
 								"north": { "texture": "#shingle1", "uv": [ 9.5, 6.0, 15.5, 11.5 ], "rotation": 90 },
-								"east": { "texture": "#shingle1", "uv": [ 0.0, 1.5, 15.5, 7.5 ] },
+								"east": { "texture": "#shingle1", "uv": [ 0.0, 3.0, 15.5, 9.0 ] },
 								"south": { "texture": "#ridge", "uv": [ 10.0, 8.0, 16.0, 13.5 ], "rotation": 90 },
-								"west": { "texture": "#shingle1", "uv": [ 0.5, 8.5, 16.0, 14.5 ], "rotation": 180 },
 								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 15.5, 5.5 ], "rotation": 90 }
 							}
 						},

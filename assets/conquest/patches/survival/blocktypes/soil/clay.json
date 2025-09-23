@@ -1,9 +1,31 @@
 [
+   
     {
+        "file": "game:blocktypes/soil/clay.json",
         "op": "replace",
-        "path": "/textures/all/base",
-        "value": "game:block/soil/{type}clay*",
+        "path": "/textures",
         "side": "server",
-        "file": "game:blocktypes/soil/clay.json"
+        "value": {
+            "all": {
+                "base": "game:block/soil/{type}clay",
+                "tiles": [
+                    { "base": "game:block/soil/{type}clay*" }
+                ],
+                "tilesWidth": 3
+            },
+            "snowed": { "base": "block/plant/grasscoverage/snow/normal" },
+            "specialSecondTexture": {
+                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                "tiles": [
+                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
+                ],
+                "tilesWidthByType": {
+                    "*-none": 1,
+                    "*": 4
+                }
+            
+            }
+        }
     }
+
 ]

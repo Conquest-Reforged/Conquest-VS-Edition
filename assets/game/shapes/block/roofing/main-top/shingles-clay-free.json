@@ -6,13 +6,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"shingle2": [16,16],
-		"ridge": [16,16],
-		"shingle1": [16,16]
+
 	},
 	"textures": {
-		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/clean-clay/ridge",
-		"shingle2": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/clean-clay/shingle2"
+
 	},
 	"elements": [
 		{

@@ -11,8 +11,8 @@
 				"south": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south*" }
 			},
 			"*-snow*": {
-				"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north" },
-				"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south" }
+				"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north*" },
+				"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south*" }
 			}
 		}
 	},

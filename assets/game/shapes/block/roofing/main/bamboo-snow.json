@@ -7,8 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+	
 	},
 	"textures": {
+		
 	},
 	"elements": [
 		{
@@ -28,8 +30,8 @@
 					"children": [
 						{
 							"name": "slantedB",
-							"from": [ -2.94, 0.5, -0.02 ],
-							"to": [ 11.06, 3.5, 16.02 ],
+							"from": [ -2.94, 0.51, -0.02 ],
+							"to": [ 11.06, 3.51, 16.02 ],
 							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
 							"rotationZ": 45.0,
 							"faces": {
@@ -44,7 +46,7 @@
 						{
 							"name": "slantedB2",
 							"from": [ 10.86, 0.5, -0.01 ],
-							"to": [ 22.36, 3.51, 16.01 ],
+							"to": [ 22.36, 3.52, 16.01 ],
 							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
 							"rotationZ": 45.0,
 							"faces": {
@@ -53,7 +55,7 @@
 								"south": { "texture": "#ridge", "uv": [ 1.0, 4.5, 12.5, 7.5 ] },
 								"west": { "texture": "#shingle1", "uv": [ 4.5, 0.0, 7.5, 16.0 ], "rotation": 90 },
 								"up": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 16.0, 11.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 16.0, 11.5 ], "rotation": 270 }
+								"down": { "texture": "#shinglebottom1", "uv": [ 0.0, 0.0, 16.0, 11.5 ], "rotation": 270 }
 							}
 						}
 					]
@@ -72,9 +74,9 @@
 							"to": [ 8.1, 5.0, 16.0 ],
 							"rotationOrigin": [ 4.2, 0.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 11.0, 9.5, 16.0, 13.5 ], "rotation": 90 },
-								"south": { "texture": "#shingle1", "uv": [ 11.0, 10.0, 16.0, 14.0 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 7.5, 0.0, 11.5, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 3.5, 5.0, 7.5 ], "rotation": 270 },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 8.0, 5.0, 12.0 ], "rotation": 270 },
+								"down": { "texture": "#bamboo-side", "uv": [ 7.5, 0.0, 11.5, 16.0 ] }
 							}
 						},
 						{
@@ -83,9 +85,9 @@
 							"to": [ 12.1, 9.0, 16.0 ],
 							"rotationOrigin": [ 8.0, -2.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 7.0, 4.0, 16.0, 8.0 ], "rotation": 90 },
-								"south": { "texture": "#shingle1", "uv": [ 7.0, 3.5, 16.0, 7.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 4.0, 0.0, 8.0, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 12.0, 9.0, 16.0 ], "rotation": 270 },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 0.5, 9.0, 4.5 ], "rotation": 270 },
+								"down": { "texture": "#bamboo-side", "uv": [ 4.0, 0.0, 8.0, 16.0 ] }
 							}
 						},
 						{
@@ -94,10 +96,10 @@
 							"to": [ 16.0, 13.0, 16.0 ],
 							"rotationOrigin": [ 12.4, 0.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 3.0, 0.0, 16.0, 4.0 ], "rotation": 90 },
-								"east": { "texture": "#shingle1", "uv": [ 3.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
-								"south": { "texture": "#shingle1", "uv": [ 3.0, 4.5, 16.0, 8.5 ], "rotation": 90 },
-								"down": { "texture": "#shingle1", "uv": [ 0.0, 0.0, 4.0, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 8.0, 13.0, 12.0 ], "rotation": 270 },
+								"east": { "texture": "#bamboo-side", "uv": [ 0.0, 0.0, 13.0, 16.0 ], "rotation": 270 },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 7.5, 13.0, 11.5 ], "rotation": 270 },
+								"down": { "texture": "#bamboo-side", "uv": [ 0.0, 0.0, 4.0, 16.0 ] }
 							}
 						},
 						{
@@ -106,9 +108,9 @@
 							"to": [ 4.1, 2.0, 16.0 ],
 							"rotationOrigin": [ 4.2, 0.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#shingle1", "uv": [ 15.0, 14.0, 16.0, 16.0 ] },
-								"south": { "texture": "#shingle1", "uv": [ 15.0, 14.0, 16.0, 16.0 ] },
-								"down": { "texture": "#shingle1", "uv": [ 11.5, 0.0, 12.5, 16.0 ] }
+								"north": { "texture": "#bamboo-side", "uv": [ 0.0, 3.5, 1.0, 5.5 ], "rotation": 180 },
+								"south": { "texture": "#bamboo-side", "uv": [ 0.0, 4.0, 1.0, 6.0 ] },
+								"down": { "texture": "#bamboo-side", "uv": [ 11.5, 0.0, 12.5, 16.0 ] }
 							}
 						}
 					]
@@ -117,6 +119,7 @@
 					"name": "snow",
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
+					"renderInEditor": false,
 					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 					"faces": {
 					},

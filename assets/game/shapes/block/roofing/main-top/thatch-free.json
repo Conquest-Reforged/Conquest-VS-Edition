@@ -7,14 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"shingle2": [16,16],
-		"ridge": [16,16],
-		"ends": [16,16]
+
 	},
 	"textures": {
-		"ends": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/ends",
-		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/ridge",
-		"shingle2": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/thatch/shingle2"
+
 	},
 	"elements": [
 		{

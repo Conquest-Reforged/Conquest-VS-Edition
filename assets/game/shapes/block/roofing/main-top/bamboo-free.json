@@ -7,15 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"shingle2": [16,16],
-		"ridge": [16,16],
-		"shinglebottom1": [16,16],
-		"shingle1": [16,16]
+
 	},
 	"textures": {
-		"ridge": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/ridge",
-		"shingle2": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shingle2",
-		"shinglebottom1": "/Users/nstencel/OneDrive - Chart Industries Inc/Documents/4.Vintage Story textures/Clay/shingle/bamboo/shinglebottom1"
+
 	},
 	"elements": [
 		{
