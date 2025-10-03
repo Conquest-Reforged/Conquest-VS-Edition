@@ -5,8 +5,7 @@
         "path": "/textures",
         "side": "server",
         "value": {
-            "transparent": { "base": "block/transparent" },
-            "bowl": { "base": "game:block/clay/bowl" }
+            "bowl": { "base": "game:block/clay/bowl/{color}" }
         }
     },
     {

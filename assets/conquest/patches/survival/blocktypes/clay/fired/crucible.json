@@ -1,0 +1,13 @@
+[
+    {
+        "file": "game:blocktypes/clay/fired/crucible.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "all": {
+                "base": "block/clay/crucible/{color}"
+            }
+        }
+    }
+]

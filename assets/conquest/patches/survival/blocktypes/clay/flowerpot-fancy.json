@@ -1,0 +1,85 @@
+[
+    {
+        "file": "game:blocktypes/clay/flowerpot-fancy.json",
+        "op": "add",
+        "path": "/attributesByType",
+        "side": "server",
+        "value": {
+            "*-amber": {
+                "fillHeight": 0.33
+            },
+            "*-boneash": {
+                "fillHeight": 0.475
+            },
+            "*-celadon": {
+                "fillHeight": 0.45
+            },
+            "*-copper": {
+                "fillHeight": 0.39
+            },
+            "*-earthern": {
+                "fillHeight": 0.3
+            },
+            "*-moss": {
+                "fillHeight": 0.52
+            },
+            "*-ochre": {
+                "fillHeight": 0.52
+            },
+            "*-rutile": {
+                "fillHeight": 0.47
+            },
+            "*-seasalt": {
+                "fillHeight": 0.4
+            },
+            "*-tenmoku": {
+                "fillHeight": 0.47
+            },
+            "*-burnt": {
+                "fillHeight": 0.26
+            },
+            "*": {
+                "fillHeight": 0.375
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/flowerpot-fancy.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": { "base": "game:block/clay/flowerpot/{type}-empty" }
+    },
+    {
+        "file": "game:blocktypes/clay/flowerpot-fancy.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*": {
+                "sides": { "base": "game:block/clay/flowerpot/{type}" },
+                "soil": { "base": "game:block/soil/fertility/medium/fertmedium10" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/flowerpot-fancy.json",
+        "op": "replace",
+        "path": "/attributes",
+        "side": "server",
+        "value": {
+            "sitHeight": 0.75,
+            "beeFeedByType": {
+                "*-empty": false,
+                "*": true
+            },
+            "butterflyFeedByType": {
+                "*-empty": false,
+                "*": true
+            },
+            "plantContainerSize": "small",
+            "filledShape": { "base": "game:block/clay/flowerpot/{type}-full" },
+            "fillHeight": 0.375
+        }
+    }
+]

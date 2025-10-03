@@ -2,49 +2,30 @@
     {
         "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
-        "path": "/attributesByType",
+        "path": "/attributes/mealBlockCode",
         "side": "server",
-        "value": {
+        "value": "game:crock-{color}-fired"
 
-            "crock-burned-*": {
+    },
+    {
+        "file": "game:blocktypes/clay/fired/crock.json",
+        "op": "replace",
+        "path": "/attributes/emptiedBlockCode",
+        "side": "server",
+        "value": "game:crock-{color}-fired"
 
-                "onDisplayTransform": {
-                    "origin": {
-                        "x": 0.5,
-                        "y": 0,
-                        "z": 0.5
-                    },
-                    "scale": 0.9
-                },
-                "shelvable": true,
-                "mealContainer": true,
-                "mealBlockCode": "game:crock-burned-{side}",
-                "servingCapacity": 4,
-                "bowlContents": null,
-                "handleLiquidContainerInteract": true,
-                "handleCookingContainerInteract": true,
-                "emptiedBlockCode": "game:crock-burned-{side}"
-            },
-            "*": {
-
-                "shelvable": true
-            }
-        }
     },
 
     {
         "file": "game:blocktypes/clay/fired/crock.json",
         "op": "replace",
-        "path": "/texturesByType",
+        "path": "/textures",
         "side": "server",
         "value": {
-            "*-raw-*": {
-                "crock": { "base": "game:block/clay/crock/crock-raw" },
-                "label": { "base": "game:block/transparent" }
-            },
-            "*": {
-                "label": { "base": "game:block/clay/crock/label" }
-            }
+            "crock": { "base": "block/clay/crock/{color}" },
+            "label": { "base": "game:block/clay/crock/label" },
+            "seal": { "base": "item/resource/ungraded/sulfur" }
+
         }
     },
     {

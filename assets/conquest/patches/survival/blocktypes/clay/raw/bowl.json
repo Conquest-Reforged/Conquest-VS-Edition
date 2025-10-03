@@ -1,0 +1,35 @@
+[
+    {
+        "file": "game:blocktypes/clay/raw/bowl.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+                "bowl": { "base": "game:block/clay/{color}-raw" }
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/raw/bowl.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "side": "server",
+        "value": {
+            "translation": {
+                "x": -0.9,
+                "y": -0.121,
+                "z": -0.662
+            },
+            "rotation": {
+                "x": -50,
+                "y": 15,
+                "z": -103
+            },
+            "origin": {
+                "x": 0.612,
+                "y": -0.05,
+                "z": 0.45
+            },
+            "scale": 0.66
+        }
+    }
+]

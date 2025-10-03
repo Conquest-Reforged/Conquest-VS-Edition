@@ -1,9 +1,12 @@
 [
     {
         "file": "game:blocktypes/clay/fired/oillamp.json",
-        "op": "remove",
+        "op": "replace",
         "path": "/textures",
-        "side": "server"
+        "side": "server",
+        "value": {
+            "bowl": { "base": "game:block/clay/bowl/{color}" }
+        }
     },
     {
         "file": "game:blocktypes/clay/fired/oillamp.json",
@@ -291,22 +294,22 @@
         "path": "/tpOffHandTransform",
         "side": "server",
         "value": {
-                "translation": {
-                    "x": -0.73,
-                    "y": -0.08,
-                    "z": -0.7
-                },
-                "rotation": {
-                    "x": -50,
-                    "y": 0,
-                    "z": -89
-                },
-                "origin": {
-                    "x": 0.5,
-                    "y": -0.096,
-                    "z": 0.45
-                },
-                "scale": 0.66
-            }
+            "translation": {
+                "x": -0.73,
+                "y": -0.08,
+                "z": -0.7
+            },
+            "rotation": {
+                "x": -50,
+                "y": 0,
+                "z": -89
+            },
+            "origin": {
+                "x": 0.5,
+                "y": -0.096,
+                "z": 0.45
+            },
+            "scale": 0.66
         }
+    }
 ]

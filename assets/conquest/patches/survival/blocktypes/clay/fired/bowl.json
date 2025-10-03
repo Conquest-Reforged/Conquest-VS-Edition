@@ -2,21 +2,10 @@
     {
         "file": "game:blocktypes/clay/fired/bowl.json",
         "op": "replace",
-        "path": "/texturesByType",
+        "path": "/textures",
         "side": "server",
         "value": {
-            "bowl-raw": {
-                "bowl": { "base": "game:block/clay/bowl-raw" }
-            },
-            "bowl-fired": {
-                "bowl": { "base": "game:block/clay/bowl" }
-            },
-            "*-honey": {
-                "content": { "base": "game:block/liquid/honey" }
-            },
-            "*-milk": {
-                "content": { "base": "game:block/food/dairy/milk" }
-            }
+                "bowl": { "base": "game:block/clay/bowl/{color}" }
         }
     },
     {

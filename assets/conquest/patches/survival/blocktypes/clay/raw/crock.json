@@ -1,0 +1,59 @@
+[
+   
+
+    {
+        "file": "game:blocktypes/clay/raw/crock.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "crock": { "base": "block/clay/crock/{color}-raw" },
+            "label": { "base": "game:block/transparent" }
+
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/raw/crock.json",
+        "op": "replace",
+        "path": "/guiTransform",
+        "side": "server",
+        "value": {
+            "rotation": {
+                "x": -22.6,
+                "y": -125,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.28,
+                "z": 0.5
+            },
+            "scale": 2.14
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/raw/crock.json",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "side": "server",
+        "value": {
+            "translation": {
+                "x": -0.56,
+                "y": 0.08,
+                "z": -0.57
+            },
+            "rotation": {
+                "x": -139,
+                "y": -21,
+                "z": -118
+            },
+            "origin": {
+                "x": 0.506,
+                "y": -0.079,
+                "z": 0.48
+            },
+            "scale": 0.81
+        }
+    }
+
+]

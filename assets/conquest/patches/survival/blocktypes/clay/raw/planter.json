@@ -1,0 +1,21 @@
+[
+    {
+        "file": "game:blocktypes/clay/raw/planter.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "game:block/clay/planter/burnt-empty"
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/raw/planter.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+
+            "sides": { "base": "game:block/clay/planter/{color}-raw" }
+        }
+    }
+]

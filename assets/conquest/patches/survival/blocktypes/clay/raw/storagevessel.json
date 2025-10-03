@@ -1,0 +1,24 @@
+[
+    {
+        "file": "game:blocktypes/clay/raw/storagevessel.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+
+             "base": "game:block/clay/storagevessel" 
+        }
+    },
+    {
+        "file": "game:blocktypes/clay/raw/storagevessel.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+
+            "all": { "base": "game:block/clay/vessel/{color}-raw" }
+        }
+    }
+]
+
+   
