@@ -1,0 +1,53 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/ORIGINNorth/OFFSETAN2,Root/ORIGINS,Root/ORIGINNorth/OFFSETBN2,Root/MOVER02342/LeverBase/SmallGearHub2,Root/NORTHMOVER/HousingEND/BigGearHub,Root/MOVER02342/LeverBase/TopRodEnd,Root/group,Root/NORTHMOVER/BaseNorth/45Housing/EndcapE,Root/MOVER02342/LeverBase/BigGearHub2,Root/NORTHMOVER/HousingEND/SmallGearHub,Root/Cube2,Root/MOVER02342/LeverBase/LeverHUB,Root/ORIGINN,Root/MOVER02342/ARMBASE/BaseSocket/EarN",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		
+	},
+	"textures": {
+	
+	},
+	"elements": [
+		{
+			"name": "group",
+			"from": [ -0.3, 0.0, 0.23 ],
+			"to": [ -0.3, 0.0, 0.23 ],
+			"rotationOrigin": [ 11.3767, 12.625, 7.9922 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "post3",
+					"from": [ 7.52, 0.0, 7.0 ],
+					"to": [ 9.02, 16.0, 8.5 ],
+					"rotationOrigin": [ 7.9893, 8.0, 7.8232 ],
+					"faces": {
+						"north": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 16.0 ], "autoUv": false },
+						"east": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 16.0 ], "autoUv": false },
+						"south": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 16.0 ], "autoUv": false },
+						"west": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 16.0 ], "autoUv": false },
+						"up": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#wicker", "uv": [ 7.0, 0.0, 8.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "top2",
+					"from": [ 7.8, 16.0, 7.22 ],
+					"to": [ 8.8, 18.5, 8.22 ],
+					"rotationOrigin": [ 7.9893, 17.25, 7.779 ],
+					"faces": {
+						"north": { "texture": "#top", "uv": [ 7.5, 4.5, 9.0, 7.0 ], "autoUv": false },
+						"east": { "texture": "#top", "uv": [ 7.5, 4.5, 9.0, 7.0 ], "autoUv": false },
+						"south": { "texture": "#top", "uv": [ 7.0, 4.5, 8.5, 7.0 ], "autoUv": false },
+						"west": { "texture": "#top", "uv": [ 7.5, 4.5, 9.0, 7.0 ], "autoUv": false },
+						"up": { "texture": "#top", "uv": [ 7.5, 3.5, 9.0, 5.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}
