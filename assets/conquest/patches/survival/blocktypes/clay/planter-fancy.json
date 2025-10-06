@@ -63,7 +63,7 @@
         "value":  { "base": "game:block/clay/planter/{type}-empty" }
     },
     {
-        "file": "game:blocktypes/clay/planter.json",
+        "file": "game:blocktypes/clay/planter-fancy.json",
         "op": "replace",
         "path": "/texturesByType",
         "side": "server",
