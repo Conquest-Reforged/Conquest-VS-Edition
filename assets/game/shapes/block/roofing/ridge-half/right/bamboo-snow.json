@@ -56,7 +56,7 @@
 							}
 						},
 						{
-							"name": "sno",
+							"name": "snow",
 							"from": [ -1.14, 3.0, -0.01 ],
 							"to": [ 11.36, 5.0, 16.01 ],
 							"rotationOrigin": [ 3.0, 1.7, 8.0 ],
@@ -90,12 +90,33 @@
 							"to": [ 9.36, 9.9, 16.03 ],
 							"rotationOrigin": [ 3.0, 4.7, 8.0 ],
 							"faces": {
-								"north": { "texture": "#normal1", "uv": [ 8.5, 0.0, 11.5, 2.0 ] },
-								"east": { "texture": "#normal1", "uv": [ 10.0, 0.0, 12.0, 16.0 ], "rotation": 90 },
-								"south": { "texture": "#normal1", "uv": [ 8.0, 0.0, 11.0, 2.0 ] },
-								"west": { "texture": "#normal1", "uv": [ 10.0, 0.0, 12.0, 16.0 ], "rotation": 90 },
-								"up": { "texture": "#normal1", "uv": [ 8.0, 0.0, 11.0, 16.0 ] },
-								"down": { "texture": "#normal1", "uv": [ 7.5, 0.0, 10.5, 16.0 ], "rotation": 180 }
+								"north": {
+									"texture": "#snow",
+									"uv": [ 8.5, 0.0, 11.5, 2.0 ]
+								},
+								"east": {
+									"texture": "#snow",
+									"uv": [ 10.0, 0.0, 12.0, 16.0 ],
+									"rotation": 90
+								},
+								"south": {
+									"texture": "#snow",
+									"uv": [ 8.0, 0.0, 11.0, 2.0 ]
+								},
+								"west": {
+									"texture": "#snow",
+									"uv": [ 10.0, 0.0, 12.0, 16.0 ],
+									"rotation": 90
+								},
+								"up": {
+									"texture": "#snow",
+									"uv": [ 8.0, 0.0, 11.0, 16.0 ]
+								},
+								"down": {
+									"texture": "#snow",
+									"uv": [ 7.5, 0.0, 10.5, 16.0 ],
+									"rotation": 180
+								}
 							}
 						}
 					]

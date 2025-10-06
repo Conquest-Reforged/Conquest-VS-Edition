@@ -9,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"reedchest": "game:block/reed/basket/reedchest"
 	},
 	"elements": [
 		{
@@ -22,9 +21,10 @@
 			"children": [
 				{
 					"name": "lid",
-					"from": [ 0.0, 0.0, 0.0 ],
-					"to": [ 0.0, 0.0, 0.0 ],
-					"rotationOrigin": [ 6.3462, 1.0, -4.75 ],
+					"from": [ 0.0, -8.9, 13.0 ],
+					"to": [ 0.0, -8.9, 13.0 ],
+					"rotationOrigin": [ 6.3462, -7.9, 8.25 ],
+					"rotationX": -84.5,
 					"faces": {
 					},
 					"children": [
@@ -181,28 +181,6 @@
 				}
 			]
 		}
-	],
-	"animations": [
-		{
-			"name": "lidopen",
-			"code": "lidopen",
-			"quantityframes": 30,
-			"onActivityStopped": "Rewind",
-			"onAnimationEnd": "Hold",
-			"keyframes": [
-				{
-					"frame": 0,
-					"elements": {
-						"lid": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
-					}
-				},
-				{
-					"frame": 29,
-					"elements": {
-						"lid": { "offsetX": 0.0, "offsetY": -13.7, "offsetZ": -7.6, "rotationX": -84.5, "rotationY": 0.0, "rotationZ": 0.0 }
-					}
-				}
-			]
-		}
 	]
+
 }

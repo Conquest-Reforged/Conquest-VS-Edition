@@ -17,9 +17,8 @@
             "aged2-sidesSN": { "base": "game:block/reed/basket/aged-northsouth" },
             "aged2-lid": { "base": "game:block/reed/basket/aged-lid" },
 
-            "vine-sidesWE": { "base": "game:block/vines/basket/normal-westeast" },
-            "vine-sidesSN": { "base": "game:block/vines/basket/normal-northsouth" },
-            "vine-lid": { "base": "game:block/vines/basket/normal-lid" }
+            "vine-reedchest": { "base": "game:block/vines/basket/papyruschest" }
+        
         }
     }
 ]
