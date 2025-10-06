@@ -7,10 +7,8 @@
 	"textureWidth": 32,
 	"textureHeight": 32,
 	"textureSizes": {
-
 	},
 	"textures": {
-	
 	},
 	"elements": [
 		{
@@ -25,6 +23,7 @@
 					"name": "lid",
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
+					"renderInEditor": false,
 					"rotationOrigin": [ 6.3462, 1.0, -4.75 ],
 					"faces": {
 					},
@@ -176,6 +175,12 @@
 						"east": { "texture": "#reedchest", "uv": [ 1.5, 8.5, 10.5, 9.5 ] },
 						"south": { "texture": "#reedchest", "uv": [ 0.5, 8.5, 12.0, 9.5 ], "autoUv": false },
 						"west": { "texture": "#reedchest", "uv": [ 1.5, 8.5, 10.5, 9.5 ], "autoUv": false },
+						"up": {
+							"texture": "#reedchest",
+							"uv": [ 23.0, 17.5, 32.0, 29.0 ],
+							"rotation": 90,
+							"windMode": [ -1, -1, -1, -1 ]
+						},
 						"down": { "texture": "#reedchest", "uv": [ 23.0, 18.5, 32.0, 30.0 ], "rotation": 270, "autoUv": false }
 					}
 				}

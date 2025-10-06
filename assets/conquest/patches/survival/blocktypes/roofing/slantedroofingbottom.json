@@ -31,35 +31,35 @@
                 "rotateY": 0
             },
             "@.*-(black|cream|red|tan)clay-north-.*": {
-                "base": "block/roofing/main-bottom/shingles-clay-{cover}",
+                "base": "block/roofing/main-bottom/shingle-clay-{cover}",
                 "rotateY": 90
             },
             "@.*-(black|cream|red|tan)clay-west-.*": {
-                "base": "block/roofing/main-bottom/shingles-clay-{cover}",
+                "base": "block/roofing/main-bottom/shingle-clay-{cover}",
                 "rotateY": 180
             },
             "@.*-(black|cream|red|tan)clay-south-.*": {
-                "base": "block/roofing/main-bottom/shingles-clay-{cover}",
+                "base": "block/roofing/main-bottom/shingle-clay-{cover}",
                 "rotateY": 270
             },
             "@.*-(black|cream|red|tan)clay-east-.*": {
-                "base": "block/roofing/main-bottom/shingles-clay-{cover}",
+                "base": "block/roofing/main-bottom/shingle-clay-{cover}",
                 "rotateY": 0
             },
             "@.*-(brown|fire|gray|orange)clay-north-.*": {
-                "base": "block/roofing/main-bottom/shingles-slate-{cover}",
+                "base": "block/roofing/main-bottom/shingle-slate-{cover}",
                 "rotateY": 90
             },
             "@.*-(brown|fire|gray|orange)clay-west-.*": {
-                "base": "block/roofing/main-bottom/shingles-slate-{cover}",
+                "base": "block/roofing/main-bottom/shingle-slate-{cover}",
                 "rotateY": 180
             },
             "@.*-(brown|fire|gray|orange)clay-south-.*": {
-                "base": "block/roofing/main-bottom/shingles-slate-{cover}",
+                "base": "block/roofing/main-bottom/shingle-slate-{cover}",
                 "rotateY": 270
             },
             "@.*-(brown|fire|gray|orange)clay-east-.*": {
-                "base": "block/roofing/main-bottom/shingles-slate-{cover}",
+                "base": "block/roofing/main-bottom/shingle-slate-{cover}",
                 "rotateY": 0
             },
 
