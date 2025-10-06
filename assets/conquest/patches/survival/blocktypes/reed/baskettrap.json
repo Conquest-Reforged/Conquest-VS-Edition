@@ -1,0 +1,33 @@
+[
+    {
+        "file": "game:blocktypes/reed/baskettrap.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*-reed": {
+                "reedchest": {
+                    "base": "game:block/reed/basket/reedchest"
+                },
+                "wood": { "base": "game:block/wood/debarked/oak" },
+                "rope": { "base": "game:item/resource/rope" }
+            },
+            "*-papyrus": {
+                "reedchest": {
+                    "base": "game:block/reed/basket/papyruschest"
+                },
+                "wood": { "base": "game:block/wood/debarked/oak" },
+                "rope": { "base": "game:item/resource/rope" }
+            },
+            "*": {
+                "sidesWE": { "base": "block/plant/papyrus/basket/normal-westeast" },
+                "sidesSN": { "base": "block/plant/papyrus/basket/normal-northsouth" },
+                "lid": { "base": "block/plant/papyrus/basket/normal-lid" }
+            }
+
+
+        }
+    }
+
+
+]

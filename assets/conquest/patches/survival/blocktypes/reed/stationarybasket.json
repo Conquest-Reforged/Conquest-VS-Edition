@@ -7,6 +7,7 @@
         "value": {
 
             "reed-reedchest": { "base": "game:block/reed/basket/reedchest" },
+            "papyrus-reedchest": { "base": "game:block/reed/basket/papyruschest" },
 
             "aged-sidesWE": { "base": "game:block/reed/basket/aged-westeast" },
             "aged-sidesSN": { "base": "game:block/reed/basket/aged-northsouth" },
