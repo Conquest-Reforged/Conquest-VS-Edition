@@ -1,0 +1,60 @@
+[
+    {
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "base": "game:block/plant/leaves/normal_v",
+            "rotateY": 10,
+            "alternates": [
+                { "rotateY": 61 },
+                { "rotateY": 113 },
+                { "rotateY": 164 },
+                { "rotateY": 216 },
+                { "rotateY": 267 },
+                { "rotateY": 319 }
+            ]
+        }
+    },
+    {
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/lod0Shape",
+        "side": "server",
+        "value": {
+            "base": "game:block/plant/leaves/normal_v-lod0",
+            "rotateY": 10,
+            "alternates": [
+                { "rotateY": 61 },
+                { "rotateY": 113 },
+                { "rotateY": 164 },
+                { "rotateY": 216 },
+                { "rotateY": 267 },
+                { "rotateY": 319 }
+            ]
+        }
+    },
+    {
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/shapeInventory",
+        "side": "server",
+        "value": {
+            "base": "game:block/plant/leaves/normal_v-lod0"
+
+        }
+    },
+    {
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/seasonColorMapByType",
+        "side": "server",
+        "value": {
+            "*-brachychitongregorii": "None",
+            "*-eucalyptuscamaldulensis": "None",
+            "*": "seasonalFoliage"
+        }
+
+    }
+]

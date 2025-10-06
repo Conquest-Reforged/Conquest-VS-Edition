@@ -1,0 +1,14 @@
+[
+    {
+        "file": "sortablestorage:blocktypes/wood/chestsortable-trunk.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "normal-generic-chest": { "base": "game:block/wood/trunk/chest" }
+        }
+    }
+]
+
+
+
