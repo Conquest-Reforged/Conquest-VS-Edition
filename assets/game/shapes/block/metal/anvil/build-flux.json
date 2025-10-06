@@ -7,10 +7,10 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"2": [16,16]
+
 	},
 	"textures": {
-
+		"chalk2": "game:block/stone/rock/chalk/1"
 	},
 	"elements": [
 		{
