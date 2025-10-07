@@ -1,30 +1,16 @@
-[
-	{
-		"file": "game:shapes/item/food/fruit/mango.json",
-		"op": "replace",
-		"path": "/textureWidth",
-		"value": 8
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
 	},
-	{
-		"file": "game:shapes/item/food/fruit/mango.json",
-		"op": "replace",
-		"path": "/textureHeight",
-		"value": 8
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
 	},
-	{
-		"file": "game:shapes/item/food/fruit/mango.json",
-		"op": "replace",
-		"path": "/textures",
-		"value": {
-			"mango": "game:item/food/fruit/mango"
-		}
+	"textures": {
+		"mango": "game:item/food/fruit/mango"
 	},
-	{
-		"file": "game:shapes/item/food/fruit/mango.json",
-		"op": "replace",
-		"path": "/elements",
-		"value": [
-
+		"elements": [
 			{
 				"name": "origin",
 				"from": [ 8.0, 0.0, 8.0 ],
@@ -201,4 +187,3 @@
 			}
 		]
 	}
-]
