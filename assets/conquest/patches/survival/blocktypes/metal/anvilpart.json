@@ -7,7 +7,7 @@
 		"side": "server",
 		"value": {
 			"metal": { "base": "game:block/metal/anvil/{metal}" },
-			"chalk2": { "base": "game:block/stone/rock/conquest/chalk/1" }
+			"chalk2": { "base": "game:block/stone/rock/conquest/chalk/sides/1" }
 		}
 	}
 ]
