@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/base,Root/legs,Root/stone",
+		"collapsedPaths": "Root/legs,Root/base",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -170,10 +170,6 @@
 					"renderPass": 1,
 					"rotationOrigin": [ 8.0, 14.8, 8.0 ],
 					"faces": {
-						"north": { "texture": "#top", "uv": [ 0.0, 0.0, 8.0, 0.0 ], "autoUv": false },
-						"east": { "texture": "#top", "uv": [ 0.0, 0.0, 8.0, 0.0 ], "autoUv": false },
-						"south": { "texture": "#top", "uv": [ 0.0, 0.0, 8.0, 0.0 ], "autoUv": false },
-						"west": { "texture": "#top", "uv": [ 0.0, 0.0, 8.0, 0.0 ], "autoUv": false },
 						"up": { "texture": "#top", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
 					}
 				},

@@ -30,7 +30,7 @@
                     ]
                 }
             ],
-            "@.*-(cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers)": [
+            "@.*-(cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [

@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/InnerPannel,Root/aceesories,Root/frame/frame",
+		"collapsedPaths": "Root/frame/InnerPannel,Root/aceesories,Root/door_frame/InnerPannel,Root/door_frame/frame,Root/frame,Root/frame/frame",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -9,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-
 	},
 	"elements": [
 		{
@@ -106,12 +105,7 @@
 							"to": [ 16.01, 28.51, 26.99 ],
 							"rotationOrigin": [ 1.01, 16.0, 32.25 ],
 							"faces": {
-								"north": { "texture": "#solid", "uv": [ 16.0, 0.02, 32.0, 6.52 ], "autoUv": false },
-								"east": { "texture": "#solid", "uv": [ 22.0, 0.0, 14.0, 31.98 ], "autoUv": false },
-								"south": { "texture": "#solid", "uv": [ 32.0, 0.0, 16.0, 6.5 ], "autoUv": false },
-								"west": { "texture": "#solid", "uv": [ 22.0, 0.0, 24.0, 31.98 ], "autoUv": false },
-								"up": { "texture": "#solid", "uv": [ 16.0, 1.5, 0.02, 3.5 ], "autoUv": false },
-								"down": { "texture": "#solid", "uv": [ 0.0, 0.0, 15.98, 2.0 ], "autoUv": false }
+								"north": { "texture": "#solid", "uv": [ 16.0, 0.02, 32.0, 6.52 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						},
 						{
@@ -120,12 +114,7 @@
 							"to": [ 16.01, 10.51, 26.99 ],
 							"rotationOrigin": [ 1.01, 16.0, 32.25 ],
 							"faces": {
-								"north": { "texture": "#solid", "uv": [ 16.0, 22.02, 32.0, 28.52 ], "autoUv": false },
-								"east": { "texture": "#solid", "uv": [ 22.0, 0.0, 14.0, 31.98 ], "autoUv": false },
-								"south": { "texture": "#solid", "uv": [ 32.0, 0.0, 16.0, 6.5 ], "autoUv": false },
-								"west": { "texture": "#solid", "uv": [ 22.0, 0.0, 24.0, 31.98 ], "autoUv": false },
-								"up": { "texture": "#solid", "uv": [ 16.0, 1.5, 0.02, 3.5 ], "autoUv": false },
-								"down": { "texture": "#solid", "uv": [ 0.0, 0.0, 15.98, 2.0 ], "autoUv": false }
+								"north": { "texture": "#solid", "uv": [ 16.0, 22.02, 32.0, 28.52 ], "autoUv": false }
 							}
 						},
 						{
@@ -170,28 +159,20 @@
 							"name": "handle11",
 							"from": [ 1.5, 12.5, 26.8 ],
 							"to": [ 5.0, 16.0, 26.8 ],
-							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
 							"renderPass": 2,
+							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
 							"faces": {
-								"north": {
-									"texture": "#solid",
-									"uv": [ 19.0, 10.5, 22.5, 14.0 ],
-									"autoUv": false
-								}
+								"north": { "texture": "#solid", "uv": [ 19.0, 10.5, 22.5, 14.0 ], "autoUv": false }
 							}
 						},
 						{
 							"name": "handle22",
 							"from": [ 3.25, 15.0, 26.175 ],
 							"to": [ 3.25, 16.5, 27.175 ],
-							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
 							"renderPass": 2,
+							"rotationOrigin": [ 9.5, -0.5, 28.075 ],
 							"faces": {
-								"west": {
-									"texture": "#solid",
-									"uv": [ 20.5, 11.0, 21.5, 9.5 ],
-									"autoUv": false
-								}
+								"west": { "texture": "#solid", "uv": [ 20.5, 11.0, 21.5, 9.5 ], "autoUv": false }
 							}
 						},
 						{
@@ -223,28 +204,20 @@
 							"name": "handle25",
 							"from": [ 1.5, 12.5, 29.3 ],
 							"to": [ 5.0, 16.0, 29.3 ],
-							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
 							"renderPass": 2,
+							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
 							"faces": {
-								"north": {
-									"texture": "#solid",
-									"uv": [ 19.0, 10.5, 22.5, 14.0 ],
-									"autoUv": false
-								}
+								"north": { "texture": "#solid", "uv": [ 19.0, 10.5, 22.5, 14.0 ], "autoUv": false }
 							}
 						},
 						{
 							"name": "handle36",
 							"from": [ 3.25, 15.0, 28.675 ],
 							"to": [ 3.25, 16.5, 29.675 ],
-							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
 							"renderPass": 2,
+							"rotationOrigin": [ 9.5, -0.5, 30.575 ],
 							"faces": {
-								"west": {
-									"texture": "#solid",
-									"uv": [ 20.5, 11.0, 21.5, 9.5 ],
-									"autoUv": false
-								}
+								"west": { "texture": "#solid", "uv": [ 20.5, 11.0, 21.5, 9.5 ], "autoUv": false }
 							}
 						},
 						{
