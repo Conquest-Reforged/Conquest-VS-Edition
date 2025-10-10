@@ -1,63 +1,81 @@
 [
-	{
-		"file": "game:blocktypes/plant/tallfern.json",
-		"op": "replace",
-		"path": "/shape",
-		"side": "server",
-		"value": { "base": "game:block/plant/fern/tallfern/smallfern_a" }
+    {
+        "file": "game:blocktypes/plant/tallfern.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": { "base": "game:block/plant/fern/tallfern/smallfern_a" }
 
-	},
-	{
-		"file": "game:blocktypes/plant/tallfern.json",
-		"op": "replace",
-		"path": "/textures",
-		"side": "server",
-		"value": {
-			"1": {
-				"base": "game:block/plant/fern/tallfern/1",
-				"alternates": [
-					{ "base": "game:block/plant/fern/tallfern/2" },
-					{ "base": "game:block/plant/fern/tallfern/3" },
-					{ "base": "game:block/plant/fern/tallfern/4" }
-				]
-			},
-			"2": {
-				"base": "game:block/plant/fern/tallfern/2",
-				"alternates": [
-					{ "base": "game:block/plant/fern/tallfern/3" },
-					{ "base": "game:block/plant/fern/tallfern/4" },
-					{ "base": "game:block/plant/fern/tallfern/1" }
-				]
-			},
-			"5": {
-				"base": "game:block/plant/fern/tallfern/5",
-				"alternates": [
-					{ "base": "game:block/plant/fern/tallfern/6" },
-					{ "base": "game:block/plant/fern/tallfern/7" },
-					{ "base": "game:block/plant/fern/tallfern/8" },
-					{ "base": "game:block/plant/fern/tallfern/9" },
-					{ "base": "game:block/plant/fern/tallfern/10" },
-					{ "base": "game:block/plant/fern/tallfern/11" }
-				]
-			},
-			"9": {
-				"base": "game:block/plant/fern/tallfern/9",
-				"alternates": [
-					{ "base": "game:block/plant/fern/tallfern/10" },
-					{ "base": "game:block/plant/fern/tallfern/11" },
-					{ "base": "game:block/plant/fern/tallfern/5" },
-					{ "base": "game:block/plant/fern/tallfern/6" },
-					{ "base": "game:block/plant/fern/tallfern/7" },
-					{ "base": "game:block/plant/fern/tallfern/8" }
-				]
-			}
-		}
+    },
 
-	}
+    {
+        "file": "game:blocktypes/plant/tallfern.json",
+        "op": "replace",
+        "path": "/attributes",
+        "side": "server",
+        "value": {
+            "plantContainable": {
+                "smallContainer": {
+                    "shape": { "base": "block/plant/fern/tallfern/smallfern_a" },
+                    "texture": { "base": "block/plant/fern/tallfern/*" }
+                },
+                "largeContainer": {
+                    "shape": { "base": "block/plant/fern/tallfern/smallfern_a" },
+                    "texture": { "base": "block/plant/fern/potted/tallfern*" }
+                }
+            },
+            "handbook": {
+                "groupBy": [ "tallgrass-*" ]
+            }
+        }
+    },
+
+    {
+        "file": "game:blocktypes/plant/tallfern.json",
+        "op": "replace",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "1": {
+                "base": "game:block/plant/fern/tallfern/1",
+                "alternates": [
+                    { "base": "game:block/plant/fern/tallfern/2" },
+                    { "base": "game:block/plant/fern/tallfern/3" },
+                    { "base": "game:block/plant/fern/tallfern/4" }
+                ]
+            },
+            "2": {
+                "base": "game:block/plant/fern/tallfern/2",
+                "alternates": [
+                    { "base": "game:block/plant/fern/tallfern/3" },
+                    { "base": "game:block/plant/fern/tallfern/4" },
+                    { "base": "game:block/plant/fern/tallfern/1" }
+                ]
+            },
+            "5": {
+                "base": "game:block/plant/fern/tallfern/5",
+                "alternates": [
+                    { "base": "game:block/plant/fern/tallfern/6" },
+                    { "base": "game:block/plant/fern/tallfern/7" },
+                    { "base": "game:block/plant/fern/tallfern/8" },
+                    { "base": "game:block/plant/fern/tallfern/9" },
+                    { "base": "game:block/plant/fern/tallfern/10" },
+                    { "base": "game:block/plant/fern/tallfern/11" }
+                ]
+            },
+            "9": {
+                "base": "game:block/plant/fern/tallfern/9",
+                "alternates": [
+                    { "base": "game:block/plant/fern/tallfern/10" },
+                    { "base": "game:block/plant/fern/tallfern/11" },
+                    { "base": "game:block/plant/fern/tallfern/5" },
+                    { "base": "game:block/plant/fern/tallfern/6" },
+                    { "base": "game:block/plant/fern/tallfern/7" },
+                    { "base": "game:block/plant/fern/tallfern/8" }
+                ]
+            }
+        }
+
+    }
 
 ]
-
-
-
-
-	

@@ -3,6 +3,13 @@
     {
         "file": "game:blocktypes/clay/fired/planter.json",
         "op": "replace",
+        "path": "/attributes/fillHeight",
+        "side": "server",
+        "value": 0.6
+    },
+    {
+        "file": "game:blocktypes/clay/fired/planter.json",
+        "op": "replace",
         "path": "/attributes/filledShape",
         "side": "server",
         "value": { "base": "game:block/clay/planter/burnt-full" }

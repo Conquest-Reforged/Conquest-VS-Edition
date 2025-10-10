@@ -394,7 +394,7 @@
 			"renderPass": 1,
 			"rotationOrigin": [ 1.0, 7.7, 1.0 ],
 			"faces": {
-				"up": { "texture": "#soil", "uv": [ 2.5, -0.5, 10.5, 7.5 ], "autoUv": false }
+				"up": { "texture": "#soil", "uv": [ 5.5, 2.5, 13.5, 10.5 ], "autoUv": false }
 			}
 		},
 		{

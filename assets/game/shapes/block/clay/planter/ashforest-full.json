@@ -321,12 +321,7 @@
 			"to": [ 11.0, 12.8, 11.0 ],
 			"rotationOrigin": [ 0.5, -1.3, -2.0 ],
 			"faces": {
-				"north": { "texture": "#soil", "uv": [ 2.0, 1.0, 8.0, 1.5 ] },
-				"east": { "texture": "#soil", "uv": [ 2.0, 1.0, 8.0, 1.5 ] },
-				"south": { "texture": "#soil", "uv": [ 2.0, 1.0, 8.0, 1.5 ] },
-				"west": { "texture": "#soil", "uv": [ 7.0, 1.0, 13.0, 1.5 ] },
-				"up": { "texture": "#soil", "uv": [ 2.5, 4.0, 8.5, 10.0 ], "rotation": 90 },
-				"down": { "texture": "#soil", "uv": [ 5.0, 5.0, 11.0, 11.0 ] }
+				"up": { "texture": "#soil", "uv": [ 2.5, 4.0, 8.5, 10.0 ], "rotation": 90 }
 			}
 		}
 	]}

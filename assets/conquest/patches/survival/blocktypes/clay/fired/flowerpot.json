@@ -19,7 +19,7 @@
         "op": "replace",
         "path": "/attributes/fillHeight",
         "side": "server",
-        "value": 0.26
+        "value": 0.31
     },
     {
         "file": "game:blocktypes/clay/fired/flowerpot.json",

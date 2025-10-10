@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/sides2,Root/topp,Root/top1,Root/top2,Root/top3,Root/sides,Root/planter/group",
+		"collapsedPaths": "Root/topp,Root/top1,Root/top2,Root/top3,Root/sides,Root/planter/group,Root/sides2",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -297,12 +297,7 @@
 			"to": [ 12.5, 7.6, 12.5 ],
 			"renderPass": 1,
 			"faces": {
-				"north": { "texture": "#soil", "uv": [ 3.0, 5.0, 13.0, 5.5 ] },
-				"east": { "texture": "#soil", "uv": [ 12.5, 4.5, 13.5, 5.5 ], "autoUv": false },
-				"south": { "texture": "#soil", "uv": [ 2.5, 9.5, 13.5, 10.5 ], "autoUv": false },
-				"west": { "texture": "#soil", "uv": [ 2.5, 4.5, 3.5, 5.5 ], "autoUv": false },
-				"up": { "texture": "#soil", "uv": [ 5.5, 0.5, 15.5, 10.5 ] },
-				"down": { "texture": "#soil", "uv": [ 2.5, 4.5, 13.5, 5.5 ], "autoUv": false }
+				"up": { "texture": "#soil", "uv": [ 5.5, 0.5, 15.5, 10.5 ] }
 			}
 		}
 	]}

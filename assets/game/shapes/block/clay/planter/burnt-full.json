@@ -91,18 +91,13 @@
 				},
 				{
 					"name": "soil",
-					"from": [ 3.1, 9.0, 3.1 ],
-					"to": [ 13.1, 9.0, 13.1 ],
+					"from": [ 3.1, 9.6, 3.1 ],
+					"to": [ 13.1, 9.6, 13.1 ],
 					"shade": false,
 					"renderPass": 2,
-					"rotationOrigin": [ 3.1, 9.0, 3.1 ],
+					"rotationOrigin": [ 3.1, 9.6, 3.1 ],
 					"faces": {
-						"north": { "texture": "#soil", "uv": [ 0.0, 0.0, 10.0, 0.5 ] },
-						"east": { "texture": "#soil", "uv": [ 0.0, 0.0, 10.0, 0.5 ] },
-						"south": { "texture": "#soil", "uv": [ 0.0, 0.0, 10.0, 0.5 ] },
-						"west": { "texture": "#soil", "uv": [ 0.0, 0.0, 10.0, 0.5 ] },
-						"up": { "texture": "#soil", "uv": [ 5.0, -0.5, 15.0, 9.5 ] },
-						"down": { "texture": "#soil", "uv": [ 3.0, 0.5, 13.0, 10.5 ] }
+						"up": { "texture": "#soil", "uv": [ 8.5, 2.5, 18.5, 12.5 ] }
 					}
 				}
 			]

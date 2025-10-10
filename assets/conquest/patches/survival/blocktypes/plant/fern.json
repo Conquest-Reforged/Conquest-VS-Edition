@@ -18,8 +18,10 @@
             "disappearOnSoilRemoved": true,
             "plantContainable": {
                 "smallContainer": {
-                    "shape": { "base": "game:block/plant/fern/{type}/smallfern_a" }
+                    "shape": { "base": "game:block/plant/fern/{type}/smallfern_a" },
+                    "texture": { "base": "block/plant/fern/potted/{type}*" }
                 },
+
                 "largeContainer": {
                     "shape": { "base": "game:block/plant/fern/{type}/smallfern_a" }
                 }
@@ -292,4 +294,3 @@
         }
     }
 ]
-
