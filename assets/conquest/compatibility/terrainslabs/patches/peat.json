@@ -1,0 +1,35 @@
+[
+  {
+    "file": "terrainslabs:blocktypes/peat.json",
+    "op": "replace",
+    "path": "/textures",
+        "value": {
+            "horizontals": {
+                "base": "game:block/soil/peat/peattop1",
+                "tiles": [
+                    { "base": "game:block/soil/peat/peattop*" }
+                ],
+                "tilesWidth": 2
+            },
+            "verticals": {
+                "base": "game:block/soil/peat/peatside1",
+                "tiles": [
+                    { "base": "game:block/soil/peat/peatside*" }
+                ],
+                "tilesWidth": 2
+            },
+            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
+            "specialSecondTexture": {
+                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                "tiles": [
+                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
+                ],
+                "tilesWidthByType": {
+                    "*-none": 1,
+                    "*": 4
+                }
+            }
+        },
+    "side": "server"
+  }
+]

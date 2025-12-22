@@ -1,0 +1,17 @@
+[
+  {
+    "file": "terrainslabs:blocktypes/forestfloor.json",
+    "op": "replace",
+    "path": "/textures",
+        "value": {
+            "up": { "base": "game:block/soil/forest/forestsoil*" },
+            "all": { "base": "game:block/soil/forest/side*" },
+            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
+            "specialSecondTextureByType": {
+                "*-0": { "base": "game:block/plant/grasscoverage/none" },
+                "*": { "base": "game:block/soil/forest/forestoverlay{grass}" }
+            }
+        },
+    "side": "server"
+  }
+]
