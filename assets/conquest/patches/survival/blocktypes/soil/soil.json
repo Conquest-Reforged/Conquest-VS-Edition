@@ -14,7 +14,7 @@
             },
 
             "snowed": {
-                "base": "game:block/plant/grasscoverage/snowed/normal"
+                "base": "game:block/plant/grasscoverage/snow/normal"
             },
             "specialSecondTexture": {
                 "base": "game:block/plant/grasscoverage/{grasscoverage}/1",

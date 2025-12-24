@@ -19,7 +19,9 @@
                 ],
                 "tilesWidth": 2
             },
-            "snowed": { "base": "game:block/plant/grasscoverage/snow/normal" },
+            "snowed": {
+                "base": "game:block/plant/grasscoverage/snow/normal"
+            },
             "specialSecondTexture": {
                 "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
                 "tiles": [
