@@ -9,7 +9,7 @@
         "op": "add",
         "path": "/texturesByType",
         "value": {
-            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|sulfur|tuff|whitemarble)-.*": {
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-.*": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/*"
                 }
