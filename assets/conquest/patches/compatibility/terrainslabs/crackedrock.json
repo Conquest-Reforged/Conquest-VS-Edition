@@ -98,7 +98,7 @@
                     "tilesWidth": 8
                 }
             },
-            "@.*-(gneiss|limestone_pale|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)": {
+            "@.*-(gneiss|limestone_icy_snow_covered|limestone_pale|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)": {
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [
@@ -242,7 +242,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(limestone_moss_covered|limestone_icy_snow_covered)": {
+            "@.*-(limestone_moss_covered)": {
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [

@@ -176,7 +176,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(limestone_moss_covered|limestone_icy_snow_covered)": {
+            "@.*-(limestone_moss_covered)": {
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "tiles": [
@@ -252,6 +252,25 @@
                     "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
                     "tiles": [
                         { "base": "conquestgeology:block/stone/rock/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 8
+                }
+            },
+            "@.*-(limestone_icy_snow_covered)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestgeology:block/stone/rock/{rock}/overlays/1"
+                    ],
+                    "tiles": [
+                        { "base": "conquestgeology:block/stone/rock/{rock}/sides/*" }
                     ],
                     "tilesWidth": 8
                 }
