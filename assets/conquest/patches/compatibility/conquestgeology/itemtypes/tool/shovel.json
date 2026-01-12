@@ -1,0 +1,30 @@
+[
+  {
+    "file": "conquestgeology:itemtypes/tool/shovel.json",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "shovel-dacite": {
+        "material": {
+          "base": "block/stone/rock/dacite/sides/1"
+        }
+      },
+      "shovel-rhyolite": {
+        "material": {
+          "base": "block/stone/rock/rhyolite/sides/1"
+        }
+      },
+      "shovel-granite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        }
+      },
+      "shovel-quartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

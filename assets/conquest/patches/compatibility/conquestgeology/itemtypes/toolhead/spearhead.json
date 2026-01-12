@@ -1,0 +1,54 @@
+[
+  {
+    "file": "conquestgeology:itemtypes/toolhead/spearhead.json",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "spearhead-dacite": {
+        "material": {
+          "base": "block/stone/rock/{material}/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      },
+      "spearhead-rhyolite": {
+        "material": {
+          "base": "block/stone/rock/{material}/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      },
+      "spearhead-granite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      },
+      "spearhead-quartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

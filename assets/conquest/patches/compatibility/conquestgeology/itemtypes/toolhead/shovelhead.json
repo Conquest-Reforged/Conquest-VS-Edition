@@ -1,0 +1,43 @@
+[
+  {
+    "file": "conquestgeology:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "@shovelhead-(dacite|rhyolite)": {
+        "material": {
+          "base": "block/stone/rock/{material}/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      },
+      "@shovelhead-(granite_red)": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      },
+      "@shovelhead-(quartzite)": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        },
+        "string": {
+          "base": "game:block/transparent"
+        },
+        "handle": {
+          "base": "game:block/transparent"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "conquestgeology:itemtypes/tool/axe-stone.json",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "axe-dacite": {
+        "material": {
+          "base": "block/stone/rock/dacite/sides/1"
+        }
+      },
+      "axe-rhyolite": {
+        "material": {
+          "base": "block/stone/rock/rhyolite/sides/1"
+        }
+      },
+      "axe-granite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        }
+      },
+      "axe-quartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        }
+      },
+      "*-bone-dacite": {
+        "material": {
+          "base": "block/stone/rock/dacite/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "*-bone-rhyolite": {
+        "material": {
+          "base": "block/stone/rock/rhyolite/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "*-bone-granite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "*-bone-quartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

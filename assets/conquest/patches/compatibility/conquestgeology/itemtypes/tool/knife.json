@@ -1,0 +1,62 @@
+[
+  {
+    "file": "conquestgeology:itemtypes/tool/knife.json",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "knife-generic-dacite": {
+        "material": {
+          "base": "block/stone/rock/dacite/sides/1"
+        }
+      },
+      "knife-generic-rhyolite": {
+        "material": {
+          "base": "block/stone/rock/rhyolite/sides/1"
+        }
+      },
+      "knife-generic-granite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        }
+      },
+      "knife-generic-quartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        }
+      },
+      "knife-generic-bonedacite": {
+        "material": {
+          "base": "block/stone/rock/dacite/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "knife-generic-bonerhyolite": {
+        "material": {
+          "base": "block/stone/rock/rhyolite/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "knife-generic-bonegranite_red": {
+        "material": {
+          "base": "block/stone/rock/granite_red_smooth/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      },
+      "knife-generic-bonequartzite": {
+        "material": {
+          "base": "block/stone/rock/quartzite_light/sides/1"
+        },
+        "handle": {
+          "base": "game:block/creature/bone-yellow"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

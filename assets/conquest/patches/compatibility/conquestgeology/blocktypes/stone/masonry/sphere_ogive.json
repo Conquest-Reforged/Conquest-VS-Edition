@@ -1,0 +1,36 @@
+[
+  {
+    "file": "conquestgeology:blocktypes/stone/masonry/sphere_ogive.json",
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@.*-(andesite|basalt|chalk|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|suevite|tuff|whitemarble)-.*": {
+        "all": {
+          "base": "game:block/stone/rock/conquest/{rock}/sides/*"
+        }
+      },
+      "@.*-(bauxite|chert|claystone|conglomerate|sandstone|shale|slate)-.*": {
+        "horizontals": {
+          "base": "game:block/stone/rock/conquest/{rock}/sides/*"
+        },
+        "verticals": {
+          "base": "game:block/stone/rock/conquest/{rock}/verticals/*"
+        }
+      },
+      "@.*-(andesite_porous|andesite_weathered|anorthosite_rough|anorthosite_smooth|anorthosite_weathered|basalt_porous|basalt_smooth|basalt_weathered|calcite|calcite_limestone|chalk_smooth|dacite|dacite_porous|dacite_weathered|end_stone_rough|end_stone_smooth|gneiss|gneiss_eroded|granite_brown|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_gray_light|granite_red_smooth|granite_snowy|granite_weathered|granite_white|limestone_boulders_light|limestone_dark|limestone_glow_worms|limestone_icy|limestone_icy_snow_covered|limestone_light|limestone_mossy|limestone_pale|limestone_pink|limestone_tan|limestone_tan_light|limestone_tan_stained|marble_dark_rough|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_rough|marble_yellow_rough|mudstone|mudstone_brown|obsidian_crying|obsidian_rainbow|obsidian_smooth|quartzite_dark|quartzite_light|quartzite_stained|rhyolite|rhyolite_porous|rhyolite_weathered|sandstone_warped|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|serpentinite_smooth|serpentinite_weathered|tuff_dark|tuff_light|tuff_smooth)-.*": {
+        "all": {
+          "base": "conquestgeology:block/stone/rock/{rock}/sides/*"
+        }
+      },
+      "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|dacite_columnar|end_stone|granite_red_weathered|graywacke|limestone_boulders_light_mossy|limestone_gray_light|limestone_moss_covered|mudstone|mudstone_brown|mudstone_brown_light|mudstone_light|mudstone_orange|mudstone_orange_light|mudstone_red|mudstone_red_light|mudstone_umbre|mudstone_umbre_light|mudstone_yellow|mudstone_yellow_light|rhyolite_columnar|sandstone_brown|sandstone_gray_dark_faded|sandstone_gray_darker_faded_mossy|sandstone_gray_faded|sandstone_orange|sandstone_orange_faded|sandstone_orange_faded_mossy|sandstone_red|sandstone_red_coastal|sandstone_red_dark_faded|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_red_mossy|sandstone_tan|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded|schist_blue|schist_green|slate_dark|slate_gray|slate_light)-.*": {
+        "horizontals": {
+          "base": "conquestgeology:block/stone/rock/{rock}/sides/*"
+        },
+        "verticals": {
+          "base": "conquestgeology:block/stone/rock/{rock}/verticals/*"
+        }
+      }
+    },
+    "side": "server"
+  }
+]

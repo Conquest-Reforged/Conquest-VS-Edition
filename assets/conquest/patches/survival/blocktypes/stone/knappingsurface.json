@@ -68,5 +68,293 @@
 		"value": "block/stone/rock/conquest/shale/sides/1",
 		"file": "game:blocktypes/stone/knappingsurface.json",
 		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/andesite_columnar",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/andesite_columnar/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/andesite_porous",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/andesite_porous/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/andesite_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/andesite_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/basalt_columnar",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/basalt_columnar/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/basalt_columnar_light",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/basalt_columnar_light/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/basalt_porous",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/basalt_porous/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/basalt_smooth",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/basalt_smooth/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/basalt_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/basalt_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/dacite",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/dacite/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/dacite_columnar",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/dacite_columnar/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/dacite_porous",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/dacite_porous/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/dacite_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/dacite_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_brown",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_brown/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_brown_dark",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_brown_dark/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_brown_light",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_brown_light/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_gray_dark",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_gray_dark/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_gray_light",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_gray_light/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_red_smooth",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_red_smooth/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_red_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_red_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_snowy",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_snowy/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/granite_white",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/granite_white/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/obsidian_crying",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/obsidian_crying/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/obsidian_rainbow",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/obsidian_rainbow/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/obsidian_smooth",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/obsidian_smooth/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/quartzite_dark",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/quartzite_dark/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/quartzite_light",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/quartzite_light/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/quartzite_stained",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/quartzite_stained/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/rhyolite",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/rhyolite/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/rhyolite_columnar",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/rhyolite_columnar/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/rhyolite_porous",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/rhyolite_porous/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/textures/rhyolite_weathered",
+		"value": {
+			"base": "conquestgeology:block/stone/rock/rhyolite_weathered/sides/1"
+		},
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"side": "Server"
 	}
 ]

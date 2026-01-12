@@ -1,22 +1,39 @@
 [
-
     {
-        "file": "game:blocktypes/stone/quern.json",
-        "op": "replace",
+        "op": "remove",
         "path": "/textures",
-        "side": "server",
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType",
         "value": {
-
-            "base": {
-                "base": "game:block/stone/quern/{rock}-base"
+            "@.*-(basalt|granite)": {
+                "base": {
+                    "base": "game:block/stone/quern/{rock}-base"
+                },
+                "table": {
+                    "base": "game:block/stone/quern/table"
+                },
+                "top": {
+                    "base": "game:block/stone/quern/{rock}-top"
+                }
             },
-            "table": {
-                "base": "game:block/stone/quern/table"
-            },
-            "top": {
-                "base": "game:block/stone/quern/{rock}-top"
+            "@.*-(conglomerate|gneiss|granite_red|limestone|sandstone|sandstone_dark)": {
+                "base": {
+                    "base": "conquestgeology:block/stone/quern/{rock}-base"
+                },
+                "table": {
+                    "base": "game:block/stone/quern/table"
+                },
+                "top": {
+                    "base": "conquestgeology:block/stone/quern/{rock}-top"
+                }
             }
-        }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
     },
     {
         "file": "game:blocktypes/stone/quern.json",
