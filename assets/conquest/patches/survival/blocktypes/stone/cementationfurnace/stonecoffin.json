@@ -1,8 +1,55 @@
 [
   {
-    "op": "replace",
-    "path": "/textures/rock/base",
-    "value": "block/stone/rock/conquest/{rock}/sides/4",
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/stone/cementationfurnace/stonecoffin.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-basalt-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/basalt/sides/1"
+        }
+      },
+      "*-conglomerate-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/conglomerate/sides/1"
+        }
+      },
+      "*-granite-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/granite/sides/1"
+        }
+      },
+      "*-limestone-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/limestone/sides/1"
+        }
+      },
+      "*-sandstone-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/sandstone/sides/1"
+        }
+      },
+      "*-gneiss-*": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/gneiss/sides/1"
+        }
+      },
+      "*-granite_red-*": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/granite_red_smooth/sides/1"
+        }
+      },
+      "*-sandstone_dark-*": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/sandstone_brown/sides/1"
+        }
+      }
+    },
     "file": "game:blocktypes/stone/cementationfurnace/stonecoffin.json",
     "side": "Server"
   }

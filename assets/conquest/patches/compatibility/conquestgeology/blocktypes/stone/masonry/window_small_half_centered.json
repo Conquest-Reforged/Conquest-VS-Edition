@@ -1,6 +1,6 @@
 [
   {
-    "file": "conquestgeology:blocktypes/stone/masonry/window_small_half_mid_frame.json",
+    "file": "conquestgeology:blocktypes/stone/masonry/window_small_half_centered.json",
     "op": "replace",
     "path": "/texturesByType",
     "value": {

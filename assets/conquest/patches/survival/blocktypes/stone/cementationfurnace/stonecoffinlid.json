@@ -1,8 +1,35 @@
 [
   {
-    "op": "replace",
-    "path": "/textures/rock/base",
-    "value": "block/stone/rock/conquest/{rock}/sides/4",
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/stone/cementationfurnace/stonecoffinlid.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "@.*-(basalt|conglomerate|granite|limestone|sandstone)": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/{rock}/sides/*"
+        }
+      },
+      "@.*-(gneiss)": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/{rock}/sides/*"
+        }
+      },
+      "@.*-(granite_red)": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/granite_red_smooth/sides/*"
+        }
+      },
+      "@.*-(sandstone_dark)": {
+        "rock": {
+          "base": "conquestgeology:block/stone/rock/sandstone_brown/sides/*"
+        }
+      }
+    },
     "file": "game:blocktypes/stone/cementationfurnace/stonecoffinlid.json",
     "side": "Server"
   }
