@@ -6,7 +6,6 @@
 	"textureWidth": 128,
 	"textureHeight": 128,
 	"textureSizes": {
-		"chest": [128,128]
 	},
 	"textures": {
 		"chest": "game:block/wood/trunk/chest"

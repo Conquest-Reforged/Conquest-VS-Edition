@@ -9,6 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"table": "game:block/wood/table/normal"
 	},
 	"elements": [
 		{

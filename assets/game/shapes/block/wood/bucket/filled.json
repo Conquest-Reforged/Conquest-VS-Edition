@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"bucket": "game:block/wood/bucket/bucket"
 	},
 	"elements": [
 		{

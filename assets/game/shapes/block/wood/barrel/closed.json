@@ -8,7 +8,10 @@
 	"textureSizes": {
 	},
 	"textures": {
-	
+		"round_barrel_side": "game:block/wood/barrel/round_barrel_side",
+		"round_barrel_bottom": "game:block/wood/barrel/round_barrel_bottom",
+		"round_barrel_top": "game:block/wood/barrel/round_barrel_top"
+
 	},
 	"elements": [
 		{
