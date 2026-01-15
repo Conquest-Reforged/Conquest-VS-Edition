@@ -1,0 +1,13 @@
+[
+	{
+		"file": "chiseltools:blocktypes/chiseledchestnerfed.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"normal-generic-chest": { "base": "game:block/wood/trunk/chest" }
+
+		}
+	}
+
+]

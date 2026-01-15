@@ -7,9 +7,10 @@
 	"textureHeight": 32,
 	"textureSizes": {
 
+
 	},
 	"textures": {
-
+		"storagevessel": "game:block/clay/vessel/red"
 	},
 	"elements": [
 		{

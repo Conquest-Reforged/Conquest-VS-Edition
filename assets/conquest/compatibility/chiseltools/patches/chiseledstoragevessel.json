@@ -1,0 +1,16 @@
+[
+	{
+		"file": "chiseltools:blocktypes/chiseledstoragevessel.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*": {
+				"normal-storagevessel": { "base": "game:block/clay/vessel/blue" }
+
+
+			}
+		}
+	}
+]
+

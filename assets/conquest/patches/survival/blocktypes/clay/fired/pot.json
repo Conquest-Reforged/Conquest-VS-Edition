@@ -8,9 +8,7 @@
         "value": {
             "transparent": { "base": "game:block/transparent" },
             "ceramic": { "base": "game:block/clay/pot/{color}" },
-            "lid": {
-                "base": "game:block/clay/pot/{color}"
-            },
+            "lid": { "base": "game:block/clay/pot/{color}" },
             "group1": { "base": "game:block/food/meal/group1-flax-carrot-blueberry-cottagecheese-fish" },
             "group2": { "base": "game:block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
             "group3": { "base": "game:block/food/meal/group3-millet-bolete-cranberry-poultry" },

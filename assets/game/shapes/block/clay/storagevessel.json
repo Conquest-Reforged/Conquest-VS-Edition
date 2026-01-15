@@ -10,6 +10,8 @@
 
 	},
 	"textures": {
+		"storagevessel": "game:block/clay/vessel/blue"
+
 
 	},
 	"elements": [

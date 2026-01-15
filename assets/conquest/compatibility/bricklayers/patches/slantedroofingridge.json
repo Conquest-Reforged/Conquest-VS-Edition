@@ -1,0 +1,19 @@
+[
+	{
+		"file": "bricklayers:blocktypes/clay/roofing/slantedroofingridge.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"*": {
+				"material": { "base": "bricklayers:block/clay/shingles/{material}" },
+				"shingle1": { "base": "bricklayers:block/clay/shingles/{material}" },
+				"shingle2": { "base": "bricklayers:block/clay/shingles/{material}" },
+				"ridge": { "base": "bricklayers:block/clay/shingles/{material}" },
+				"top": { "base": "bricklayers:block/clay/shingles/{material}" }
+
+			}
+		}
+
+	}
+]

@@ -1,0 +1,15 @@
+[
+	{
+		"file": "chiseltools:blocktypes/chiseledtable.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"chiseled": {
+				"table": { "base": "game:block/wood/table/normal" }
+			}
+		}
+	}
+]
+
+

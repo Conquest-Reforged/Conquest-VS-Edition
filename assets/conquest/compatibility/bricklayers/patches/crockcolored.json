@@ -1,0 +1,12 @@
+[
+    {
+        "file": "bricklayers:blocktypes/clay/crockcolored.json",
+        "op": "replace",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
+            "@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white|blurple|purple|green|malachite)": { "base": "bricklayers:block/clay/crock/base" },
+            "*": { "base": "game:block/clay/crock/base" }
+        }
+    }
+]

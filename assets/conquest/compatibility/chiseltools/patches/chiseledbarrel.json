@@ -1,0 +1,15 @@
+[
+	{
+		"file": "chiseltools:blocktypes/chiseledbarrel.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"round_barrel_side": { "base": "game:block/wood/barrel/round_barrel_side" },
+			"round_barrel_bottom": { "base": "game:block/wood/barrel/round_barrel_bottom" },
+			"round_barrel_top": { "base": "game:block/wood/barrel/round_barrel_top" }
+		}
+	}
+]
+
+

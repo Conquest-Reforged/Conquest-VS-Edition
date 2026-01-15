@@ -1,0 +1,13 @@
+[
+	{
+		"file": "chiseltools:blocktypes/chiseledwatersource.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+			"bucket": { "base": "game:block/wood/bucket/bucket" }
+		}
+	}
+]
+
+
