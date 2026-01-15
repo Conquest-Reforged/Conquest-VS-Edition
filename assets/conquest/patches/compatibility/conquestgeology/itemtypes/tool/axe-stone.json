@@ -57,6 +57,11 @@
         }
       }
     },
-    "side": "server"
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ]
   }
 ]

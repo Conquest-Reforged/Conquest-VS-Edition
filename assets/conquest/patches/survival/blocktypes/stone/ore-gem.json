@@ -3,7 +3,13 @@
     "op": "remove",
     "path": "/textures",
     "file": "game:blocktypes/stone/ore-gem.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "juicyores",
+        "invert": true
+      }
+    ]
   },
   {
     "op": "add",
@@ -359,6 +365,12 @@
       }
     },
     "file": "game:blocktypes/stone/ore-gem.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "juicyores",
+        "invert": true
+      }
+    ]
   }
 ]

@@ -9,7 +9,7 @@
         "op": "add",
         "path": "/texturesByType",
         "value": {
-            "@.*-(basalt|granite)": {
+            "@.*-(andesite|basalt|granite|peridotite)": {
                 "base": {
                     "base": "game:block/stone/quern/{rock}-base"
                 },

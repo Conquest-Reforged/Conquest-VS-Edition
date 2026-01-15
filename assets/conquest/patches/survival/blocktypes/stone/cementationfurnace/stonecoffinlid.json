@@ -9,7 +9,7 @@
     "op": "add",
     "path": "/texturesByType",
     "value": {
-      "@.*-(basalt|conglomerate|granite|limestone|sandstone)": {
+      "@.*-(andesite|basalt|conglomerate|granite|limestone|peridotite|sandstone)": {
         "rock": {
           "base": "game:block/stone/rock/conquest/{rock}/sides/*"
         }

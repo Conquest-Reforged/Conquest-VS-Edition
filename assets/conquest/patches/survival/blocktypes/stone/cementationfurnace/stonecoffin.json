@@ -9,6 +9,11 @@
     "op": "add",
     "path": "/texturesByType",
     "value": {
+      "*-andesite-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/andesite/sides/1"
+        }
+      },
       "*-basalt-*": {
         "rock": {
           "base": "game:block/stone/rock/conquest/basalt/sides/1"
@@ -27,6 +32,11 @@
       "*-limestone-*": {
         "rock": {
           "base": "game:block/stone/rock/conquest/limestone/sides/1"
+        }
+      },
+      "*-peridotite-*": {
+        "rock": {
+          "base": "game:block/stone/rock/conquest/peridotite/sides/1"
         }
       },
       "*-sandstone-*": {

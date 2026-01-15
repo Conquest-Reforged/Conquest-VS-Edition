@@ -3,13 +3,25 @@
     "op": "remove",
     "path": "/textures",
     "file": "game:blocktypes/stone/ore-graded.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "juicyores",
+        "invert": true
+      }
+    ]
   },
   {
     "op": "add",
     "path": "/texturesByType",
     "file": "game:blocktypes/stone/ore-graded.json",
     "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "juicyores",
+        "invert": true
+      }
+    ],
     "value": {
       "@.*-()": {
         "all": {
