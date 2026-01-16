@@ -642,9 +642,8 @@
                     ]
                 }
             },
+            "@.*-(catmint|cornflower|forgetmenot|edelweiss|horsetail|orangemallow|wilddaisy|westerngorse|goldenpoppy|redtopgrass)-.*": {
 
-
-            "*": {
                 "1": {
                     "base": "game:block/plant/flower/petal/{flower}1",
                     "alternates": [
@@ -710,8 +709,26 @@
                     ]
                 }
             }
+        },
+        "*": {
+            "north1": { "base": "block/plant/flower/petal/{flower}*" },
+            "south1": { "base": "block/plant/flower/petal/{flower}*" },
+            "northTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+            "southTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+            "north2": { "base": "block/plant/flower/petal/{flower}*" },
+            "south2": { "base": "block/plant/flower/petal/{flower}*" },
+            "northTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+            "southTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+            "north3": { "base": "block/plant/flower/petal/{flower}*" },
+            "south3": { "base": "block/plant/flower/petal/{flower}*" },
+            "northTinted3": { "base": "block/plant/flower/stem/{flower}*" },
+            "southTinted3": { "base": "block/plant/flower/stem/{flower}*" },
+            "flower2": { "base": "block/plant/flower/petal/{flower}*" },
+            "flower2Tinted": { "base": "block/plant/flower/stem/{flower}*" }
         }
+
     },
+
     {
         "file": "game:blocktypes/plant/flower.json",
         "op": "replace",

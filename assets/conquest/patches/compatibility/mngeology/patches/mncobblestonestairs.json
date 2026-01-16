@@ -1,0 +1,28 @@
+[
+
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/cobble/cobblestonestairs.json",
+        "op": "replace",
+        "path": "/1/value",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "@.*-(limestone|slate)-.*": {
+                "sides": { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
+            },
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)-.*": {
+                "sides": {
+                    "base": "game:block/stone/cobblestonestairs/{rock}"
+                }
+            },
+            "*": {
+                "sides": { "base": "game:block/stone/cobblestone/{rock}/*" }
+            }
+
+        }
+    }
+]

@@ -20,29 +20,29 @@
                 "inside-up": { "base": "game:block/stone/polishedrock/{rock}*" },
                 "inside-down": { "base": "game:block/stone/polishedrock/{rock}*" }
 
-            }
-        },
-        "*": {
-            "all": {
-                "base": "game:block/stone/polishedrock/{rock}"
             },
-            "inside-north": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
-            },
-            "inside-east": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
-            },
-            "inside-south": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
-            },
-            "inside-west": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
-            },
-            "inside-up": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
-            },
-            "inside-down": {
-                "base": "game:block/stone/polishedrock/{rock}-inside"
+            "*": {
+                "all": {
+                    "base": "game:block/stone/polishedrock/{rock}"
+                },
+                "inside-north": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-east": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-south": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-west": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-up": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                },
+                "inside-down": {
+                    "base": "game:block/stone/polishedrock/{rock}-inside"
+                }
             }
         }
     }

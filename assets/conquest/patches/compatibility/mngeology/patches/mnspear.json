@@ -1,0 +1,46 @@
+[
+    {
+        "file": "conquest:patches/survival/itemtypes/tool/spear.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:itemtypes/tool/spear.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "spear-generic-erel": {},
+            "spear-scrap-scrap": {},
+            "spear-generic-hacking": {},
+            "spear-generic-flint": {
+                "material": { "base": "game:block/stone/{material}" }
+            },
+            "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+                "material": { "base": "game:block/stone/rock/conquest/{material}/sides/1" }
+            },
+            "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze)": {
+                "material": { "base": "game:block/metal/ingot/{material}" }
+            },
+            "spear-generic-ornate*": {},
+            "@spear-generic-(arenite|arkose|marl|travertine|wacke)": {
+                "material": { "base": "game:block/stone/rock/{material}1" }
+            },
+         
+            "spear-generic-*": {
+                "material": { "base": "game:item/tool/material/{material}" }
+            }
+        }
+    }
+]

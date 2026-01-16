@@ -1,0 +1,40 @@
+[
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/stonebrick/stonebrick.json",
+        "op": "replace",
+        "path": "/1/value",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|claystone)": {
+                "all": {
+                    "base": "game:block/stone/brick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/brick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(granite)": {
+                "all": {
+                    "base": "game:block/stone/brick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/brick/{rock}/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(chalk|limestone|phyllite|peridotite|slate|shale)": {
+                "all": { "base": "game:block/stone/brick/{rock}/*" }
+            },
+            "*": {
+                "all": { "base": "game:block/stone/brick/{rock}*" }
+            }
+        }
+    }
+]

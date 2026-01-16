@@ -1,0 +1,41 @@
+[
+    {
+        "file": "conquest:patches/survival/itemtypes/snowball.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+
+    {
+        "file": "game:itemtypes/snowball.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "snowball-snow": {
+                "normal2": { "base": "game:block/liquid/snow/normal1" }
+            },
+            "snowball-beenade": {
+                "normal2": { "base": "game:block/reed/beehive/beenade" }
+            },
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)": {
+                "normal2": { "base": "game:block/stone/rock/{rock}1" }
+            },
+            "snowball-*": {
+                "normal2": { "base": "game:block/stone/rock/conquest/{rock}/sides/1" }
+            }
+            
+        }
+    }
+]
+

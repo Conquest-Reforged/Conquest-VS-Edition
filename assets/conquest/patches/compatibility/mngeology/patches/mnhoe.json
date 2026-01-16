@@ -1,0 +1,40 @@
+[
+    {
+        "file": "conquest:patches/survival/itemtypes/tool/hoe.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:itemtypes/tool/hoe.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "*-flint": {
+                "material": { "base": "game:block/stone/{material}" }
+            },
+            "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": {
+                "material": { "base": "game:block/metal/ingot/{material}" }
+            },
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)": {
+                "material": { "base": "block/stone/rock/{material}1" }
+            },
+            "*": {
+                "material": { "base": "game:block/stone/rock/conquest/{material}/sides/1" }
+            }
+        }
+    }
+
+
+]

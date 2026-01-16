@@ -1,0 +1,43 @@
+[
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/stonebrick/stonebrickstairs.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)-.*": {
+                "sides": { "base": "game:block/stone/brick/{rock}*" }
+            },
+            "*": {
+                "sides": { "base": "game:block/stone/brick/{rock}/*" }
+            }
+        }
+    }
+]

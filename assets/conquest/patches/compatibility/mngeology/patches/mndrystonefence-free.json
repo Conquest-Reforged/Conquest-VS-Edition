@@ -1,0 +1,48 @@
+[
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/drystonefence-free.json",
+        "op": "remove",
+        "path": "/0",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/drystonefence-free.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/drystonefence-free.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)-.*": {
+                "wall": { "base": "game:block/stone/drystone/{rock}*" },
+                "edge": { "base": "game:block/stone/drystonefence/{rock}-edge" },
+                "fence": { "base": "game:block/stone/drystonefence/{rock}" }
+
+            },
+            "*": {
+                "wall": { "base": "game:block/stone/drystone/{rock}/*" },
+                "edge": { "base": "game:block/stone/drystone/{rock}/*" },
+                "fence": { "base": "game:block/stone/drystone/{rock}/*" }
+            }
+        }
+    }
+]

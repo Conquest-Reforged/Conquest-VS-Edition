@@ -307,12 +307,23 @@
           "blendedOverlays": [{ "base": "game:block/stone/ore/{type}1", "blendMode": "Overlay" }]
         }
       },
-      "rock-*": {
-        "all": {
-          "base": "block/stone/rock/{rock}*",
-          "blendedOverlays": [{ "base": "game:block/stone/ore/{type}1", "blendMode": "Overlay" }]
+        "*": {
+            "all": {
+                "base": "game:block/stone/rock/{rock}1",
+                "overlays": [ "game:block/stone/ore/{type}1" ],
+                "alternates": [
+                    {
+                        "base": "game:block/stone/rock/{rock}1",
+                        "overlays": [ "game:block/stone/ore/{type}2" ]
+                    },
+                    {
+                        "base": "game:block/stone/rock/{rock}1",
+                        "overlays": [ "game:block/stone/ore/{type}3" ]
+                    }
+                ]
+            }
+
         }
-      }
     }
   }
 ]

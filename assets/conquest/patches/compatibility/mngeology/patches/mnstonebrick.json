@@ -1,0 +1,77 @@
+[
+    {
+        "file": "conquest:patches/survival/itemtypes/resource/stonebrick.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "conquest:patches/survival/itemtypes/resource/stonebrick.json",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "conquest:patches/survival/itemtypes/resource/stonebrick.json",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:itemtypes/resource/stonebrick.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ]
+    },
+    {
+        "file": "game:itemtypes/resource/stonebrick.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)": {
+                "rock": { "base": "game:block/stone/brick/{rock}1" },
+                "material": { "base": "game:block/stone/brick/{rock}1" },
+                "top": { "base": "game:block/stone/brick/{rock}1" }
+
+            },
+            "*": {
+                "rock": { "base": "block/stone/rock/conquest/{rock}/sides/1" },
+                "material": { "base": "block/stone/rock/conquest/{rock}/sides/1" },
+                "top": { "base": "block/stone/rock/conquest/{rock}/sides/1" }
+            }
+
+        }
+    }
+]
+
+        
+  

@@ -21,7 +21,12 @@
             },
             "*": {
                 "all": {
-                    "base": "game:block/stone/sandwavy/{rock}"
+                    "base": "block/stone/sand/wavy/{rock}1",
+                    "tiles": [
+                        { "base": "block/sandwet/{rock}*" }
+
+                    ],
+                    "tilesWidth": 4
                 }
             }
         },

@@ -1,0 +1,42 @@
+[
+
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/stonebrick/agedstonebricks.json",
+        "op": "replace",
+        "path": "/1/value",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
+        "value": {
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|shale)": {
+                "all": {
+                    "base": "game:block/stone/agedbrick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(limestone|granite)": {
+                "all": {
+                    "base": "game:block/stone/agedbrick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(komatiite|arenite|arkose|marl|travertine|wacke|serpentinite|monzonite|syenite|pyroxenite)": {
+                "sides": {
+                    "base": "game:block/stone/agedbrick/{rock}*"
+                }
+            },
+            "*": {
+                "all": { "base": "game:block/stone/agedbrick/{rock}/*" }
+            }
+        }
+    }
+]

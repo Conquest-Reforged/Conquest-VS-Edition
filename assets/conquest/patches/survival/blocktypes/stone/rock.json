@@ -278,7 +278,7 @@
                 }
             },
             "rock-*": {
-                "all": { "base": "block/stone/rock/{rock}*" }
+                "all": { "base": "game:block/stone/rock/{rock}*" }
             }
         }
     }
