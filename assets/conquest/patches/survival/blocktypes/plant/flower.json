@@ -192,7 +192,25 @@
                                 ]
                             }
                         }
+                    },
+                    "drawnHeightByType": {
+                        "*-woad-*": 45,
+                        "*-wilddaisy-*": 30,
+                        "*-westerngorse-*": 32,
+                        "*-orangemallow-*": 45,
+                        "*-lilyofthevalley-*": 25,
+                        "*-catmint-*": 35,
+                        "*-cornflower-*": 30,
+                        "*-cowparsley-*": 60,
+                        "*-goldenpoppy-*": 32,
+                        "*-edelweiss-*": 30,
+                        "*-forgetmenot-*": 20,
+                        "*-horsetail-*": 32,
+                        "*-heather-*": 30,
+                        "*-redtopgrass-*": 40,
+                        "*": 48
                     }
+
                 }
             }
         }
