@@ -1,0 +1,22 @@
+[
+    {
+        "file": "floralzonescentralaustralianregion:blocktypes/roofing/slantedroofingridgehalfright.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+
+            "*": {
+                "material": { "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-top" },
+                "snow": { "base": "game:block/snow/*" },
+                "shingle1": {
+                    "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-top"
+                },
+                "shingle2": {
+                    "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-top"
+                },
+                "ridge": { "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-side" }
+            }
+        }
+    }
+]

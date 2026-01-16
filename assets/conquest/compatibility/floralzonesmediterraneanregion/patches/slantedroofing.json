@@ -1,0 +1,24 @@
+[
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/roofing/slantedroofing.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*": {
+				"material": { "base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-top" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-top"
+				},
+				"shingle2": {
+					"base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-top"
+				},
+				"ridge": { "base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-side" }
+			}
+		}
+	}
+]
+
+			

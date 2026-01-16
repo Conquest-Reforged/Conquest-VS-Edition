@@ -1,0 +1,83 @@
+[
+    {
+        "file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/shape",
+        "side": "server",
+        "value": {
+            "*-araucariaheterophylla": "block/plant/leaves/normal",
+            "*-podocarpusnivalis": "block/plant/leaves/normal",
+            "base": "game:block/plant/leaves/normal_v",
+            "rotateY": 10,
+            "alternates": [
+                { "rotateY": 61 },
+                { "rotateY": 113 },
+                { "rotateY": 164 },
+                { "rotateY": 216 },
+                { "rotateY": 267 },
+                { "rotateY": 319 }
+            ]
+        }
+    },
+    {
+        "file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/lod0Shape",
+        "side": "server",
+        "value": {
+            "*-araucariaheterophylla": "block/plant/leaves/normal-araucariaheterophylla-lod0",
+            "*-halocarpusbidwillii": "block/plant/leaves/normal-lod0",
+            "*-podocarpusnivalis": "block/plant/leaves/normal-lod0",
+
+            "base": "game:block/plant/leaves/normal_v-lod0",
+            "rotateY": 10,
+            "alternates": [
+                { "rotateY": 61 },
+                { "rotateY": 113 },
+                { "rotateY": 164 },
+                { "rotateY": 216 },
+                { "rotateY": 267 },
+                { "rotateY": 319 }
+            ]
+        }
+    },
+    {
+        "file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/shapeInventory",
+        "side": "server",
+        "value": {
+            "*-podocarpusnivalis": "block/plant/leaves/normal",
+            "base": "game:block/plant/leaves/normal_v-lod0"
+
+        }
+    },
+    {
+        "file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/climateColorMapByType",
+        "side": "server",
+        "value": {
+            "*-halocarpusbidwillii": "climateDarkerPlantTint",
+            "*": "climatePlantTint"
+
+        }
+    },
+
+    {
+        "file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/normal.json",
+        "op": "replace",
+        "path": "/seasonColorMapByType",
+        "side": "server",
+        "value": {
+            "*-dacrydiumcupressinum": "seasonalNeedles",
+            "*-enteleaarborescens": "tropicalKapok",
+            "*-halocarpusbidwillii": "seasonalGrass",
+            "*-nothofagusmenziesii": "seasonalNeedles",
+            "*-podocarpusnivalis": "seasonalNeedles",
+            "*-podocarpustotara": "seasonalLarch",
+            "*-psuedopanaxcrassifolius": "tropicalKapok",
+            "*": "seasonalFoliage"
+        }
+    }
+]

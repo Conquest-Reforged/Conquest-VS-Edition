@@ -1,0 +1,27 @@
+[
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/reed/baskettrap.json",
+		"op": "add",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+
+			"base": "game:block/reed/baskettrap_v"
+		}
+	},
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/reed/baskettrap.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": {
+
+			"base": "game:block/reed/baskettrap_v"
+		}
+	}
+]
+   
+
+
+
+	

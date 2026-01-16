@@ -1,6 +1,6 @@
 [
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/shape",
         "side": "server",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/lod0Shape",
         "side": "server",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/shapeInventory",
         "side": "server",
@@ -46,15 +46,13 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaribbeanregion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
-        "path": "/seasonColorMapByType",
+        "path": "/climateColorMapByType",
         "side": "server",
         "value": {
-            "*-brachychitongregorii": "None",
-            "*-corymbiaaparrerinja": "None",
-            "*-eucalyptuscamaldulensis": "None",
-            "*": "seasonalFoliage"
+            "*-comarostaphylisarbutoides": "climatePlantTint",
+            "*": "climatePlantTint"
         }
 
     }

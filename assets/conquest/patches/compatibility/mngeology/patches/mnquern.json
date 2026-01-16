@@ -1,7 +1,14 @@
 [
     {
+        "file": "conquest:patches/survival/blocktypes/stone/quern.json",
+        "side": "Server",
         "op": "replace",
         "path": "/1/value",
+        "dependsOn": [
+            {
+                "modid": "mngeology"
+            }
+        ],
         "value": {
             "@.*-(andesite|basalt|granite|peridotite)": {
                 "base": {
@@ -27,19 +34,17 @@
             },
             "*": {
                 "base": {
-                    "base": "block/stone/rock/{rock}1"
+                    "base": "game:compatibility/mngeology/quern/{rock}_base"
                 },
                 "table": {
                     "base": "game:block/stone/quern/table"
                 },
                 "top": {
-                    "base": "block/stone/rock/{rock}1"
+                    "base": "game:compatibility/mngeology/quern/{rock}_top"
                 }
             }
+        }
 
-        },
-        "file": "conquest:patches/survival/blocktypes/stone/quern.json",
-        "side": "Server"
     }
-   
+
 ]

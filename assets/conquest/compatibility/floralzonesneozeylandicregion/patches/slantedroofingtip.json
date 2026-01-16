@@ -1,0 +1,19 @@
+[
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/roofing/slantedroofingtip.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*": {
+				"material": { "base": "floralzonesneozeylandicregion:block/wood/shingles/{material}-top" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "floralzonesneozeylandicregion:block/wood/shingles/{material}-top"
+				},
+				"ridge": { "base": "floralzonesneozeylandicregion:block/wood/shingles/{material}-side" }
+			}
+		}
+	}
+]

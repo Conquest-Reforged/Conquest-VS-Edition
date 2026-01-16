@@ -1,0 +1,60 @@
+[
+	{
+		"file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-abieskoreana": "game:block/plant/leaves/branchy-pine",
+				"*-acerginnala": "block/plant/leaves/branchy-acerginnala",
+				"*": "game:block/plant/leaves/branchy_v"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/lod0shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-abieskoreana": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-acerginnala": "block/plant/leaves/branchy-acerginnala-lod0",
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzoneseastasiaticregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-abieskoreana": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-acerginnala": "block/plant/leaves/branchy-acerginnala-lod0",
+				"*-loropetalumchinense": "game:block/plant/leaves/branchy-crimsonkingmaple-lod0",
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			}
+		}
+	}
+]

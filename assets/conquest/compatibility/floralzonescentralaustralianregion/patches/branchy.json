@@ -7,6 +7,7 @@
 		"value": {
 			"baseByType": {
 				"*-brachychitongregorii": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless",
+				"*-corymbiaaparrerinja": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless",
 				"*-eucalyptuscamaldulensis": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless",
 				"*": "game:block/plant/leaves/branchy_v"
 			},
@@ -29,6 +30,7 @@
 		"value": {
 			"baseByType": {
 				"*-brachychitongregorii": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
+				"*-corymbiaaparrerinja": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
 				"*-eucalyptuscamaldulensis": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
 				"*": "game:block/plant/leaves/branchy_v-lod0"
 			},
@@ -51,6 +53,7 @@
 		"value": {
 			"baseByType": {
 				"*-brachychitongregorii": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
+				"*-corymbiaaparrerinja": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
 				"*-eucalyptuscamaldulensis": "floralzonescentralaustralianregion:block/plant/leaves/branchy-colorless-lod0",
 				"*": "game:block/plant/leaves/branchy_v-lod0"
 			}

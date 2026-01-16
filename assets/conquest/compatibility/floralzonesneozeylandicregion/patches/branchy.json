@@ -1,0 +1,80 @@
+[
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-araucariaheterophylla": "block/plant/leaves/branchy-araucariaheterophylla",
+				"*-dacrydiumcupressinum": "game:block/plant/leaves/branchy-pine",
+				"*-enteleaarborescens": "game:block/plant/leaves/branchy-kapok",
+				"*-halocarpusbidwillii": "block/plant/leaves/branchy-halocarpusbidwillii",
+				"*-nothofagusmenziesii": "game:block/plant/leaves/branchy-pine",
+				"*-podocarpusnivalis": "block/plant/leaves/branchy-podocarpusnivalis",
+				"*-podocarpustotara": "block/plant/leaves/branchy-podocarpustotara",
+				"*-psuedopanaxcrassifolius": "block/plant/leaves/branchy-psuedopanaxcrassifolius",
+
+				"*": "game:block/plant/leaves/branchy_v"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/lod0shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-araucariaheterophylla": "block/plant/leaves/branchy-araucariaheterophylla-lod0",
+				"*-dacrydiumcupressinum": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-enteleaarborescens": "game:block/plant/leaves/branchy-kapok-lod0",
+				"*-halocarpusbidwillii": "block/plant/leaves/branchy-halocarpusbidwillii-lod0",
+				"*-nothofagusmenziesii": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-podocarpusnivalis": "block/plant/leaves/branchy-podocarpusnivalis-lod0",
+				"*-podocarpustotara": "block/plant/leaves/branchy-podocarpustotara-lod0",
+				"*-psuedopanaxcrassifolius": "block/plant/leaves/branchy-psuedopanaxcrassifolius-lod0",
+
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonesneozeylandicregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-araucariaheterophylla": "block/plant/leaves/branchy-araucariaheterophylla",
+				"*-dacrydiumcupressinum": "game:block/plant/leaves/branchy-pine",
+				"*-enteleaarborescens": "game:block/plant/leaves/branchy-kapok",
+				"*-halocarpusbidwillii": "block/plant/leaves/branchy-halocarpusbidwillii",
+				"*-nothofagusmenziesii": "game:block/plant/leaves/branchy-pine",
+				"*-podocarpusnivalis": "block/plant/leaves/branchy-podocarpusnivalis",
+				"*-podocarpustotara": "block/plant/leaves/branchy-podocarpustotara",
+				"*-psuedopanaxcrassifolius": "block/plant/leaves/branchy-psuedopanaxcrassifolius",
+
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			}
+		}
+	}
+]

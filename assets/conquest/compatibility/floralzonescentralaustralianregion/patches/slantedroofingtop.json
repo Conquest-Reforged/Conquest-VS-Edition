@@ -1,0 +1,19 @@
+[
+	{
+		"file": "floralzonescentralaustralianregion:blocktypes/roofing/slantedroofingtop.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*": {
+				"material": { "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-top" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle2": {
+					"base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-top"
+				},
+				"ridge": { "base": "floralzonescentralaustralianregion:block/wood/shingles/{material}-side" }
+			}
+		}
+	}
+]

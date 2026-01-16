@@ -1,0 +1,22 @@
+[
+	{
+		"file": "floralzonescaribbeanregion:blocktypes/roofing/slantedroofingbottom.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*": {
+				"material": { "base": "floralzonescaribbeanregion:block/wood/shingles/{material}-top" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "floralzonescaribbeanregion:block/wood/shingles/{material}-top"
+				},
+
+				"ridge": { "base": "floralzonescaribbeanregion:block/wood/shingles/{material}-side" }
+			}
+		}
+	}
+]
+
+

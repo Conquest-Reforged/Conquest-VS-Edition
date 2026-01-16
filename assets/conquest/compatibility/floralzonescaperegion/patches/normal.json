@@ -1,6 +1,6 @@
 [
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/shape",
         "side": "server",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/lod0Shape",
         "side": "server",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/shapeInventory",
         "side": "server",
@@ -46,14 +46,13 @@
         }
     },
     {
-        "file": "floralzonescentralaustralianregion:blocktypes/plant/leaves/normal.json",
+        "file": "floralzonescaperegion:blocktypes/plant/leaves/normal.json",
         "op": "replace",
         "path": "/seasonColorMapByType",
         "side": "server",
         "value": {
-            "*-brachychitongregorii": "None",
-            "*-corymbiaaparrerinja": "None",
-            "*-eucalyptuscamaldulensis": "None",
+            "*-leucadendronargenteum": "None",
+            "*-ocoteabullata": "seasonalLarch",
             "*": "seasonalFoliage"
         }
 

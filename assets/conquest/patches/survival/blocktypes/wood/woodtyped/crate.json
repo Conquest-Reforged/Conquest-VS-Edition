@@ -46,6 +46,7 @@
             "wood-ebony-crate": { "base": "game:block/wood/crate/ebony-crate" },
             "wood-walnut-crate": { "base": "game:block/wood/crate/walnut-crate" },
             "wood-purpleheart-crate": { "base": "game:block/wood/crate/purpleheart-crate" }
+
         }
     },
     {
@@ -89,4 +90,5 @@
         }
     }
 ]
+
 

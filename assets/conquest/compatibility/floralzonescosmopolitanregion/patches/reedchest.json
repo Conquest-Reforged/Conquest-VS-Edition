@@ -1,0 +1,60 @@
+[
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/reed/reedchest.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+
+			"base": "game:block/reed/basket-normal_v",
+			"rotateY": 270
+		}
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/reed/reedchest.json",
+		"op": "replace",
+		"path": "/attributes/shape",
+		"side": "server",
+		"value": {
+
+			"phormiumtenax": "game:block/reed/basket-normal_v"
+		}
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/reed/reedchest.json",
+		"op": "replace",
+		"path": "/attributes/creatureContainedShape",
+		"side": "server",
+		"value": {
+
+			"phormiumtenax": "game:block/reed/basket-full_v"
+		}
+	},
+	{
+		"file": "floralzonescosmopolitanregion:blocktypes/reed/reedchest.json",
+		"op": "replace",
+		"path": "/shapeByType",
+		"side": "server",
+		"value": {
+
+			"*-north": {
+				"base": "game:block/reed/basket-normal_v",
+				"rotateY": 0
+			},
+			"*-east": {
+				"base": "game:block/reed/basket-normal_v",
+				"rotateY": 270
+			},
+			"*-west": {
+				"base": "game:block/reed/basket-normal_v",
+				"rotateY": 90
+			},
+			"*-south": {
+				"base": "game:block/reed/basket-normal_v",
+				"rotateY": 180
+			}
+		}
+	}
+]
+
+

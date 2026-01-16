@@ -1,0 +1,22 @@
+[
+	{
+		"file": "floralzonescaperegion:blocktypes/roofing/slantedroofingridgeend.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+
+			"*": {
+				"material": { "base": "floralzonescaperegion:block/wood/shingles/{material}-top" },
+				"snow": { "base": "game:block/snow/*" },
+				"shingle1": {
+					"base": "floralzonescaperegion:block/wood/shingles/{material}-top"
+				},
+				"shingle2": {
+					"base": "floralzonescaperegion:block/wood/shingles/{material}-top"
+				},
+				"ridge": { "base": "floralzonescaperegion:block/wood/shingles/{material}-side" }
+			}
+		}
+	}
+]

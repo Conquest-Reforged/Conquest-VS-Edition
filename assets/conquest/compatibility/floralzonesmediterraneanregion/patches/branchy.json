@@ -1,0 +1,67 @@
+[
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-laurusnobilis": "game:block/plant/leaves/branchy-pine",
+				"*-populusalba": "game:block/plant/leaves/branchy-oak",
+				"*-quercusilex": "game:block/plant/leaves/branchy-pine",
+				"*-taxusbaccata": "game:block/plant/leaves/branchy-pine",
+				"*": "game:block/plant/leaves/branchy_v"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/lod0shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-laurusnobilis": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-populusalba": "game:block/plant/leaves/branchy-oak-lod0",
+				"*-quercusilex": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-taxusbaccata": "game:block/plant/leaves/branchy-pine-lod0",
+
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonesmediterraneanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-laurusnobilis": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-populusalba": "game:block/plant/leaves/branchy-oak-lod0",
+				"*-quercusilex": "game:block/plant/leaves/branchy-pine-lod0",
+				"*-taxusbaccata": "game:block/plant/leaves/branchy-pine-lod0",
+
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			}
+		}
+	}
+]

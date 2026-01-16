@@ -1,0 +1,57 @@
+[
+	{
+		"file": "floralzonescaribbeanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-lysilomalatisiliquum": "game:block/plant/leaves/branchy-kapok",
+				"*": "game:block/plant/leaves/branchy_v"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonescaribbeanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/lod0shape",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-lysilomalatisiliquum": "game:block/plant/leaves/branchy-kapok-lod0",
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			},
+			"rotatey": 10,
+			"alternates": [
+				{ "rotatey": 61 },
+				{ "rotatey": 113 },
+				{ "rotatey": 164 },
+				{ "rotatey": 216 },
+				{ "rotatey": 267 },
+				{ "rotatey": 319 }
+			]
+		}
+	},
+	{
+		"file": "floralzonescaribbeanregion:blocktypes/plant/leaves/branchy.json",
+		"op": "replace",
+		"path": "/shapeInventory",
+		"side": "server",
+		"value": {
+			"baseByType": {
+				"*-lysilomalatisiliquum": "game:block/plant/leaves/branchy-kapok-lod0",
+				"*-ocoteabullata": "game:block/plant/leaves/branchy_v-lod0",
+				"*": "game:block/plant/leaves/branchy_v-lod0"
+			}
+		}
+	}
+]
