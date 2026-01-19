@@ -1,8 +1,12 @@
 [
   {
-    "op": "replace",
-    "path": "/texturesByType/*/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
+    "op": "add",
+    "path": "/texturesByType/@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/conquest/{material}/sides/1"
+      }
+    },
     "file": "game:itemtypes/tool/hoe.json",
     "side": "Server"
   }

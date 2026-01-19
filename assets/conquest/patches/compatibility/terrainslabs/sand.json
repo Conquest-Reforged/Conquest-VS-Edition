@@ -1,37 +1,58 @@
 [
-	{
-		"op": "remove",
-		"path": "/shape/alternates",
-	"file": "terrainslabs:blocktypes/sand.json",
-		"side": "Server"
-	},
-	{
-		"op": "remove",
-		"path": "/textures",
-	"file": "terrainslabs:blocktypes/sand.json",
-		"side": "Server"
-	},
   {
+    "op": "remove",
+    "path": "/shape/alternates",
     "file": "terrainslabs:blocktypes/sand.json",
-    "op": "add",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "terrainslabs:blocktypes/sand.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
     "path": "/texturesByType",
-        "value": {
-            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
-                "all": {
-                    "base": "game:block/stone/sand/{rock}/sides/*"
-                }
-            },
-            "@.*-(anorthosite_rough|basalt_columnar|basalt_smooth|dacite|gneiss|granite_brown|granite_gray_light|granite_red_smooth|graywacke|kimberlite|limestone_tan|limestone_tan_stained|mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|quartzite_stained|rhyolite|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|schist_blue|schist_blue_weathered|schist_green|serpentinite_smooth|tuff|tuff_dark|tuff_light)": {
-                "all": {
-                    "base": "conquestgeology:block/stone/sand/{rock}/sides/*"
-                }
-            },
-            "*": {
-                "all": {
-                    "base": "game:block/stone/sand/{rock}"
-                }
-            }
-        },
+    "value": {
+      "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
+        "all": {
+          "base": "game:block/stone/sand/{rock}/sides/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/sand.json",
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "@.*-(anorthosite_rough|basalt_columnar|basalt_smooth|dacite|gneiss|granite_brown|granite_gray_light|granite_red_smooth|graywacke|kimberlite|limestone_tan|limestone_tan_stained|mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|quartzite_stained|rhyolite|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|schist_blue|schist_blue_weathered|schist_green|serpentinite_smooth|tuff|tuff_dark|tuff_light)": {
+        "all": {
+          "base": "conquestgeology:block/stone/sand/{rock}/sides/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/sand.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/stone/sand/{rock}*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/sand.json",
     "side": "server"
   }
 ]

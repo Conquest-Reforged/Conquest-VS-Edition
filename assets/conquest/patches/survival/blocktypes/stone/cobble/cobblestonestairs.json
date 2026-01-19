@@ -1,23 +1,34 @@
 [
     {
-        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
         "op": "remove",
         "path": "/textures",
+        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
         "side": "server"
     },
     {
-        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesbytype",
-        "side": "server",
         "value": {
-            "@.*-(limestone|slate)-.*": {
-                "sides": { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate||granite|kimberlite|limestone|peridotite|phyllite|sandstone|shale|suevite|greenmarble|redmarble|whitemarble)-.*": {
+                "all": { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
             },
-            "*": {
-                "sides": { "base": "game:block/stone/cobblestone/{rock}/*" }
+            "*-slate-*": {
+                "horizontals": { "base": "game:block/stone/cobblestone/{rock}/sides/*" },
+                "verticals": { "base": "game:block/stone/cobblestone/{rock}/verticals/*" }
             }
-
-        }
+        },
+        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesbytype",
+        "value": {
+            "*": {
+                "sides": { "base": "game:block/stone/cobblestonestairs/{rock}" }
+            }
+        },
+        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
+        "side": "server"
     }
 ]

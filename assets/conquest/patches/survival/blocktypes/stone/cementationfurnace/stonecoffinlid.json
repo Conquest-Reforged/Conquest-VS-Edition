@@ -6,14 +6,27 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/texturesByType",
     "value": {
       "@.*-(andesite|basalt|conglomerate|granite|limestone|peridotite|sandstone)": {
         "rock": {
           "base": "game:block/stone/rock/conquest/{rock}/sides/*"
         }
-      },
+      }
+    },
+    "file": "game:blocktypes/stone/cementationfurnace/stonecoffinlid.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
       "@.*-(gneiss)": {
         "rock": {
           "base": "conquestgeology:block/stone/rock/{rock}/sides/*"
@@ -27,6 +40,19 @@
       "@.*-(sandstone_dark)": {
         "rock": {
           "base": "conquestgeology:block/stone/rock/sandstone_brown/sides/*"
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/cementationfurnace/stonecoffinlid.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "rock": {
+          "base": "block/stone/rock/{rock}4"
         }
       }
     },

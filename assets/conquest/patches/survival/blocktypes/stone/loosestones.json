@@ -6,19 +6,40 @@
 		"side": "Server"
 	},
 	{
-		"op": "add",
+		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
 			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-.*": {
 				"rock": {
 					"base": "game:block/stone/rock/conquest/{rock}/sides/1"
 				}
-			},
+			}
+		},
+		"file": "game:blocktypes/stone/loosestones.json",
+		"side": "Server"
+	},
+	{
+		"dependsOn": [
+			{
+				"modid": "conquestgeology"
+			}
+		],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
 			"@.*-(andesite_columnar|andesite_porous|andesite_weathered|anorthosite_rough|anorthosite_smooth|anorthosite_weathered|basalt_columnar|basalt_columnar_light|basalt_porous|basalt_smooth|basalt_weathered|calcite|calcite_limestone|calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|chalk_smooth|dacite|dacite_columnar|dacite_porous|dacite_weathered|end_stone|end_stone_rough|end_stone_smooth|gneiss|gneiss_eroded|granite_brown|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_gray_light|granite_red_smooth|granite_red_weathered|granite_snowy|granite_weathered|granite_white|graywacke|limestone_boulders_light|limestone_boulders_light_mossy|limestone_dark|limestone_glow_worms|limestone_gray_light|limestone_icy|limestone_icy_snow_covered|limestone_light|limestone_moss_covered|limestone_mossy|limestone_pale|limestone_pink|limestone_tan|limestone_tan_light|limestone_tan_stained|marble_dark_rough|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_rough|marble_yellow_rough|mudstone|mudstone_brown|mudstone_brown_light|mudstone_light|mudstone_orange|mudstone_orange_light|mudstone_red|mudstone_red_light|mudstone_umbre|mudstone_umbre_light|mudstone_yellow|mudstone_yellow_light|obsidian_crying|obsidian_rainbow|obsidian_smooth|quartzite_dark|quartzite_light|quartzite_stained|rhyolite|rhyolite_columnar|rhyolite_porous|rhyolite_weathered|sandstone_brown|sandstone_gray_dark_faded|sandstone_gray_darker_faded_mossy|sandstone_gray_faded|sandstone_orange|sandstone_orange_faded|sandstone_orange_faded_mossy|sandstone_red|sandstone_red_coastal|sandstone_red_dark_faded|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_red_mossy|sandstone_tan|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded|sandstone_warped|schist_blue|schist_blue_lichen|schist_blue_mossy|schist_blue_weathered|schist_green|serpentinite_smooth|serpentinite_weathered|slate_dark|slate_gray|slate_light|tuff_dark|tuff_light|tuff_smooth)-.*": {
 				"rock": {
 					"base": "conquestgeology:block/stone/rock/{rock}/sides/1"
 				}
-			},
+			}
+		},
+		"file": "game:blocktypes/stone/loosestones.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
 			"*": {
 				"rock": {
 					"base": "game:block/stone/rock/{rock}1"

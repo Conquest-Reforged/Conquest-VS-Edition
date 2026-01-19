@@ -1,24 +1,17 @@
 [
     {
-        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
         "op": "remove",
         "path": "/textures",
+        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
         "side": "server"
-
     },
     {
-        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType",
-        "side": "server",
         "value": {
-            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|shale)": {
+            "@.*-(chalk|claystone|peridotite|phyllite|slate)": {
                 "all": {
-                    "base": "game:block/stone/agedbrick/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
-                    ],
-                    "tilesWidth": 4
+                    "base": "game:block/stone/agedbrick/{rock}/*"
                 }
             },
             "@.*-(limestone|granite)": {
@@ -30,9 +23,28 @@
                     "tilesWidth": 3
                 }
             },
-            "*": {
-                "all": { "base": "game:block/stone/agedbrick/{rock}/*" }
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|shale)": {
+                "all": {
+                    "base": "game:block/stone/agedbrick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
             }
-        }
+        },
+        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "all": { "base": "game:block/stone/agedbrick/{rock}*" }
+            }
+        },
+        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
+        "side": "server"
     }
 ]

@@ -6,7 +6,7 @@
         "side": "Server"
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType",
         "value": {
             "@.*-(andesite|basalt|granite|peridotite)": {
@@ -19,7 +19,20 @@
                 "top": {
                     "base": "game:block/stone/quern/{rock}-top"
                 }
-            },
+            }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "dependsOn": [
+            {
+                "modid": "conquestgeology"
+            }
+        ],
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
             "@.*-(conglomerate|gneiss|granite_red|limestone|sandstone|sandstone_dark)": {
                 "base": {
                     "base": "conquestgeology:block/stone/quern/{rock}-base"
@@ -29,6 +42,37 @@
                 },
                 "top": {
                     "base": "conquestgeology:block/stone/quern/{rock}-top"
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "basematerial": {
+                    "base": "block/stone/rock/{rock}1"
+                },
+                "baseside": {
+                    "base": "block/stone/rock/{rock}1",
+                    "overlays": [
+                        "block/stone/quern/baseside"
+                    ]
+                },
+                "baseup": {
+                    "base": "block/stone/rock/{rock}1",
+                    "overlays": [
+                        "block/stone/quern/grooves"
+                    ]
+                },
+                "grindstoneup": {
+                    "base": "block/stone/rock/{rock}1",
+                    "overlays": [
+                        "block/stone/quern/grindstoneup"
+                    ]
                 }
             }
         },

@@ -1,14 +1,46 @@
 [
 	{
-		"file": "game:blocktypes/stone/drystonefence-free.json",
-		"op": "replace",
+		"op": "remove",
 		"path": "/textures",
-		"side": "server",
+		"file": "game:blocktypes/stone/drystonefence-free.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
 		"value": {
-			"wall": { "base": "game:block/stone/drystone/{rock}/*" },
-			"edge": { "base": "game:block/stone/drystone/{rock}/*" },
-			"fence": { "base": "game:block/stone/drystone/{rock}/*" }
-		}
-
+			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|mixed|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-*": {
+				"wall": {
+					"base": "game:block/stone/drystone/{rock}/*"
+				},
+				"edge": {
+					"base": "game:block/stone/drystone/{rock}/*"
+				},
+				"fence": {
+					"base": "game:block/stone/drystone/{rock}/*"
+				}
+			}
+		},
+		"file": "game:blocktypes/stone/drystonefence-free.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*": {
+				"wall": {
+					"base": "block/stone/drystone/{rock}*"
+				},
+				"edge": {
+					"base": "block/stone/drystonefence/{rock}-edge"
+				},
+				"fence": {
+					"base": "block/stone/drystonefence/{rock}"
+				}
+			}
+		},
+		"file": "game:blocktypes/stone/drystonefence-free.json",
+		"side": "server"
 	}
 ]

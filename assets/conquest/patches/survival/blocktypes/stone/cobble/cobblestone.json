@@ -1,96 +1,75 @@
 [
-
     {
-        "file": "game:blocktypes/stone/cobble/cobblestone.json",
         "op": "remove",
         "path": "/textures",
+        "file": "game:blocktypes/stone/cobble/cobblestone.json",
         "side": "server"
     },
     {
-        "file": "game:blocktypes/stone/cobble/cobblestone.json",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesbytype",
-        "side": "server",
         "value": {
-            "@.*-(andesite)": {
+            "@.*-(whitemarble|greenmarble|sandstone)": {
                 "all": {
-                    "base": "game:block/stone/cobblestone/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/*" }
-                    ],
-                    "tilesWidth": 5
+                    "base": "game:block/stone/cobblestone/{rock}/sides/*"
                 }
             },
             "@.*-(shale|basalt|kimberlite)": {
                 "all": {
-                    "base": "game:block/stone/cobblestone/{rock}/1",
+                    "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/*" }
+                        { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
                     ],
                     "tilesWidth": 3
                 }
             },
-            "*-slate": {
-                "sides": {
-                    "base": "game:block/stone/cobblestone/{rock}/sides/1",
-                    "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
-                    ],
-                    "tilesWidth": 2
-                },
-                "up": {
-                    "base": "game:block/stone/cobblestone/{rock}/top/1",
-                    "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/top/*" }
-                    ],
-                    "tilesWidth": 2
-                },
-                "down": {
-                    "base": "game:block/stone/cobblestone/{rock}/top/1",
-                    "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/top/*" }
-                    ],
-                    "tilesWidth": 2
-                }
-            },
             "*-limestone": {
-                "sides": {
+                "all": {
                     "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
                         { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
                     ],
                     "tilesWidth": 5
-                },
-                "up": {
-                    "base": "game:block/stone/cobblestone/{rock}/top/1",
+                }
+            },
+            "*-andesite": {
+                "all": {
+                    "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/top/*" }
-                    ],
-                    "tilesWidth": 5
-                },
-                "down": {
-                    "base": "game:block/stone/cobblestone/{rock}/top/1",
-                    "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/top/*" }
+                        { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
                     ],
                     "tilesWidth": 5
                 }
             },
-            "@.*-(whitemarble|greenmarble|sandstone)": {
-                "all": {
-                    "base": "game:block/stone/cobblestone/{rock}/*"
-                }
-            },
-            "*": {
-                "all": {
-                    "base": "game:block/stone/cobblestone/{rock}/1",
+            "*-slate": {
+                "horizontals": {
+                    "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
-                        { "base": "game:block/stone/cobblestone/{rock}/*" }
+                        { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
                     ],
-                    "tilesWidth": 4
+                    "tilesWidth": 2
+                },
+                "verticals": {
+                    "base": "game:block/stone/cobblestone/{rock}/verticals/1",
+                    "tiles": [
+                        { "base": "game:block/stone/cobblestone/{rock}/verticals/*" }
+                    ],
+                    "tilesWidth": 2
                 }
             }
-
-        }
+        },
+        "file": "game:blocktypes/stone/cobble/cobblestone.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesbytype",
+        "value": {
+            "*": {
+                "all": {  "base": "block/stone/cobblestone/{rock}*" }
+            }
+        },
+        "file": "game:blocktypes/stone/cobble/cobblestone.json",
+        "side": "server"
     }
 ]

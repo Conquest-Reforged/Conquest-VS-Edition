@@ -1,27 +1,16 @@
 [
     {
-        "file": "game:blocktypes/stone/drystone.json",
         "op": "remove",
         "path": "/textures",
+        "file": "game:blocktypes/stone/drystone.json",
         "side": "server"
 
     },
     {
-        "file": "game:blocktypes/stone/drystone.json",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesbytype",
-        "side": "server",
         "value": {
-            "@.*-(kimberlite)": {
-                "all": {
-                    "base": "game:block/stone/drystone/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/drystone/{rock}/*" }
-                    ],
-                    "tilesWidth": 5
-                }
-            },
-            "@.*-(chalk)": {
+            "*-chalk": {
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/1",
                     "tiles": [
@@ -30,22 +19,33 @@
                     "tilesWidth": 3
                 }
             },
+            "@.*-(andesite|basalt|bauxite|chert|claystone|conglomerate|granite|halite|limestone|marble|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|suevite|tuff)": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*-kimberlite": {
+                "all": {
+                    "base": "game:block/stone/drystone/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/drystone/{rock}/*" }
+                    ],
+                    "tilesWidth": 5
+                }
+            },
             "*-slate": {
-                "sides": {
+                "horizontals": {
                     "base": "game:block/stone/drystone/{rock}/sides/1",
                     "tiles": [
                         { "base": "game:block/stone/drystone/{rock}/sides/*" }
                     ],
                     "tilesWidth": 2
                 },
-                "up": {
-                    "base": "game:block/stone/drystone/{rock}/top/1",
-                    "tiles": [
-                        { "base": "game:block/stone/drystone/{rock}/top/*" }
-                    ],
-                    "tilesWidth": 2
-                },
-                "down": {
+                "verticals": {
                     "base": "game:block/stone/drystone/{rock}/top/1",
                     "tiles": [
                         { "base": "game:block/stone/drystone/{rock}/top/*" }
@@ -57,16 +57,20 @@
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/*"
                 }
-            },
-            "*": {
-                "all": {
-                    "base": "game:block/stone/drystone/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/drystone/{rock}/*" }
-                    ],
-                    "tilesWidth": 4
-                }
             }
-        }
+        },
+        "file": "game:blocktypes/stone/drystone.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesbytype",
+        "value": {
+            "*": {
+                "all": {  "base": "game:block/stone/drystone/{rock}*" }
+            }
+        },
+        "file": "game:blocktypes/stone/drystone.json",
+        "side": "server"
     }
 ]

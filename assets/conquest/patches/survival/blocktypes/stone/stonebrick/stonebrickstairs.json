@@ -1,12 +1,33 @@
 [
 	{
-		"file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
-		"op": "replace",
+		"op": "remove",
 		"path": "/textures",
-		"side": "server",
+		"file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
 		"value": {
-			"sides": { "base": "game:block/stone/brick/{rock}/*" }
-		}
+			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate|suevite)-*": {
+				"all": {
+					"base": "game:block/stone/brick/{rock}/*"
+				}
+			}
+		},
+		"file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*": {
+				"sides": { "base": "game:block/stone/brick/{rock}*" }
+			}
+		},
+		"file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json",
+		"side": "server"
 	}
 ]
 	

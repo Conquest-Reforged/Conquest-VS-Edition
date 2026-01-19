@@ -6,7 +6,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/texturesByType",
     "value": {
       "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-.*": {
@@ -19,7 +19,20 @@
             "game:block/stone/termitemound/chambers"
           ]
         }
-      },
+      }
+    },
+    "file": "game:blocktypes/soil/termitemound-harvested.json",
+    "side": "Server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
       "@.*-(anorthosite_rough|basalt_columnar|basalt_smooth|dacite|gneiss|granite_brown|granite_gray_light|granite_red_smooth|graywacke|kimberlite|limestone_tan|limestone_tan_stained|mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|quartzite_stained|rhyolite|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|schist_blue|schist_blue_weathered|schist_green|serpentinite_smooth|tuff|tuff_dark|tuff_light)-.*": {
         "exterior": {
           "base": "conquestgeology:block/stone/termitemound/{rock}"
@@ -30,7 +43,15 @@
             "game:block/stone/termitemound/chambers"
           ]
         }
-      },
+      }
+    },
+    "file": "game:blocktypes/soil/termitemound-harvested.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
       "*": {
         "exterior": {
           "base": "game:block/stone/termitemound/{rock}"

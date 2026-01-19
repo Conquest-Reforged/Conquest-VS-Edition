@@ -1,22 +1,45 @@
 [
     {
-        "op": "replace",
-        "path": "/textures/material/base",
-        "value": "block/stone/rock/conquest/{rock}/sides/1",
+        "op": "remove",
+        "path": "/textures",
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     },
     {
-        "op": "replace",
-        "path": "/textures/rock/base",
-        "value": "block/stone/rock/conquest/{rock}/sides/1",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate|suevite)": {
+                "rock": {
+                    "base": "block/stone/rock/conquest/{rock}/sides/1"
+                },
+                "material": {
+                    "base": "block/stone/rock/conquest/{rock}/sides/1"
+                },
+                "top": {
+                    "base": "block/stone/rock/conquest/{rock}/sides/1"
+                }
+            }
+        },
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     },
     {
-        "op": "replace",
-        "path": "/textures/top/base",
-        "value": "block/stone/rock/conquest/{rock}/sides/1",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "rock": {
+                    "base": "block/stone/brick/{rock}1"
+                },
+                "material": {
+                    "base": "block/stone/brick/{rock}1"
+                },
+                "top": {
+                    "base": "block/stone/brick/{rock}1"
+                }
+            }
+        },
         "file": "game:itemtypes/resource/stonebrick.json",
         "side": "Server"
     }
