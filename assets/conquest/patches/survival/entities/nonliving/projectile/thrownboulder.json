@@ -6,11 +6,6 @@
     "side": "Server"
   },
   {
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ],
     "op": "addmerge",
     "path": "/client/texturesByType",
     "value": {
@@ -24,6 +19,11 @@
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "addmerge",
     "path": "/client/texturesByType",
     "value": {

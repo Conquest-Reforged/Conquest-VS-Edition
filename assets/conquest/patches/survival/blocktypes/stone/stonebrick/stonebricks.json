@@ -1,27 +1,19 @@
 [
     {
-        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
         "op": "remove",
         "path": "/textures",
+        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
         "side": "server"
 
     },
     {
-        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType",
-        "side": "server",
         "value": {
-            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|claystone)": {
-                "all": {
-                    "base": "game:block/stone/brick/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/brick/{rock}/*" }
-                    ],
-                    "tilesWidth": 4
-                }
+            "@.*-(chalk|limestone|phyllite|peridotite|slate|shale)": {
+                "all": { "base": "game:block/stone/brick/{rock}/*" }
             },
-            "@.*-(granite)": {
+            "*-granite": {
                 "all": {
                     "base": "game:block/stone/brick/{rock}/1",
                     "tiles": [
@@ -30,12 +22,28 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(chalk|limestone|phyllite|peridotite|slate|shale)": {
-                "all": { "base": "game:block/stone/brick/{rock}/*" }
-            },
+            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|claystone)": {
+                "all": {
+                    "base": "game:block/stone/brick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/brick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
             "*": {
                 "all": { "base": "game:block/stone/brick/{rock}*" }
             }
-        }
+        },
+        "file": "game:blocktypes/stone/stonebrick/stonebricks.json",
+        "side": "server"
     }
 ]

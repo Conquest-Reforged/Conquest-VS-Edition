@@ -147,7 +147,53 @@
                 }
 
             },
-            "@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light|graywacke|schist_blue|schist_green|sandstone_brown|sandstone_orange|sandstone_red|sandstone_red_coastal|sandstone_red_mossy|sandstone_tan|slate_dark|slate_gray|slate_light|limestone_moss_covered|end_stone|limestone_gray_light|basalt_columnar|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)": {
+            "@.*-(mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light)": {
+                "horizontals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "overlays": [ "game:block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/2",
+                            "overlays": [ "game:block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/3",
+                            "overlays": [ "game:block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/4",
+                            "overlays": [ "game:block/overlay/rock/cracked4" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/5",
+                            "overlays": [ "game:block/overlay/rock/cracked5" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/6",
+                            "overlays": [ "game:block/overlay/rock/cracked6" ]
+                        }
+                    ]
+                },
+                "verticals": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/verticals/1",
+                    "overlays": [ "game:block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/verticals/2",
+                            "overlays": [ "game:block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/verticals/3",
+                            "overlays": [ "game:block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/verticals/4",
+                            "overlays": [ "game:block/overlay/rock/cracked4" ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|graywacke|schist_blue|schist_green|sandstone_brown|sandstone_orange|sandstone_red|sandstone_red_coastal|sandstone_red_mossy|sandstone_tan|slate_dark|slate_gray|slate_light|limestone_moss_covered|end_stone|limestone_gray_light|basalt_columnar|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)": {
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [ "game:block/overlay/rock/cracked1" ],

@@ -2,13 +2,13 @@
     "type": "code",
     "modid": "conquest",
     "name": "Conquest VS Edition",
-    "authors": [ "CreativeRealms, Dechoppy, Hippokleides, Arkaik" ],
+    "authors": [ "CreativeRealms, Arkaik" ],
 	"contributors": ["ImNuts42"],
     "description": "Adds Conquest textures to Vintage Story.",
     "side": "Universal",
     "requiredOnClient": true,
     "requiredOnServer": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "textureSize" : 32,
     "website": "https://discord.gg/ZagrZvn"
 }
