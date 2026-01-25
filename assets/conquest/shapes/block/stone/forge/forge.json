@@ -1,0 +1,74 @@
+{
+  "editor": {
+    "collapsedPaths": "Root/group",
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+  },
+  "textures": {
+    "cobbletop": "block/stone/forge/cobbletop",
+    "cobble": "block/stone/forge/cobble"
+
+  },
+  "elements": [
+    {
+      "name": "N",
+      "from": [ 1.0, 0.0, 1.0 ],
+      "to": [ 15.0, 14.0, 3.0 ],
+      "faces": {
+        "north": { "texture": "#cobble", "uv": [ 1.0, 0.0, 15.0, 14.0 ] },
+        "east": { "texture": "#cobble", "uv": [ 13.0, 0.0, 15.0, 14.0 ] },
+        "south": { "texture": "#cobble", "uv": [ 0.0, 0.0, 14.0, 14.0 ] },
+        "west": { "texture": "#cobble", "uv": [ 1.0, 0.0, 3.0, 14.0 ] },
+        "up": { "texture": "#cobble", "uv": [ 1.0, 0.0, 15.0, 2.0 ], "rotation": 180 },
+        "down": { "texture": "#cobble", "uv": [ 1.0, 11.0, 15.0, 13.0 ] }
+      }
+    },
+    {
+      "name": "S",
+      "from": [ 1.0, 0.0, 13.0 ],
+      "to": [ 15.0, 14.0, 15.0 ],
+      "faces": {
+        "north": { "texture": "#cobble", "uv": [ 1.0, 0.0, 15.0, 14.0 ] },
+        "east": { "texture": "#cobble", "uv": [ 1.0, 0.0, 3.0, 14.0 ] },
+        "south": { "texture": "#cobble", "uv": [ 1.0, 0.0, 15.0, 14.0 ] },
+        "west": { "texture": "#cobble", "uv": [ 13.0, 0.0, 15.0, 14.0 ] },
+        "up": { "texture": "#cobble", "uv": [ 1.0, 0.0, 15.0, 2.0 ] },
+        "down": { "texture": "#cobble", "uv": [ 1.0, 5.0, 15.0, 7.0 ] }
+      }
+    },
+    {
+      "name": "W",
+      "from": [ 1.0, 0.0, 3.0 ],
+      "to": [ 3.0, 14.0, 13.0 ],
+      "faces": {
+        "east": { "texture": "#cobble", "uv": [ 2.0, 0.0, 12.0, 14.0 ] },
+        "west": { "texture": "#cobble", "uv": [ 3.0, 0.0, 13.0, 14.0 ] },
+        "up": { "texture": "#cobble", "uv": [ 3.0, 0.0, 13.0, 2.0 ], "rotation": 90 },
+        "down": { "texture": "#cobble", "uv": [ 13.0, 3.0, 15.0, 13.0 ] }
+      }
+    },
+    {
+      "name": "E",
+      "from": [ 13.0, 0.0, 3.0 ],
+      "to": [ 15.0, 14.0, 13.0 ],
+      "faces": {
+        "east": { "texture": "#cobble", "uv": [ 3.0, 0.0, 13.0, 14.0 ] },
+        "west": { "texture": "#cobble", "uv": [ 4.0, 1.0, 14.0, 15.0 ] },
+        "up": { "texture": "#cobble", "uv": [ 3.5, 0.0, 13.5, 2.0 ], "rotation": 270 },
+        "down": { "texture": "#cobble", "uv": [ 4.0, 3.0, 6.0, 13.0 ] }
+      }
+    },
+    {
+      "name": "Floor",
+      "from": [ 3.0, 0.0, 3.0 ],
+      "to": [ 13.0, 10.0, 13.0 ],
+      "faces": {
+        "up": { "texture": "#cobbletop", "uv": [ 3.0, 4.0, 13.0, 14.0 ] },
+        "down": { "texture": "#cobble", "uv": [ 3.0, 3.0, 13.0, 13.0 ] }
+      }
+    }
+  ]}

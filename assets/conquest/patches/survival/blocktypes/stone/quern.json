@@ -54,26 +54,70 @@
         "value": {
             "*": {
                 "basematerial": {
-                    "base": "block/stone/rock/{rock}1"
+                    "base": "game:block/stone/rock/{rock}1"
                 },
                 "baseside": {
-                    "base": "block/stone/rock/{rock}1",
+                    "base": "game:block/stone/rock/{rock}1",
                     "overlays": [
-                        "block/stone/quern/baseside"
+                        "game:block/stone/quern/baseside"
                     ]
                 },
                 "baseup": {
-                    "base": "block/stone/rock/{rock}1",
+                    "base": "game:block/stone/rock/{rock}1",
                     "overlays": [
-                        "block/stone/quern/grooves"
+                        "game:block/stone/quern/grooves"
                     ]
                 },
                 "grindstoneup": {
-                    "base": "block/stone/rock/{rock}1",
+                    "base": "game:block/stone/rock/{rock}1",
                     "overlays": [
-                        "block/stone/quern/grindstoneup"
+                        "game:block/stone/quern/grindstoneup"
                     ]
                 }
+            }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/shape",
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "value": {
+            "@.*-(andesite|basalt|granite|peridotite)": {
+                "base": "conquest:block/stone/quern/complete"
+            }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "dependsOn": [
+            {
+                "modid": "conquestgeology"
+            }
+        ],
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "value": {
+            "@.*-(conglomerate|gneiss|granite_red|limestone|sandstone|sandstone_dark)": {
+                "base": "conquest:block/stone/quern/complete"
+            }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "value": {
+            "*": {
+                "base": "game:block/stone/quern/complete"
             }
         },
         "file": "game:blocktypes/stone/quern.json",

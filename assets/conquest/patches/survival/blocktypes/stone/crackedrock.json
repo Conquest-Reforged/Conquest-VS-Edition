@@ -361,6 +361,21 @@
         "side": "Server"
     },
     {
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ],
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-obsidian": {
+            }
+        },
+        "file": "game:blocktypes/stone/crackedrock.json",
+        "side": "Server"
+    },
+    {
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
@@ -391,7 +406,6 @@
                         }
                     ]
                 }
-
             }
         },
         "file": "game:blocktypes/stone/crackedrock.json",

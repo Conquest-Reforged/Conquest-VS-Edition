@@ -1,26 +1,32 @@
 [
     {
+        "dependsOn": [
+            {
+                "modid": "bricklayers",
+                "invert": true
+            }
+        ],
         "op": "remove",
         "path": "/textures",
         "file": "game:blocktypes/stone/polished/polishedrock.json",
         "side": "Server"
     },
     {
-        "file": "game:blocktypes/stone/polished/polishedrock.json",
-        "side": "Server",
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType",
         "value": {
             "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|kimberlite|limestone|peridotite|phyllite|redmarble|slate|sandstone|shale|suevite|whitemarble)": {
                 "all": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-north": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-east": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-south": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-west": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-up": { "base": "game:block/stone/polishedrock/{rock}*" },
-                "inside-down": { "base": "game:block/stone/polishedrock/{rock}*" }
-
-            },
+                "inside-*": { "base": "game:block/stone/polishedrock/{rock}*" }
+            }
+        },
+        "file": "game:blocktypes/stone/polished/polishedrock.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
             "*": {
                 "all": {
                     "base": "game:block/stone/polishedrock/{rock}"
@@ -44,6 +50,8 @@
                     "base": "game:block/stone/polishedrock/{rock}-inside"
                 }
             }
-        }
+        },
+        "file": "game:blocktypes/stone/polished/polishedrock.json",
+        "side": "Server"
     }
 ]

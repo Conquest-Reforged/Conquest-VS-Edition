@@ -1,8 +1,37 @@
 [
 	{
-		"op": "replace",
-		"path": "/textures/all/base",
-		"value": "block/stone/rock/conquest/meteorite-{core}/sides/*",
+		"op": "remove",
+		"path": "/textures",
+		"file": "game:blocktypes/stone/meteorite.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"meteorite-iron": {
+				"all": {
+					"base": "block/stone/rock/conquest/meteorite-iron/sides/1",
+					"tiles": [
+						{ "base": "block/stone/rock/conquest/meteorite-iron/sides/*" }
+					],
+					"tilesWidth": 2
+				}
+			}
+		},
+		"file": "game:blocktypes/stone/meteorite.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*": {
+				"all": {
+					"base": "block/stone/rock/meteorite-{core}*"
+				}
+			}
+		},
 		"file": "game:blocktypes/stone/meteorite.json",
 		"side": "Server"
 	}

@@ -1,13 +1,74 @@
 [
     {
+        "op": "remove",
+        "path": "/shape",
         "file": "game:blocktypes/stone/generic/forge.json",
-        "op": "replace",
-        "path": "/textures",
-        "side": "server",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/shapeByType",
         "value": {
-
-            "coal": { "base": "game:block/coal/bituminous" },
-            "ember": { "base": "game:block/coal/ember" }
-        }
+            "forge": {
+                "base": "conquest:block/stone/forge/forge"
+            }
+        },
+        "file": "game:blocktypes/stone/generic/forge.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "value": {
+            "*": {
+                "base": "game:block/stone/forge/forge"
+            }
+        },
+        "file": "game:blocktypes/stone/generic/forge.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:blocktypes/stone/generic/forge.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "forge": {
+                "cobble": {
+                    "base": "game:block/stone/forge/cobble"
+                },
+                "cobbletop": {
+                    "base": "game:block/stone/forge/cobbletop"
+                },
+                "coal": {
+                    "base": "game:block/coal/bituminous"
+                },
+                "ember": {
+                    "base": "game:block/coal/ember"
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/generic/forge.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "coal": {
+                    "base": "game:block/coal/bituminous"
+                },
+                "ember": {
+                    "base": "game:block/coal/ember"
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/generic/forge.json",
+        "side": "Server"
     }
 ]

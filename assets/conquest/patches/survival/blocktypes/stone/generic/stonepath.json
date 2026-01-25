@@ -1,29 +1,74 @@
 [
 	{
-		"file": "game:blocktypes/stone/generic/stonepath.json",
-		"op": "replace",
+		"op": "remove",
 		"path": "/textures",
-		"side": "server",
-		"value": {
-			"all": {
-				"base": "game:block/stone/path/stone/1",
-				"tiles": [
-					{ "base": "game:block/stone/path/stone/*" }
-				],
-				"tilesWidth": 4
-			}
-		}
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"side": "Server"
 	},
 	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"stonepath-free": {
+				"all": {
+					"base": "game:block/stone/path/stone/1",
+					"tiles": [
+						{ "base": "game:block/stone/path/stone/*" }
+					],
+					"tilesWidth": 4
+				}
+			},
+			"stonepath-snow": {
+				"all": {
+					"base": "game:block/stone/path/stone/1",
+					"tiles": [
+						{ "base": "game:block/stone/path/stone/*" }
+					],
+					"tilesWidth": 4
+				}
+			}
+		},
 		"file": "game:blocktypes/stone/generic/stonepath.json",
-		"op": "add",
-		"path": "/drawtype",
-		"side": "server",
-		"value": "cube"
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*": {
+				"sides": {
+					"base": "game:block/stone/path/normal1",
+					"alternates": [
+						{
+							"base": "game:block/stone/path/normal2"
+						},
+						{
+							"base": "game:block/stone/path/normal3"
+						},
+						{
+							"base": "game:block/stone/path/normal4"
+						},
+						{
+							"base": "game:block/stone/path/normal5"
+						},
+						{
+							"base": "game:block/stone/path/normal6"
+						}
+					]
+				}
+			}
+		},
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drawtypeByType",
+		"value": {
+			"stonepath-free": "cube",
+			"stonepath-snow": "cube"
+		},
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"side": "server"
 	}
 ]
-
-
-
-
-			

@@ -1,5 +1,11 @@
 [
     {
+        "dependsOn": [
+            {
+                "modid": "bricklayers",
+                "invert": true
+            }
+        ],
         "op": "remove",
         "path": "/textures",
         "file": "game:itemtypes/resource/stonebrick.json",

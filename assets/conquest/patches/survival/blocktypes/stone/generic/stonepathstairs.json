@@ -1,0 +1,90 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/stone/generic/stonepathstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "stonepathstairs-up-*-free": {
+        "sides": {
+          "base": "game:block/stone/path/stone/1",
+          "alternates": [
+            {
+              "base": "game:block/stone/path/stone/2"
+            },
+            {
+              "base": "game:block/stone/path/stone/3"
+            },
+            {
+              "base": "game:block/stone/path/stone/4"
+            },
+            {
+              "base": "game:block/stone/path/stone/5"
+            },
+            {
+              "base": "game:block/stone/path/stone/6"
+            }
+          ]
+        }
+      },
+      "stonepathstairs-up-*-snow": {
+        "sides": {
+          "base": "game:block/stone/path/stone/1",
+          "alternates": [
+            {
+              "base": "game:block/stone/path/stone/2"
+            },
+            {
+              "base": "game:block/stone/path/stone/3"
+            },
+            {
+              "base": "game:block/stone/path/stone/4"
+            },
+            {
+              "base": "game:block/stone/path/stone/5"
+            },
+            {
+              "base": "game:block/stone/path/stone/6"
+            }
+          ]
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/generic/stonepathstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "sides": {
+          "base": "game:block/stone/path/normal1",
+          "alternates": [
+            {
+              "base": "game:block/stone/path/normal2"
+            },
+            {
+              "base": "game:block/stone/path/normal3"
+            },
+            {
+              "base": "game:block/stone/path/normal4"
+            },
+            {
+              "base": "game:block/stone/path/normal5"
+            },
+            {
+              "base": "game:block/stone/path/normal6"
+            }
+          ]
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/generic/stonepathstairs.json",
+    "side": "Server"
+  }
+]

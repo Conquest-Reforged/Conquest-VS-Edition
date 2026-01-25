@@ -9,12 +9,12 @@
         "op": "addmerge",
         "path": "/texturesbytype",
         "value": {
-            "@.*-(whitemarble|greenmarble|sandstone)": {
+            "@.*-(chert|greenmarble|redmarble|sandstone|suevite|whitemarble)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/sides/*"
                 }
             },
-            "@.*-(shale|basalt|kimberlite)": {
+            "@.*-(basalt|kimberlite|shale)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
@@ -23,16 +23,16 @@
                     "tilesWidth": 3
                 }
             },
-            "*-limestone": {
+            "@.*-(bauxite|chalk|claystone|conglomerate|granite|peridotite|phyllite)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
                         { "base": "game:block/stone/cobblestone/{rock}/sides/*" }
                     ],
-                    "tilesWidth": 5
+                    "tilesWidth": 4
                 }
             },
-            "*-andesite": {
+            "@.*-(andesite|limestone)": {
                 "all": {
                     "base": "game:block/stone/cobblestone/{rock}/sides/1",
                     "tiles": [
