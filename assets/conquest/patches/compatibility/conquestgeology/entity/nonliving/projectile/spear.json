@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/client/texturesByType",
+    "value": {
+      "spear-generic-*": {
+        "material": {
+          "base": "conquestgeology:block/stone/rock/{material}/sides/1"
+        }
+      }
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  }
+]
