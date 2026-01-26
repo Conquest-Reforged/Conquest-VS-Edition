@@ -53,26 +53,14 @@
         "path": "/texturesByType",
         "value": {
             "*": {
-                "basematerial": {
-                    "base": "game:block/stone/rock/{rock}1"
+                "base": {
+                    "base": "game:block/stone/quern/granite-base"
                 },
-                "baseside": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [
-                        "game:block/stone/quern/baseside"
-                    ]
+                "table": {
+                    "base": "game:block/stone/quern/table"
                 },
-                "baseup": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [
-                        "game:block/stone/quern/grooves"
-                    ]
-                },
-                "grindstoneup": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [
-                        "game:block/stone/quern/grindstoneup"
-                    ]
+                "top": {
+                    "base": "game:block/stone/quern/granite-top"
                 }
             }
         },
@@ -117,35 +105,33 @@
         "path": "/shapeByType",
         "value": {
             "*": {
-                "base": "game:block/stone/quern/complete"
+                "base": "conquest:block/stone/quern/complete"
             }
         },
         "file": "game:blocktypes/stone/quern.json",
         "side": "Server"
     },
     {
-        "file": "game:blocktypes/stone/quern.json",
         "op": "replace",
         "path": "/sidesolid",
-        "side": "server",
         "value": {
             "all": false
-        }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "server"
     },
     {
-        "file": "game:blocktypes/stone/quern.json",
         "op": "replace",
         "path": "/sideopaque",
-        "side": "server",
         "value": {
             "all": false
-        }
+        },
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "server"
     },
     {
-        "file": "game:blocktypes/stone/quern.json",
         "op": "replace",
         "path": "/collisionSelectionBoxes",
-        "side": "server",
         "value": [
                 {
                     "x1": 0,
@@ -163,6 +149,8 @@
                     "y2": 0.75,
                     "z2": 0.9375
                 }
-            ]
-        }
+            ],
+        "file": "game:blocktypes/stone/quern.json",
+        "side": "server"
+    }
 ]
