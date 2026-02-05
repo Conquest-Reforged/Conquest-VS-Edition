@@ -1,0 +1,51 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "terrainslabs:blocktypes/snowblock.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "snowblock-game": {
+        "all": {
+          "base": "game:block/liquid/snow/layer/horizontals/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/snowblock.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/liquid/snow/normal1",
+          "alternates": [
+            {
+              "base": "game:block/liquid/snow/normal2"
+            },
+            {
+              "base": "game:block/liquid/snow/normal3"
+            },
+            {
+              "base": "game:block/liquid/snow/normal4"
+            },
+            {
+              "base": "game:block/liquid/snow/normal5"
+            },
+            {
+              "base": "game:block/liquid/snow/normal6"
+            }
+          ]
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/snowblock.json",
+    "side": "Server"
+  }
+]

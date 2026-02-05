@@ -29,6 +29,9 @@
         "verticals": {
           "base": "conquestgeology:block/stone/rock/{rock}/verticals/*"
         }
+      },
+      "*": {
+        "all": { "base": "game:block/stone/rock/{rock}*" }
       }
     },
     "side": "server",

@@ -1,12 +1,37 @@
 [
   {
-    "file": "terrainslabs:blocktypes/glacierice.json",
-    "op": "replace",
+    "op": "remove",
     "path": "/textures",
-		"value": {
-			"horizontals": { "base": "game:block/liquid/ice/glacier*" },
-			"verticals": { "base": "game:block/liquid/ice/top/glacier*" }
-		},
-    "side": "server"
+    "file": "terrainslabs:blocktypes/glacierice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "glacierice-game": {
+        "horizontals": {
+          "base": "game:block/liquid/ice/glacier/horizontals/*"
+        },
+        "verticals": {
+          "base": "game:block/liquid/ice/glacier/verticals/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/glacierice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/liquid/ice/glacier*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/glacierice.json",
+    "side": "Server"
   }
 ]

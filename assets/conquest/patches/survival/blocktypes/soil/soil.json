@@ -1,28 +1,130 @@
 [
     {
-        "file": "game:blocktypes/soil/soil.json",
-        "op": "replace",
+        "op": "remove",
         "path": "/textures",
-        "side": "server",
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
         "value": {
-            "all": {
-                "base": "game:block/soil/fertility/{fertility}/fert{fertility}1",
-                "tiles": [
-                    { "base": "game:block/soil/fertility/{fertility}/fert{fertility}*" }
-                ],
-                "tilesWidth": 5
+            "soil-verylow-*": {
+                "all": {
+                    "base": "game:block/soil/fertility/{fertility}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/soil/fertility/{fertility}/*"
+                        }
+                    ],
+                    "tilesWidth": 3
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                }
             },
-
-            "snowed": {
-                "base": "game:block/plant/grasscoverage/snow/normal"
+            "soil-low-*": {
+                "all": {
+                    "base": "game:block/soil/fertility/{fertility}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/soil/fertility/{fertility}/*"
+                        }
+                    ],
+                    "tilesWidth": 3
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                }
             },
-            "specialSecondTexture": {
-                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
-                "tiles": [
-                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
-                ],
-                "tilesWidth": 4
+            "soil-high-*": {
+                "all": {
+                    "base": "game:block/soil/fertility/{fertility}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/soil/fertility/{fertility}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "soil-medium-*": {
+                "all": {
+                    "base": "game:block/soil/fertility/{fertility}/*"
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "soil-compost-*": {
+                "all": {
+                    "base": "game:block/soil/fertility/{fertility}/*"
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
+                    "tiles": [
+                        {
+                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+                        }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "game:block/soil/fert{fertility}"
+                },
+                "snowed": {
+                    "base": "game:block/plant/grasscoverage/snow/normal"
+                },
+                "specialSecondTexture": {
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}"
+                }
             }
-        }
+        },
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "server"
     }
 ]

@@ -1,0 +1,34 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/liquid/lakeice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "lakeice": {
+        "all": {
+          "base": "game:block/liquid/ice/lake/horizontals/*"
+        }
+      }
+    },
+    "file": "game:blocktypes/liquid/lakeice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/liquid/ice/river*"
+        }
+      }
+    },
+    "file": "game:blocktypes/liquid/lakeice.json",
+    "side": "Server"
+  }
+]

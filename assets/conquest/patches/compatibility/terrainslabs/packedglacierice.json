@@ -1,0 +1,37 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "terrainslabs:blocktypes/packedglacierice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "packedglacierice-game": {
+        "horizontals": {
+          "base": "game:block/liquid/ice/packed/horizontals/*"
+        },
+        "verticals": {
+          "base": "game:block/liquid/ice/packed/verticals/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/packedglacierice.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/liquid/ice/packedglacier*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/packedglacierice.json",
+    "side": "Server"
+  }
+]

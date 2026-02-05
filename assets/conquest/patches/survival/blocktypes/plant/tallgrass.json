@@ -5,14 +5,37 @@
 		"path": "/texturesByType",
 		"side": "server",
 		"value": {
-
 			"*-free": {
-				"north": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north*" },
-				"south": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south*" }
+				"north": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north",
+					"alternates": [
+						{
+							"base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north1"
+						}
+					]
+				},
+				"south": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south",
+					"alternates": [
+						{
+							"base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south1"
+						}
+					]
+				}
+			}
+		},
+		"*-snow*": {
+			"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north",
+				"alternates": [
+					{
+						"base": "game:block/plant/tallgrass/snow/{tallgrass}-north1"
+					}
+				]
 			},
-			"*-snow*": {
-				"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north*" },
-				"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south*" }
+			"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south",
+				"alternates": [
+					{
+						"base": "game:block/plant/tallgrass/snow/{tallgrass}-south1"
+					}
+				]
 			}
 		}
 	},

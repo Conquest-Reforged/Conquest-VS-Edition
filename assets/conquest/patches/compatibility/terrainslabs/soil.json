@@ -1,28 +1,27 @@
 [
   {
-    "file": "terrainslabs:blocktypes/soil.json",
-    "op": "replace",
+    "op": "remove",
     "path": "/textures",
-        "value": {
-            "all": {
-                "base": "game:block/soil/fertility/{fertility}/fert{fertility}1",
-                "tiles": [
-                    { "base": "game:block/soil/fertility/{fertility}/fert{fertility}*" }
-                ],
-                "tilesWidth": 5
-            },
-
-            "snowed": {
-                "base": "game:block/plant/grasscoverage/snow/normal"
-            },
-            "specialSecondTexture": {
-                "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
-                "tiles": [
-                    { "base": "game:block/plant/grasscoverage/{grasscoverage}/*" }
-                ],
-                "tilesWidth": 4
-            }
+    "file": "terrainslabs:blocktypes/soil.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/soil/fertility/{fertility}/*"
         },
+        "snowed": {
+          "base": "game:block/plant/grasscoverage/snow/normal"
+        },
+        "specialSecondTexture": {
+          "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/soil.json",
     "side": "server"
   }
 ]
