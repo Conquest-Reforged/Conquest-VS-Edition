@@ -1,11 +1,21 @@
 [
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "remove",
     "path": "/textures",
     "file": "terrainslabs:blocktypes/glacierice.json",
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
@@ -22,6 +32,11 @@
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {

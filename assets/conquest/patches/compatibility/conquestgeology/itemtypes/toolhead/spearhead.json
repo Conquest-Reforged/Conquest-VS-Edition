@@ -1,12 +1,16 @@
 [
   {
-    "file": "conquestgeology:itemtypes/toolhead/spearhead.json",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "add",
     "path": "/texturesByType",
     "value": {
-      "spearhead-dacite": {
-        "material": {
-          "base": "block/stone/rock/{material}/sides/1"
+      "@spearhead-(dacite|rhyolite)": {
+        "stone": {
+          "base": "conquestgeology:block/stone/rock/{material}/sides/1"
         },
         "string": {
           "base": "game:block/transparent"
@@ -15,9 +19,9 @@
           "base": "game:block/transparent"
         }
       },
-      "spearhead-rhyolite": {
-        "material": {
-          "base": "block/stone/rock/{material}/sides/1"
+      "@spearhead-(granite_red)": {
+        "stone": {
+          "base": "conquestgeology:block/stone/rock/granite_red_smooth/sides/1"
         },
         "string": {
           "base": "game:block/transparent"
@@ -26,20 +30,9 @@
           "base": "game:block/transparent"
         }
       },
-      "spearhead-granite_red": {
-        "material": {
-          "base": "block/stone/rock/granite_red_smooth/sides/1"
-        },
-        "string": {
-          "base": "game:block/transparent"
-        },
-        "handle": {
-          "base": "game:block/transparent"
-        }
-      },
-      "spearhead-quartzite": {
-        "material": {
-          "base": "block/stone/rock/quartzite_light/sides/1"
+      "@spearhead-(quartzite)": {
+        "stone": {
+          "base": "conquestgeology:block/stone/rock/quartzite_light/sides/1"
         },
         "string": {
           "base": "game:block/transparent"
@@ -49,11 +42,7 @@
         }
       }
     },
-    "side": "server",
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ]
+    "file": "conquestgeology:itemtypes/toolhead/spearhead.json",
+    "side": "server"
   }
 ]

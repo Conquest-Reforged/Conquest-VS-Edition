@@ -6,36 +6,16 @@
 		"side": "server",
 		"value": {
 			"*-free": {
-				"north": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north",
-					"alternates": [
-						{
-							"base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north1"
-						}
-					]
+				"north": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-north*"
 				},
-				"south": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south",
-					"alternates": [
-						{
-							"base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south1"
-						}
-					]
+				"south": { "base": "game:block/plant/tallgrass/{cover}/{tallgrass}-south*"
 				}
 			}
 		},
 		"*-snow*": {
-			"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north",
-				"alternates": [
-					{
-						"base": "game:block/plant/tallgrass/snow/{tallgrass}-north1"
-					}
-				]
+			"north": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-north*"
 			},
-			"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south",
-				"alternates": [
-					{
-						"base": "game:block/plant/tallgrass/snow/{tallgrass}-south1"
-					}
-				]
+			"south": { "base": "game:block/plant/tallgrass/snow/{tallgrass}-south*"
 			}
 		}
 	},
@@ -45,9 +25,9 @@
 		"path": "/shape",
 		"side": "server",
 		"value": {
-			"base": "game:block/basic/cross",
+			"base": "conquest:block/basic/cross",
 			"alternates": [
-				{ "base": "game:block/basic/cross1" }
+				{ "base": "conquest:block/basic/cross1" }
 			]
 		}
 	}

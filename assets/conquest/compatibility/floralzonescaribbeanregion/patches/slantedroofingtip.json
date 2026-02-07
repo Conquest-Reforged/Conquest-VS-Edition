@@ -8,7 +8,7 @@
 
 			"*": {
 				"material": { "base": "floralzonescaribbeanregion:block/wood/shingles/{material}-top" },
-				"snow": { "base": "game:block/snow/*" },
+				"snow": { "base": "game:block/liquid/snow/block/horizontals/*" },
 				"shingle1": {
 					"base": "floralzonescaribbeanregion:block/wood/shingles/{material}-top"
 				},

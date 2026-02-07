@@ -9,15 +9,9 @@
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "soil-verylow-*": {
+            "@.*-(compost|medium)-.*": {
                 "all": {
-                    "base": "game:block/soil/fertility/{fertility}/1",
-                    "tiles": [
-                        {
-                            "base": "game:block/soil/fertility/{fertility}/*"
-                        }
-                    ],
-                    "tilesWidth": 3
+                    "base": "game:block/soil/fertility/{fertility}/*"
                 },
                 "snowed": {
                     "base": "game:block/plant/grasscoverage/snow/normal"
@@ -32,7 +26,7 @@
                     "tilesWidth": 4
                 }
             },
-            "soil-low-*": {
+            "@.*-(low|verylow)-.*": {
                 "all": {
                     "base": "game:block/soil/fertility/{fertility}/1",
                     "tiles": [
@@ -77,41 +71,15 @@
                     ],
                     "tilesWidth": 4
                 }
-            },
-            "soil-medium-*": {
-                "all": {
-                    "base": "game:block/soil/fertility/{fertility}/*"
-                },
-                "snowed": {
-                    "base": "game:block/plant/grasscoverage/snow/normal"
-                },
-                "specialSecondTexture": {
-                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
-                    "tiles": [
-                        {
-                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
-                        }
-                    ],
-                    "tilesWidth": 4
-                }
-            },
-            "soil-compost-*": {
-                "all": {
-                    "base": "game:block/soil/fertility/{fertility}/*"
-                },
-                "snowed": {
-                    "base": "game:block/plant/grasscoverage/snow/normal"
-                },
-                "specialSecondTexture": {
-                    "base": "game:block/plant/grasscoverage/{grasscoverage}/1",
-                    "tiles": [
-                        {
-                            "base": "game:block/plant/grasscoverage/{grasscoverage}/*"
-                        }
-                    ],
-                    "tilesWidth": 4
-                }
-            },
+            }
+        },
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
             "*": {
                 "all": {
                     "base": "game:block/soil/fert{fertility}"
@@ -126,5 +94,61 @@
         },
         "file": "game:blocktypes/soil/soil.json",
         "side": "server"
+    },
+    {
+        "op": "remove",
+        "path": "/texturesInventory",
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesInventoryByType",
+        "value": {
+            "@.*-(compost|high|low|verylow|medium).*": {
+                "down": {
+                    "base": "game:block/soil/fertility/{fertility}/1"
+                },
+                "horizontals": {
+                    "base": "game:block/soil/fertility/{fertility}/1",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+                    ]
+                },
+                "up": {
+                    "base": "game:block/soil/fertility/{fertility}/1",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesInventoryByType",
+        "value": {
+            "*": {
+                "down": {
+                    "base": "game:block/soil/fert{fertility}"
+                },
+                "horizontals": {
+                    "base": "game:block/soil/fert{fertility}",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+                    ]
+                },
+                "up": {
+                    "base": "game:block/soil/fert{fertility}",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/soil/soil.json",
+        "side": "Server"
     }
 ]

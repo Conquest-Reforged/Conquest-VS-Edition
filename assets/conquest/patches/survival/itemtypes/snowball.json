@@ -9,6 +9,11 @@
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
+      "@.*-(snow)": {
+        "normal2": {
+          "base": "game:block/liquid/snow/block/horizontals/1"
+        }
+      },
       "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|meteorite-iron|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)": {
         "normal2": {
           "base": "block/stone/rock/conquest/{rock}/sides/1"

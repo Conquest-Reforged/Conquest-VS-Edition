@@ -1,15 +1,25 @@
 [
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "remove",
     "path": "/textures",
     "file": "terrainslabs:blocktypes/soil.json",
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
-      "*": {
+      "@.*-(compost|high|low|verylow|medium)-.*": {
         "all": {
           "base": "game:block/soil/fertility/{fertility}/*"
         },
@@ -23,5 +33,85 @@
     },
     "file": "terrainslabs:blocktypes/soil.json",
     "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "all": {
+          "base": "game:block/soil/fert{fertility}"
+        },
+        "snowed": {
+          "base": "game:block/plant/grasscoverage/snow/normal"
+        },
+        "specialSecondTexture": {
+          "base": "game:block/plant/grasscoverage/{grasscoverage}"
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/soil.json",
+    "side": "server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesInventory",
+    "file": "terrainslabs:blocktypes/soil.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesInventoryByType",
+    "value": {
+      "@.*-(compost|high|low|verylow|medium).*": {
+        "down": {
+          "base": "game:block/soil/fertility/{fertility}/1"
+        },
+        "horizontals": {
+          "base": "game:block/soil/fertility/{fertility}/1",
+          "overlays": [
+            "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+          ]
+        },
+        "up": {
+          "base": "game:block/soil/fertility/{fertility}/1",
+          "overlays": [
+            "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+          ]
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/soil.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesInventoryByType",
+    "value": {
+      "*": {
+        "down": {
+          "base": "game:block/soil/fert{fertility}"
+        },
+        "horizontals": {
+          "base": "game:block/soil/fert{fertility}",
+          "overlays": [
+            "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+          ]
+        },
+        "up": {
+          "base": "game:block/soil/fert{fertility}",
+          "overlays": [
+            "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+          ]
+        }
+      }
+    },
+    "file": "terrainslabs:blocktypes/soil.json",
+    "side": "Server"
   }
 ]

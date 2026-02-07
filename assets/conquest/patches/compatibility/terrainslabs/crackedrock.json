@@ -1,23 +1,43 @@
 [
     {
+        "dependsOn": [
+            {
+                "modid": "terrainslabs"
+            }
+        ],
         "op": "remove",
         "path": "/texturesByType/*-kimberlite",
         "file": "terrainslabs:blocktypes/crackedrock.json",
         "side": "Server"
     },
     {
+        "dependsOn": [
+            {
+                "modid": "terrainslabs"
+            }
+        ],
         "op": "remove",
         "path": "/texturesByType/*-obsidian",
         "file": "terrainslabs:blocktypes/crackedrock.json",
         "side": "Server"
     },
     {
+        "dependsOn": [
+            {
+                "modid": "terrainslabs"
+            }
+        ],
         "op": "remove",
         "path": "/texturesByType/*-suevite",
         "file": "terrainslabs:blocktypes/crackedrock.json",
         "side": "Server"
     },
     {
+        "dependsOn": [
+            {
+                "modid": "terrainslabs"
+            }
+        ],
         "op": "replace",
         "path": "/texturesByType",
         "value": {
@@ -113,12 +133,36 @@
         "dependsOn": [
             {
                 "modid": "conquestgeology"
+            },
+            {
+                "modid": "terrainslabs"
             }
         ],
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "@.*-(calcite|obsidian_crying|obsidian_rainbow|limestone_glow_worms|limestone_icy_snow_covered|sandstone_warped|basalt_smooth|tuff_dark|tuff_light|schist_blue_weathered|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough|quartzite_stained|quartzite_dark|quartzite_light|gneiss|limestone_pale|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)": {
+            "@.*-(calcite)": {
+                "all": {
+                    "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
+                    "overlays": [ "game:block/overlay/rock/cracked1" ],
+                    "alternates": [
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/2",
+                            "overlays": [ "game:block/overlay/rock/cracked2" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/3",
+                            "overlays": [ "game:block/overlay/rock/cracked3" ]
+                        },
+                        {
+                            "base": "conquestgeology:block/stone/rock/{rock}/sides/4",
+                            "overlays": [ "game:block/overlay/rock/cracked4" ]
+                        }
+                    ]
+                }
+
+            },
+            "@.*-(obsidian_crying|obsidian_rainbow|limestone_glow_worms|limestone_icy_snow_covered|sandstone_warped|basalt_smooth|tuff_dark|tuff_light|schist_blue_weathered|anorthosite_rough|dacite|limestone_boulders_light|rhyolite|serpentinite_smooth|obsidian_smooth|andesite_porous|andesite_weathered|basalt_porous|basalt_weathered|tuff_smooth|dacite_porous|dacite_weathered|rhyolite_porous|rhyolite_weathered|anorthosite_smooth|anorthosite_weathered|gneiss_eroded|schist_blue_lichen|schist_blue_mossy|serpentinite_weathered|chalk_smooth|limestone_boulders_light|marble_dark_rough|marble_rough|quartzite_stained|quartzite_dark|quartzite_light|gneiss|limestone_pale|limestone_tan|limestone_tan_stained|granite_brown|granite_gray_light|granite_red_smooth|granite_brown_dark|granite_brown_light|granite_gray_dark|granite_snowy|granite_white|calcite_limestone|limestone_dark|limestone_icy|limestone_light|limestone_mossy|limestone_pink|limestone_tan_light|end_stone_rough|end_stone_smooth|marble_gray_dark_rough|marble_gray_light_rough|marble_gray_rough|marble_yellow_rough)": {
                 "all": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [ "game:block/overlay/rock/cracked1" ],
@@ -147,7 +191,7 @@
                 }
 
             },
-            "@.*-(mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light)": {
+            "@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|limestone_moss_covered|mudstone|mudstone_brown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|mudstone_brown_light|mudstone_light|mudstone_orange_light|mudstone_red_light|mudstone_umbre_light|mudstone_yellow_light)": {
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [ "game:block/overlay/rock/cracked1" ],
@@ -193,7 +237,7 @@
                     ]
                 }
             },
-            "@.*-(calcite_rough|calcite_stalagtite|calcite_stalagtite_dark|graywacke|schist_blue|schist_green|sandstone_brown|sandstone_orange|sandstone_red|sandstone_red_coastal|sandstone_red_mossy|sandstone_tan|slate_dark|slate_gray|slate_light|limestone_moss_covered|end_stone|limestone_gray_light|basalt_columnar|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)": {
+            "@.*-(graywacke|schist_blue|schist_green|sandstone_brown|sandstone_orange|sandstone_red|sandstone_red_coastal|sandstone_red_mossy|sandstone_tan|slate_dark|slate_gray|slate_light|end_stone|limestone_gray_light|basalt_columnar|sandstone_gray_dark_faded|sandstone_gray_faded|sandstone_orange_faded|sandstone_red_dark_faded|andesite_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_weathered|granite_red_weathered|limestone_boulders_light_mossy|sandstone_gray_darker_faded_mossy|sandstone_orange_faded_mossy|sandstone_red_dark_faded_mossy|sandstone_red_faded|sandstone_tan_faded|sandstone_tan_faded_mossy|sandstone_tan_lighter_faded)": {
                 "horizontals": {
                     "base": "conquestgeology:block/stone/rock/{rock}/sides/1",
                     "overlays": [ "game:block/overlay/rock/cracked1" ],
@@ -252,6 +296,11 @@
         "side": "server"
     },
     {
+        "dependsOn": [
+            {
+                "modid": "terrainslabs"
+            }
+        ],
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {

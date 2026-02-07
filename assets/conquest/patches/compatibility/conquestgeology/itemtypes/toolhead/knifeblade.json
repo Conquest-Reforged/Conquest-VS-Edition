@@ -1,6 +1,10 @@
 [
   {
-    "file": "conquestgeology:itemtypes/toolhead/knifeblade.json",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "add",
     "path": "/texturesByType",
     "value": {
@@ -20,11 +24,7 @@
         }
       }
     },
-    "side": "server",
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ]
+    "file": "conquestgeology:itemtypes/toolhead/knifeblade.json",
+    "side": "server"
   }
 ]

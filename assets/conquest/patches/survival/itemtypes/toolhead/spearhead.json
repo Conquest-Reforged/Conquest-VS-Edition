@@ -1,42 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/texturesByType/spearhead-andesite/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/texturesByType/spearhead-basalt/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/texturesByType/spearhead-chert/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/texturesByType/spearhead-granite/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/texturesByType/spearhead-obsidian/material/base",
-    "value": "block/stone/rock/conquest/{material}/sides/1",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/texturesByType/spearhead-peridotite/material/base",
+    "path": "/texturesByType/*/stone/base",
     "value": "block/stone/rock/conquest/{material}/sides/1",
     "file": "game:itemtypes/toolhead/spearhead.json",
     "side": "Server"

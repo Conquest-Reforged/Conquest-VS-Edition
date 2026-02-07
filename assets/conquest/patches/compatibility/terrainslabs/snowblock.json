@@ -1,11 +1,21 @@
 [
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "remove",
     "path": "/textures",
     "file": "terrainslabs:blocktypes/snowblock.json",
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
@@ -19,6 +29,11 @@
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {

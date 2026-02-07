@@ -1,17 +1,32 @@
 [
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "remove",
     "path": "/shape/alternates",
     "file": "terrainslabs:blocktypes/sand.json",
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "remove",
     "path": "/textures",
     "file": "terrainslabs:blocktypes/sand.json",
     "side": "Server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
@@ -28,6 +43,9 @@
     "dependsOn": [
       {
         "modid": "conquestgeology"
+      },
+      {
+        "modid": "terrainslabs"
       }
     ],
     "op": "addmerge",
@@ -43,6 +61,11 @@
     "side": "server"
   },
   {
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {

@@ -2,19 +2,19 @@
     {
         "op": "remove",
         "path": "/textures",
-        "file": "game:blocktypes/soil/soil.json",
+        "file": "game:blocktypes/soil/clay.json",
         "side": "Server"
     },
     {
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "@.*-(blue|fire|red)clay": {
+            "@.*-(blue|fire|red)-.*": {
                 "all": {
-                    "base": "game:block/soil/{type}/1",
+                    "base": "game:block/soil/clay/{type}/1",
                     "tiles": [
                         {
-                            "base": "game:block/soil/{type}/*"
+                            "base": "game:block/soil/clay/{type}/*"
                         }
                     ],
                     "tilesWidth": 3
@@ -34,20 +34,84 @@
                         "*": 4
                     }
                 }
-            },
+            }
+        },
+        "file": "game:blocktypes/soil/clay.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
             "*": {
                 "all": {
-                    "base": "block/soil/{type}clay"
+                    "base": "game:block/soil/{type}clay"
                 },
                 "snowed": {
-                    "base": "block/plant/grasscoverage/snow/normal"
+                    "base": "game:block/plant/grasscoverage/snow/normal"
                 },
                 "specialSecondTexture": {
-                    "base": "block/plant/grasscoverage/{grasscoverage}"
+                    "base": "game:block/plant/grasscoverage/{grasscoverage}"
                 }
             }
         },
         "file": "game:blocktypes/soil/clay.json",
         "side": "server"
+    },
+    {
+        "op": "remove",
+        "path": "/texturesInventory",
+        "file": "game:blocktypes/soil/clay.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesInventoryByType",
+        "value": {
+            "@.*-(blue|fire|red)-.*": {
+                "down": {
+                    "base": "game:block/soil/clay/{type}/1"
+                },
+                "horizontals": {
+                    "base": "game:block/soil/clay/{type}/1",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+                    ]
+                },
+                "up": {
+                    "base": "game:block/soil/clay/{type}/1",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/soil/clay.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesInventoryByType",
+        "value": {
+            "*": {
+                "down": {
+                    "base": "game:block/soil/{type}clay"
+                },
+                "horizontals": {
+                    "base": "game:block/soil/{type}clay",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/side_{grasscoverage}"
+                    ]
+                },
+                "up": {
+                    "base": "game:block/soil/{type}clay",
+                    "overlays": [
+                        "game:block/plant/grasscoverage/inventory/top_{grasscoverage}"
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/soil/clay.json",
+        "side": "Server"
     }
 ]

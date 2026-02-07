@@ -1,6 +1,10 @@
 [
   {
-    "file": "terrainslabs:blocktypes/forestfloor.json",
+    "dependsOn": [
+      {
+        "modid": "terrainslabs"
+      }
+    ],
     "op": "replace",
     "path": "/textures",
         "value": {
@@ -12,6 +16,7 @@
                 "*": { "base": "game:block/soil/forest/forestoverlay{grass}" }
             }
         },
+    "file": "terrainslabs:blocktypes/forestfloor.json",
     "side": "server"
   }
 ]

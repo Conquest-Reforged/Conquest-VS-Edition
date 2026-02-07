@@ -1,11 +1,26 @@
 [
   {
-    "op": "addmerge",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
+    "op": "add",
     "path": "/client/texturesByType",
     "value": {
-      "spear-generic-*": {
-        "material": {
+      "@spear-generic-(dacite|rhyolite)": {
+        "stone": {
           "base": "conquestgeology:block/stone/rock/{material}/sides/1"
+        }
+      },
+      "@spear-generic-(granite_red)": {
+        "stone": {
+          "base": "conquestgeology:block/stone/rock/granite_red_smooth/sides/1"
+        }
+      },
+      "@spear-generic-(quartzite)": {
+        "stone": {
+          "base": "conquestgeology:block/stone/rock/quartzite_light/sides/1"
         }
       }
     },

@@ -1,6 +1,10 @@
 [
   {
-    "file": "terrainslabs:blocktypes/peat.json",
+      "dependsOn": [
+          {
+              "modid": "terrainslabs"
+          }
+      ],
     "op": "replace",
     "path": "/textures",
         "value": {
@@ -32,6 +36,7 @@
                 }
             }
         },
-    "side": "server"
+      "file": "terrainslabs:blocktypes/peat.json",
+      "side": "server"
   }
 ]

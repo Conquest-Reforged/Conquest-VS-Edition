@@ -45,7 +45,7 @@
             "stick_s2": { "base": "game:block/wood/loosestick/small_sticks/stick_s2" },
             "stick_s3": { "base": "game:block/wood/loosestick/small_sticks/stick_s3" },
             "stick_s4": { "base": "game:block/wood/loosestick/small_sticks/stick_s4" },
-            "snowcover": { "base": "game:block/snow/normal1" }
+            "snowcover": { "base": "game:block/liquid/snow/block/horizontals/1" }
 
 
         }

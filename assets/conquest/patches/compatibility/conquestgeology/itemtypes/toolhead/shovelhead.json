@@ -1,6 +1,10 @@
 [
   {
-    "file": "conquestgeology:itemtypes/toolhead/shovelhead.json",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "add",
     "path": "/texturesByType",
     "value": {
@@ -38,11 +42,7 @@
         }
       }
     },
-    "side": "server",
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ]
+    "file": "conquestgeology:itemtypes/toolhead/shovelhead.json",
+    "side": "server"
   }
 ]

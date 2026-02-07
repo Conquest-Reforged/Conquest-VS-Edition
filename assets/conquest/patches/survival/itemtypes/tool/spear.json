@@ -1,7 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)/material/base",
+    "path": "/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)/stone/base",
     "value": "block/stone/rock/conquest/{material}/sides/1",
     "file": "game:itemtypes/tool/spear.json",
     "side": "Server"

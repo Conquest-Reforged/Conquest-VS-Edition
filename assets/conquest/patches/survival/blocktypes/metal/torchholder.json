@@ -1,11 +1,8 @@
 [
     {
-        "file": "game:blocktypes/metal/torchholder.json",
         "op": "replace",
-        "path": "/fpHandTransform",
-        "side": "Server",
+        "path": "/tpHandTransform",
         "value": {
-
             "translation": {
                 "x": 0.89,
                 "y": -0.5,
@@ -17,13 +14,13 @@
                 "z": -21
             },
             "scale": 2.41
-        }
+        },
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
-        "file": "game:blocktypes/metal/torchholder.json",
         "op": "replace",
         "path": "/guiTransform",
-        "side": "Server",
         "value": {
 
             "translation": {
@@ -42,13 +39,13 @@
                 "z": 0.18
             },
             "scale": 2.08
-        }
+        },
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "replace",
         "path": "/particlePropertiesByType",
-        "file": "game:blocktypes/metal/torchholder.json",
-        "side": "Server",
         "value": {
             "*-filled-north": [
                 {
@@ -1474,13 +1471,13 @@
                     "WindAffectednes": 0.3
                 }
             ]
-        }
+        },
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
-        "file": "game:blocktypes/metal/torchholder.json",
         "op": "replace",
         "path": "/tpHandTransform",
-        "side": "Server",
         "value": {
 
             "translation": {
@@ -1499,6 +1496,8 @@
                 "z": 0.1
             },
             "scale": 0.66
-        }
+        },
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     }
 ]

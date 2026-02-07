@@ -8,7 +8,7 @@
 
             "*": {
                 "material": { "base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-top" },
-                "snow": { "base": "game:block/snow/*" },
+                "snow": { "base": "game:block/liquid/snow/block/horizontals/*" },
                 "shingle1": {
                     "base": "floralzonesmediterraneanregion:block/wood/shingles/{material}-top"
                 },

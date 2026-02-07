@@ -1,6 +1,10 @@
 [
   {
-    "file": "conquestgeology:blocktypes/stone/masonry/window_small.json",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "replace",
     "path": "/texturesByType",
     "value": {
@@ -34,11 +38,7 @@
         "all": { "base": "game:block/stone/rock/{rock}*" }
       }
     },
-    "side": "server",
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ]
+    "file": "conquestgeology:blocktypes/stone/masonry/window_small.json",
+    "side": "server"
   }
 ]

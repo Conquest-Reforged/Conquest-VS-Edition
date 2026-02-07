@@ -1,6 +1,10 @@
 [
   {
-    "file": "conquestgeology:itemtypes/tool/hoe.json",
+    "dependsOn": [
+      {
+        "modid": "conquestgeology"
+      }
+    ],
     "op": "add",
     "path": "/texturesByType",
     "value": {
@@ -25,11 +29,7 @@
         }
       }
     },
-    "side": "server",
-    "dependsOn": [
-      {
-        "modid": "conquestgeology"
-      }
-    ]
+    "file": "conquestgeology:itemtypes/tool/hoe.json",
+    "side": "server"
   }
 ]
