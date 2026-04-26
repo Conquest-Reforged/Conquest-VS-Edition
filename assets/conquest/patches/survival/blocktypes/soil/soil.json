@@ -13,6 +13,9 @@
                 "all": {
                     "base": "game:block/soil/fertility/{fertility}/*"
                 },
+                "particletop": {
+                    "base": "game:block/plant/grasscoverage/normal-top"
+                },
                 "snowed": {
                     "base": "game:block/plant/grasscoverage/snow/normal"
                 },
@@ -36,6 +39,9 @@
                     ],
                     "tilesWidth": 3
                 },
+                "particletop": {
+                    "base": "game:block/plant/grasscoverage/normal-top"
+                },
                 "snowed": {
                     "base": "game:block/plant/grasscoverage/snow/normal"
                 },
@@ -58,6 +64,9 @@
                         }
                     ],
                     "tilesWidth": 4
+                },
+                "particletop": {
+                    "base": "game:block/plant/grasscoverage/normal-top"
                 },
                 "snowed": {
                     "base": "game:block/plant/grasscoverage/snow/normal"
@@ -83,6 +92,9 @@
             "*": {
                 "all": {
                     "base": "game:block/soil/fert{fertility}"
+                },
+                "particletop": {
+                    "base": "game:block/plant/grasscoverage/normal-top"
                 },
                 "snowed": {
                     "base": "game:block/plant/grasscoverage/snow/normal"
