@@ -22,6 +22,9 @@
                 ],
                 "tilesWidth": 2
             },
+            "particletop": {
+                "base": "game:block/plant/grasscoverage/normal-top"
+            },
             "snowed": {
                 "base": "game:block/plant/grasscoverage/snow/normal"
             },
