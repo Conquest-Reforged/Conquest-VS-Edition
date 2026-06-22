@@ -13,6 +13,8 @@
             "sitHeightByType": {
                 "*-catmint-*": 0.8125,
                 "*-cornflower-*": 0.6,
+                "*-bluebell-*": 0.6,
+                "*-daffodil-*": 0.6,
                 "*-forgetmenot-*": 0.2,
                 "*-lilyofthevalley-*": 0.2,
                 "*-edelweiss-*": 0.46,
@@ -199,14 +201,15 @@
                         "*-westerngorse-*": 32,
                         "*-orangemallow-*": 45,
                         "*-lilyofthevalley-*": 25,
-                        "*-catmint-*": 35,
-                        "*-cornflower-*": 30,
+                        "*-catmint-*": 40,
+                        "*-cornflower-*": 40,
                         "*-cowparsley-*": 60,
+                        "*-mugwort-*": 64,
                         "*-goldenpoppy-*": 32,
                         "*-edelweiss-*": 30,
                         "*-forgetmenot-*": 20,
                         "*-horsetail-*": 32,
-                        "*-heather-*": 30,
+                        "*-heather-*": 60,
                         "*-redtopgrass-*": 40,
                         "*": 48
                     }
@@ -245,10 +248,16 @@
                 "base": "game:block/plant/flowers/lillyofthevalley/lillyofthevalley_*",
                 "scaleAdjust": 0.15
             },
+            "*-bluebell-*": { "base": "game:block/plant/flowers/basic/flower_32_*" },
+            "*-daffodil-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
+            "*-ghostpipered-*": { "base": "game:block/plant/flowers/basic/flower_32_a" },
+            "*-ghostpipewhite-*": { "base": "game:block/plant/flowers/basic/flower_32_a" },
+            "*-ghostpipepink-*": { "base": "game:block/plant/flowers/basic/flower_32_a" },
             "*-goldenpoppy-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
             "*-orangemallow-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_*" },
             "*-westerngorse-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_*" },
             "*-cornflower-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
+            "*-mugwort-*": { "base": "game:block/plant/flowers/basic/flower_64_*" },
             "*-heather-*": { "base": "game:block/plant/flowers/heather/heather_*" },
             "*-smallheather-*": { "base": "game:block/plant/heather-short" },
             "*-dandelion-*": { "base": "game:block/basic/flower-48x48" },
@@ -270,7 +279,31 @@
         "path": "/lod2shapeByType",
         "side": "server",
         "value": {
-            "*-smallheather-*": { "base": "game:block/basic/flower-tall" }
+            "*-lilyofthevalley-*": {
+                "base": "game:block/plant/flowers/lillyofthevalley/lillyofthevalley_lod2",
+                "scaleAdjust": 0.15
+            },
+            "*-mugwort-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-daffodil-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-bluebell-*": { "base": "game:block/plant/flowers/basic/flower_32_lod2" },
+            "*-ghostpipered-*": { "base": "game:block/plant/flowers/basic/flower_32_lod2" },
+            "*-ghostpipewhite-*": { "base": "game:block/plant/flowers/basic/flower_32_lod2" },
+            "*-ghostpipepink-*": { "base": "game:block/plant/flowers/basic/flower_32_lod2" },
+            "*-goldenpoppy-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-orangemallow-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_lod2" },
+            "*-westerngorse-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_lod2" },
+            "*-cornflower-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-heather-*": { "base": "game:block/plant/flowers/heather/heather_lod2" },
+            "*-smallheather-*": { "base": "game:block/plant/heather-short" },
+            "*-dandelion-*": { "base": "game:block/basic/flower-48x48" },
+            "*-edelweiss-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-cowparsley-*": { "base": "game:block/plant/flowers/cowparsley/cowparsley4" },
+            "*-horsetail-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-catmint-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_lod2" },
+            "*-woad-*": { "base": "game:block/plant/flowers/cowparsley/cowparsley4" },
+            "*-wilddaisy-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" },
+            "*-forgetmenot-*": { "base": "game:block/plant/flowers/basic/flower_shrub_64_lod2" },
+            "*-redtopgrass-*": { "base": "game:block/plant/flowers/basic/flower_64_lod2" }
         }
 
     },
@@ -660,7 +693,7 @@
                     ]
                 }
             },
-            "@.*-(catmint|cornflower|forgetmenot|edelweiss|horsetail|orangemallow|wilddaisy|westerngorse|goldenpoppy|redtopgrass)-.*": {
+            "@.*-(bluebell|daffodil|catmint|cornflower|forgetmenot|edelweiss|horsetail|orangemallow|wilddaisy|westerngorse|goldenpoppy|redtopgrass)-.*": {
 
                 "1": {
                     "base": "game:block/plant/flower/petal/{flower}1",
@@ -726,23 +759,70 @@
                         { "base": "game:block/plant/flower/stem/{flower}3" }
                     ]
                 }
+            },
+            "@.*-(horsetail|mugwort|ghostpipewhite|ghostpipepink|ghostpipered)-.*": {
+
+                "1": {
+                    "base": "game:block/plant/flower/petal/{flower}1",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/{flower}2" },
+                        { "base": "game:block/plant/flower/petal/{flower}3" },
+                        { "base": "game:block/plant/flower/petal/{flower}4" }
+                    ]
+                },
+                "2": {
+                    "base": "game:block/plant/flower/petal/{flower}2",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/{flower}3" },
+                        { "base": "game:block/plant/flower/petal/{flower}4" },
+                        { "base": "game:block/plant/flower/petal/{flower}1" }
+                    ]
+                },
+                "3": {
+                    "base": "game:block/plant/flower/petal/{flower}3",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/{flower}4" },
+                        { "base": "game:block/plant/flower/petal/{flower}1" },
+                        { "base": "game:block/plant/flower/petal/{flower}2" }
+                    ]
+                },
+                "4": {
+                    "base": "game:block/plant/flower/petal/{flower}4",
+                    "alternates": [
+                        { "base": "game:block/plant/flower/petal/{flower}1" },
+                        { "base": "game:block/plant/flower/petal/{flower}2" },
+                        { "base": "game:block/plant/flower/petal/{flower}3" }
+                    ]
+                },
+                "10": {
+                    "base": "game:block/plant/flower/stem/transparent"
+                },
+                "20": {
+                    "base": "game:block/plant/flower/stem/transparent"
+                },
+                "30": {
+                    "base": "game:block/plant/flower/stem/transparent"
+                },
+                "40": {
+                    "base": "game:block/plant/flower/stem/transparent"
+                }
+            },
+            "*": {
+                "north1": { "base": "block/plant/flower/petal/{flower}*" },
+                "south1": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted1": { "base": "block/plant/flower/stem/{flower}*" },
+                "north2": { "base": "block/plant/flower/petal/{flower}*" },
+                "south2": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted2": { "base": "block/plant/flower/stem/{flower}*" },
+                "north3": { "base": "block/plant/flower/petal/{flower}*" },
+                "south3": { "base": "block/plant/flower/petal/{flower}*" },
+                "northTinted3": { "base": "block/plant/flower/stem/{flower}*" },
+                "southTinted3": { "base": "block/plant/flower/stem/{flower}*" },
+                "flower2": { "base": "block/plant/flower/petal/{flower}*" },
+                "flower2Tinted": { "base": "block/plant/flower/stem/{flower}*" }
             }
-        },
-        "*": {
-            "north1": { "base": "block/plant/flower/petal/{flower}*" },
-            "south1": { "base": "block/plant/flower/petal/{flower}*" },
-            "northTinted1": { "base": "block/plant/flower/stem/{flower}*" },
-            "southTinted1": { "base": "block/plant/flower/stem/{flower}*" },
-            "north2": { "base": "block/plant/flower/petal/{flower}*" },
-            "south2": { "base": "block/plant/flower/petal/{flower}*" },
-            "northTinted2": { "base": "block/plant/flower/stem/{flower}*" },
-            "southTinted2": { "base": "block/plant/flower/stem/{flower}*" },
-            "north3": { "base": "block/plant/flower/petal/{flower}*" },
-            "south3": { "base": "block/plant/flower/petal/{flower}*" },
-            "northTinted3": { "base": "block/plant/flower/stem/{flower}*" },
-            "southTinted3": { "base": "block/plant/flower/stem/{flower}*" },
-            "flower2": { "base": "block/plant/flower/petal/{flower}*" },
-            "flower2Tinted": { "base": "block/plant/flower/stem/{flower}*" }
         }
 
     },

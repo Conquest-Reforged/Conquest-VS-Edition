@@ -71,11 +71,11 @@
             "*-burnt": {
                 "sides": { "base": "game:block/clay/planter/burnt" },
                 "ceramic": { "base": "game:block/clay/planter/burnt" },
-                "soil": { "base": "game:block/soil/fertility/medium/fertmedium10" }
+                "soil": { "base": "game:block/soil/fertility/medium/fertmedium1" }
             },
             "*": {
                 "sides": { "base": "game:block/clay/planter/{type}" },
-                "soil": { "base": "game:block/soil/fertility/medium/fertmedium10" }
+                "soil": { "base": "game:block/soil/fertility/medium/fertmedium1" }
             }
         }
     },

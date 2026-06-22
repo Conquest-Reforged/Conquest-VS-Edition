@@ -10,39 +10,18 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/fired/jug.json",
         "op": "replace",
-        "path": "/attributes",
-        "side": "server",
-        "value": {
-            "groundStorageTransform": {
-                "origin": {
-                    "x": 0.5,
-                    "y": 0,
-                    "z": 0.5
-                },
-                "scale": 0.8
-            },
-            "onDisplayTransform": {
-                "origin": {
-                    "x": 0.5,
-                    "y": 0,
-                    "z": 0.5
-                },
-                "scale": 0.6
-            },
-            "shelvable": true,
-            "liquidContainerPropsByType": {
-                "*-fired": {
-                    "capacityLitres": 3,
-                    "transferSizeLitres": 0.3,
-                    "emptyShapeLoc": "game:shapes/block/clay/jug",
-                    "opaqueContentShapeLoc": "game:shapes/block/basic/nothing",
-                    "liquidContentShapeLoc": "game:shapes/block/basic/nothing",
-                    "liquidMaxYTranslate": 0.05
-                }
-            }
-        }
+        "path": "/attributes/groundStorageTransform/scale",
+        "value": 0.8,
+        "file": "game:blocktypes/clay/fired/jug.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/attributes/onDisplayTransform/scale",
+        "value": 0.6,
+        "file": "game:blocktypes/clay/fired/jug.json",
+        "side": "Server"
     },
     {
         "file": "game:blocktypes/clay/fired/jug.json",

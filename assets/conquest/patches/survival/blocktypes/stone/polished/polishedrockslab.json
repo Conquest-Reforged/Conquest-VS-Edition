@@ -1,0 +1,70 @@
+[
+    {
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(kimberlite|suevite|greenmarble|redmarble|whitemarble)-up": {
+                "horizontals": {
+                    "base": "block/stone/polishedrockslab/{rock}*"
+                },
+                "verticals": {
+                    "base": "block/stone/polishedrock/{rock}*"
+                }
+            },
+            "@.*-(kimberlite|suevite|greenmarble|redmarble|whitemarble)-down": {
+                "horizontals": {
+                    "base": "block/stone/polishedrockslab/{rock}*"
+                },
+                "verticals": {
+                    "base": "block/stone/polishedrock/{rock}*"
+                }
+            },
+            "@.*-(kimberlite|suevite|greenmarble|redmarble|whitemarble)": {
+                "verticals": {
+                    "base": "block/stone/polishedrockslab/{rock}*",
+                    "rotation": 90
+                },
+                "horizontals": {
+                    "base": "block/stone/polishedrock/{rock}*",
+                    "rotation": 90
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/polished/polishedrockslab.json",
+        "side": "server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-up": {
+                "horizontals": {
+                    "base": "block/stone/polishedrockslab/{rock}"
+                },
+                "verticals": {
+                    "base": "block/stone/polishedrock/{rock}"
+                }
+            },
+            "*-down": {
+                "horizontals": {
+                    "base": "block/stone/polishedrockslab/{rock}"
+                },
+                "verticals": {
+                    "base": "block/stone/polishedrock/{rock}"
+                }
+            },
+            "*": {
+                "verticals": {
+                    "base": "block/stone/polishedrockslab/{rock}",
+                    "rotation": 90
+                },
+                "horizontals": {
+                    "base": "block/stone/polishedrock/{rock}",
+                    "rotation": 90
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/polished/polishedrockslab.json",
+        "side": "server"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "file": "game:blocktypes/clay/fired/dirtypot.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "*": {
+                "transparent": { "base": "game:block/transparent" },
+                "ceramic": { "base": "game:block/clay/pot/dirty{color}" },
+                "liquid": { "base": "game:block/liquid/glue-cold" }
+            }
+        }
+
+    }
+]

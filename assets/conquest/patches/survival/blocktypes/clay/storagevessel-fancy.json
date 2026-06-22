@@ -18,7 +18,8 @@
                     ]
                 }
             ],
-            "@.*-(ashforest|beehive|caveaurora|chthonic|cloisonne|copper|earthen|rime|talik|wintersea)": [
+           
+            "@.*-(ashforest|serpents|beehive|caveaurora|chains|chthonic|cloisonne|copper|earthen|rime|talik|wintersea)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [
@@ -30,7 +31,7 @@
                     ]
                 }
             ],
-            "@.*-(cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": [
+            "@.*-(void|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [
@@ -42,7 +43,7 @@
                     ]
                 }
             ],
-            "@.*-(collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": [
+            "@.*-(patina|motheaten|golden|collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [
@@ -81,7 +82,18 @@
                 "storagevessel": { "base": "game:block/clay/vessel/{variant}" },
                 "normal-storagevessel": { "base": "game:block/clay/vessel/{variant}" },
                 "normal1-storagevessel": { "base": "game:block/clay/vessel/{variant}" },
-                "normal2-storagevessel": { "base": "game:block/clay/vessel/{variant}" }
+                "normal2-storagevessel": { "base": "game:block/clay/vessel/{variant}" },
+
+                "ceramic": { "base": "block/clay/ceramic" },
+                "top": { "base": "block/clay/vessel/top/{variant}" },
+                "sides": { "base": "block/clay/vessel/sides/{variant}" },
+                "inside": { "base": "block/clay/vessel/inside/{variant}" },
+
+                "normal-ceramic": { "base": "block/clay/ceramic" },
+                "normal-top": { "base": "block/clay/vessel/top/{variant}" },
+                "normal-sides": { "base": "block/clay/vessel/sides/{variant}" },
+                "normal-inside": { "base": "block/clay/vessel/inside/{variant}" }
+
             }
         }
     },
@@ -98,7 +110,7 @@
             "partialAttachable": true,
             "inventoryClassName": "chest",
             "defaultType": "normal",
-            "types": [ "normal", "normal1", "normal2" ],
+            "types": [ "normal", "normal1", "normal2"],
             "drop": {
                 "normal": true,
                 "normal1": true,

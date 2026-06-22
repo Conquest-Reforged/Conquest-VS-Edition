@@ -116,6 +116,7 @@
         "path": "/sidesolid",
         "value": {
             "all": false
+
         },
         "file": "game:blocktypes/stone/quern.json",
         "side": "server"
@@ -125,6 +126,7 @@
         "path": "/sideopaque",
         "value": {
             "all": false
+
         },
         "file": "game:blocktypes/stone/quern.json",
         "side": "server"

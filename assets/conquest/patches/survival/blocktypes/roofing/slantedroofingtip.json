@@ -14,20 +14,20 @@
         "path": "/shapeByType",
         "side": "server",
         "value": {
-            "@.*-(agedthatch|thatch)-.*": { "base": "block/roofing/tip/thatch-{cover}" },
+            "@.*-(agedthatch|thatch)-.*": { "base": "game:block/roofing/tip/thatch-{cover}" },
 
-            "@.*-(black|cream|red|tan)clay-.*": { "base": "block/roofing/tip/shingles-clay-{cover}" },
-            "@.*-(brown|fire|gray)clay-.*": { "base": "block/roofing/tip/shingles-clay2-{cover}" },
+            "@.*-(black|cream|red|tan)clay-.*": { "base": "game:block/roofing/tip/shingles-clay-{cover}" },
+            "@.*-(brown|fire|gray)clay-.*": { "base": "game:block/roofing/tip/shingles-clay2-{cover}" },
 
-            "*-bamboo-*": { "base": "block/roofing/tip/bamboo-{cover}" },
+            "*-bamboo-*": { "base": "game:block/roofing/tip/bamboo-{cover}" },
 
-            "*-sod-*": { "base": "block/roofing/tip/sod-{cover}" },
+            "*-sod-*": { "base": "game:block/roofing/tip/sod-{cover}" },
 
-            "@.*-(copper)-.*": { "base": "block/roofing/tip/shingles-copper-{cover}" },
+            "@.*-(copper)-.*": { "base": "game:block/roofing/tip/shingles-copper-{cover}" },
 
-            "@.*-(slate)-.*": { "base": "block/roofing/tip/shingles-slate-{cover}" },
+            "@.*-(slate)-.*": { "base": "game:block/roofing/tip/shingles-slate-{cover}" },
 
-            "*": { "base": "block/roofing/tip/wood-{cover}" }
+            "*": { "base": "game:block/roofing/tip/wood-{cover}" }
         }
     },
     {
@@ -171,8 +171,8 @@
                     ]
                 },
                 "ridge": { "base": "game:block/plant/grassroofing/normal/ridge" },
-                "top": { "base": "block/plant/grassroofing/normal/top*" },
-                "ends": { "base": "block/plant/grassroofing/normal/ends" }
+                "top": { "base": "game:block/plant/grassroofing/normal/top*" },
+                "ends": { "base": "game:block/plant/grassroofing/normal/ends" }
             },
             "*-agedthatch-*": {
                 "snow": { "base": "game:block/liquid/snow/block/horizontals/*" },
@@ -203,8 +203,8 @@
                     ]
                 },
                 "ridge": { "base": "game:block/plant/grassroofing/aged/ridge" },
-                "top": { "base": "block/plant/grassroofing/aged/top*" },
-                "ends": { "base": "block/plant/grassroofing/aged/ends" }
+                "top": { "base": "game:block/plant/grassroofing/aged/top*" },
+                "ends": { "base": "game:block/plant/grassroofing/aged/ends" }
             },
             "*-bamboo-*": {
                 "bamboo-side": { "base": "game:block/wood/planks/bamboo-side*" },

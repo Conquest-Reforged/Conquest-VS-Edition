@@ -1,0 +1,32 @@
+[
+	{
+		"file": "game:blocktypes/stone/stonebrick/crackedstonebricks.json",
+		"op": "remove",
+		"path": "/textures",
+		"side": "server"
+
+	},
+	{
+		"file": "game:blocktypes/stone/stonebrick/crackedstonebricks.json",
+		"op": "add",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			
+			"@.*-(granite|andesite|limestone|sandstone|claystone)": {
+				"all": {
+					"base": "game:block/stone/crackedbrick/{rock}/1",
+					"tiles": [
+						{ "base": "game:block/stone/crackedbrick/{rock}/*" }
+					],
+					"tilesWidth": 3
+				}
+			},
+			"*": {
+				"all": { "base": "game:block/stone/crackedbrick/{rock}*" }
+
+			}
+		}
+	}
+]
+	

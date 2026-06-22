@@ -9,6 +9,13 @@
             "reed-reedchest": { "base": "game:block/reed/basket/reedchest" },
             "papyrus-reedchest": { "base": "game:block/reed/basket/papyruschest" },
 
+            "reed-sidesWE": { "base": "game:block/reed/basket/normal-westeast" },
+            "reed-sidesSN": { "base": "game:block/reed/basket/normal-northsouth" },
+            "reed-lid": { "base": "game:block/reed/basket/normal-lid" },
+
+            "papyrus-sidespapyrus": { "base": "game:block/reed/basket/papyrus-sides" },
+            "papyrus-toppapyrus": { "base": "game:block/reed/basket/papyrus-top" },
+
             "aged-sidesWE": { "base": "game:block/reed/basket/aged-westeast" },
             "aged-sidesSN": { "base": "game:block/reed/basket/aged-northsouth" },
             "aged-lid": { "base": "game:block/reed/basket/aged-lid" },
@@ -18,7 +25,7 @@
             "aged2-lid": { "base": "game:block/reed/basket/aged-lid" },
 
             "vine-reedchest": { "base": "game:block/reed/basket/papyruschest" }
-        
+
         }
     }
 ]

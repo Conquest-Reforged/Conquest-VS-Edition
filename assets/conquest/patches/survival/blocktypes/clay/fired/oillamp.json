@@ -5,7 +5,12 @@
         "path": "/textures",
         "side": "server",
         "value": {
-            "bowl": { "base": "game:block/clay/bowl/{color}" }
+            "ceramic": { "base": "block/clay/oillamp/{color}" },
+            "fire": { "base": "block/fire" },
+            "oil": {
+                "base": "block/liquid/dilutedalum"
+            }
+
         }
     },
     {

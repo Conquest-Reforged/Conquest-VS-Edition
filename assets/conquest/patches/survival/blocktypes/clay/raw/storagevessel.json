@@ -6,7 +6,7 @@
         "side": "server",
         "value": {
 
-             "base": "game:block/clay/storagevessel" 
+            "base": "game:block/clay/storagevessel"
         }
     },
     {
@@ -20,5 +20,3 @@
         }
     }
 ]
-
-   

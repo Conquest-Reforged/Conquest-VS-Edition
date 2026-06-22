@@ -15,69 +15,69 @@
 		"value": {
 
 			"@.*-(agedthatch|thatch)-ns-.*": {
-				"base": "block/roofing/ridge/thatch-{cover}",
+				"base": "game:block/roofing/ridge/thatch-{cover}",
 				"rotateY": 0
 			},
 			"@.*-(agedthatch|thatch)-we-.*": {
-				"base": "block/roofing/ridge/thatch-{cover}",
+				"base": "game:block/roofing/ridge/thatch-{cover}",
 				"rotateY": 90
 			},
 
 			"@.*-(black|cream|red|tan)clay-ns-.*": {
-				"base": "block/roofing/ridge/shingles-clay-{cover}",
+				"base": "game:block/roofing/ridge/shingles-clay-{cover}",
 				"rotateY": 0
 			},
 			"@.*-(black|cream|red|tan)clay-we-.*": {
-				"base": "block/roofing/ridge/shingles-clay-{cover}",
+				"base": "game:block/roofing/ridge/shingles-clay-{cover}",
 				"rotateY": 90
 			},
 			"@.*-(brown|fire|gray|orange)clay-ns-.*": {
-				"base": "block/roofing/ridge/shingles-clay2-{cover}",
+				"base": "game:block/roofing/ridge/shingles-clay2-{cover}",
 				"rotateY": 0
 			},
 			"@.*-(brown|fire|gray|orange)clay-we-.*": {
-				"base": "block/roofing/ridge/shingles-clay2-{cover}",
+				"base": "game:block/roofing/ridge/shingles-clay2-{cover}",
 				"rotateY": 90
 			},
 
 			"*-bamboo-ns-*": {
-				"base": "block/roofing/ridge/bamboo-{cover}",
+				"base": "game:block/roofing/ridge/bamboo-{cover}",
 				"rotateY": 0
 			},
 			"*-bamboo-we-*": {
-				"base": "block/roofing/ridge/bamboo-{cover}",
+				"base": "game:block/roofing/ridge/bamboo-{cover}",
 				"rotateY": 90
 			},
 
-			"*-sod-ns-*": { "base": "block/roofing/ridge/sod-{cover}" },
+			"*-sod-ns-*": { "base": "game:block/roofing/ridge/sod-{cover}" },
 			"*-sod-we-*": {
-				"base": "block/roofing/ridge/sod-{cover}",
+				"base": "game:block/roofing/ridge/sod-{cover}",
 				"rotateY": 90
 			},
 
 			"@.*-(copper)-ns-.*": {
-				"base": "block/roofing/ridge/shingles-copper-{cover}",
+				"base": "game:block/roofing/ridge/shingles-copper-{cover}",
 				"rotateY": 0
 			},
 			"@.*-(copper)-we-.*": {
-				"base": "block/roofing/ridge/shingles-copper-{cover}",
+				"base": "game:block/roofing/ridge/shingles-copper-{cover}",
 				"rotateY": 90
 			},
 			"@.*-(slate)-ns-.*": {
-				"base": "block/roofing/ridge/shingles-slate-{cover}",
+				"base": "game:block/roofing/ridge/shingles-slate-{cover}",
 				"rotateY": 0
 			},
 			"@.*-(slate)-we-.*": {
-				"base": "block/roofing/ridge/shingles-slate-{cover}",
+				"base": "game:block/roofing/ridge/shingles-slate-{cover}",
 				"rotateY": 90
 			},
 
 			"*-ns-*": {
-				"base": "block/roofing/ridge/wood-{cover}",
+				"base": "game:block/roofing/ridge/wood-{cover}",
 				"rotateY": 0
 			},
 			"*-we-*": {
-				"base": "block/roofing/ridge/wood-{cover}",
+				"base": "game:block/roofing/ridge/wood-{cover}",
 				"rotateY": 90
 			}
 
@@ -224,8 +224,8 @@
 					]
 				},
 				"ridge": { "base": "game:block/plant/grassroofing/normal/ridge" },
-				"top": { "base": "block/plant/grassroofing/normal/top*" },
-				"ends": { "base": "block/plant/grassroofing/normal/ends" }
+				"top": { "base": "game:block/plant/grassroofing/normal/top*" },
+				"ends": { "base": "game:block/plant/grassroofing/normal/ends" }
 
 			},
 			"*-agedthatch-*": {
@@ -257,8 +257,8 @@
 					]
 				},
 				"ridge": { "base": "game:block/plant/grassroofing/aged/ridge" },
-				"top": { "base": "block/plant/grassroofing/aged/top*" },
-				"ends": { "base": "block/plant/grassroofing/aged/ends" }
+				"top": { "base": "game:block/plant/grassroofing/aged/top*" },
+				"ends": { "base": "game:block/plant/grassroofing/aged/ends" }
 
 			},
 			"*-bamboo-*": {

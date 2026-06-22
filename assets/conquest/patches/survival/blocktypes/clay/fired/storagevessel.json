@@ -1,4 +1,5 @@
 [
+   
     {
         "file": "game:blocktypes/clay/fired/storagevessel.json",
         "op": "replace",
@@ -7,9 +8,37 @@
         "value": {
 
             "storagevessel": { "base": "game:block/clay/vessel/{color}" },
-            "normal-storagevessel": { "base": "game:block/clay/vessel/{color}" }
+            "normal-storagevessel": { "base": "game:block/clay/vessel/{color}" },
+
+            "ceramic": { "base": "block/clay/hardened/{color}" },
+            "top": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-top" ]
+            },
+            "sides": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-sides" ]
+            },
+            "inside": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-inside" ]
+            },
+
+            "normal-ceramic": { "base": "block/clay/hardened/{color}" },
+            "normal-top": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-top" ]
+            },
+            "normal-sides": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-sides" ]
+            },
+            "normal-inside": {
+                "base": "block/clay/hardened/{color}",
+                "overlays": [ "block/clay/overlay/vessel-inside" ]
+            }
+
         }
     }
-]
 
-   
+]

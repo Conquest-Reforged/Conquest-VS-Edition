@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/selling/list/2/attributes/type",
+        "value": "normal2",
+        "file": "game:config/tradelists/villager-tad.json"
+    },
+    {
+        "op": "replace",
+        "path": "/selling/list/4/attributes/type",
+        "value": "normal1",
+        "file": "game:config/tradelists/villager-tad.json"
+    },
+    {
+        "op": "replace",
+        "path": "/selling/list/5/attributes/type",
+        "value": "normal1",
+        "file": "game:config/tradelists/villager-tad.json"
+    }
+]

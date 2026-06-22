@@ -9,6 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"base": "game:block/stone/quern/granite-base",
+		"table": "game:block/stone/quern/table"
 	},
 	"elements": [
 		{

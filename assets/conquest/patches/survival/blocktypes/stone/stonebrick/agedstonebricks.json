@@ -1,20 +1,27 @@
 [
     {
+        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
         "op": "remove",
         "path": "/textures",
-        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
         "side": "server"
+
     },
     {
-        "op": "addmerge",
+        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
+        "op": "add",
         "path": "/texturesByType",
+        "side": "server",
         "value": {
-            "@.*-(chalk|claystone|peridotite|phyllite|slate)": {
+            "@.*-(andesite|basalt|bauxite|chert|claystone|conglomerate|granite|sandstone|shale)": {
                 "all": {
-                    "base": "game:block/stone/agedbrick/{rock}/*"
+                    "base": "game:block/stone/agedbrick/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
                 }
             },
-            "@.*-(limestone|granite)": {
+            "@.*-(limestone|travertine)": {
                 "all": {
                     "base": "game:block/stone/agedbrick/{rock}/1",
                     "tiles": [
@@ -23,28 +30,9 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(andesite|basalt|bauxite|chert|conglomerate|sandstone|shale)": {
-                "all": {
-                    "base": "game:block/stone/agedbrick/{rock}/1",
-                    "tiles": [
-                        { "base": "game:block/stone/agedbrickbrick/{rock}/*" }
-                    ],
-                    "tilesWidth": 4
-                }
-            }
-        },
-        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
-        "side": "server"
-    },
-    {
-        "op": "addmerge",
-        "path": "/texturesByType",
-        "value": {
             "*": {
-                "all": { "base": "game:block/stone/agedbrick/{rock}*" }
+                "all": { "base": "game:block/stone/agedbrick/{rock}/*" }
             }
-        },
-        "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json",
-        "side": "server"
+        }
     }
 ]

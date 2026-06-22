@@ -28,7 +28,7 @@
         "side": "server",
         "value": {
             "sides": { "base": "game:block/clay/flowerpot/{color}" },
-            "soil": { "base": "game:block/soil/fertility/medium/fertmedium10" }
+            "soil": { "base": "game:block/soil/fertility/medium/fertmedium1" }
         }
     }
 ]

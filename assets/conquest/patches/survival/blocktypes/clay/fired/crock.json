@@ -24,6 +24,8 @@
         "value": {
             "crock": { "base": "block/clay/crock/{color}" },
             "label": { "base": "game:block/clay/crock/label" },
+            "label2": { "base": "game:block/clay/crock/label2" },
+            "label3": { "base": "game:block/clay/crock/label3" },
             "seal": { "base": "item/resource/ungraded/sulfur" }
 
         }

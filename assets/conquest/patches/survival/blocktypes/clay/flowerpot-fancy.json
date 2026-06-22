@@ -63,23 +63,10 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/flowerpot-fancy.json",
         "op": "replace",
-        "path": "/attributes",
-        "side": "server",
-        "value": {
-            "sitHeight": 0.75,
-            "beeFeedByType": {
-                "*-empty": false,
-                "*": true
-            },
-            "butterflyFeedByType": {
-                "*-empty": false,
-                "*": true
-            },
-            "plantContainerSize": "small",
-            "filledShape": { "base": "game:block/clay/flowerpot/{type}-full" },
-            "fillHeight": 0.375
-        }
+        "path": "/attributes/filledShape/base",
+        "value": "game:block/clay/flowerpot/{type}-full",
+        "file": "game:blocktypes/clay/flowerpot-fancy.json",
+        "side": "Server"
     }
 ]

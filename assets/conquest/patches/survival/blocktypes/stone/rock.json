@@ -3,7 +3,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|halite)": {
+            "@.*-(andesite|travertine|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|halite)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [
@@ -19,22 +19,6 @@
                         { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
                     ],
                     "tilesWidth": 8
-                }
-            },
-            "@.*-(claystone)": {
-                "horizontals": {
-                    "base": "game:block/stone/rock/conquest/{rock}/sides/1",
-                    "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/sides/*" }
-                    ],
-                    "tilesWidth": 3
-                },
-                "verticals": {
-                    "base": "game:block/stone/rock/conquest/{rock}/verticals/1",
-                    "tiles": [
-                        { "base": "game:block/stone/rock/conquest/{rock}/verticals/*" }
-                    ],
-                    "tilesWidth": 3
                 }
             },
             "@.*-(bauxite|chert|conglomerate)": {
@@ -69,7 +53,7 @@
                     "tilesWidth": 6
                 }
             },
-            "@.*-(sandstone)": {
+            "@.*-(sandstone|claystone)": {
                 "horizontals": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [

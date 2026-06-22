@@ -1,0 +1,66 @@
+[
+    {
+        "op": "remove",
+        "path": "/shape/alternates",
+        "file": "game:blocktypes/stone/polished/polishedrockold.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/drawtype",
+        "file": "game:blocktypes/stone/polished/polishedrockold.json",
+        "side": "Server",
+        "value": "cube"
+    },
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:blocktypes/stone/polished/polishedrockold.json",
+        "side": "Server"
+    },
+    {
+        "file": "game:blocktypes/stone/polished/polishedrockold.json",
+        "side": "Server",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(andesite|claystone|conglomerate|granite|limestone|sandstone)": {
+                "horizontals": {
+                    "base": "game:block/stone/polishedrock-old/cobbled/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/polishedrock-old/cobbled/{rock}/*" }
+                    ],
+                    "tilesWidth": 6
+                },
+                "verticals": {
+                    "base": "game:block/stone/polishedrock-old/cobbled/top/{rock}/1",
+                    "tiles": [
+                        { "base": "game:block/stone/polishedrock-old/cobbled/top/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "polishedrockold-full-*": {
+                "all": { "base": "game:block/stone/polishedrock-old/full/{rock}*" },
+                "inside-north": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-east": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-south": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-west": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-up": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-down": { "base": "game:block/stone/polishedrock-old/inside/{rock}" }
+
+            },
+            "*": {
+                "all": { "base": "block/stone/polishedrock-old/{type}/{rock}*" },
+                "inside-north": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-east": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-south": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-west": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-up": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
+                "inside-down": { "base": "game:block/stone/polishedrock-old/inside/{rock}" }
+
+
+            }
+        }
+    }
+]
