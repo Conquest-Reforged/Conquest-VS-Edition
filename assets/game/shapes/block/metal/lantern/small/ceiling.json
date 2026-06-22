@@ -12,6 +12,7 @@
 	"textures": {
 		"glass": "game:block/glass/quartz",
 		"material": "game:block/metal/lantern/copper_1",
+		"lining": "game:block/metal/lantern/copper",
 		"material-deco": "game:block/metal/lantern/copper_2",
 		"material-grid": "game:block/metal/lantern/copper_grid"
 	},
