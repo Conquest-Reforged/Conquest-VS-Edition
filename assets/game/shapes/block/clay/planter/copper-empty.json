@@ -7,8 +7,8 @@
 	"textureWidth": 32,
 	"textureHeight": 32,
 	"textureSizes": {
-		"sides": [32,32],
-		"fertlow8": [16,16]
+		"sides": [32,32]
+
 	},
 	"textures": {
 	

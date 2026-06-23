@@ -58,7 +58,7 @@
         "value": {
             "*": {
                 "sides": { "base": "game:block/clay/flowerpot/{type}" },
-                "soil": { "base": "game:block/soil/fertility/medium/fertmedium10" }
+                "soil": { "base": "game:block/soil/fertility/medium/1" }
             }
         }
     },

@@ -1,5 +1,21 @@
 [
+    {
+        "file": "game:blocktypes/clay/storagevessel-fancy.json",
+        "op": "remove",
+        "path": "/shape"
+    },
+    {
+        "file": "game:blocktypes/clay/storagevessel-fancy.json",
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "side": "server",
+        "value": {
 
+            "@*-(void|serpents|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": { "base": "game:block/clay/storagevessel1" },
+            "@*-(patina|motheaten|golden|collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": { "base": "game:block/clay/storagevessel2" },
+            "*": { "base": "game:block/clay/storagevessel" }
+        }
+    },
 
     {
         "file": "game:blocktypes/clay/storagevessel-fancy.json",
@@ -18,8 +34,8 @@
                     ]
                 }
             ],
-           
-            "@.*-(ashforest|serpents|beehive|caveaurora|chains|chthonic|cloisonne|copper|earthen|rime|talik|wintersea)": [
+
+            "@.*-(ashforest|beehive|caveaurora|chains|chthonic|cloisonne|copper|earthen|rime|talik|wintersea)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [
@@ -31,7 +47,7 @@
                     ]
                 }
             ],
-            "@.*-(void|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": [
+            "@.*-(void|serpents|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": [
                 {
                     "tabs": [ "general", "decorative" ],
                     "stacks": [
@@ -110,7 +126,7 @@
             "partialAttachable": true,
             "inventoryClassName": "chest",
             "defaultType": "normal",
-            "types": [ "normal", "normal1", "normal2"],
+            "types": [ "normal", "normal1", "normal2" ],
             "drop": {
                 "normal": true,
                 "normal1": true,

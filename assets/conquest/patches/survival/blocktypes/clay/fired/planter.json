@@ -30,7 +30,7 @@
         "value": {
 
             "sides": { "base": "game:block/clay/planter/{color}" },
-            "soil": { "base": "game:block/soil/fertility/medium/fertmedium1" }
+            "soil": { "base": "game:block/soil/fertility/medium/1" }
         }
     }
 ]
