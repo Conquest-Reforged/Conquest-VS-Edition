@@ -24,7 +24,7 @@
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "@.*-(andesite|claystone|conglomerate|granite|limestone|sandstone)": {
+            "@.*-cobbled-(andesite|claystone|conglomerate|granite|limestone|sandstone)": {
                 "horizontals": {
                     "base": "game:block/stone/polishedrock-old/cobbled/{rock}/1",
                     "tiles": [
@@ -40,7 +40,7 @@
                     "tilesWidth": 4
                 }
             },
-            "polishedrockold-full-*": {
+            "*-full-*": {
                 "all": { "base": "game:block/stone/polishedrock-old/full/{rock}*" },
                 "inside-north": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },
                 "inside-east": { "base": "game:block/stone/polishedrock-old/inside/{rock}" },

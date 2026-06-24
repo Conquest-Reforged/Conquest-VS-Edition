@@ -1,0 +1,233 @@
+[
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-abyss",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-collonade",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cornflower",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cowrie",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-entrenched",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-golden",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-harvest",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-honeydew",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-loam",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-motheaten",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-oxblood",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-patina",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-pine",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rain",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rattlesnake",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rutile",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-seasalt",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-springflowers",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-undergrowth",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-void",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-waves",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-norma1l-storagevessel-honeydew",
+    "value": "Skladovacia nádoba (Medová rosa)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-abyss",
+    "value": "Skladovací nádoba (Abyss)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-cornflower",
+    "value": "Skladovací nádoba (Chrpa)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-entrenched",
+    "value": "Skladovací nádoba (Zpevněná)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-loam",
+    "value": "Skladovací nádoba (Hlína)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-pine",
+    "value": "Skladovací nádoba (Borovice)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rain",
+    "value": "Skladovací nádoba (Déšť)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rattlesnake",
+    "value": "Skladovací nádoba (Chřestýš)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rutile",
+    "value": "Skladovací nádoba (Rutil)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-springflowers",
+    "value": "Skladovací nádoba (Jarní květiny)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-void",
+    "value": "Skladovací nádoba (Prázdnota)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-waves",
+    "value": "Skladovací nádoba (Vlny)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-collonade",
+    "value": "Skladovací nádoba (kolonáda)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-cowrie",
+    "value": "Skladovacia nádoba (Kauri)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-golden",
+    "value": "Skladovací nádoba (Zlatá)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-harvest",
+    "value": "Skladovací nádoba (Sběr)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-motheaten",
+    "value": "Skladovací nádoba (Zchátralá)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-oxblood",
+    "value": "Skladovací nádoba (Oxblood)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-patina",
+    "value": "Skladovací nádoba (Patina)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-seasalt",
+    "value": "Skladovací nádoba (Mořská sůl)",
+    "file": "game:lang/cs.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-undergrowth",
+    "value": "Skladovací nádoba (Podrast)",
+    "file": "game:lang/cs.json"
+  }
+]

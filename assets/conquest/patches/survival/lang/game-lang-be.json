@@ -1,0 +1,233 @@
+[
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-abyss",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-collonade",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cornflower",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cowrie",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-entrenched",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-golden",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-harvest",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-honeydew",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-loam",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-motheaten",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-oxblood",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-patina",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-pine",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rain",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rattlesnake",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rutile",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-seasalt",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-springflowers",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-undergrowth",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-void",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-waves",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-abyss",
+    "value": "Пасудзіна для захоўвання (Бездань)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-cornflower",
+    "value": "Пасудзіна для захоўвання «Васілёк»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-entrenched",
+    "value": "Пасудзіна для захоўвання (Акопная)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-honeydew",
+    "value": "Пасудзіна для захоўвання «Нектар»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-loam",
+    "value": "Пасудзіна для захоўвання «Суглінак»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-pine",
+    "value": "Пасудзіна для захоўвання (Сасновая)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rain",
+    "value": "Пасудзіна для захоўвання «Дождж»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rattlesnake",
+    "value": "Пасудзіна для захоўвання «Грымучая змяя»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rutile",
+    "value": "Пасудзіна для захоўвання «Рутыл»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-springflowers",
+    "value": "Пасудзіна для захоўвання «Вясновыя кветкі»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-void",
+    "value": "Пасудзіна для захоўвання (Пустэча)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-waves",
+    "value": "Пасудзіна для захоўвання «Хвалі»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-collonade",
+    "value": "Пасудзіна для захоўвання «Каланада»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-cowrie",
+    "value": "Пасудзіна для захоўвання «Каўры»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-golden",
+    "value": "Пасудзіна для захоўвання (Залатая)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-harvest",
+    "value": "Пасудзіна для захоўвання «Ураджай»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-motheaten",
+    "value": "Пасудзіна для захоўвання (Праедзеная моллю)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-oxblood",
+    "value": "Пасудзіна для захоўвання «Барвовы»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-patina",
+    "value": "Пасудзіна для захоўвання (Паціна)",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-seasalt",
+    "value": "Пасудзіна для захоўвання «Марская соль»",
+    "file": "game:lang/be.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-undergrowth",
+    "value": "Пасудзіна для захоўвання «Падлесак»",
+    "file": "game:lang/be.json"
+  }
+]

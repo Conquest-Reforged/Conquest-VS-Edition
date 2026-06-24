@@ -1,0 +1,233 @@
+[
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-abyss",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-collonade",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cornflower",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cowrie",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-entrenched",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-golden",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-harvest",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-honeydew",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-loam",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-motheaten",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-oxblood",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-patina",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-pine",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rain",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rattlesnake",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rutile",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-seasalt",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-springflowers",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-undergrowth",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-void",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-waves",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-abyss",
+    "value": "وعاء تخزين (الهاوية)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-cornflower",
+    "value": "وعاء تخزين (عنبرية)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-entrenched",
+    "value": "وعاء تخزين (المتحصن)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-honeydew",
+    "value": "وعاء تخزين (ندى العسل)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-loam",
+    "value": "وعاء تخزين (طميي)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-pine",
+    "value": "وعاء تخزين (صنوبر)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rain",
+    "value": "وعاء تخزين (مطر)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rattlesnake",
+    "value": "وعاء تخزين (أفعى مجرسة)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rutile",
+    "value": "وعاء تخزين (روتيل)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-springflowers",
+    "value": "وعاء تخزين (زهور الربيع)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-void",
+    "value": "وعاء تخزين (الفراغ)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-waves",
+    "value": "وعاء تخزين (أمواج)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-collonade",
+    "value": "وعاء تخزين (أروقة)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-cowrie",
+    "value": "وعاء تخزين (ودعي)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-golden",
+    "value": "وعاء تخزين (ذهبي)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-harvest",
+    "value": "وعاء تخزين (حصاد)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-motheaten",
+    "value": "وعاء تخزين (مهترئ)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-oxblood",
+    "value": "وعاء تخزين (دم الثور)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-patina",
+    "value": "وعاء تخزين (زنجار)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-seasalt",
+    "value": "وعاء تخزين (ملح البحر)",
+    "file": "game:lang/ar.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-undergrowth",
+    "value": "وعاء تخزين (أحراش)",
+    "file": "game:lang/ar.json"
+  }
+]

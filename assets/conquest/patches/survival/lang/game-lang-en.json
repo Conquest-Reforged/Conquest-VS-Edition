@@ -1,0 +1,244 @@
+[
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-abyss",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-collonade",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cornflower",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-cowrie",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-entrenched",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-golden",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-harvest",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-honeydew",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-loam",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-motheaten",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-oxblood",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-patina",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-pine",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rain",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rattlesnake",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-rutile",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-seasalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-springflowers",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-undergrowth",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-void",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-volcanic",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/block-normal-storagevessel-waves",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal-storagevessel2-volcanic",
+    "value": "Storage vessel (Volcanic)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-abyss",
+    "value": "Storage vessel (Abyss)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-cornflower",
+    "value": "Storage vessel (Cornflower)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-entrenched",
+    "value": "Storage vessel (Entrenched)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-honeydew",
+    "value": "Storage vessel (Honeydew)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-loam",
+    "value": "Storage vessel (Loam)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-pine",
+    "value": "Storage vessel (Pine)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rain",
+    "value": "Storage vessel (Rain)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rattlesnake",
+    "value": "Storage vessel (Rattlesnake)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-rutile",
+    "value": "Storage vessel (Rutile)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-springflowers",
+    "value": "Storage vessel (Spring flowers)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-void",
+    "value": "Storage vessel (Void)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal1-storagevessel-waves",
+    "value": "Storage vessel (Waves)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-collonade",
+    "value": "Storage vessel (Colonnade)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-cowrie",
+    "value": "Storage vessel (Cowrie)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-golden",
+    "value": "Storage vessel (Golden)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-harvest",
+    "value": "Storage vessel (Harvest)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-motheaten",
+    "value": "Storage vessel (Motheaten)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-oxblood",
+    "value": "Storage vessel (Oxblood)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-patina",
+    "value": "Storage vessel (Patina)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-seasalt",
+    "value": "Storage vessel (Seasalt)",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/block-normal2-storagevessel-undergrowth",
+    "value": "Storage vessel (Undergrowth)",
+    "file": "game:lang/en.json"
+  }
+]
