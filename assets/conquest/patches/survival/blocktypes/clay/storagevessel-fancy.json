@@ -2,19 +2,18 @@
     {
         "file": "game:blocktypes/clay/storagevessel-fancy.json",
         "op": "remove",
-        "path": "/shape",
-        "side": "server"
+        "path": "/shape"
     },
     {
         "file": "game:blocktypes/clay/storagevessel-fancy.json",
-        "op": "addmerge",
+        "op": "add",
         "path": "/shapeByType",
         "side": "server",
         "value": {
 
-            "@*-(void|serpents|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": { "base": "game:block/clay/storagevessel1" },
-            "@*-(patina|motheaten|golden|collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": { "base": "game:block/clay/storagevessel2" },
-            "*": { "base": "game:block/clay/storagevessel" }
+            "@.*-(void|serpents|pine|abyss|entrenched|cornflower|honeydew|loam|rain|rattlesnake|rutile|springflowers|waves)": { "base": "game:block/clay/storagevessel1" },
+            "@.*-(patina|motheaten|golden|collonade|cowrie|harvest|oxblood|seasalt|undergrowth|volcanic)": { "base": "game:block/clay/storagevessel2" }
+
         }
     },
 

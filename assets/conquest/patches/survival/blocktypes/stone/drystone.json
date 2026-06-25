@@ -10,7 +10,7 @@
         "op": "addmerge",
         "path": "/texturesbytype",
         "value": {
-            "@.*-(chalk|granite)": {
+            "@.*-(chalk|granite||conglomerate)": {
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/1",
                     "tiles": [
@@ -19,7 +19,7 @@
                     "tilesWidth": 3
                 }
             },
-            "@.*-(basalt|bauxite|chert|claystone|conglomerate|halite|limestone|marble|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|suevite|tuff)": {
+            "@.*-(basalt|bauxite|chert|claystone|halite|limestone|marble|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|suevite|tuff)": {
                 "all": {
                     "base": "game:block/stone/drystone/{rock}/1",
                     "tiles": [

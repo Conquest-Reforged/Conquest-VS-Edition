@@ -3,7 +3,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@.*-(andesite|travertine|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|halite)": {
+            "@.*-(andesite|travertine|basalt|travertine|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|halite)": {
                 "all": {
                     "base": "game:block/stone/rock/conquest/{rock}/sides/1",
                     "tiles": [

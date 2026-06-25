@@ -15,7 +15,7 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate|suevite|travertine)-.*": {
+			"@.*-(andesite|bauxite|basalt|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate|suevite|travertine)-.*": {
 				"all": {
 					"base": "game:block/stone/brick/{rock}/*"
 				}
@@ -24,7 +24,7 @@
 		"file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
 		"side": "server"
 	},
-	{
+	 {
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
@@ -34,5 +34,5 @@
 		},
 		"file": "game:blocktypes/stone/stonebrick/stonebrickslab.json",
 		"side": "server"
-	}
+	 }
 ]

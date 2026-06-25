@@ -24,7 +24,7 @@
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "@.*-cobbled-(andesite|claystone|conglomerate|granite|limestone|sandstone)": {
+            "@.*-cobbled-(andesite|claystone|conglomerate|granite|conglomerate|limestone|sandstone)": {
                 "horizontals": {
                     "base": "game:block/stone/polishedrock-old/cobbled/{rock}/1",
                     "tiles": [
